@@ -3,7 +3,7 @@ import React from "react";
 const ContactTitle = () => {
   return (
     <>
-      <div id="contact__contact-container">
+      <div id="contact__contact-container" >
         <div id="contact__contact-text" className="large-text">Contact</div>
       </div>
       <svg width='0' height='0'>

@@ -102,10 +102,9 @@
 /*********************************************/
 /*********  Media Queries ********************/
 /*********************************************/
+
 /* iPad Pro */
-
-
-@media(max-width: 1000px) {
+@media(max-width: 1050px){
   .portfolio-page__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -114,17 +113,19 @@
   }
   .portfolio-page__image-background {
     width: 80%;
-    height: 70vh;
+    height: 60vh;
   }
   .portfolio-page__image {
     width: 90%;
-    height: calc(70vh - 3% - 5%);
-    top: 3%;
+    height: calc(60vh - 3vh - 5vh);
+    top: 3vh;
     left: 7%;
   }
   .portfolio-page__text {
     width: 100%;
     padding-left: 7%;
+    padding-top: 30px;
+    padding-right: 15px;
     padding-right: calc(100% - 90%)
   }
   .portfolio-page__view-btn {
@@ -143,8 +144,8 @@
   }
   .portfolio-page__image {
     width: 90%;
-    height: calc(60vh - 3% - 5%);
-    top: 3%;
+    height: calc(60vh - 3vh - 5vh);
+    top: 3vh;
     left: 5%;
   }
 }
@@ -154,8 +155,8 @@
     height: 45vh;
   }
   .portfolio-page__image {
-    height: calc(45vh - 2% - 3%);
-    top: 2%;
+    height: calc(45vh - 2vh - 3vh);
+    top: 2vh;
     left: 5%;
   }
   .portfolio-page__project-description-container {
@@ -166,8 +167,39 @@
 @media(max-width: 380px) {
   .portfolio-page__image {
     width: 90%;
-    height: calc(45vh - 1% - 2%);
-    top: 1%;
+    height: calc(45vh - 1vh - 2vh);
+    top: 1vh;
     left: 5%;
+  }
+}
+
+@media (min-aspect-ratio: 15/9)and (max-height: 600px) {
+  .portfolio-page__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .portfolio-page__image-background {
+    width: 35%;
+    height: 95vh;
+  }
+  .portfolio-page__image {
+    position: absolute;
+    width: 40%;
+    height: calc(90vh - 7vh - 15vh);
+    top: 7vh;
+    left: 2%;
+  }
+  .portfolio-page__text {
+    width: 65%;
+    height: 100%;
+    padding: 40px 20px 20px 90px;
+    margin: auto;
+    text-align: left;
+  }
+  .portfolio-page__view-btn {
+    padding: 5px 30px;
+    width: 100px;
   }
 }

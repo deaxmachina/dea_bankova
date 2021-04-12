@@ -109,14 +109,20 @@ a, a:hover, a:focus, a:active {
 /*********************************/
 /************ Media *************/
 /*********************************/
-@media(max-width: 600px) {
+@media(max-width: 600px), (max-height: 500px) {
   .large-text {
-    font-size: 34px;
+    font-size: 36px;
   }
   .medium-text {
     font-size: 26px;
   }
   .body-text-large {
     font-size: 16px;
+  }
+}
+
+@media(max-width: 400px), (max-height: 500px) {
+  .large-text {
+    font-size: 28px;
   }
 }

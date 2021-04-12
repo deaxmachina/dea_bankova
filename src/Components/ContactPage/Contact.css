@@ -17,13 +17,13 @@
   -webkit-filter: url(#static-noise-contact);
   filter: url(#static-noise-contact);
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 #contact__contact-text {
   font-weight: 300;
-  position: absolute;
-  right: 5%;
-  margin: auto;
-  top: 15%;
+  margin-right: 30px;
 }
 
 
@@ -129,9 +129,7 @@
     width: 100%;
   }
   #contact__contact-text {
-    left: 35px;
     margin: auto;
-    top: 25%;
   }
   #contact__social-container {
     width: 100%;
@@ -157,9 +155,6 @@
 @media(max-width: 360px) {
   #contact__contact-container {
     height: 70px;
-  }
-  #contact__contact-text {
-    top: 11%;
   }
   #contact__contact-content {
     margin: 30px auto;

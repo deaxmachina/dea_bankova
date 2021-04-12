@@ -94,7 +94,7 @@ const projectsMetadata = [
         the <a a style={{color: "#222E3A"}} className="link-project" href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami" target="_blank">2011 Tohoku earthquake and tsunami disaster</a>,
         using the content of over 500 interviews. This included people’s 
         movements after 11th March 2011, their thoughts to their deceased loved ones, the 
-        rebuilding of their homes, and their experiences over those 10 years. 
+        rebuilding of their homes, and their experiences over the past 10 years. 
       </p>
       <br />
       <p>
@@ -102,7 +102,7 @@ const projectsMetadata = [
         It was a challenge to perform linguistic analysis (NLP) on Japanese text for the first time, 
         build a production website for the first time, and create both standard and custom visualisations 
         in D3, which was very new to me at the time, while being respectful of the content and 
-        design/representation wishes of the client. I did not want to get anything wrong. 
+        design/representation considerations. I did not want to get anything wrong. 
       </p>
       <br />
       <p>
@@ -110,8 +110,8 @@ const projectsMetadata = [
         disaster, and by the trust placed in me, a non-Japanese non-native speaker, to work with this
         valuable data. My talented colleague, Dr Takata Yurina created 
         a <a style={{color: "#222E3A"}} className="link-project" href="https://311stories.archiving.jp/" target="_blank">map of the movements</a> of
-        people whose homes were destroyed – many of them moving over 4 times in the past 10 years. 
-        The full archive page can be viewed on 
+        people whose homes were destroyed – many of them having to move over 4 times in the past 10 years. 
+        The full archive page can be viewed 
         on <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/page/higashinihon2021#01-01" target="_blank">the Iwate Nippo website</a>.     
       </p>
 
@@ -140,8 +140,8 @@ const projectsMetadata = [
       </p>
       <br />
       <p>
-        The visualisation can be used to view average CO2 emissions of cities worldwide at a glance, 
-        as well as to dive into the data, for the years it is available for, for a specific city – 
+        It can be used to view average CO2 emissions of cities worldwide at a glance, 
+        as well as to dive into the data for a specific city – 
         both its emissions and trends over time. 
       </p>
     </>
