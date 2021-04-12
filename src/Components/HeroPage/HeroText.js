@@ -8,7 +8,7 @@ const HeroText = () => {
       <h1 className="name">Dea Bankova</h1>
       <p className="personal-description">
         I create visualisations to tell stories with data.  
-        Currently Project Researcher in data visualisation <br/>
+        Currently Project Researcher in data visualisation 
         at the University of Tokyo & independent 
       </p>
     </div>
