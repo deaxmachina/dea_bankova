@@ -1,0 +1,206 @@
+#portfolio-showcase-section {
+  max-width: var(--maxWidthSections);
+  margin: 0 auto;
+}
+
+/*********************************************/
+/***************  Wrapper  ********************/
+/*********************************************/
+.panel-left__wrapper, .panel-right__wrapper {
+  position: relative;
+  background-color: var(--lightGreyColour);
+  color: var(--textDarkColour);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+
+/*********************************************/
+/***************  Images  ********************/
+/*********************************************/
+.panel-left__image-background, .panel-right__image-background {
+  width: 50%;
+  background-color: var(--lightGreyColour); /* default or fallback */
+  height: 400px;
+}
+.panel-left__image, .panel-right__image {
+  position: absolute;
+  top: 8%;
+  width: 45%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.panel-left__image {
+  left: 7%;
+}
+.panel-right__image {
+  right: 7%;
+}
+
+
+/*********************************************/
+/*****************  Text  *********************/
+/*********************************************/
+.panel-left__text, .panel-right__text {
+  width: 50%;
+  height: 100%;
+  background-color: var(--lightGreyColour);
+  margin: auto;
+  box-sizing: border-box;
+}
+.panel-left__text {
+  text-align: left;
+  padding-left: 6%;
+  padding-right: 5%;
+}
+.panel-right__text {
+  text-align: right;
+  padding-right: 6%;
+  padding-left: 5%;
+}
+.panel-left__title-text, .panel-right__title-text {
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-family: 'Della Respira', serif;
+}
+.panel__responsible-for-container, .panel__tools-container {
+  margin-bottom: 10px;
+}
+.panel__bold-text {
+  font-weight: bold;
+}
+
+
+/*********************************************/
+/***************  Buttons   ******************/
+/*********************************************/
+.view-btn, .about-btn {
+  margin-right: 20px;
+  margin-top: 30px;
+  outline: none;
+  padding: 10px 0px;
+  width: 110px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: 600;
+  -webkit-transition: border 1s; /* For Safari 3.0 to 6.0 */
+  -o-transition: border 1s;
+  transition: border 1s; 
+  cursor: pointer;
+}
+.view-btn {
+  color: var(--lightColour);
+}
+.view-btn a {
+  padding: 30px !important;
+}
+.about-btn, .view-btn {
+  border: 5px solid;
+}
+.about-btn:hover, .view-btn:hover {
+  border: 5px solid white !important;
+}
+
+
+/*********************************************/
+/***********  Section Title  *****************/
+/*********************************************/
+#portfolio-showcase__title {
+  text-align: center;
+  margin: auto;
+  background-color: var(--lightGreyColour);
+  color: var(--textDarkColour);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+#portfolio-showcase__text-decoration {
+  width: 7px;
+  height: 45px;
+  margin-right: 20px;
+  background-color: var(--purpleColour);
+}
+
+#showcase-container-styles {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+#portfolio__projects-text-styles {
+  color: var(--textMediumColour);
+}
+
+/*********************************************/
+/***********  More Projects  *****************/
+/*********************************************/
+#portfolio-showcase__seemore {
+  margin: auto;
+  text-align: right;
+  padding: 30px;
+  background-color: var(--lightGreyColour);
+  color: var(--textDarkColour);
+  cursor: pointer;
+}
+#portfolio-showcase__seemore:hover {
+  color: var(--blueColour);
+}
+#portfolio-showcase__seemore-arrow {
+  font-size: 35px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+
+/*********************************************/
+/*********  Media Queries ********************/
+/*********************************************/
+@media(max-width: 900px) {
+  .panel-left__title-text, .panel-right__title-text {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .view-btn, .about-btn {
+    margin-top: 25px;
+  }
+  .panel-left__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+  .panel-right__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .panel-left__image-background, .panel-right__image-background  {
+    width: 80%;
+  }
+  .panel-left__text, .panel-right__text {
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+  }
+  .panel-left__image, .panel-right__image {
+    width: 80%;
+  }
+  .panel-left__image {
+    left: 10%;
+  }
+  .panel-right__image {
+    right: 10%;
+  }
+}

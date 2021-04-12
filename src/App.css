@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+  --blueColour: #0D8383;
+  --purpleColour: #4E1B34;
+  --lightPurpleColour: #771D43;
+  --darkColour: #0A1014;
+  --lightColour: #ebebeb;
+  --textLightcolour: #ebebeb;
+  --lightGreyColour: #E5E5E5;
+  --textMediumColour: #292728dc;
+  --textDarkColour: #0A1014;
+  --maxWidthSections: 1600px;
+  --textUnderlineColour: #B8B8B8;
+  --darkBackgroundColour: #151315; 
+}
+body {
+  background-color: var(--darkBackgroundColour);/* #161616; #E5E5E5;*/
+  color: var(--textLightcolour);
+  font-family: 'Poppins', sans-serif;
+}
+body, * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;  
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/********************************/
+/************ Links *************/
+/********************************/
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.link-project {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.link-project:hover {
+  background-color: white;
+}
+
+
+/********************************/
+/************ Text **************/
+/********************************/
+.large-text {
+  font-size: 46px;
+}
+.medium-text {
+  font-size: 26px;
+}
+.body-text-large {
+  font-size: 18px;
+}
+.body-text-normal {
+  font-size: 16px;
+}
+
+
+/****************************************/
+/******** Fancy Text Underline **********/
+/****************************************/
+.underline-gradient span {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255,0,255,0)), color-stop(16%, rgba(255,0,255,0)), color-stop(16%, var(--textUnderlineColour)), color-stop(41%, var(--textUnderlineColour)), color-stop(41%, rgba(255,0,255,0)));
+  background: -o-linear-gradient(bottom, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, var(--textUnderlineColour) 16%, var(--textUnderlineColour) 41%, rgba(255,0,255,0) 41%);
+  background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, var(--textUnderlineColour) 16%, var(--textUnderlineColour) 41%, rgba(255,0,255,0) 41%);
+}
+.underline-padding span {
+  padding: 0.9em 0.1em 0.7em 0.1em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+
+/***********************************************************/
+/********* Title with vertical line on the left  ***********/
+/***********************************************************/
+.title-container {
+  margin: auto;
+  position: relative;
+  color: var(--lightColour);
+  border-left: 10px solid var(--purpleColour);
+  opacity: 1;
+  z-index: 2;
+  -webkit-filter: url(#glow-generic);
+  filter: url(#glow-generic);
+  margin-bottom: 20px;
+}
+.title-text {
+  font-weight: 300;
+  margin: auto;
+  text-align: left;
+  padding: 20px 30px;
+}
+
+
+/*********************************/
+/************ Media *************/
+/*********************************/
+@media(max-width: 600px) {
+  .large-text {
+    font-size: 34px;
+  }
+  .medium-text {
+    font-size: 26px;
+  }
+  .body-text-large {
+    font-size: 16px;
+  }
+}

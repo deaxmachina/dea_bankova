@@ -1,0 +1,182 @@
+#about__page-container {
+  max-width: var(--maxWidthSections);
+  margin: auto;
+  position: relative;
+  margin-top: 1px; /****** CHANGE *******/
+  text-align: center;
+  color: var(--textMediumColour);
+  padding-top: 50px;
+  background-color: #1e1c1f;
+}
+
+/***********************************************/
+/*************** About Section *****************/
+/***********************************************/
+#about__about-container {
+  width: 77%;
+  color: var(--lightGreyColour);
+  margin: auto;
+  margin-bottom: 80px;
+  position: relative;
+  border: 0px solid white;
+  line-height: 1.8;
+}
+#about__about-text {
+  text-align: left;
+  margin-left: 6%;
+  margin-right: 50%;
+  padding-top: 30px;
+}
+#about__about-photo {
+  position: absolute;
+  top: -30px;
+  left: 53%;
+}
+
+
+/***********************************************/
+/************ CV Timeline section ***************/
+/***********************************************/
+#about__cv-title {
+  color: var(--textLightcolour);
+  width: 300px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+#about__cv-title h2 {
+  font-weight: 600;
+}
+#about__cv-title p {
+  border-bottom: 0px solid var(--purpleColour);
+}
+
+
+#about__cv-container {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  height: 1300px;
+  color: var(--textLightcolour);
+}
+#about__cv-title {
+}
+.timeline-line {
+  background-color: var(--purpleColour);
+}
+.timeline-point {
+  width: 14px;
+  height: 14px;
+  border-radius: 100px;
+  background-color: var(--purpleColour);
+  border: 2px solid var(--lightColour);
+}
+.timeline-info {
+  cursor: default;
+}
+.date-line {
+  background-color: var(--purpleColour);
+}
+.timeline-date {
+  cursor: default;
+  white-space: nowrap;
+}
+.timeline-info-extended {
+  border: 2px solid var(--purpleColour);
+  background-color: var(--lightGreyColour);
+  text-align: left;
+  padding: 14px 17px;
+  opacity: 0;
+  cursor: default;
+}
+.job-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.job-title.gradient span {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255,0,255,0)), color-stop(16%, rgba(255,0,255,0)), color-stop(16%, var(--purpleColour)), color-stop(41%, var(--purpleColour)), color-stop(41%, rgba(255,0,255,0)));
+  background: -o-linear-gradient(bottom, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, var(--purpleColour) 16%, var(--purpleColour) 41%, rgba(255,0,255,0) 41%);
+  background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, var(--purpleColour) 16%, var(--purpleColour) 41%, rgba(255,0,255,0) 41%);
+}
+.job-title.padding span {
+  padding: 0.9em 0.1em 0.7em 0.1em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.timeline-info-extended {
+  color: var(--textMediumColour)
+}
+.workplace-name {
+  font-style: oblique;
+}
+.workplace-location {
+  color: #ebebebde;
+}
+
+/************************************************/
+/******************** Media  ********************/
+/************************************************/
+@media(max-width: 900px) {
+  #about__page-container {
+    padding-top: 20px;
+  }
+  #about__about-title-container {
+    width: 100%;
+    margin-left: 6%;
+  }
+  #about__about-photo {
+    top: 100px;
+    left: 20%;
+  }
+  #about__about-text {
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 420px;
+    padding-bottom: 70px;
+  }
+  #about__about-triangle {
+    border-bottom: 100px solid var(--purpleColour);
+    border-right: 100px solid transparent;
+  }
+}
+
+@media(max-width: 600px) {
+  #about__about-container {
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: -30px;
+  }
+  #about__about-photo {
+    top: 60px;
+    left: 8%;
+  }
+  #about__about-text {
+    padding-top: 260px;
+  }
+}
+
+@media(max-width: 400px) {
+  #about__about-text {
+    padding-top: 250px;
+  }
+}
+
+/***** CV Timeline *******/
+@media(max-width: 900px) {
+  #about__cv-container {
+    width: 50%;
+    margin-top: auto;
+    margin-left: 15%;
+  }
+}
+@media(max-width: 650px) {
+  #about__cv-container {
+    width: 100%;
+    margin-left: -30%;
+  }
+}
+@media(max-width: 360px) {
+  #about__cv-container {
+    margin-left: -40%;
+  }
+}
