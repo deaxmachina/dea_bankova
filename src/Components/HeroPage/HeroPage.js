@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./HeroPage.css";
+import "./HeroPageNew.css";
 import HeaderViz from "./HeaderViz";
 import HeroText from "./HeroText";
 import HeroMenu from "./HeroMenu";

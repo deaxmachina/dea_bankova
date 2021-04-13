@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./HeroPage.css";
 //import { Link } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 

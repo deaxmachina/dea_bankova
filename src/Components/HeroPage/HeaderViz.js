@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react"; 
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin, TweenLite } from "gsap/all";
-import "./HeroPage.css";
 
 gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 

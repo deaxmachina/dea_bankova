@@ -1,5 +1,4 @@
 import React from "react";
-import "./HeroPage.css";
 
 const HeroText = () => {
   return (

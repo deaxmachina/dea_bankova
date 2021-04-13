@@ -1,0 +1,267 @@
+#hero-section {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 280px;
+}
+
+/***************** Text in the about section *************************/
+#hero-text-container {
+  color: var(--textLightcolour);
+  margin-top: 120px;
+  left: 0;
+  z-index: 2;
+  width: 500px;
+  margin-left: 100px;
+  z-index: 2;
+}
+.name {
+  font-size: 85px;
+  font-family: 'Della Respira', serif;
+  font-weight: 400;
+  text-shadow: 4px 4px 0px rgba(78, 27, 52, 0.3);
+  mix-blend-mode: screen;
+  cursor: default;
+  z-index: 2;
+}
+.personal-description {
+  font-size: 1.2em;
+  font-weight: 200;
+  z-index: 2;
+}
+
+/******************** Viz in the header *****************************/
+#header-viz-container {
+  position: absolute;
+  top: 50px;
+  left: -100px;
+  width: 100%;
+  text-align: right;
+  z-index: -1;
+}
+
+
+/***************************** Menu  *********************************/
+#hero-menu-container {
+  margin-top: 40px;
+  width: 400px;
+  margin-left: 100px;
+  color: var(--lightColour);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack:justify;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  z-index: 2;
+}
+.menu-item {
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+  cursor: default;
+  -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
+  -o-transition: background-color 1s;
+  transition: background-color 1s; /* For modern browsers */
+}
+.menu-item:hover {
+  background-color: rgba(13, 131, 131, 0.5);
+}
+.menu-underline {
+  background-color: var(--blueColour);
+  height: 10px;
+  margin-left: 100px;
+  width: 408px;
+  -webkit-filter: url(#static-noise-hero);
+  filter: url(#static-noise-hero);
+  opacity: 1;
+}
+
+/****************************************************************/
+/******************** Media Queries *****************************/
+/****************************************************************/
+
+@media (min-height: 900px) {
+  #hero-section {
+    margin-bottom: 200px;
+  }  
+}
+
+@media(max-width: 1100px) {
+  #hero-text-container {
+    margin-top: 150px;
+    width: 400px;
+  }  
+  .name {
+    font-size: 65px;
+    line-height: 1.1;
+  }
+  #header-viz-container {
+    top: 6vh;
+  }
+}
+
+@media(max-width: 850px) {
+  #hero-text-container {
+    margin-top: 80px;
+    width: 300px;
+  }  
+}
+
+@media(max-width: 750px) {
+  #hero-text-container {
+    margin-top: 170px;
+    width: 300px;
+  }  
+}
+
+@media(max-width: 650px) {
+  #hero-text-container, #hero-menu-container, .menu-underline {
+    margin-left: 50px;
+    margin-right: 70px;
+  } 
+  #hero-text-container {
+    width: 450px;
+    margin-top: 190px;
+  }
+  .name {
+    margin-bottom: 10px;
+  }
+  .personal-description {
+    font-size: 1.0em;
+  }
+  #header-viz-container {
+    top: 10vh;
+  }
+}
+
+/* Very large phones or small tablets */
+@media(max-width: 500px) and (max-height: 900px) {
+  #hero-text-container {
+    margin-left: 50px;
+    width: 350px;
+  } 
+  #hero-menu-container, .menu-underline {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+  .name {
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  #header-viz-container {
+    top: 10vh;
+    left: -30px;
+  } 
+}
+
+/* Medium-large phones like the Pixel 2 XL */
+@media(max-width: 420px) and (max-height: 900px) {
+  #hero-text-container {
+    width: 300px;
+    margin-top: 210px;
+    margin-left: 40px;
+  }
+  #hero-menu-container, .menu-underline {
+    width: 100%;
+    margin-left: 0;
+  }
+  #hero-menu-container {
+    margin-top: 18px;
+  }
+  #header-viz-container {
+    top: 100px;
+    transform: scale(1.1);
+  }
+  .menu-item {
+    margin-right: 0px;
+  }
+  .name {
+    font-size: 55px;
+  }
+}
+
+/* Small phone like older iPhones*/
+@media(max-width: 360px) {
+  #hero-text-container {
+    margin-left: 30px;
+  } 
+  #hero-menu-container {
+    margin-top: 15px;
+  }
+  #header-viz-container {
+    top: 30px;
+    left: 10px;
+    transform: scale(0.9);
+  }
+  .name {
+    font-size: 50px;
+  }
+}
+
+/* very small phone like the Galaxy Fold */
+@media(max-width: 320px) {
+  #hero-text-container {
+    margin-left: 30px;
+    width: 260px;
+  } 
+  #hero-menu-container {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 45px;
+  }
+}
+
+/* Landscape mobile screens */
+@media (min-aspect-ratio: 15/9) and (max-height: 600px) {
+  #hero-section {
+    margin-bottom: 70px;
+  }
+  #hero-menu-container {
+    margin-top: 10px;
+  }
+  #hero-text-container {
+    width: 290px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  #header-viz-container {
+    top: -10%;
+    left: 20px;
+    transform: scale(0.7);
+  }
+  .personal-description {
+    font-size: 1em;
+  }
+  #hero-menu-container, .menu-underline {
+    font-size: 14px;
+  }
+  .menu-underline {
+    height: 7px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 360px) {
+  #hero-text-container {
+  }
+  #header-viz-container {
+    top: 20px;
+    left: 10px;
+  }
+  .name {
+    font-size: 45px;
+  }
+  .personal-description {
+    font-size: 0.9em;
+  }
+}
+
