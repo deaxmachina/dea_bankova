@@ -2,18 +2,18 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 280px;
+  height: 95vh;
 }
 
 /***************** Text in the about section *************************/
 #hero-text-container {
   color: var(--textLightcolour);
-  margin-top: 120px;
+  position: absolute;
+  top: 28vh;
   left: 0;
   z-index: 2;
   width: 500px;
   margin-left: 100px;
-  z-index: 2;
 }
 .name {
   font-size: 85px;
@@ -22,12 +22,10 @@
   text-shadow: 4px 4px 0px rgba(78, 27, 52, 0.3);
   mix-blend-mode: screen;
   cursor: default;
-  z-index: 2;
 }
 .personal-description {
   font-size: 1.2em;
   font-weight: 200;
-  z-index: 2;
 }
 
 /******************** Viz in the header *****************************/
@@ -37,7 +35,6 @@
   left: -100px;
   width: 100%;
   text-align: right;
-  z-index: -1;
 }
 
 
@@ -87,51 +84,66 @@
 /******************** Media Queries *****************************/
 /****************************************************************/
 
-@media (min-height: 900px) {
+/* Tablet */
+
+/* iPad Pro in portrait mode */
+@media(min-width: 1000px) and (min-height: 1200px) {
   #hero-section {
-    margin-bottom: 200px;
+    height: 55vh;
+  }
+  #hero-text-container {
+    top: 17vh;
   }  
+  .personal-description {
+    width: 400px;
+  }
+  .name {
+    font-size: 70px;
+  }
+}
+/* iPad Pro in landscape mode  */
+@media (min-height: 1000px) and (min-width: 1200px) {
+  #hero-section {
+    height: 70vh;
+  }
 }
 
-@media(max-width: 1100px) {
+/* Regular iPad */
+@media(min-width: 700px) and (max-width: 1000px) and (min-height: 900px) and (max-height: 1200px) {
+  #hero-section {
+    height: 95vh;
+  }
   #hero-text-container {
-    margin-top: 150px;
+    bottom: 10vh;
     width: 400px;
   }  
   .name {
-    font-size: 65px;
-    line-height: 1.1;
+    font-size: 80px;
+    line-height: 1.2;
+    margin-bottom: 15px;
   }
+}
+
+
+@media(max-width: 1000px) {
+  #hero-text-container {
+    top: 38vh;
+  }  
   #header-viz-container {
     top: 6vh;
   }
 }
 
-@media(max-width: 850px) {
-  #hero-text-container {
-    margin-top: 80px;
-    width: 300px;
-  }  
-}
-
-@media(max-width: 750px) {
-  #hero-text-container {
-    margin-top: 170px;
-    width: 300px;
-  }  
-}
-
 @media(max-width: 650px) {
   #hero-text-container, #hero-menu-container, .menu-underline {
-    margin-left: 50px;
-    margin-right: 70px;
+    margin-left: 70px;
   } 
   #hero-text-container {
     width: 450px;
-    margin-top: 190px;
+    top: 35vh;
   }
   .name {
-    margin-bottom: 10px;
+    font-size: 65px;
   }
   .personal-description {
     font-size: 1.0em;
@@ -142,10 +154,11 @@
 }
 
 /* Very large phones or small tablets */
-@media(max-width: 500px) and (max-height: 900px) {
+@media(max-width: 500px) {
   #hero-text-container {
     margin-left: 50px;
     width: 350px;
+    top: 36vh;
   } 
   #hero-menu-container, .menu-underline {
     width: 80%;
@@ -153,6 +166,7 @@
     font-size: 14px;
   }
   .name {
+    font-size: 65px;
     line-height: 1.2;
     margin-bottom: 15px;
   }
@@ -163,11 +177,10 @@
 }
 
 /* Medium-large phones like the Pixel 2 XL */
-@media(max-width: 420px) and (max-height: 900px) {
+@media(max-width: 420px) {
   #hero-text-container {
     width: 300px;
-    margin-top: 210px;
-    margin-left: 40px;
+    top: 43vh;
   }
   #hero-menu-container, .menu-underline {
     width: 100%;
@@ -191,7 +204,8 @@
 /* Small phone like older iPhones*/
 @media(max-width: 360px) {
   #hero-text-container {
-    margin-left: 30px;
+    margin-left: 40px;
+    top: 35vh;
   } 
   #hero-menu-container {
     margin-top: 15px;
@@ -201,27 +215,20 @@
     left: 10px;
     transform: scale(0.9);
   }
-  .name {
-    font-size: 50px;
-  }
 }
 
 /* very small phone like the Galaxy Fold */
 @media(max-width: 320px) {
   #hero-text-container {
-    margin-left: 30px;
+    margin-left: 20px;
     width: 260px;
   } 
   #hero-menu-container {
     font-size: 12px;
   }
-  .name {
-    font-size: 45px;
-  }
 }
-
 /* Landscape mobile screens */
-@media (min-aspect-ratio: 15/9) and (max-height: 600px) {
+@media (min-aspect-ratio: 15/9)and (max-height: 600px) {
   #hero-section {
     margin-bottom: 70px;
   }
@@ -230,13 +237,14 @@
   }
   #hero-text-container {
     width: 290px;
+    top: 25vh;
   }
   .name {
     font-size: 50px;
   }
   #header-viz-container {
-    top: -10%;
-    left: 20px;
+    top: -10px;
+    left: 40px;
     transform: scale(0.7);
   }
   .personal-description {
@@ -249,19 +257,13 @@
     height: 7px;
   }
 }
-
-@media (orientation: landscape) and (max-height: 360px) {
-  #hero-text-container {
-  }
+@media (min-aspect-ratio: 15/9)and (max-height: 360px) {
   #header-viz-container {
     top: 20px;
-    left: 10px;
-  }
-  .name {
-    font-size: 45px;
   }
   .personal-description {
     font-size: 0.9em;
   }
 }
+
 

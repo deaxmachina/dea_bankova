@@ -94,8 +94,8 @@ a, a:hover, a:focus, a:active {
   border-left: 10px solid var(--purpleColour);
   opacity: 1;
   z-index: 2;
-  -webkit-filter: url(#glow-generic);
-  filter: url(#glow-generic);
+  /*-webkit-filter: url(#glow-generic);*/
+  /*filter: url(#glow-generic);*/
   margin-bottom: 20px;
 }
 .title-text {

@@ -32,6 +32,14 @@
   top: -30px;
   left: 53%;
 }
+#about__about-title-container {
+}
+#about__about-title-text {
+  font-family: 'Della Respira', serif;
+  text-shadow: 4px 4px 0px rgba(78, 27, 52, 0.3);
+  mix-blend-mode: screen;
+  cursor: default;
+}
 
 
 /***********************************************/
@@ -59,6 +67,7 @@
   color: var(--textLightcolour);
 }
 #about__cv-title {
+  font-family: 'Della Respira', serif;
 }
 .timeline-line {
   background-color: var(--purpleColour);

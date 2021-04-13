@@ -2,18 +2,18 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  height: 95vh;
+  margin-bottom: 280px;
 }
 
 /***************** Text in the about section *************************/
 #hero-text-container {
   color: var(--textLightcolour);
-  position: absolute;
-  top: 28vh;
+  margin-top: 120px;
   left: 0;
   z-index: 2;
   width: 500px;
   margin-left: 100px;
+  z-index: 2;
 }
 .name {
   font-size: 85px;
@@ -22,10 +22,12 @@
   text-shadow: 4px 4px 0px rgba(78, 27, 52, 0.3);
   mix-blend-mode: screen;
   cursor: default;
+  z-index: 2;
 }
 .personal-description {
   font-size: 1.2em;
   font-weight: 200;
+  z-index: 2;
 }
 
 /******************** Viz in the header *****************************/
@@ -35,6 +37,7 @@
   left: -100px;
   width: 100%;
   text-align: right;
+  z-index: -1;
 }
 
 
@@ -84,81 +87,67 @@
 /******************** Media Queries *****************************/
 /****************************************************************/
 
-/* Tablet */
-
-/* iPad Pro in portrait mode */
-@media(min-width: 1000px) and (min-height: 1200px) {
+@media (min-height: 750px) and (orientation: portrait), (min-height: 900px) {
   #hero-section {
-    height: 55vh;
-  }
-  #hero-text-container {
-    top: 17vh;
+    margin-bottom: 180px;
   }  
-  .personal-description {
-    width: 400px;
-  }
-  .name {
-    font-size: 70px;
-  }
 }
-/* iPad Pro in landscape mode  */
-@media (min-height: 1000px) and (min-width: 1200px) {
+@media (min-height: 700px) and (orientation: portrait) {
   #hero-section {
-    height: 70vh;
-  }
+  }  
 }
 
-/* Regular iPad */
-@media(min-width: 700px) and (max-width: 1000px) and (min-height: 900px) and (max-height: 1200px) {
-  #hero-section {
-    height: 95vh;
-  }
+@media(max-width: 1100px) {
   #hero-text-container {
-    bottom: 10vh;
+    margin-top: 150px;
     width: 400px;
   }  
   .name {
-    font-size: 80px;
-    line-height: 1.2;
-    margin-bottom: 15px;
+    font-size: 65px;
+    line-height: 1.1;
+  }
+  #header-viz-container {
+    top: 60px;
   }
 }
 
-
-@media(max-width: 1000px) {
+@media(max-width: 850px) {
   #hero-text-container {
-    top: 38vh;
+    margin-top: 100px;
+    width: 300px;
   }  
   #header-viz-container {
-    top: 6vh;
+    top: 80px;
+    left: -30px;
+    transform: scale(0.9);
   }
 }
 
 @media(max-width: 650px) {
   #hero-text-container, #hero-menu-container, .menu-underline {
-    margin-left: 70px;
+    margin-left: 50px;
+    margin-right: 70px;
   } 
   #hero-text-container {
     width: 450px;
-    top: 35vh;
+    margin-top: 190px;
   }
   .name {
-    font-size: 65px;
+    margin-bottom: 10px;
   }
   .personal-description {
     font-size: 1.0em;
   }
   #header-viz-container {
-    top: 10vh;
+    top: 100px;
   }
 }
 
 /* Very large phones or small tablets */
-@media(max-width: 500px) {
+@media(max-width: 550px) {
   #hero-text-container {
     margin-left: 50px;
     width: 350px;
-    top: 36vh;
   } 
   #hero-menu-container, .menu-underline {
     width: 80%;
@@ -166,21 +155,20 @@
     font-size: 14px;
   }
   .name {
-    font-size: 65px;
     line-height: 1.2;
     margin-bottom: 15px;
   }
   #header-viz-container {
-    top: 10vh;
     left: -30px;
   } 
 }
 
 /* Medium-large phones like the Pixel 2 XL */
-@media(max-width: 420px) {
+@media(max-width: 420px) and (max-height: 900px) {
   #hero-text-container {
     width: 300px;
-    top: 43vh;
+    margin-top: 210px;
+    margin-left: 40px;
   }
   #hero-menu-container, .menu-underline {
     width: 100%;
@@ -204,8 +192,7 @@
 /* Small phone like older iPhones*/
 @media(max-width: 360px) {
   #hero-text-container {
-    margin-left: 40px;
-    top: 35vh;
+    margin-left: 30px;
   } 
   #hero-menu-container {
     margin-top: 15px;
@@ -215,56 +202,21 @@
     left: 10px;
     transform: scale(0.9);
   }
+  .name {
+    font-size: 50px;
+  }
 }
 
 /* very small phone like the Galaxy Fold */
 @media(max-width: 320px) {
   #hero-text-container {
-    margin-left: 20px;
+    margin-left: 30px;
     width: 260px;
   } 
   #hero-menu-container {
     font-size: 12px;
   }
-}
-/* Landscape mobile screens */
-@media (min-aspect-ratio: 15/9)and (max-height: 600px) {
-  #hero-section {
-    margin-bottom: 70px;
-  }
-  #hero-menu-container {
-    margin-top: 10px;
-  }
-  #hero-text-container {
-    width: 290px;
-    top: 25vh;
-  }
   .name {
-    font-size: 50px;
-  }
-  #header-viz-container {
-    top: -10px;
-    left: 40px;
-    transform: scale(0.7);
-  }
-  .personal-description {
-    font-size: 1em;
-  }
-  #hero-menu-container, .menu-underline {
-    font-size: 14px;
-  }
-  .menu-underline {
-    height: 7px;
-  }
-
-}
-@media (min-aspect-ratio: 15/9)and (max-height: 360px) {
-  #header-viz-container {
-    top: 20px;
-  }
-  .personal-description {
-    font-size: 0.9em;
+    font-size: 45px;
   }
 }
-
-

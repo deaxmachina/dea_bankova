@@ -45,7 +45,7 @@ const App = () => {
 const FrontPage = ({ windowWidth, windowHeight }) => {
   return (
     <>
-      <h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>
+      {/*<h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>*/}
       <HeroPage windowWidth={windowWidth} windowHeight={windowHeight}/>
       <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
       <Contact />
