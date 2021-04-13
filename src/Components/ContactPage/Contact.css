@@ -66,7 +66,7 @@
   margin: auto;
 }
 #contact__contact-content {
-  margin: 50px auto;
+  margin: 40px auto 60px;
   padding: 50px 35px 70px;
   color: var(--textDarkColour);
   line-height: 1.7;
@@ -127,6 +127,9 @@
 @media(max-width: 500px) {
   #contact__contact-container {
     width: 100%;
+  }
+  #contact__contact-content {
+    margin: 20px auto 40px;
   }
   #contact__contact-text {
     margin: auto;
