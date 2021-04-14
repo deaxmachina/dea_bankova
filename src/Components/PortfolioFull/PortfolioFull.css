@@ -129,7 +129,16 @@
   border-left: 10px solid var(--blueColour);
 }
 #portfolio__projects-text-styles, #portfolio__standalone-text-styles {
-  color: var(--textMediumColour)
+  color: var(--textMediumColour);
+  font-family: 'Della Respira', serif;
+  mix-blend-mode: screen;
+  cursor: default;
+}
+#portfolio__projects-text-styles {
+  text-shadow: 2px 2px 0px rgba(78, 27, 52, 0.3);
+}
+#portfolio__standalone-text-styles {
+  text-shadow: 2px 2px 0px rgba(13, 131, 131, 0.3);
 }
 
 /*************************************/

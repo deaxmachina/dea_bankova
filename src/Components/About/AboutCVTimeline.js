@@ -8,7 +8,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
   const divRef= useRef();
 
   /// constants ///
-  const height = 1200; 
+  //const height = 1200; 
   const dimOpacity = 0.7;
   const lineWidth = "1px";
   const leftMargin = "50%";
@@ -20,6 +20,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
 
   /// D3 Code ///
   useEffect(() => {
+    const height = windowWidth > 600 ? 1200 : 1500; 
     const container = d3.select(divRef.current)
 
     /////////////////////////////////////////////////
@@ -30,7 +31,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
     const yScale = d3.scalePoint()
       .domain(cvHistory.map(CVpoint => CVpoint.date))
       .range([0, height])
-      .padding(0.2)
+      .padding(0.3)
       //.padding(windowWidth > mediumScreen ? 0.5 : 0.2)
 
     /// Line ///
@@ -44,6 +45,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
         .style("width", lineWidth)
         .style("opacity", dimOpacity)
 
+    
     /// Point on line ///
     const points = container
       .selectAll(".timeline-point")
@@ -55,8 +57,9 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
         .style("top", d => `${yScale(d.date)}px`)
         .style("opacity", 1)
 
+
     /// just for clicking and hover events ///
-    const pointsBackground = container.selectAll(".timelime-point-bg")
+    const pointsBackground = container.selectAll(".timeline-point-bg")
       .data(cvHistory)
       .join("div")
       .classed("timeline-point-bg", true)
@@ -65,6 +68,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
         .style("top", d => `${yScale(d.date) - 30}px`)
         .style("width", '60px')
         .style("height", '60px')
+        
         .on('mouseover', function(e, datum) {
             const lowOpacity = 0.1;
             timelineInfo.style('opacity', d => d == datum ? 0 : lowOpacity)
@@ -88,14 +92,15 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
           })
 
 
+
     /////////////////////////////////////////////////
     //////////////// Work Info Boxes ///////////////
     ///////////////////////////////////////////////
 
     // for small screen make the info box smaller 
-    const infoBoxWidth =  windowWidth > tinyScreen ? '360px' : '250px';
+    const infoBoxWidth =  windowWidth > 520 ? '370px' : windowWidth > 400 ? '300px' : '250px';
     const infoBoxHeight = '130px'
-  
+
     /// displayed work info ///
     const timelineInfo = container
       .selectAll(".timeline-info")
@@ -192,7 +197,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
   
     timelineInfoExtended.selectAll(".job-title-extended").data(d=>[d]).join("h4").classed("job-title-extended", true).text(d => d.title)
     timelineInfoExtended.selectAll(".job-description").data(d=>[d]).join("p").classed("job-description", true).text(d => d.details)
-  
+
     
   }, [windowWidth])
 

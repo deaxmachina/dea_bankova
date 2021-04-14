@@ -57,16 +57,26 @@
 #about__cv-title p {
   border-bottom: 0px solid var(--purpleColour);
 }
+.about__linkedin-icon {
+  font-size: 18px;
+  color: var(--lightColour);
+  cursor: pointer;
+  outline: none;
+  margin: 0 7px;
+}
+.about__linkedin-icon:hover {
+  color: #DDB9CA;
+}
 
 
 #about__cv-container {
-  width: 50%;
+  width: 80%;
   margin: auto;
   position: relative;
-  height: 1300px;
+  height: 1350px;
   color: var(--textLightcolour);
 }
-#about__cv-title {
+#about__cv-title h2 {
   font-family: 'Della Respira', serif;
 }
 .timeline-line {
@@ -182,6 +192,11 @@
   #about__cv-container {
     width: 100%;
     margin-left: -30%;
+  }
+}
+@media(max-width: 600px) {
+  #about__cv-container {
+    height: 1650px;
   }
 }
 @media(max-width: 360px) {

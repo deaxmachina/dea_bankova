@@ -33,7 +33,7 @@ const cvHistory = [
     workplace: 'DataSine',
     location: 'London, UK',
     details: `
-      Joining as the first direct report into the Chief Scientist of this machine learning start-up in London, 
+      Joining as the first direct report into the Chief Scientist of this (at the time psychology and) machine learning start-up in London, 
       I was responsible for data collection and cleaning, ML model building (NLP, computer vision) and putting
       models into production (Python + ML frameworks such as TensorFlow, Keras, spaCy).  
     `
@@ -47,8 +47,8 @@ const cvHistory = [
     location: 'London, UK',
     details: `
       As part of the then nascent data science team within Microsoft Services, I built custom machine learning 
-      models for or worked with data from a number of enterprise clients. My worked included Azure data services, 
-      recommendation engines, data visualisation and computer vision. 
+      models for or worked with data from a number of enterprise clients. My work included: Azure data services, 
+      computer vision, a recommendation engine, data visualisation. 
     `
   },
   {
@@ -72,7 +72,7 @@ const cvHistory = [
     workplace: 'University of Oxford',
     location: 'Oxford, UK',
     details: `
-      I spent the most memorable year of my life surrounded by a diverse and wonderful group of people on the 
+      I spent a truly memorable year surrounded by a diverse and wonderful group of people on the 
       MFoCS course, while persevering through a rather challenging curriculum. For my dissertation I worked 
       with Prof Bob Coecke in a field combining NLP, cognition, linguistics and quantum computing. 
     `
@@ -85,9 +85,9 @@ const cvHistory = [
     workplace: 'University College London',
     location: 'London, UK',
     details: `
-      At UCL I tried to do it all – I volunteered, taught, led the UCL Maths Society, was a student rep. 
+      At UCL I tried to do it all – I volunteered, tutored, led the UCL Maths Society, student council. 
       I specialised in pure mathematics, especially discrete maths & algebra, which attracted me to the 
-      field of CS. Contrary to popular belief, I am not very good at either arithmetic or statistics.   
+      field of CS. Contrary to popular belief, I am not very good at either arithmetic or statistics unfortunately.   
     `
   }
 
