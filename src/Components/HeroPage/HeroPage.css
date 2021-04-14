@@ -2,7 +2,7 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 280px;
+  margin-bottom: 360px;
 }
 
 /***************** Text in the about section *************************/
@@ -87,23 +87,26 @@
 /******************** Media Queries *****************************/
 /****************************************************************/
 
-/* if the screen is tall or in portrait mode and very tall */
-@media (min-height: 750px) and (orientation: portrait), (min-height: 900px) {
+/* Tall (portrait) mobile screens - push content just low enough to have a full-page hero page */
+/* very tall phones, or both portrait and landscape mode big screens  */
+@media (min-height: 750px) and (orientation: portrait), (min-height: 950px) {
   #hero-section {
     margin-bottom: 230px;
   }  
 }
-/* not very large mobile phones  */
-@media (min-height: 500px) and (max-height: 650px) and (orientation: portrait) {
-  #hero-section {
-    margin-bottom: 120px;
-  }  
-}
+/* medium size mobile phones  */
 @media (min-height: 650px) and (max-height: 750px) and (orientation: portrait) {
   #hero-section {
     margin-bottom: 150px;
   }  
 }
+/* smaller size mobile phones  */
+@media (min-height: 500px) and (max-height: 650px) and (orientation: portrait) {
+  #hero-section {
+    margin-bottom: 170px;
+  }  
+}
+
 
 /* width-based mostly for big screens */
 @media(max-width: 1100px) {
@@ -129,8 +132,8 @@
     width: 300px;
   }  
   #header-viz-container {
-    top: 80px;
     left: 0px;
+    top: 80px;
     transform: scale(0.8);
   }
 }
@@ -141,8 +144,8 @@
     margin-right: 70px;
   } 
   #hero-text-container {
-    width: 450px;
     margin-top: 190px;
+    width: 450px;
   }
   .name {
     margin-bottom: 10px;
@@ -158,13 +161,17 @@
 /* Very large phones or small tablets */
 @media(max-width: 550px) {
   #hero-text-container {
-    margin-left: 50px;
+    margin-top: 150px;
     width: 350px;
   } 
   #hero-menu-container, .menu-underline {
+    font-size: 14px;
     width: 80%;
     margin-left: 10%;
-    font-size: 14px;
+  }
+  .menu-item {
+    padding: 8px;
+    margin-right: 10px;
   }
   .name {
     line-height: 1.2;
@@ -176,11 +183,11 @@
 }
 
 /* Medium-large phones like the Pixel 2 XL */
-@media(max-width: 420px) and (max-height: 900px) {
+@media(max-width: 420px) {
   #hero-text-container {
-    width: 300px;
-    margin-top: 230px;
     margin-left: 40px;
+    margin-top: 210px;
+    width: 300px;
   }
   #hero-menu-container, .menu-underline {
     width: 100%;
@@ -204,15 +211,15 @@
 /* Small phone like older iPhones*/
 @media(max-width: 360px) {
   #hero-text-container {
-    margin-top: 170px;
     margin-left: 30px;
+    margin-top: 170px;
   } 
   #hero-menu-container {
     margin-top: 15px;
   }
   #header-viz-container {
-    top: 60px;
     left: 10px;
+    top: 60px;
     transform: scale(0.9);
   }
   .name {
@@ -223,7 +230,6 @@
 /* very small phone like the Galaxy Fold */
 @media(max-width: 320px) {
   #hero-text-container {
-    margin-left: 30px;
     width: 260px;
   } 
   #hero-menu-container {
