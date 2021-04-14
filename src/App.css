@@ -106,6 +106,9 @@ a, a:hover, a:focus, a:active {
 }
 
 
+/****************************************/
+/*********** Home Page Link *************/
+/****************************************/
 .home-link {
   position: absolute;
   top: 40px;
@@ -116,9 +119,9 @@ a, a:hover, a:focus, a:active {
   font-weight: 400;
   color: var(--textMediumColour);
   border-bottom: 6px solid var(--purpleColour);
-  -webkit-transition: all 1s; /* For Safari 3.0 to 6.0 */
-  -o-transition: all 1s;
-  transition: all 1s; /* For modern browsers */
+  -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
+  -o-transition: background-color 1s;
+  transition: background-color 1s; /* For modern browsers */
   cursor: pointer;
   padding: 2px 5px;
   z-index: 10;
@@ -126,6 +129,7 @@ a, a:hover, a:focus, a:active {
 .home-link:hover {
   background-color: var(--purpleColour);
   color: var(--lightColour);
+  border-bottom: none;
 }
 @media (max-width: 500px) {
   .home-link {
