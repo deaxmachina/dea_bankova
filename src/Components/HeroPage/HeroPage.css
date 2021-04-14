@@ -87,16 +87,25 @@
 /******************** Media Queries *****************************/
 /****************************************************************/
 
+/* if the screen is tall or in portrait mode and very tall */
 @media (min-height: 750px) and (orientation: portrait), (min-height: 900px) {
   #hero-section {
-    margin-bottom: 180px;
+    margin-bottom: 230px;
   }  
 }
-@media (min-height: 700px) and (orientation: portrait) {
+/* not very large mobile phones  */
+@media (min-height: 500px) and (max-height: 650px) and (orientation: portrait) {
   #hero-section {
+    margin-bottom: 120px;
+  }  
+}
+@media (min-height: 650px) and (max-height: 750px) and (orientation: portrait) {
+  #hero-section {
+    margin-bottom: 150px;
   }  
 }
 
+/* width-based mostly for big screens */
 @media(max-width: 1100px) {
   #hero-text-container {
     margin-top: 150px;
@@ -112,14 +121,17 @@
 }
 
 @media(max-width: 850px) {
+  #hero-text-container, #hero-menu-container, .menu-underline {
+    margin-left: 75px;
+  } 
   #hero-text-container {
     margin-top: 100px;
     width: 300px;
   }  
   #header-viz-container {
     top: 80px;
-    left: -30px;
-    transform: scale(0.9);
+    left: 0px;
+    transform: scale(0.8);
   }
 }
 
@@ -167,7 +179,7 @@
 @media(max-width: 420px) and (max-height: 900px) {
   #hero-text-container {
     width: 300px;
-    margin-top: 210px;
+    margin-top: 230px;
     margin-left: 40px;
   }
   #hero-menu-container, .menu-underline {
@@ -192,13 +204,14 @@
 /* Small phone like older iPhones*/
 @media(max-width: 360px) {
   #hero-text-container {
+    margin-top: 170px;
     margin-left: 30px;
   } 
   #hero-menu-container {
     margin-top: 15px;
   }
   #header-viz-container {
-    top: 30px;
+    top: 60px;
     left: 10px;
     transform: scale(0.9);
   }
