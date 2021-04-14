@@ -97,6 +97,9 @@
 .view-btn {
   color: var(--lightColour);
 }
+.about-btn {
+  background-color: var(--lightGreyColour);
+}
 .view-btn a {
   padding: 30px !important;
 }
