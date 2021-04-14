@@ -91,7 +91,12 @@
 /* very tall phones, or both portrait and landscape mode big screens  */
 @media (min-height: 750px) and (orientation: portrait), (min-height: 900px) {
   #hero-section {
-    margin-bottom: 230px;
+    margin-bottom: 220px;
+  }  
+}
+@media (min-height: 900px) {
+  #hero-section {
+    margin-bottom: 190px;
   }  
 }
 /* medium size mobile phones  */
@@ -186,7 +191,7 @@
 @media(max-width: 420px) {
   #hero-text-container {
     margin-left: 40px;
-    margin-top: 210px;
+    margin-top: 200px;
     width: 300px;
   }
   #hero-menu-container, .menu-underline {
@@ -212,7 +217,7 @@
 @media(max-width: 360px) {
   #hero-text-container {
     margin-left: 30px;
-    margin-top: 170px;
+    margin-top: 150px;
   } 
   #hero-menu-container {
     margin-top: 15px;
