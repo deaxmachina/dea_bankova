@@ -19,8 +19,8 @@ const ContactDecoration = ({ id }) => {
       </filter>
 
       <rect x="104" y="140" width="238" height="125" fill={lightColour} filter="url(#glow-contact)" fill-opacity={opacity} />
-      <rect x="172.547" y="51" width="242" height="242" transform="rotate(45.48 172.547 51)" fill={blueColour} fill-opacity={opacity}/>
-      <rect x="270.2" width="242" height="242" transform="rotate(43.3754 270.2 0)" fill={purpleColour} fill-opacity={opacity}/>
+      <rect className="card-purple" x="172.547" y="51" width="242" height="242" transform="rotate(45.48 172.547 51)" fill-opacity={opacity}/>
+      <rect className="card-blue" x="270.2" width="242" height="242" transform="rotate(43.3754 270.2 0)" fill-opacity={opacity}/>
     </svg>
     </>
   )

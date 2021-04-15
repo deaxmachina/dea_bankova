@@ -5,10 +5,10 @@ gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
 /// constants ///
 const blueColour = "#0D8383" //"#0D8383" "#0D7583" "#286380"
-const purpleColour =  "#4E1B34" // "#4E1B34" "#4C4976"
+const purpleColour =  "#4E1B34" // "#4E1B34" "#423158"
+const lightColour = "#ebebeb"
 const lighterPurpleColour = "#771D43"//"#771D43" #4C4976"
 const darkColour = "#0C070E"; 
-const lightColour = "#ebebeb"
 
 const opacityLow = 0.5;
 const opacityHigh = 0.5
@@ -82,15 +82,15 @@ const HeaderViz = ({ scaleFactor }) => {
           </filter>
         </defs>
 
-        <g transform={`scale(${scaleFactor})`}>  
+        <g transform={`scale(${scaleFactor})`} >  
           <path className="card" fill={darkColour} fill="url(#radial-gradient)" fillOpacity={0.6} d={cardPath1} />
-          <path className="card" fill={purpleColour}  fillOpacity={0.5} d={cardPath2} />
-          <path className="card" fill={blueColour} fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath3}/>
-          <path className="card" fill={blueColour} fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath4} />
-          <path className="card" fill={blueColour} fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath5} />
-          <rect className="card" fill={blueColour} fillOpacity={opacityLow} width={card6.width} height={card6.height} transform={card6.transform}/>
-          <path className="card" fill={blueColour} fillOpacity={opacityLow} d={cardPath7} />
-          <rect className="diamond" fill={lightColour} filter="url(#glow)" x="365.37" y="227.629" width="106" height="105.55" transform="rotate(43.4472 365.37 227.629)"/>
+          <path className="card card-purple" fillOpacity={0.5} d={cardPath2} />
+          <path className="card card-blue" fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath3}/>
+          <path className="card card-blue" fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath4} />
+          <path className="card card-blue" fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath5} />
+          <rect className="card card-blue" fillOpacity={opacityLow} width={card6.width} height={card6.height} transform={card6.transform}/>
+          <path className="card card-blue" fillOpacity={opacityLow} d={cardPath7} />
+          <rect className="diamond card-light" filter="url(#glow)" x="365.37" y="227.629" width="106" height="105.55" transform="rotate(43.4472 365.37 227.629)"/>
         </g>
         
       </svg>
