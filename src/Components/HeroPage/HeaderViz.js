@@ -4,9 +4,9 @@ import { gsap, ScrollTrigger, Draggable, MotionPathPlugin, TweenLite } from "gsa
 gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
 /// constants ///
-const blueColour = "#0D8383" //"#0D7583" "#286380"
+const blueColour = "#0D8383" //"#0D8383" "#0D7583" "#286380"
 const purpleColour =  "#4E1B34" // "#4E1B34" "#4C4976"
-const lighterPurpleColour = "#771D43";
+const lighterPurpleColour = "#771D43"//"#771D43" #4C4976"
 const darkColour = "#0C070E"; 
 const lightColour = "#ebebeb"
 
@@ -84,8 +84,8 @@ const HeaderViz = ({ scaleFactor }) => {
 
         <g transform={`scale(${scaleFactor})`}>  
           <path className="card" fill={darkColour} fill="url(#radial-gradient)" fillOpacity={0.6} d={cardPath1} />
-          <path className="card" fill={purpleColour} filter="url(#glow)" fillOpacity={opacityLow} d={cardPath2} />
-          <path className="card" fill={blueColour} fillOpacity={opacityLow} d={cardPath3}/>
+          <path className="card" fill={purpleColour}  fillOpacity={0.5} d={cardPath2} />
+          <path className="card" fill={blueColour} fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath3}/>
           <path className="card" fill={blueColour} fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath4} />
           <path className="card" fill={blueColour} fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath5} />
           <rect className="card" fill={blueColour} fillOpacity={opacityLow} width={card6.width} height={card6.height} transform={card6.transform}/>
