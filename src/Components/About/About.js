@@ -10,7 +10,7 @@ import Footer from "../Footer/Footer";
 
 const About = ({ windowWidth, windowHeight }) => {
   return (
-    <section id="about__page-container">
+    <section id="about__page-container" >
       <HomeLink color="#B8B8B8" />  
       <div id="about__about-container">          
         <AboutPhotoDecoration

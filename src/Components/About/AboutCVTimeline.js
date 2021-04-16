@@ -125,11 +125,11 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
       .selectAll(".job-title")
       .data(d=>[d]).join("p")
       .classed("job-title gradient padding body-text-normal", true)
-        .selectAll(".title-span").data(d => [d]).join("span").classed("title-span", true)
+        .selectAll(".title-span").data(d => [d]).join("span").classed("title-span highlight-dark-background", true)
         .text(d => d.title)
 
-    timelineInfo.selectAll(".workplace-name").data(d=>[d]).join("p").classed("workplace-name", true).text(d => d.workplace)
-    timelineInfo.selectAll(".workplace-location").data(d=>[d]).join("p").classed("workplace-location", true).text(d => d.location)
+    timelineInfo.selectAll(".workplace-name").data(d=>[d]).join("p").classed("workplace-name highlight-dark-background", true).text(d => d.workplace)
+    timelineInfo.selectAll(".workplace-location").data(d=>[d]).join("p").classed("workplace-location highlight-dark-background", true).text(d => d.location)
       
 
     /////////////////////////////////////////////////
@@ -162,7 +162,7 @@ const AboutCVTimeline = ({ windowWidth, windowHeight }) => {
       .selectAll(".timeline-date")
       .data(cvHistory)
       .join("p")
-      .classed("timeline-date", true)
+      .classed("timeline-date highlight-dark-background", true)
         .style("position", "absolute")
         // for small screen more them up so that the date can do above the job title
         .style("top", d => windowWidth > smallScreen ? `${yScale(d.date) - 6}px` : `${yScale(d.date) - 60}px` )

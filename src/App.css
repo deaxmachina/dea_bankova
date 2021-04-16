@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 :root {
-  --blueColour: #0D8383; /* #0D8383 #0D7583 #286380 */
+  --blueColour: #0D7583; /* #0D8383 #0D7583 #286380 */
   --purpleColour: #4E1B34; /* #4E1B34 #423158 */
   --lightPurpleColour: #771D43; /* #771D43 #4C4976 */
   --darkColour: #0A1014;
@@ -33,6 +33,27 @@ body, * {
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.9); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(255, 255, 255, 0.9); /* Gecko Browsers */
+}
+
+.highlight-dark-background::selection {
+  background: rgba(78, 27, 52, 0.5); /* WebKit/Blink Browsers */
+}
+.highlight-dark-background::-moz-selection {
+  background: rgba(78, 27, 52, 0.5); /* Gecko Browsers */
+}
+
+.highlight-blue-background::selection {
+  background: rgba(21, 19, 21, 0.5); /* WebKit/Blink Browsers */
+}
+.highlight-blue-background::-moz-selection {
+  background: rgba(21, 19, 21, 0.5); /* Gecko Browsers */
 }
 
 

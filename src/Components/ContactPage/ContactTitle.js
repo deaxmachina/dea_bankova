@@ -4,7 +4,7 @@ const ContactTitle = () => {
   return (
     <>
       <div id="contact__contact-container" >
-        <div id="contact__contact-text" className="large-text">Contact</div>
+        <div id="contact__contact-text" className="large-text highlight-blue-background">Contact</div>
       </div>
       <svg width='0' height='0'>
         <defs>

@@ -10,7 +10,7 @@ import PortfolioFull from "./Components/PortfolioFull/PortfolioFull";
 import projectsMetadata from "./data/projectsMetadata";
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
 import Footer from "./Components/Footer/Footer";
-
+import Arrow from "./Components/Arrow/Arrow";
 
 // Code to listen for resize - you can leave this out of the functional component
 // I think it lets you listen for the width and height dynamically
@@ -51,6 +51,7 @@ const FrontPage = ({ windowWidth, windowHeight }) => {
       <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
       <Contact />
       <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
+      <Arrow />
     </>
   )  
 }

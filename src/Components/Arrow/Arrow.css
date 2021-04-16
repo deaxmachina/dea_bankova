@@ -1,0 +1,10 @@
+.arrow__container {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+.arrow-up {
+  font-size: 30px;
+  color: var(--lightPurpleColour);
+}
