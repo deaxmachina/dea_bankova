@@ -1,0 +1,48 @@
+#footer {
+  color: #564E56;
+  background-color: #151315;
+  width: 100%;
+  position: relative;
+}
+
+.footer__container {  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  margin: auto;
+  font-size: 10px;
+}
+
+/* social */
+.footer__social-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 160px;
+}
+.footer__social-icon-s {
+  font-size: 20px;
+}
+.footer__social-icon-s:hover {
+  color: #9E949E;
+}
+
+/* name */
+.footer__text {
+  display: inline;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 10px;
+  cursor: default;
+}
+#footer__name {
+  font-family: 'Della Respira', serif;
+  font-size: 14px;
+  margin-bottom: 2px;
+}

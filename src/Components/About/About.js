@@ -5,6 +5,7 @@ import AboutPhotoDecoration from "./AboutPhotoDecoration";
 import AboutCVTitle from "./AboutCVTitle";
 import AboutCVTimeline from "./AboutCVTimeline";
 import HomeLink from "../../Reusable/HomeLink";
+import Footer from "../Footer/Footer";
 
 
 const About = ({ windowWidth, windowHeight }) => {
@@ -22,6 +23,7 @@ const About = ({ windowWidth, windowHeight }) => {
       </div>
       <AboutCVTitle />
       <AboutCVTimeline windowWidth={windowWidth} windowHeight={windowHeight}/>
+      <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
     </section>
   )
 };

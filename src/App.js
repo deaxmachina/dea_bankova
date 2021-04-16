@@ -9,6 +9,7 @@ import ScrollToTop from "./Reusable/scrollToTop";
 import PortfolioFull from "./Components/PortfolioFull/PortfolioFull";
 import projectsMetadata from "./data/projectsMetadata";
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
+import Footer from "./Components/Footer/Footer";
 
 
 // Code to listen for resize - you can leave this out of the functional component
@@ -49,6 +50,7 @@ const FrontPage = ({ windowWidth, windowHeight }) => {
       <HeroPage windowWidth={windowWidth} windowHeight={windowHeight}/>
       <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
       <Contact />
+      <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
     </>
   )  
 }

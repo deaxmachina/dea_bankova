@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 2;
 }
 #contact__contact-text {
   font-weight: 300;
