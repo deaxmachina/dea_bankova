@@ -14,6 +14,7 @@
   width: 500px;
   margin-left: 100px;
   z-index: 2;
+  overflow: hidden;
 }
 .name {
   font-size: 85px;
@@ -23,11 +24,13 @@
   mix-blend-mode: screen;
   cursor: default;
   z-index: 2;
+  overflow: hidden;
 }
 .personal-description {
   font-size: 1.25em;
   font-weight: 200;
   z-index: 2;
+  overflow: hidden;
 }
 
 /******************** Viz in the header *****************************/
@@ -71,10 +74,10 @@
   transition: background-color 1s; /* For modern browsers */
 }
 .menu-item:hover {
-  background-color: rgba(13, 131, 131, 0.5);
+  background-color: rgba(78, 27, 52, 0.5); /*rgba(13, 131, 131, 0.5);*/
 }
 .menu-underline {
-  background-color: var(--blueColour);
+  background-color: var(--purpleColour);
   height: 10px;
   margin-left: 100px;
   width: 408px;

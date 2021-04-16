@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 :root {
-  --blueColour: #0D8383; /* #0D8383 #0D7583 #286380 */
+  --blueColour: #286380; /* #0D8383 #0D7583 #286380 */
   --purpleColour: #4E1B34; /* #4E1B34 #423158 */
   --lightPurpleColour: #771D43; /* #771D43 #4C4976 */
   --darkColour: #0A1014;
@@ -36,7 +36,7 @@ body, * {
 }
 
 ::selection {
-  background: rgba(255, 255, 255, 0.9); 
+  background: rgba(255, 255, 255, 0.8); 
   color: var(--textDarkColour);
 }
 ::-moz-selection {
@@ -58,6 +58,18 @@ body, * {
 }
 */
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--purpleColour);
+  border: 0;
+}
+
+::-webkit-scrollbar-track {
+  opacity: 0.3;
+}
 
 /********************************/
 /************ Links *************/
