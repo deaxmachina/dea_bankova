@@ -5,6 +5,8 @@
 }
 
 .arrow-up {
-  font-size: 30px;
+  font-size: 50px;
   color: var(--lightPurpleColour);
+  padding: 10px;
+  z-index: 2;
 }
