@@ -11,23 +11,23 @@ const PortfolioFullProjects = ({ windowWidth }) => {
       <div className="title-container" id="portfolio__projects-container-styles">
         <div className="title-text large-text" id="portfolio__projects-text-styles">Projects</div>
       </div>
+      <div className="clarifying-message">click on each image for details</div>
       <div className="portfolio-grid">
         {
           projectsMetadata.map(project => (
-            <div 
-              key={project.id} 
-              className="portfolio-grid-entry" 
-              style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.smallImgUrl})` : `url(${project.imgUrl})`}}
-            >
-              <button className="portfolio-grid-btn full-project noSelect">
-                <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
-                <br/>
-                <Link to={`/portfolio/${project.id}`} >
-                  <span className="border-button full-project-btn noSelect">about</span>
-                </Link>
-              </button>
-              
-            </div>
+            <Link to={`/portfolio/${project.id}`} >
+              <div 
+                key={project.id} 
+                className="portfolio-grid-entry" 
+                style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.smallImgUrl})` : `url(${project.imgUrl})`}}
+              >
+                <button className="portfolio-grid-btn full-project noSelect">
+                  <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
+                  <br/>                
+                  <span className="border-button full-project-btn noSelect">about</span>               
+                </button>
+              </div>
+            </Link>
           ))
         }
       </div>

@@ -13,6 +13,15 @@
   background-color: var(--lightGreyColour);
   color: var(--textDarkColour);
 }
+.clarifying-message {
+  max-width: var(--maxWidthSections);
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--textMediumColour);
+  font-size: 12px;
+  cursor: default;
+}
 
 
 /*************************************/
@@ -120,7 +129,7 @@
   width: 65%;
   margin: auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 #portfolio__projects-container-styles {
   border-left: 10px solid var(--purpleColour);
