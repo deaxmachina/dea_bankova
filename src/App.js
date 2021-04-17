@@ -1,19 +1,15 @@
 import React, { useLayoutEffect, useState } from "react";
 import "./App.css";
-import HeroPage from "./Components/HeroPage/HeroPage";
-import PortfolioShowcase from "./Components/PortfolioShowcase/PortfolioShowcase";
-import Contact from "./Components/ContactPage/Contact";
 import About from "./Components/About/About";
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'; 
 import ScrollToTop from "./Reusable/scrollToTop";
 import PortfolioFull from "./Components/PortfolioFull/PortfolioFull";
 import projectsMetadata from "./data/projectsMetadata";
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
-import Footer from "./Components/Footer/Footer";
-import Arrow from "./Components/Arrow/Arrow";
+import FrontPage from "./Components/FrontPage/FrontPage";
 
-// Code to listen for resize - you can leave this out of the functional component
-// I think it lets you listen for the width and height dynamically
+// listen for resize - you can leave this out of the functional component
+// lets you listen for the width and height dynamically
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);
   useLayoutEffect(() => {
@@ -25,35 +21,6 @@ function useWindowSize() {
     return () => window.removeEventListener('resize', updateSize);
   }, []);
   return size;
-}
-
-/*
-const App = () => {
-  const [windowWidth, windowHeight] = useWindowSize();
-  return (
-    <>
-      <h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>
-      <HeroPage windowWidth={windowWidth} windowHeight={windowHeight}/>
-      <PortfolioShowcase />
-      <Contact />
-      <About windowWidth={windowWidth} windowHeight={windowHeight} />
-    </>
-
-  )
-};
-*/
-
-const FrontPage = ({ windowWidth, windowHeight }) => {
-  return (
-    <>
-      {/*<h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>*/}
-      <HeroPage windowWidth={windowWidth} windowHeight={windowHeight}/>
-      <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
-      <Contact />
-      <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
-      <Arrow />
-    </>
-  )  
 }
 
 const App = () => {

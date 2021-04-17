@@ -1,0 +1,30 @@
+/****************************************/
+/*********** Home Page Link *************/
+/****************************************/
+.home-link {
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--textMediumColour);
+  border-bottom: 8px solid var(--purpleColour);
+  -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
+  -o-transition: background-color 1s;
+  transition: background-color 1s; /* For modern browsers */
+  cursor: pointer;
+  padding: 2px 5px;
+  z-index: 10;
+}
+.home-link:hover {
+  background-color: var(--purpleColour);
+  color: var(--lightColour);
+}
+@media (max-width: 500px) {
+  .home-link {
+    top: 20px;
+    right: 20px;
+  }
+}

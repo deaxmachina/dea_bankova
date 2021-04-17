@@ -4,7 +4,7 @@ import AboutTextBox from "./AboutTextBox";
 import AboutPhotoDecoration from "./AboutPhotoDecoration";
 import AboutCVTitle from "./AboutCVTitle";
 import AboutCVTimeline from "./AboutCVTimeline";
-import HomeLink from "../../Reusable/HomeLink";
+import HomeLink from "../../Reusable/HomeLink/HomeLink";
 import Footer from "../Footer/Footer";
 
 

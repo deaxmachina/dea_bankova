@@ -138,7 +138,7 @@
   text-shadow: 2px 2px 0px rgba(78, 27, 52, 0.3);
 }
 #portfolio__standalone-text-styles {
-  text-shadow: 2px 2px 0px rgba(13, 131, 131, 0.3);
+  text-shadow: 2px 2px 0px rgba(40, 99, 128, 0.3) /*rgba(13, 131, 131, 0.3) */;
 }
 
 /*************************************/

@@ -3,7 +3,7 @@ import "./PortfolioFull.css";
 import Glow from "../../Reusable/glow";
 import PortfolioFullProjects from "./PortfolioFullProjects";
 import PortfolioFullIndividualViz from "./PortfolioFullIndividualViz";
-import HomeLink from "../../Reusable/HomeLink";
+import HomeLink from "../../Reusable/HomeLink/HomeLink";
 import Footer from "../Footer/Footer";
 
 const PortfolioFull = ({ windowWidth }) => {

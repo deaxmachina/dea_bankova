@@ -92,9 +92,9 @@
 
 /* Tall (portrait) mobile screens - push content just low enough to have a full-page hero page */
 /* very tall phones, or both portrait and landscape mode big screens  */
-@media (min-height: 750px) and (orientation: portrait), (min-height: 900px) {
+@media (min-height: 750px) and (orientation: portrait) {
   #hero-section {
-    margin-bottom: 220px;
+    margin-bottom: 236px;
   }  
 }
 @media (min-height: 900px) {
@@ -111,7 +111,7 @@
 /* smaller size mobile phones  */
 @media (min-height: 500px) and (max-height: 650px) and (orientation: portrait) {
   #hero-section {
-    margin-bottom: 170px;
+    margin-bottom: 180px;
   }  
 }
 

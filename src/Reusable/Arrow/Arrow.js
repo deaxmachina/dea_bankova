@@ -6,14 +6,9 @@ import { Link } from "react-router-dom";
 
 const Arrow = () => {
 
-  useEffect(() => {
-    //window.addEventListener('scroll', (e) => {console.log("event listened")});
-  }, [])
-
-
   return (
     <>
-      <div className="arrow__container" onScroll={ (e) => console.log(e) }>
+      <div className="arrow__container" >
         <Link to="/" > 
           <FontAwesomeIcon icon={faChevronUp} className="arrow-up" /> 
         </Link>   
