@@ -77,12 +77,12 @@
   margin-bottom: 15px;
 }
 #contact__contact-email {
-  color: rgb(40, 99, 128); /*rgb(13, 131, 131) */;
-  border-bottom: 2px solid rgb(40, 99, 128) /* rgb(13, 131, 131) */;
+  color: rgba(78, 27, 52, 1); /*rgb(13, 131, 131) */;
+  border-bottom: 2px solid rgba(78, 27, 52, 1) /* rgb(13, 131, 131) */;
   text-decoration: none;
 }
 #contact__contact-email:hover {
-  background-color:rgba(40, 99, 128, 0.6) /* rgba(13, 131, 131, 0.4) */;
+  background-color:rgba(78, 27, 52, 0.6) /* rgba(13, 131, 131, 0.4) */;
   color: var(--textLightcolour);
 }
 

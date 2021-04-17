@@ -86,7 +86,7 @@ const HeaderViz = ({ scaleFactor }) => {
           <path className="card" fill={darkColour} fill="url(#radial-gradient)" fillOpacity={0.6} d={cardPath1} />
           <path className="card card-purple" fillOpacity={0.5} d={cardPath2} />
           <path className="card card-blue" fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath3}/>
-          <path className="card card-blue" fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath4} />
+          <path className="card card-blue" fillOpacity={0.8} filter="url(#static-noise)" d={cardPath4} />
           <path className="card card-blue" fillOpacity={opacityLow} filter="url(#static-noise)" d={cardPath5} />
           <rect className="card card-blue" fillOpacity={opacityLow} width={card6.width} height={card6.height} transform={card6.transform}/>
           <path className="card card-blue" fillOpacity={opacityLow} d={cardPath7} />
