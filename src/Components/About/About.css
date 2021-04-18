@@ -7,6 +7,7 @@
   color: var(--textMediumColour);
   padding-top: 50px;
   background-color: #1e1c1f;
+  overflow: hidden; /* TODO: this is a hack; should check why there is an overflow at below 600px*/
 }
 
 /***********************************************/
@@ -20,17 +21,24 @@
   position: relative;
   border: 0px solid white;
   line-height: 1.8;
+  font-weight: 200;
 }
 #about__about-text {
   text-align: left;
-  margin-left: 6%;
+  margin-left: 0%;
   margin-right: 50%;
-  padding-top: 30px;
+  padding: 20px;
+  height: 400px;
+  overflow: auto;
+  background-color: rgba(255,255,255,0.03);
+  border-top: 7px solid rgba(255,255,255,0.01);
+  border-bottom: 7px solid rgba(255,255,255,0.01);
 }
 #about__about-photo {
   position: absolute;
-  top: -30px;
+  top: 0;
   left: 53%;
+  transform: scale(1);
 }
 #about__about-title-container {
 }
@@ -39,6 +47,10 @@
   text-shadow: 4px 4px 0px rgba(78, 27, 52, 0.3);
   mix-blend-mode: screen;
   cursor: default;
+}
+
+.about-me-text span{
+  font-weight: 600;
 }
 
 
@@ -150,7 +162,7 @@
     text-align: left;
     margin-left: 7%;
     margin-right: 7%;
-    padding-top: 420px;
+    margin-top: 370px;
     padding-bottom: 70px;
   }
   #about__about-triangle {
@@ -170,13 +182,14 @@
     left: 8%;
   }
   #about__about-text {
-    padding-top: 260px;
+    margin-top: 270px;
+    margin-bottom: 70px;
   }
 }
 
 @media(max-width: 400px) {
   #about__about-text {
-    padding-top: 250px;
+    margin-top: 250px;
   }
 }
 
