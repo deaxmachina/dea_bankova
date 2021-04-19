@@ -12,7 +12,15 @@ const BlogPreview = ({ post }) => {
   }
   return (
     <div className="blog-preview-container">
-      <div className="blog-preview-img" style={{backgroundImage: `url(${post.imgUrl})`}} ></div>
+
+      {/* note: this link used to be a div with these styles but wrapping the div in the link 
+      breaks the styles; maybe there is a better way of doing this? 
+      */}
+      <Link to={`/writing/${post.id}`} 
+      className="blog-preview-img" 
+      style={{backgroundImage: `url(${post.imgUrl})`}}
+      ></Link>
+
       <div className="blog-preview-content" style={{borderRightColor: categoryColourMap[post.category]}}>
         <Link to={`/writing/${post.id}`} >
           <h2 className="blog-preview-title medium-text" 
