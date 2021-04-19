@@ -1,0 +1,170 @@
+:root {
+  --writing-dark-colour: #1e1c1f;
+  --writing-third-accent-colour: #48444b;
+}
+
+/* container for the whole page */
+#writing__page-container {
+  max-width: var(--maxWidthSections);
+  margin: auto;
+  position: relative;
+  text-align: center;
+  color: var(--textMediumColour);
+  padding-top: 50px;
+  background-color: var(--writing-dark-colour);
+  overflow: hidden; /* TODO: this is a hack; should check why there is an overflow at below 600px*/
+}
+
+/***********************************************/
+/************* Content Container ***************/
+/***********************************************/
+#writing__content-container {
+  width: 77%;
+  color: var(--lightGreyColour);
+  margin: auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+
+/*************************************************/
+/********* Title and Explanation Text ************/
+/*************************************************/
+#writing__title-text {
+  font-family: 'Della Respira', serif;
+  text-shadow: 4px 4px 0px rgba(78, 27, 52, 0.3);
+  mix-blend-mode: screen;
+  cursor: default;
+}
+.writing__explanation {
+  text-align: left;
+  line-height: 2;
+}
+.writing__explanation span {
+  color: var(--textLightcolour);
+  padding: 3px;
+  cursor: default;
+}
+.writing__explanation span:nth-of-type(1) {
+  background-color: var(--purpleColour);
+}
+.writing__explanation span:nth-of-type(2) {
+  background-color: var(--blueColour);
+}
+.writing__explanation span:nth-of-type(3) {
+  background-color: var(--writing-third-accent-colour);
+}
+
+
+/*************************************************/
+/************ Blog Preview Posts *****************/
+/*************************************************/
+/* container for all the posts */
+#writing__post-preview-container {
+  margin-top: 70px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+/* container for each individual post*/
+.blog-preview-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+/* img for each individual post */
+.blog-preview-img {
+  height: 300px;
+  background-color: grey;
+  flex: 2;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+.blog-preview-img:active {
+  transform: scale(0.9);
+}
+/* content for each individual post */
+.blog-preview-content {
+  background-color: var(--lightGreyColour);
+  margin-left: 20px;
+  padding: 20px 30px;
+  flex: 4;
+  border-right: 15px solid white; /* colour is just a placeholder */
+  overflow: auto;
+  height: 300px;
+}
+.blog-preview-title {
+  font-weight: bold;
+  font-family: 'Della Respira', serif;
+  color: var(--textDarkColour);
+  cursor: pointer;
+  -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
+  -o-transition: background-color 1s;
+  transition: background-color 1s; /* For modern browsers */
+}
+.blog-preview-title:hover {
+  background-color: var(--writing-dark-colour); /* colour is just a placeholder */
+  color: var(--textLightcolour);
+}
+.blog-preview-date {
+  color: #666666;
+  margin-top: 3px;
+  cursor: default;
+}
+.blog-preview-summary {
+  margin-top: 10px;
+  color: var(--textDarkColour);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+/************************************************/
+/******************** Media  ********************/
+/************************************************/
+@media(max-width: 900px) {
+  #writing__page-container {
+    padding-top: 30px;
+  }
+  .blog-preview-container {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .blog-preview-img {
+    flex: 1;
+    min-height: 250px;
+  }
+  .blog-preview-content {
+    margin-left: 0;
+    padding: 20px 30px;
+    flex: 1;
+  }
+}
+@media(max-width: 600px) {
+  #writing__content-container {
+    width: 100%;
+  }
+  /* 
+    need to manually add margin on both sides if the width of the container is 100%;
+    if the width of the whole container is 90%, delete this rule
+  */
+  #writing__title-container, .writing__explanation{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #writing__post-preview-container {
+    margin-top: 50px;
+  }
+  .blog-preview-container {
+    margin-bottom: 80px;
+  }
+  /* content for each individual post */
+  .blog-preview-content {
+    margin-left: 0px;
+    padding: 20px 25px;
+    }
+}

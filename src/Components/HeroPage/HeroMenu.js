@@ -9,7 +9,8 @@ const HeroMenu = () => {
       <div id="hero-menu-container">
         <Link to="portfolio"><div className="menu-item">projects</div></Link>
         <Link to="/about"><div className="menu-item">about</div></Link>
-        <div className="menu-item">writing</div>
+        <Link to="/writing"><div className="menu-item">writing</div></Link>
+        {/*<div className="menu-item">writing</div>*/}
         <Link to="#contact-page"><div className="menu-item">contact</div></Link>
       </div >
       

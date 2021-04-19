@@ -4,9 +4,11 @@ import About from "./Components/About/About";
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'; 
 import ScrollToTop from "./Reusable/scrollToTop";
 import PortfolioFull from "./Components/PortfolioFull/PortfolioFull";
-import projectsMetadata from "./data/projectsMetadata";
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
 import FrontPage from "./Components/FrontPage/FrontPage";
+import Writing from "./Components/Writing/Writing";
+import projectsMetadata from "./data/projectsMetadata";
+import AllPosts from "./Components/Writing/Posts/AllPosts";
 
 // listen for resize - you can leave this out of the functional component
 // lets you listen for the width and height dynamically
@@ -42,6 +44,11 @@ const App = () => {
               <About {...props} windowWidth={windowWidth} windowHeight={windowHeight} />
            )}
         />  
+        <Route path="/writing" exact
+          render={ props => (
+              <Writing {...props} windowWidth={windowWidth} windowHeight={windowHeight} />
+           )}
+        />  
         <Route path="/portfolio" exact 
           render={ props => (
             <PortfolioFull {...props} windowWidth={windowWidth} />
@@ -56,6 +63,7 @@ const App = () => {
           />  
           ))
         }
+        <AllPosts/>
       </Switch>
     </Router>
     </>

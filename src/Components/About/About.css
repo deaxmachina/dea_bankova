@@ -146,6 +146,11 @@
 /************************************************/
 /******************** Media  ********************/
 /************************************************/
+@media(max-width: 1200px) {
+  #about__about-text {
+    height: 500px;
+  }
+}
 @media(max-width: 900px) {
   #about__page-container {
     padding-top: 20px;
@@ -164,6 +169,7 @@
     margin-right: 7%;
     margin-top: 370px;
     padding-bottom: 70px;
+    height: 600px;
   }
   #about__about-triangle {
     border-bottom: 100px solid var(--purpleColour);
@@ -184,6 +190,7 @@
   #about__about-text {
     margin-top: 270px;
     margin-bottom: 70px;
+    height: 800px;
   }
 }
 
