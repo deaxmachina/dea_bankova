@@ -1,0 +1,110 @@
+
+:root {
+  --margin-bottom-between-sections: 40px; /* margin bottom between different sections */
+  --margin-bottom-inside-sections: 10px; /* margin bottom inside a section e.g. after the title */
+  --max-wdith-single-col: 900px;
+}
+
+
+/******************************************/
+/************ Outer Containers ************/
+/******************************************/
+/* wrapper for the whole thing - need this because of the background colour */
+.post-template__wrapper {
+  width: 100%;
+  background-color: var(--lightGreyColour);
+}
+/* wrapper across all the actual content - this has a max width */
+.post-template__container {
+  max-width: var(--maxWidthSections);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 100px 50px;
+  color: var(--textDarkColour);
+}
+
+
+/******************************************/
+/****** General Attributes of Posts *******/
+/******************************************/
+/* Title, subtitle, date, etc. - attributes of all the posts*/
+.post-template__title-text {
+  font-family: 'Della Respira', serif;
+  margin-bottom: var(--margin-bottom-inside-sections);
+  font-weight: 600;
+}
+/* date of post */
+.post-template__date {
+  color: var(--textMediumColour);
+  margin-bottom: var(--margin-bottom-between-sections);
+}
+
+
+/******************************************/
+/************ Table of Contents ***********/
+/******************************************/
+/* table of contents */
+.post-template__table-of-contents {
+  max-width: var(--max-wdith-single-col);
+  margin: auto;
+  text-align: left;
+  margin-bottom: var(--margin-bottom-between-sections);
+}
+.post-template__table-of-contents-title {
+  margin-bottom: var(--margin-bottom-inside-sections);
+}
+.post-template__table-of-contents-main-list {
+
+}
+.post-template__table-of-contents ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+/******************************************/
+/**************** Sections ****************/
+/******************************************/
+/* for when we only have 1 col of text and don't want it to stretch over the whole screen */
+/* use wrapper to postion title , body etc. in the middle and align left */
+.post-template__single-col-wrapper {
+  max-width: var(--max-wdith-single-col);
+  margin: auto;
+  text-align: left;
+}
+/* section title */
+.post-template__section-title {
+  margin-bottom: var(--margin-bottom-inside-sections);
+}
+/* section subtitle */
+.post-template__section-subtitle {
+  margin-bottom: var(--margin-bottom-inside-sections);
+}
+/* one paragraph */
+.post-template__single-col-para {
+  margin-bottom: var(--margin-bottom-between-sections);
+}
+
+
+/******************************************/
+/****************** Media *****************/
+/******************************************/
+@media (max-width: 900px) {
+  .post-template__container {
+    padding: 100px 80px;
+  }
+}
+@media (max-width: 700px) {
+  .post-template__container {
+    padding: 100px 50px;
+  }
+}
+@media (max-width: 550px) {
+  .post-template__container {
+    padding: 40px 20px;
+  }
+}
+
