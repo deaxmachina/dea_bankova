@@ -2,7 +2,7 @@ import React from "react";
 import "./PostTemplate.css";
 
 // fpr general styles that will apply to all the posts
-const PostTemplate = ({id, children }) => {
+const PostTemplateExample = ({id, children }) => {
   return (
     <div className="post-template__wrapper">
       <div className="post-template__container">
@@ -23,22 +23,26 @@ const PostTemplate = ({id, children }) => {
 
 
           <div className="post-template__table-of-contents">
-            <h2 className="post-template__table-of-contents-title">Table of Contents</h2>
+            <div className="post-template__title-container">
+              <div className="post-template__section-title-text highlight-dark-background">Table of Contents</div>
+            </div>
             <ul className="post-template__table-of-contents-main-list">
-              <li>First section title</li>
-              <li>Second section title</li>
+              <li><a href="/" className="post__toc-link">First section title</a></li>
+              <li><a href="/" className="post__toc-link">Second section title</a></li>
               <ul>
-                <li>Section section first subtitle</li>
-                <li>Section section second subtitle</li>
+                <li><a href="/">Second section subtitle</a></li>
+                <li><a href="/">Longer sutitle for the second section</a></li>
               </ul>
-              <li>Third Section</li>
-              <li>Fourth Section</li>
+              <li><a href="/" className="post__toc-link">Third section title</a></li>
+              <li><a href="/" className="post__toc-link">Fourth section title</a></li>
             </ul>
           </div>
 
 
           <div className="post-template__single-col-wrapper">
-            <h2 className="post-template__section-title">Some section title</h2>
+            <div className="post-template__title-container">
+              <div className="post-template__section-title-text highlight-dark-background">Some section title</div>
+            </div>
             <h3 className="post-template__section-subtitle">Some section subtitle - this will probably be longer and more descriptive</h3>
             <p className="post-template__single-col-para">
               After the summary, there is two types of text chunks that we could have. 
@@ -46,30 +50,40 @@ const PostTemplate = ({id, children }) => {
               This should probably be the same as the summary, so that the text looks 
               unified. 
               Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
-              Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
-              Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
-              Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
-              Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
-              Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
-              Here is some placeholder text. Here is some placeholder text. Here is some placeholder text. 
+              Let's try some <span className="post__highlighted-text">text that you want to emphaise</span>. And also
+              some <a href="google.com" target="_blank" className="post__link">links to stuff</a>.
+              Or if you want to emphaise something but not highlight it <span className="post__emph-text">use this style</span>
               <br />
               <br />
               This is some more text after a text break.
             </p>
           </div>
 
-
-
-
-        <br />
-        <br />
-        <br />
-        <div id={id}>
-          {children}
-        </div>
+          <div className="post-template__two-col-wrapper">
+            <div className="post-template__title-container">
+              <div className="post-template__section-title-text highlight-dark-background">Wide Section</div>
+            </div>
+            <div className="post-template__two-col-container">
+              <div className="post-template__two-col-left">Some stuff on the left</div>
+              <div className="post-template__two-col-right">And some stuff on the right</div>
+            </div>
+          </div>
       </div>
     </div>
   )
 };
+
+
+const PostTemplate = ({ id, children }) => {
+  return (
+    <div className="post-template__wrapper">
+      <div className="post-template__container">
+        <div id={id}>
+          {children}
+        </div>
+      </div>
+      </div>
+  )
+}
 
 export default PostTemplate;

@@ -1,7 +1,7 @@
 
 :root {
-  --margin-bottom-between-sections: 40px; /* margin bottom between different sections */
-  --margin-bottom-inside-sections: 10px; /* margin bottom inside a section e.g. after the title */
+  --margin-bottom-between-sections: 60px; /* margin bottom between different sections */
+  --margin-bottom-inside-sections: 30px; /* margin bottom inside a section e.g. after the title */
   --max-wdith-single-col: 900px;
 }
 
@@ -22,7 +22,7 @@
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 100px 50px;
+  padding: 100px;
   color: var(--textDarkColour);
 }
 
@@ -41,6 +41,51 @@
   color: var(--textMediumColour);
   margin-bottom: var(--margin-bottom-between-sections);
 }
+/* highlighted text */
+.post__highlighted-text {
+  background-color: rgba(78, 27, 52, 0.8);
+  color: var(--textLightcolour);
+  padding: 0 3px;
+}
+/* emphasised text in bold */
+.post__emph-text {
+  font-weight: bold;
+  color: var(--purpleColour);
+}
+/* general link to site or section */
+.post__link {
+  border-bottom: 2px dashed var(--purpleColour);
+  color: var(--purpleColour);
+}
+.post__link:hover {
+  background-color: rgba(78, 27, 52, 0.8);
+  color: var(--textLightcolour);
+}
+/* lists outside the table of contents */
+.post__list-in-body {
+  text-align: left;
+  padding-left: 50px;
+  list-style: none; /* Remove default bullets */
+}
+.post__list-in-body li::before {
+  content: "\273D";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--purpleColour);
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  height: 1em;
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 16px;
+}
+
+.code {
+  padding: 0px 5px;
+  font-size: 16px;
+  white-space: nowrap ;
+  background-color: rgba(27, 58, 75, 0.5);
+  color: white;
+  font-family: monospace;
+}
 
 
 /******************************************/
@@ -57,12 +102,30 @@
   margin-bottom: var(--margin-bottom-inside-sections);
 }
 .post-template__table-of-contents-main-list {
-
+  line-height: 2.6;
 }
 .post-template__table-of-contents ul {
   text-align: left;
-  padding-left: 20px;
+  padding-left: 50px;
+  font-size: 18px;
 }
+.post-template__table-of-contents ul li::before {
+  color: var(--purpleColour);
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.post__toc-link {
+  border-bottom: 2px solid var(--purpleColour);
+  color: var(--purpleColour);
+}
+.post__toc-link:hover {
+  background-color: rgba(78, 27, 52, 0.8);
+  color: var(--textLightcolour);
+}
+
 
 
 /******************************************/
@@ -76,22 +139,80 @@
   text-align: left;
 }
 /* section title */
-.post-template__section-title {
+.post-template__title-container {
+  margin: auto;
+  position: relative;
+  color: var(--textDarkColour);
+  border-left: 10px solid var(--purpleColour);
+  opacity: 1;
+  z-index: 2;
   margin-bottom: var(--margin-bottom-inside-sections);
+}
+.post-template__section-title-text {
+  font-weight: 300;
+  margin: auto;
+  text-align: left;
+  padding: 5px 10px;
+  font-size: 36px;
+  font-family: 'Della Respira', serif;
+  background-color: rgba(255, 255, 255, 0); 
 }
 /* section subtitle */
 .post-template__section-subtitle {
+  padding: 0;
   margin-bottom: var(--margin-bottom-inside-sections);
+  font-family: 'Della Respira', serif;
+  font-weight: 400;
+  font-size: 26px;
 }
 /* one paragraph */
 .post-template__single-col-para {
   margin-bottom: var(--margin-bottom-between-sections);
+  line-height: 1.7;
+  text-align: left;
 }
+
+/* for when we have two columns e.g. with code and text or graph and text */
+.post-template__two-col-wrapper {
+}
+.post-template__two-col-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  line-height: 1.7;
+}
+.post-template__two-col-container div {
+  text-align: left;
+}
+.post-template__two-col-left {
+  margin-right: 20px;
+  flex: 1;
+}
+.post-template__two-col-right {
+  margin-left: 20px;
+  flex: 1;
+}
+
 
 
 /******************************************/
 /****************** Media *****************/
 /******************************************/
+@media (max-width: 1200px) {
+  .post-template__two-col-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .post-template__two-col-left {
+      margin-right: 0px;
+    }
+    .post-template__two-col-right {
+      margin-top: 30px;
+      margin-left: 0px;
+    }
+}
 @media (max-width: 900px) {
   .post-template__container {
     padding: 100px 80px;
@@ -100,6 +221,9 @@
 @media (max-width: 700px) {
   .post-template__container {
     padding: 100px 50px;
+  }
+  .post-template__table-of-contents ul {
+    padding-left: 25px;
   }
 }
 @media (max-width: 550px) {
