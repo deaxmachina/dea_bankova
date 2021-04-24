@@ -2,6 +2,7 @@
 import { atelierDuneLight, hopscotch } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coldarkDark as dark, prism, xonokai } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import "./ForceDemo.css";
 
 import ForceDemo from "./ForceDemo";
 import TextForceDemo from "./TextForceDemo";
@@ -78,22 +79,21 @@ const CodeForceDemo = () => {
   return (
     <div>
 
-      <div className="post-template__two-col-container">
+      <div className="post-template__two-col-container" style={{marginBottom: "10px"}}>
         <div className="post-template__two-col-left">
-            I wanted to give a simple example using <a href="https://github.com/d3/d3-force" target="_blank">d3-force</a> with React, 
+          <ForceDemo />
+        </div>
+        <div className="post-template__two-col-right" style={{marginTop: "30px"}}>
+            I wanted to give a simple example using <a href="https://github.com/d3/d3-force" target="_blank" className="post__link">d3-force</a> with React, 
             as it is something I don't often see mentioned in tutorials, but a part of D3 that I love to (over)use. 
             Unlike D3 transitions, animations and axes, d3-force 
             s one of those integral parts of D3 that I have not seen implemented in pure React in a straightforwad way
-            thusfar. However, you can find libraries such as <a href="https://github.com/uber/react-vis-force" target="_blank">this one</a> which 
+            thusfar. However, you can find libraries such as <a href="https://github.com/uber/react-vis-force" target="_blank" className="post__link">this one</a> which 
             would allow you in limited cases to construct a d3-force graph using the declarative React way via the use of a ready-made graph component. 
             Let's have a look at a simple way to port a d3-force graph inside a React component. The flow is actually the same as with the bar chart,
             which means that once you get the hang of this method, you can port any existing code into React this way (though not without understanding 
         </div>
-        <div className="post-template__two-col-right">
-          <ForceDemo />
-        </div>
       </div>
-
 
     <div className="post-template__two-col-container">
       <div className="post-template__two-col-left">
@@ -103,11 +103,12 @@ const CodeForceDemo = () => {
           style={prism} 
           showLineNumbers={false} 
           wrapLines={true}
+          lineProps={{style: {wordBreak: 'break-all', whiteSpace: 'pre-wrap'}}}
         >
           {codeString}
         </SyntaxHighlighter>
       </div>
-      <div className="post-template__two-col-left">
+      <div className="post-template__two-col-right">
         <TextForceDemo />
       </div>
     </div>

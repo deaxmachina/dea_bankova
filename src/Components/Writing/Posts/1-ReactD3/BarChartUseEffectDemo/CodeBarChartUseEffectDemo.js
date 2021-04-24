@@ -1,7 +1,7 @@
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { atelierDuneLight, hopscotch } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import CodeBlockLight from "../Resusable/CodeBlockLight";
 import BarChartUseEffectDemo from "./BarChartUseEffectDemo";
 import TextBarChartUseEffectDemo from "./TextBarChartUseEffectDemo";
+import "./BarChartUseEffectDemo.css";
 
 
 const CodeBarChartUseEffectDemo = () => {
@@ -55,13 +55,11 @@ const CodeBarChartUseEffectDemo = () => {
   return (
     <div className="post-template__two-col-container">
       <div className="post-template__two-col-left">
-          <SyntaxHighlighter language="javascript" style={hopscotch} showLineNumbers={true} wrapLines={true}>
-            {codeString}
-          </SyntaxHighlighter>
+        <CodeBlockLight codeString={codeString}/>
       </div>
       <div className="post-template__two-col-right">
-          <BarChartUseEffectDemo />
-          <TextBarChartUseEffectDemo />
+        <BarChartUseEffectDemo />
+        <TextBarChartUseEffectDemo />
       </div>
     </div>
   );

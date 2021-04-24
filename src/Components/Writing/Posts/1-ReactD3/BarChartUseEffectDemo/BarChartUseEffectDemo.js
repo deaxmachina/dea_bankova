@@ -60,13 +60,14 @@ const BarChartUseEffectDemo = () => {
   }
 
   return (
-    <div className="wrapper">
+    <div className="bar-chart-use-effect-wrapper">
       <svg width={width} height={height}>
         <g transform={`translate(${margin.left},${margin.top})`} ref={gRef}>
           <g ref={xAxisRef}></g>
         </g>
       </svg>
-      <button onClick={() => setData(getRandomData())} className="random-btn"> random </button>
+      <button onClick={() => setData(getRandomData())} className="bar-chart-random-btn"> random </button>
+      <br />
     </div>
   )
 };

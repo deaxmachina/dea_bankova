@@ -95,7 +95,7 @@ const BrushDemo = () => {
 
   return (
     <>
-      <div className="wrapper">
+      <div className="brush-demo-wrapper">
         <svg width={width} height={height}>
           <g>
             <g ref={bigCircleRef}></g>

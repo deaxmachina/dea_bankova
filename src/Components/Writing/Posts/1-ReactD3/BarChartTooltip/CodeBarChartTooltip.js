@@ -2,6 +2,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atelierDuneLight, hopscotch } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import BarChartTooltip from "./BarChartTooltip";
 import TextBarChartTooltip from "./TextBarChartTooltip";
+import "./BarChartTooltip.css";
 
 
 const CodeBarChartTooltip = () => {
@@ -48,10 +49,10 @@ return (
 )`
 
   return (
-    <>
+    <div className="post-template__single-col-wrapper">
     <BarChartTooltip />
     <TextBarChartTooltip />
-    </>
+    </div>
   );
 };
 

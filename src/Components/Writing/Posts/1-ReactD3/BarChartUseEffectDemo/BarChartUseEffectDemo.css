@@ -1,0 +1,23 @@
+.bar-chart-random-btn {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  background-color: var(--purpleColour);
+  outline: none;
+  border: 2px solid #fff;
+  cursor: pointer;
+  display: block;
+}
+
+.bar-chart-random-btn:hover {
+  color: var(--purpleColour);
+  border: 2px solid var(--purpleColour);
+  background-color: #fff;
+}
+
+/* for the actual displayed bar chart */
+.bar-chart-use-effect-wrapper {
+  margin: auto !important;
+  text-align: center !important;
+}

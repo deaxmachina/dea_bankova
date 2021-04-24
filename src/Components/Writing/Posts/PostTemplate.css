@@ -1,6 +1,6 @@
 
 :root {
-  --margin-bottom-between-sections: 60px; /* margin bottom between different sections */
+  --margin-bottom-between-sections: 80px; /* margin bottom between different sections */
   --margin-bottom-inside-sections: 30px; /* margin bottom inside a section e.g. after the title */
   --max-wdith-single-col: 900px;
 }
@@ -11,18 +11,18 @@
 /******************************************/
 /* wrapper for the whole thing - need this because of the background colour */
 .post-template__wrapper {
-  width: 100%;
   background-color: var(--lightGreyColour);
 }
 /* wrapper across all the actual content - this has a max width */
 .post-template__container {
+  width: 100%;
   max-width: var(--maxWidthSections);
   margin: auto;
   text-align: center;
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 100px;
+  padding: 100px 50px;
   color: var(--textDarkColour);
 }
 
@@ -81,7 +81,6 @@
 .code {
   padding: 0px 5px;
   font-size: 16px;
-  white-space: nowrap ;
   background-color: rgba(27, 58, 75, 0.5);
   color: white;
   font-family: monospace;
@@ -181,6 +180,7 @@
   align-items: flex-start;
   justify-content: space-between;
   line-height: 1.7;
+  margin-bottom: var(--margin-bottom-between-sections);
 }
 .post-template__two-col-container div {
   text-align: left;
@@ -195,7 +195,6 @@
 }
 
 
-
 /******************************************/
 /****************** Media *****************/
 /******************************************/
@@ -205,30 +204,47 @@
     justify-content: center;
     align-items: center;
     }
-    .post-template__two-col-left {
-      margin-right: 0px;
-    }
-    .post-template__two-col-right {
-      margin-top: 30px;
-      margin-left: 0px;
-    }
+  .post-template__two-col-left {
+    margin-right: 0px;
+  }
+  .post-template__two-col-right {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
 }
 @media (max-width: 900px) {
   .post-template__container {
-    padding: 100px 80px;
+    padding: 100px 60px;
   }
 }
 @media (max-width: 700px) {
   .post-template__container {
-    padding: 100px 50px;
+    padding: 100px 60px;
   }
   .post-template__table-of-contents ul {
     padding-left: 25px;
+  }
+  .post-template__two-col-left {
+    width: 100%;
+    max-width: 550px;
+  }
+  .post-template__two-col-right {
   }
 }
 @media (max-width: 550px) {
   .post-template__container {
     padding: 40px 20px;
+  }
+  .post-template__two-col-left {
+    max-width: 350px;
+  }
+}
+@media (max-width: 350px) {
+  .post-template__container {
+    padding: 40px 0px;
+  }
+  .post-template__two-col-left {
+    max-width: 300px;
   }
 }
 

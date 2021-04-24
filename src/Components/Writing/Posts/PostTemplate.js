@@ -82,7 +82,7 @@ const PostTemplate = ({ id, children }) => {
           {children}
         </div>
       </div>
-      </div>
+    </div>
   )
 }
 

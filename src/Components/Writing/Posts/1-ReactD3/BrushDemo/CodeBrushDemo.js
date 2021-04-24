@@ -1,9 +1,8 @@
 //import SyntaxHighlighter from 'react-syntax-highlighter';
-import { atelierDuneLight, hopscotch } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { coldarkDark as dark, prism, xonokai } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import CodeBlockLight from "../Resusable/CodeBlockLight";
 import BrushDemo from "./BrushDemo";
 import TextBrushDemo from "./TextBrushDemo";
+import "./BrushDemo.css";
 
 
 const CodeBrushDemo = () => {
@@ -142,7 +141,7 @@ const codeStringThird = `const BrushDemo = () => {
         Similar to the the d3-force example above, d3-brush is one of those parts of the D3 API, which 
         is hard to use imperatively with React only. However, it is perfectly possible to write code for the rest of your 
         visualistion the React way, and then only make a reference for the brush inside a group element, which 
-        you then access in the <code>useEffect</code> through <code>useRef</code>. 
+        you then access in the <code className="code">useEffect</code> through <code className="code">useRef</code>. 
         Below, we consider an example written entriely in the useEffect 
         way. This time, however, as the code is slighly more complex than the previous examples, we'll take it as an opportunity 
         to use React components to split the different parts of the visualisations. Our strategy is as follows: 
@@ -151,15 +150,7 @@ const codeStringThird = `const BrushDemo = () => {
 
     <div className="post-template__two-col-container">
       <div className="post-template__two-col-left">
-      <SyntaxHighlighter 
-          customStyle={{fontSize: '14px', background: '#eee'}}
-          language="jsx"
-          style={prism} 
-          showLineNumbers={false} 
-          wrapLines={true}
-        >
-          {codeStringThird}
-        </SyntaxHighlighter>
+        <CodeBlockLight codeString={codeStringThird}/>
       </div>
       <div className="post-template__two-col-right">
         <BrushDemo />

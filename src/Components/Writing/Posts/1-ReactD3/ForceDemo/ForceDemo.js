@@ -78,12 +78,13 @@ const ForceDemo = () => {
   }, [nodes]);
 
   return (
-    <div className="wrapper"> 
-    <button onClick={getRandomData} className="random-btn">random</button>
-    <br />
+    <div className="force-demo-wrapper"> 
+
       <svg ref={svgRef} width={width} height={height}>
         <g ref={gRef}></g>
       </svg>
+      <button onClick={getRandomData} className="force-demo-random-btn">random</button>
+    <br />
       
     </div>
   )

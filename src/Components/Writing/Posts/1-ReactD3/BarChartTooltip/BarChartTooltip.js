@@ -60,11 +60,13 @@ const BarChartTooltip = () => {
     // events for the tooltip
     function onMouseEnter(event, datum) {
       tooltip.style("opacity", 1)
-      tooltip.select(".tooltip-info").text(`value: ${datum}`) // insert text
+      tooltip.select(".tooltip-info").text(`val: ${datum}`) // insert text
       // position the toolbar 
-      const xPosition = xScale(data.indexOf(datum))
+      const xPosition = xScale(data.indexOf(datum)) 
       const yPosition =  height - margin.bottom - datum - 30
-      tooltip.style("transform", `translate(calc(${xPosition}px), ${yPosition}px)`)
+      tooltip
+        .style("left", `calc(${xPosition}px + 5px)`)
+        .style("top", `${yPosition}px`)
       d3.select(this).style("fill", "#fca311") // set colour to selected bar
     };
     function onMouseLeave(event, datum) {
@@ -75,7 +77,7 @@ const BarChartTooltip = () => {
   }, [data])
 
   return (
-    <div className="wrapper">
+    <div className="bar-chart-tooltip-wrapper">
       <svg width={width} height={height}>
         <g transform={`translate(${margin.left},${margin.top})`} ref={gRef}>
           <g ref={xAxisRef}></g>

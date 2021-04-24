@@ -192,42 +192,34 @@ const Section1 = () => {
 const Section2 = () => {
   return (
     <>
-    <div className="post-template__single-col-wrapper">
+      <div className="post-template__single-col-wrapper">
         <div className="post-template__title-container" >
-          <div className="post-template__section-title-text">
-          2. Code Walkthroughs
-          </div>
+          <div className="post-template__section-title-text">2. Code Walkthroughs</div>
         </div>
-        <h3 className="post-template__section-subtitle">2.1 Bar Chart - React for DOM control option</h3>
-        </div>
+      </div>
 
       <div className="post-template__two-col-wrapper">
-      
+      <h3 className="post-template__section-subtitle">2.1 Bar Chart - React for DOM control option</h3>
       <CodeBarChartDemo />
 
-
-      {/*
-      <h3 className="post-template__section-subtitle">Bar Chart the D3 Way</h3>
+      <h3 className="post-template__section-subtitle">2.2. Bar Chart - D3 for DOM control option</h3>
       <CodeBarChartUseEffectDemo />
 
-      <h3 className="post-template__section-subtitle">Tooltips</h3>
+
+      <h3 className="post-template__section-subtitle">2.3 What about other things? Tooltips</h3>
       <div className="post-template__single-col-wrapper">
         <p className="post-template__single-col-para">
           <CodeBarChartTooltip />
         </p>
       </div>
 
+      
       <h3 className="post-template__section-subtitle">Force</h3>
       <CodeForceDemo />
 
+
       <h3 className="post-template__section-subtitle">Brush</h3>
-      <p className="post-template__single-col-para"></p>
       <CodeBrushDemo />
-       */}
-
-
-      
-
 
     </div>
   </>

@@ -1,0 +1,24 @@
+.force-demo-random-btn {
+  margin: auto;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4895ef;
+  outline: none;
+  border: 2px solid #fff;
+  cursor: pointer;
+  display: block;
+  border-radius: 100px;
+}
+
+.force-demo-random-btn:hover {
+  color: #4895ef;
+  border: 2px solid #4895ef;
+  background-color: #fff;
+}
+
+/* for the actual displayed bar chart */
+.force-demo-wrapper {
+  margin: auto !important;
+  text-align: center !important;
+}
