@@ -20,7 +20,7 @@ const TextBarChartUseEffectDemo = () => {
         </li>
         <li>
         <span className="post__highlighted-text">The code inside the useEffect is pure D3 code</span>, but instead of tapping into an element 
-          the usual Vanilla JS way, such as with <code className="code">querySelector</code>, or with a D3 <code className="code">select</code>
+          the usual D3 JS way i.e. directly selecting a reference to the element by class or id, 
           we make use of a React reference to the raw DOM element <code className="code">useRef</code>. 
           The general strategy for this is like before: 
           <ul className="post__list-in-body">
@@ -39,7 +39,7 @@ const TextBarChartUseEffectDemo = () => {
           if appending a single element. 
         </li>
         <li>
-        <span className="post__highlighted-text">Note the use of transition transition().duration(1000)</span>, just as you normally would with D3. 
+        <span className="post__highlighted-text">Note the use of transition</span> <code className="code">transition().duration(1000)</code> , just as you normally would with D3. 
           If you wanted to implement the same using the approach above, you might need to use an external library such as GSAP or 
           define your own transition. In some cases, you might be able to achieve it with CSS instead. This particular example is relatively 
           straightforward but there are cases when it's not. 

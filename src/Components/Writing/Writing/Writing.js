@@ -1,11 +1,11 @@
 import React from "react";
 import "./Writing.css";
-import HomeLink from "../../Reusable/HomeLink/HomeLink";
+import HomeLink from "../../../Reusable/HomeLink/HomeLink";
 import WritingTopText from "./WritingTopText";
 import WritingsContainer from "./WritingsContainer";
 import BlogPreview from "./BlogPreview";
-import Footer from "../Footer/Footer";
-import blogData from "./data/blogData";
+import Footer from "../../Footer/Footer";
+import blogData from "../data/blogData";
 
 
 const Writing = ({ windowWidth, windowHeight }) => {

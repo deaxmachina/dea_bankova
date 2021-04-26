@@ -1,6 +1,6 @@
 
 :root {
-  --margin-bottom-between-sections: 80px; /* margin bottom between different sections */
+  --margin-bottom-between-sections: 60px; /* margin bottom between different sections */
   --margin-bottom-inside-sections: 30px; /* margin bottom inside a section e.g. after the title */
   --max-wdith-single-col: 900px;
 }

@@ -6,7 +6,7 @@ import ScrollToTop from "./Reusable/scrollToTop";
 import PortfolioFull from "./Components/PortfolioFull/PortfolioFull";
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
 import FrontPage from "./Components/FrontPage/FrontPage";
-import Writing from "./Components/Writing/Writing";
+import Writing from "./Components/Writing/Writing/Writing";
 import projectsMetadata from "./data/projectsMetadata";
 import AllPosts from "./Components/Writing/Posts/AllPosts";
 

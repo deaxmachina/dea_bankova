@@ -138,11 +138,11 @@ const codeStringThird = `const BrushDemo = () => {
 
       <div className="post-template__single-col-wrapper">
         <p className="post-template__single-col-para">
-        Similar to the the d3-force example above, <a className="post__link" href="https://github.com/d3/d3-brush" target="_blank">d3-brush</a> is one of those parts of the D3 API which 
+        Similar to the d3-force example above, <a className="post__link" href="https://github.com/d3/d3-brush" target="_blank">d3-brush</a> is one of those parts of the D3 API which 
         you <span className="post__emph-text">can't just put as is in the React render method</span>. However, it is perfectly possible to write code for the rest of your 
-        visualistion the React way, and then only make a reference for the brush inside a group element, which 
+        visualisation the React way, and then only make a reference for the brush inside a group element, which 
         you then access in the <code className="code">useEffect</code> through <code className="code">useRef</code>. 
-        Below, we consider an example written entriely in the useEffect way. See if you can refactor the same to work with only a single ref to the group element necessary for the brush. 
+        Below, we consider an example written entirely in the useEffect way. See if you can refactor the same to work with only a single ref to the group element necessary for the brush. 
         This time since we have two separate visual elements, tied together via the brush, it's a good opportunity to consider how we can <span className="post__emph-text">make use of React components</span> to
         modularize the code. Below, we will just consider the strategy for doing this. 
         <br />

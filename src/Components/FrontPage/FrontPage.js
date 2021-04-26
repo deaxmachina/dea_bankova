@@ -14,7 +14,7 @@ const FrontPage = ({ windowWidth, windowHeight }) => {
       <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
       <Contact />
       <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
-      <Arrow />
+      <Arrow linkto="/"/>
     </>
   )  
 };

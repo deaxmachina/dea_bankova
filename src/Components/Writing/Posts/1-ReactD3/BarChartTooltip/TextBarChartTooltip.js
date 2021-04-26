@@ -31,23 +31,23 @@ const TextBarChartTooltip = () => {
         <br />
         <br />
         <span className="post__highlighted-text">Let's have a look at the D3 way first.</span> The tooltip would need to be placed inside a <code className="code">useEffect</code>. We 
-        then select, say, a div evement, which here has a class of <code className="code">tooltip-info</code> and use its <code>html</code> method 
-        do <span className="post__emph-text">directly inject html inside the div</span>. This example is simple because we only have 2 lines 
+        then select, say, a div element, which here has a class of <code className="code">tooltip-info</code> and use its <code className="code">html</code> method 
+        to <span className="post__emph-text">directly inject html inside the div</span>. This example is simple because we only have 2 lines 
         of html, i.e. only the name and value for each data point. 
         <CodeBlockLight codeString={codeStringFirst}/>
         <br />
         <span className="post__highlighted-text">While with the React approach</span>, you can <span className="post__emph-text">construct the html skeleton of your tooltip directly in the render method</span>, 
         and then populate it with the content of variables stored in state. We've done this here: 
         <CodeBlockLight codeString={codeStringSecond}/>
-        where we've created beforehand a <code className='code'>const [tooltipData, setTooltipData] = useState()</code> state to contain our tooltip data.
-        and all that D3 needs to do (and note that you don't even have to do this with D3) is to update state so that the tooltip data gets updated. 
+        where we've created beforehand a <code className='code'>const [tooltipData, setTooltipData] = useState()</code> state to contain our tooltip data,
+        and all that D3 needs to do (note that you don't even have to do this with D3) is to update state so that the tooltip data gets updated. 
         It is arguably a cleaner way to do this. 
         <br />
         <br />
 
-     I lost the full implementation of the two options that I had prepared. I'm sorry! However, you can still checkout the 
+     I lost the full implementation of the two options that I had prepared. I'm sorry! However, you can still check out the 
      full implementation of the above bar chart with tooltip over here <a href="https://codesandbox.io/s/ecstatic-sea-rbb5n?file=/src/App.js" className="post__link" target="_blank">[code sandbox]</a>. It uses the D3 way, and can very easily we changed to 
-     use the React state way. Maybe see if you can modify it to achive that? 
+     use the React state way. Maybe see if you can modify it to achieve that? 
 
     </p>
   )

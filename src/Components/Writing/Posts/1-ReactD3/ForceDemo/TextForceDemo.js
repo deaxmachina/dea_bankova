@@ -20,7 +20,7 @@ const TextForceDemo = () => {
           <span className="post__highlighted-text">Get D3 and React to talk to each other</span> via useRef and useEffect. 
           Define a reference to the group element containing your D3 graph like
           so <code className="code">const gRef = useRef();</code> and don't forget to include the ref as an attr of the element 
-          iteself <code className="code">&lt;g ref=&#123;gRef&#125;&gt;&lt;/g&gt;</code> and then select the group element 
+          itself <code className="code">&lt;g ref=&#123;gRef&#125;&gt;&lt;/g&gt;</code> and then select the group element 
           inside <code className="code">useEffect</code> like so <code className="code">const g = d3.select(gRef.current)</code>
         </li>
         <li>

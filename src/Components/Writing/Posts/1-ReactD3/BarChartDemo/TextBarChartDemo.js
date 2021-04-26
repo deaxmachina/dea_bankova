@@ -9,13 +9,13 @@ const TextBarChartDemo = () => {
       <br />
       <ul className="post__list-in-body">
         <li>
-        <span className="post__highlighted-text"> Use React capabilities to render the rectangles</span> that make up the bar chart inside 
+        <span className="post__highlighted-text"> Use React to render the rectangles</span> that make up the bar chart inside 
           the render function by looping over the data and rendering one element for each bar. 
         </li>
         <li>
           <span className="post__highlighted-text"> Use state to manage the data</span>, meaning that data is stored in state initially,
           and then on every subsequent update. See this in practice with the 'random' button. React will re-render everything depending on the data 
-          each time that it changes. This includes the rects in the render function, and the axis code stored in the useEffect.
+          each time that it changes. This includes the rects in the render function, and the axis code stored in the useEffect. 
         </li>
         <li>
           <span className="post__highlighted-text">Store the code for the axis in a useEffect side effect.</span> Before we can do this, we create a ref with a <code className="code">useRef</code> hook, which is a way to tap into the raw DOM element using React. 
