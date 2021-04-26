@@ -223,11 +223,11 @@ const Section2 = () => {
       </div>
 
       
-      <h3 className="post-template__section-subtitle">Force</h3>
+      <h3 className="post-template__section-subtitle">Force graph, the D3 DOM way (useEffect + useRef) way</h3>
       <CodeForceDemo />
 
 
-      <h3 className="post-template__section-subtitle">Brush</h3>
+      <h3 className="post-template__section-subtitle">Brushing, the D3 DOM way (useEffect + useRef) way</h3>
       <CodeBrushDemo />
 
     </div>

@@ -1,5 +1,3 @@
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { atelierDuneLight, hopscotch } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import BarChartTooltip from "./BarChartTooltip";
 import TextBarChartTooltip from "./TextBarChartTooltip";
 import "./BarChartTooltip.css";

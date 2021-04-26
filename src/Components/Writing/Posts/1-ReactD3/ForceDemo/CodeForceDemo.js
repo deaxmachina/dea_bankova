@@ -88,10 +88,11 @@ const CodeForceDemo = () => {
             as it is something I don't often see mentioned in tutorials, but a part of D3 that I love to (over)use. 
             Unlike D3 transitions, animations and axes, d3-force 
             s one of those integral parts of D3 that I have not seen implemented in pure React in a straightforwad way
-            thusfar. However, you can find libraries such as <a href="https://github.com/uber/react-vis-force" target="_blank" className="post__link">this one</a> which 
+            thusfar. However, you can find libraries such as <a href="https://github.com/uber/react-vis-force" target="_blank" className="post__link">this one</a> by Uber which 
             would allow you in limited cases to construct a d3-force graph using the declarative React way via the use of a ready-made graph component. 
-            Let's have a look at a simple way to port a d3-force graph inside a React component. The flow is actually the same as with the bar chart,
-            which means that once you get the hang of this method, you can port any existing code into React this way (though not without understanding 
+            Let's have a look at <span className="post__emph-text">a simple way to port a d3-force graph inside a React component</span>. 
+            The flow is actually the same as with the bar chart,
+            which means that once you get the hang of this method, you can port any existing code into React this way.
         </div>
       </div>
 

@@ -1,11 +1,13 @@
 // data for the preview of the blogposts (not the actual content of them)
+
+
 const blogData = [
   {
     id: 'd3-react-start', 
     title: "Starting with D3.js and React",
     date: 'Apr 2021',
     category: 'tutorial',
-    imgUrl: 'https://live.staticflickr.com/65535/51124368892_d5eff0b322_o.png',
+    imgUrl: 'https://live.staticflickr.com/65535/51140128795_068dcfc6f2_o.png',
     smallImgUrl: 'https://live.staticflickr.com/65535/51124368892_d5eff0b322_o.png',
     description: 
      <>

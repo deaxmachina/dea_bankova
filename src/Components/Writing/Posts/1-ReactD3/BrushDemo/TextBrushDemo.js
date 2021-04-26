@@ -3,10 +3,6 @@ import React from "react";
 const TextBrushDemo = () => {
   return (
     <div>
-      <div>
-       Have a look at the complete code here <a href="/" target="_blank" className="post__link">[pen]</a>
-      </div>
-      <br />
     <ul className="post__list-in-body">
       <li>
         <span className="post__highlighted-text">Create on orchestrating component</span> <code className="code">BrushDemo</code>, 
@@ -20,9 +16,8 @@ const TextBrushDemo = () => {
         modular and neat, you can isolate the brush into its own component as well. 
       </li>
       <li>
-        We use state <code className="code">const [selectedIndex, setSelectedIndex] = useState(0)</code>
-        to <span className="post__highlighted-text">manage keep track of which element has been brushed </span>
-        in the <code>BrushableComponent</code>, so that we can pass this information to <code>DisplayComponent</code>
+        We use state <code className="code">const [selectedIndex, setSelectedIndex] = useState(0)</code> to <span className="post__highlighted-text">manage keep track of which element has been brushed</span> in
+        the <code>BrushableComponent</code>, so that we can pass this information to <code>DisplayComponent</code>
         which can in turn update the selected circle. 
         For <code className="code">BrushableComponent</code>, we pass the setter <code className="code">setSelectedIndex</code> as a prop because we want to pass 
         the index of the selected circle in this component through the use of d3-brush. 
@@ -31,9 +26,7 @@ const TextBrushDemo = () => {
       </li>
       <li>We also <span className="post__highlighted-text">pass other props to both components as needed,</span> for example in this case, colour scales.</li>
     </ul>
-    The code for the two components is somewhat lengthy, so I decided to post of all it to [here] and share that way. 
     </div>
-
   )
 };
 

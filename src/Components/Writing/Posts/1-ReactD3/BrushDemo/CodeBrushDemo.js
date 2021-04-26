@@ -138,13 +138,16 @@ const codeStringThird = `const BrushDemo = () => {
 
       <div className="post-template__single-col-wrapper">
         <p className="post-template__single-col-para">
-        Similar to the the d3-force example above, d3-brush is one of those parts of the D3 API, which 
-        is hard to use imperatively with React only. However, it is perfectly possible to write code for the rest of your 
+        Similar to the the d3-force example above, <a className="post__link" href="https://github.com/d3/d3-brush" target="_blank">d3-brush</a> is one of those parts of the D3 API which 
+        you <span className="post__emph-text">can't just put as is in the React render method</span>. However, it is perfectly possible to write code for the rest of your 
         visualistion the React way, and then only make a reference for the brush inside a group element, which 
         you then access in the <code className="code">useEffect</code> through <code className="code">useRef</code>. 
-        Below, we consider an example written entriely in the useEffect 
-        way. This time, however, as the code is slighly more complex than the previous examples, we'll take it as an opportunity 
-        to use React components to split the different parts of the visualisations. Our strategy is as follows: 
+        Below, we consider an example written entriely in the useEffect way. See if you can refactor the same to work with only a single ref to the group element necessary for the brush. 
+        This time since we have two separate visual elements, tied together via the brush, it's a good opportunity to consider how we can <span className="post__emph-text">make use of React components</span> to
+        modularize the code. Below, we will just consider the strategy for doing this. 
+        <br />
+        For the full implementation, have a look here <a className="post__link" href="https://codesandbox.io/s/brush-components-demo-97e3s" target="_blank">[code sandbox]</a>. If you'd like 
+        to compare this with a version that doesn't use components, head here <a className="post__link" href="https://codesandbox.io/s/brush-demo-77ivi" target="_blank">[code sandbox]</a>
         </p>
        </div>
 

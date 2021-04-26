@@ -43,7 +43,10 @@ const CodeBarChartUseEffectDemo = () => {
     return (
       <div className="wrapper">
         <svg width={width} height={height}>
-          <g transform={\`translate(\${margin.left},\${margin.top})\`} ref={gRef}>
+          <g 
+            transform={\`translate(\${margin.left},\${margin.top})\`} 
+            ref={gRef}
+          >
             <g ref={xAxisRef}></g>
           </g>
         </svg>
