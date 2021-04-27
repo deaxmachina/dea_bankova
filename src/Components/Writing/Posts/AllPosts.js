@@ -13,16 +13,18 @@ const AllPosts = () => {
           <PostReactD3 />
         )}
       />
-      <Route path={`/writing/placeholder-title1`} exact
-        render={ props => (
-          <PostReactD3 />
-        )}
-      />
-      <Route path={`/writing/placeholder-title2`} exact
-        render={ props => (
-          <PostReactD3 />
-        )}
-      />
+      {/*
+        <Route path={`/writing/placeholder-title1`} exact
+          render={ props => (
+            <PostReactD3 />
+          )}
+        />
+        <Route path={`/writing/placeholder-title2`} exact
+          render={ props => (
+            <PostReactD3 />
+          )}
+        />
+       */}
     </>
   )
 };
