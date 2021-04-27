@@ -15,20 +15,20 @@ const PortfolioFullIndividualViz = ({ windowWidth }) => {
 
     <div className="portfolio-grid">
         {
-          visualisationsMetadata.map(project => (
-            <a href={project.websiteUrl} target="_blank" className="noSelect">
-              <div 
-                key={project.id} 
-                className="portfolio-grid-entry" 
-                style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.smallImgUrl})` : `url(${project.imgUrl})`}}
-              >
-                <button className="portfolio-grid-btn individual-viz noSelect">
-                  <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
-                  <br/>
+          visualisationsMetadata.map(project => (          
+            <div 
+              key={project.id} 
+              className="portfolio-grid-entry" 
+              style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.smallImgUrl})` : `url(${project.imgUrl})`}}
+            >
+              <button className="portfolio-grid-btn individual-viz noSelect">
+                <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
+                <br/>
+                <a href={project.websiteUrl} target="_blank" className="noSelect">
                   <span className="border-button individual-viz-btn noSelect">view</span>
-                </button>   
-              </div>
-            </a>
+                </a>
+              </button>   
+            </div>
           ))
         }
       </div>

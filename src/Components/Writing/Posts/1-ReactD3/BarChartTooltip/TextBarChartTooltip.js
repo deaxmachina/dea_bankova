@@ -45,9 +45,9 @@ const TextBarChartTooltip = () => {
         <br />
         <br />
 
-     I lost the full implementation of the two options that I had prepared. I'm sorry! However, you can still check out the 
-     full implementation of the above bar chart with tooltip over here <a href="https://codesandbox.io/s/ecstatic-sea-rbb5n?file=/src/App.js" className="post__link" target="_blank">[code sandbox]</a>. It uses the D3 way, and can very easily we changed to 
-     use the React state way. Maybe see if you can modify it to achieve that? 
+       I lost the full implementation of the two options that I had prepared. I'm sorry! However, you can still check out the 
+      full implementation of the above bar chart with tooltip over here <a href="https://codesandbox.io/s/ecstatic-sea-rbb5n?file=/src/App.js" className="post__link" target="_blank">[code sandbox]</a>. It 
+      uses the D3 way, and can very easily be changed to use the React state way. Maybe see if you can modify it to achieve that? 
 
     </p>
   )

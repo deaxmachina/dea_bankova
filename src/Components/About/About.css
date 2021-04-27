@@ -38,7 +38,9 @@
   position: absolute;
   top: 0;
   left: 53%;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 #about__about-title-container {
 }
@@ -48,7 +50,6 @@
   mix-blend-mode: screen;
   cursor: default;
 }
-
 .about-me-text span{
   font-weight: 600;
 }
@@ -79,7 +80,6 @@
 .about__linkedin-icon:hover {
   color: #DDB9CA;
 }
-
 
 #about__cv-container {
   width: 80%;

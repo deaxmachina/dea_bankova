@@ -9,7 +9,7 @@ const cvHistory = [
     details: `
       I joined the lab as part of the Daiwa program and was later on hired formally. 
       While my title is researcher, I spend the bulk of my time on practical data viz development and 
-      creation and some on data analysis. Archiving and storytelling through data viz (e.g. Tohoku earthquake, Covid-19 in Japan).    
+      design and some on data analysis. Archiving and storytelling through data viz (e.g. Tohoku earthquake, Covid-19 in Japan).    
     `
   },
   {
@@ -17,7 +17,7 @@ const cvHistory = [
     date: '2019 Sep - 2020 Jul',
     type: 'education',
     title: 'Japanese Language Program',
-    workplace: 'Waseda University & Daiwa Anglo-Japanese Foundation',
+    workplace: 'Daiwa Anglo-Japanese Foundation & Waseda University',
     location: 'Tokyo, Japan',
     details: `
       I was awarded the prestigious Daiwa scholarship for cultural activities in Japan. 
@@ -33,7 +33,7 @@ const cvHistory = [
     workplace: 'DataSine',
     location: 'London, UK',
     details: `
-      Joining as the first direct report into the Chief Scientist of this (at the time psychology and) machine learning start-up in London, 
+      Joining as the first direct report into the Chief Scientist of this machine learning start-up in London, 
       I was responsible for data collection and cleaning, ML model building (NLP, computer vision) and putting
       models into production (Python + ML frameworks such as TensorFlow, Keras, spaCy).  
     `

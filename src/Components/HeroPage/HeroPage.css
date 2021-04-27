@@ -73,8 +73,9 @@
   -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
   -o-transition: background-color 1s;
   transition: background-color 1s; /* For modern browsers */
+  cursor: pointer;
 }
-.menu-item:hover {
+.menu-item:hover, .menu-item:active {
   background-color: rgba(78, 27, 52, 0.5); /*rgba(13, 131, 131, 0.5);*/
 }
 .menu-underline {
@@ -144,6 +145,8 @@
     left: 0px;
     top: 80px;
     transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
   }
 }
 
@@ -208,6 +211,8 @@
   #header-viz-container {
     top: 100px;
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
   }
   .menu-item {
     margin-right: 0px;
@@ -230,6 +235,8 @@
     left: 10px;
     top: 60px;
     transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
   }
   .name {
     font-size: 50px;

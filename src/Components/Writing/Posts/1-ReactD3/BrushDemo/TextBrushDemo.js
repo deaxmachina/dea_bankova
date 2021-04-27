@@ -16,9 +16,9 @@ const TextBrushDemo = () => {
         modular and neat, you can isolate the brush into its own component as well. (Refer to the link to the full code pen above to see what I'm talking about here.)
       </li>
       <li>
-        We use state <code className="code">const [selectedIndex, setSelectedIndex] = useState(0)</code> to <span className="post__highlighted-text">manage keep track of which element has been brushed</span> in
-        the <code className="code">BrushableComponent</code>, so that we can pass this information to <code className="code">DisplayComponent</code>
-        which can in turn update the selected circle. 
+        We use state <code className="code">const [selectedIndex, setSelectedIndex] = useState(0)</code> to <span className="post__highlighted-text">keep track of which element has been brushed</span> in
+        the <code className="code">BrushableComponent</code>, so that we can pass this information to <code className="code">DisplayComponent</code> which
+        can in turn update the selected circle. 
         For <code className="code">BrushableComponent</code>, we pass the setter <code className="code">setSelectedIndex</code> as a prop because we want to pass 
         the index of the selected circle in this component through the use of d3-brush. 
         For <code className="code">DisplayComponent</code>, we pass the actual value <code className="code">selectedIndex</code> as a prop, so as to display the 

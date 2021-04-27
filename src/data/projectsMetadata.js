@@ -167,6 +167,7 @@ const projectsMetadata = [
         the <a href="https://japan-olympicmuseum.jp/en/" style={{color: "#A62343"}} className="link-project" target="_blank">Olympics Museum in Tokyo</a>.
         The target audience was secondary school students in schools all around Japan. 
       </p>
+      <br />
       <p>
         The questions and accompanying visualisations serve the purpose of cues for group discussions among 
         the students before they visit the museum and aim to bring up important topics around the history 

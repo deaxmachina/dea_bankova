@@ -51,6 +51,7 @@
   background-color: var(--lightGreyColour);
   margin: auto;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 .panel-left__text {
   text-align: left;
@@ -121,10 +122,19 @@
   color: var(--textDarkColour);
   padding-top: 30px;
   padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 0px;
 }
 #portfolio-showcase__text-decoration {

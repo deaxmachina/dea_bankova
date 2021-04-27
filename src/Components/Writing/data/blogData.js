@@ -14,7 +14,7 @@ const blogData = [
       I recently completed a 100 Days of Code challenge with React and D3 and I wanted to share my thoughts 
       on the two main approaches for combining these frameworks, both of which are designed to control the 
       DOM in their own way. We will compare these approaches and go in depth into a couple of examples 
-      --bar chart, tooltips, d3-force and d3-brush--, focusing specifically on the style I have tended to
+      --bar chart, tooltips, d3-force and d3-brush--, focusing specifically on the option I have tended to
       prefer, which uses the useEffect and useRef React hooks to hand over DOM access to D3.
      </>
   },

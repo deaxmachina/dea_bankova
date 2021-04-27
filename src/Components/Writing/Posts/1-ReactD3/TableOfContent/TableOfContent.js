@@ -21,8 +21,8 @@ const TableOfContents = () => {
            <ul>
             <li><Link to="#simple-barchart-both" className="post__toc-link">Simple bar chart in both ways</Link></li>
             <li><Link to="#tooltip-both" className="post__toc-link">Tooltip in both ways</Link></li>
-            <li><Link to="#force-with-react" className="post__toc-link">Force graph, the D3 DOM way (useEffect + useRef) way</Link></li>
-            <li><Link to="#brushing-with-react" className="post__toc-link">Brushing, the D3 DOM way (useEffect + useRef) way</Link></li>
+            <li><Link to="#force-with-react" className="post__toc-link">Force graph, the D3 way (useEffect + useRef) way</Link></li>
+            <li><Link to="#brushing-with-react" className="post__toc-link">Brushing, the D3 way (useEffect + useRef) way</Link></li>
             </ul>
           </li>
 

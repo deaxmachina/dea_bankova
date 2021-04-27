@@ -65,8 +65,10 @@
   border: none;
   font-size: 20px;
   color: white;
+  /* currently these break firefox
   -webkit-filter: url(#static-noise);
   filter: url(#static-noise);
+  */
 }
 .portfolio-grid-btn:hover {
   opacity: 0.8;

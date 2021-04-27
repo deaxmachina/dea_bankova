@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 //import { Link } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -7,10 +7,9 @@ const HeroMenu = () => {
   return (
     <>
       <div id="hero-menu-container">
-        <Link to="portfolio"><div className="menu-item">projects</div></Link>
+        <Link to="portfolio"><div className="menu-item">portfolio</div></Link>
         <Link to="/about"><div className="menu-item">about</div></Link>
         <Link to="/writing"><div className="menu-item">writing</div></Link>
-        {/*<div className="menu-item">writing</div>*/}
         <Link to="#contact-page"><div className="menu-item">contact</div></Link>
       </div >
       

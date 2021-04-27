@@ -29,8 +29,7 @@ const Section1 = () => {
           You have probably already heard that the main challenge of combining D3 and React is that 
           they <span className="post__emph-text">both compete for control over the DOM</span>. In 
           other words, both React and D3 come with their own "capabilities" for manipulating 
-          the DOM, with their own pros and cons, and optimisations. D3 came before React (It recently celebrated its 10th 
-          anniversary in fact!) and other modern frameworks such as Vue, and so, granted, it was not created with their existence 
+          the DOM, with their own pros and cons, and optimisations. D3 came out just before React and other modern frameworks such as Vue, and so, granted, it was not created with their existence 
           in mind. So, what should you do? 
           <br />
           <br />
@@ -105,7 +104,7 @@ const Section1 = () => {
       <div id="pros-of-both">
         <h3 className="post-template__section-subtitle">Pros of both, or why use React with D3 in the first place</h3>
         <p className="post-template__single-col-para">
-          You might be wondering if there is any point in using React with D3 if you are going to go with the 
+          You might be wondering if there is any point in using React with D3, especially if you are going to go with the 
           ‘chuck everything in a useEffect’ approach. That depends (don't you love hearing that phrase!) 
           on the way that your brain works, on your project requirements, on what you are trying to learn or achieve. 
           If you have no external constraints 

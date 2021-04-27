@@ -8,7 +8,7 @@ const WritingTopText = () => {
         <div className="title-text large-text highlight-dark-background" id="writing__title-text">Writing</div>
       </div>
       <div className="body-text-normal writing__explanation" >
-        I plan to write occassionally: <span>tutorials</span>, <span>data visualsiation</span>, <span>other (musings, research, etc.)</span>
+        I plan to write occasionally: <span>tutorials</span>, <span>data visualisation</span>, <span>other (musings, research, etc.)</span>
       </div>
     </>
   )

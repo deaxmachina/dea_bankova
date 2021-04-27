@@ -31,10 +31,10 @@ const Section2 = () => {
           </p>
         </div>
         
-        <h3 id="force-with-react" className="post-template__section-subtitle">Force graph, the D3 DOM way (useEffect + useRef) way</h3>
+        <h3 id="force-with-react" className="post-template__section-subtitle">Force graph, the D3 way (useEffect + useRef) way</h3>
         <CodeForceDemo />
 
-        <h3 id="brushing-with-react" className="post-template__section-subtitle">Brushing, the D3 DOM way (useEffect + useRef) way</h3>
+        <h3 id="brushing-with-react" className="post-template__section-subtitle">Brushing, the D3 way (useEffect + useRef) way</h3>
         <CodeBrushDemo />
 
       </div>
