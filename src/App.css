@@ -12,7 +12,7 @@
   --textDarkColour: #0A1014;
   --maxWidthSections: 1800px;
   --textUnderlineColour: #B8B8B8;
-  --darkBackgroundColour: #151315; /* #151315 #1e1c1f */
+  --darkBackgroundColour: #1e1c1f; /* #151315 #1e1c1f */
 }
 body {
   background-color: var(--darkBackgroundColour);/* #161616; #E5E5E5;*/
