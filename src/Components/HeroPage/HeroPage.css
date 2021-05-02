@@ -68,7 +68,7 @@
 .menu-item {
   padding: 10px;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 0px;
   cursor: default;
   -webkit-transition: background-color 1s; /* For Safari 3.0 to 6.0 */
   -o-transition: background-color 1s;
@@ -82,7 +82,7 @@
   background-color: var(--purpleColour);
   height: 10px;
   margin-left: 100px;
-  width: 408px;
+  width: 400px;
   -webkit-filter: url(#static-noise-hero);
   filter: url(#static-noise-hero);
   opacity: 1;
@@ -183,7 +183,7 @@
   }
   .menu-item {
     padding: 8px;
-    margin-right: 10px;
+    margin-right: 0px;
   }
   .name {
     line-height: 1.2;
