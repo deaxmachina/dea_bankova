@@ -37,10 +37,12 @@ const PortfolioShowcase = ({ windowWidth, windowHeight }) => {
         project={co2Emissions}
         windowWidth={windowWidth}
       />
+      {/* 
       <PortfolioShowcasePanelLeft 
         project={olympicsMuseum}
         windowWidth={windowWidth}
       />
+      */}
       <PortfolioShowcaseSeeMoreSeeMore />
     </section>
   )

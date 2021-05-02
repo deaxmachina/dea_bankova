@@ -12,7 +12,7 @@ const About = ({ windowWidth, windowHeight }) => {
   return (
     <section id="about__page-container" >
       {/*<h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>*/}
-      <HomeLink color="#B8B8B8" />  
+      <HomeLink color="#ebebeb" />  
       <div id="about__about-container">          
         <AboutPhotoDecoration
             scaleFactor={ 

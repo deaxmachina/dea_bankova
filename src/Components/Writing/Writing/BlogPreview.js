@@ -37,6 +37,9 @@ const BlogPreview = ({ post }) => {
         </Link>
         <p className="blog-preview-date">{post.date}</p>
         <p className="blog-preview-summary">{post.description}</p>
+        <Link to={`/writing/${post.id}`} >
+          <button className="blog-preview-btn" style={{backgroundColor: categoryColourMap[post.category]}}>read more</button>
+        </Link>
       </div>
     </div>
   )

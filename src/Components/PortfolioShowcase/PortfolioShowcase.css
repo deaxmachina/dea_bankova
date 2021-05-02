@@ -165,9 +165,10 @@
   background-color: var(--lightGreyColour);
   color: var(--textDarkColour);
   cursor: pointer;
+  font-weight: 500;
 }
 #portfolio-showcase__seemore:hover {
-  color: var(--blueColour);
+  color: var(--purpleColour);
 }
 #portfolio-showcase__seemore-arrow {
   font-size: 35px;

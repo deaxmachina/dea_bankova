@@ -13,7 +13,7 @@ const Writing = ({ windowWidth, windowHeight }) => {
     <>
     <section id="writing__page-container" >
       {/*<h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>*/}
-      <HomeLink color="#B8B8B8" />  
+      <HomeLink color="#ebebeb" />  
       <div id="writing__content-container">          
         <WritingTopText />
         <WritingsContainer>
