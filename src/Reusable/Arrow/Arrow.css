@@ -14,5 +14,5 @@
   z-index: 2;
   font-size: 62px;
   color: var(--lightPurpleColour);
-  padding: 15px;
+  padding: 15px 5px 15px 15px;
 }
