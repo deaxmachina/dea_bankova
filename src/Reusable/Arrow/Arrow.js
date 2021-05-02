@@ -10,9 +10,7 @@ const Arrow = ({ linkto }) => {
   return (
     <>
       <Link to={linkto} > 
-        <div className="arrow__container" >
-          <FontAwesomeIcon icon={faChevronUp} className="arrow-up" /> 
-        </div>
+        <FontAwesomeIcon icon={faChevronUp} className="arrow-up" /> 
       </Link>   
     </>
   )

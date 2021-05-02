@@ -1,11 +1,17 @@
+/*
 .arrow__container {
   position: fixed;
   bottom: 10px;
   right: 10px;
   z-index: 2;
 }
+*/
 
 .arrow-up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
   font-size: 62px;
   color: var(--lightPurpleColour);
   padding: 15px;
