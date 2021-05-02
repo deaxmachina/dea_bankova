@@ -14,7 +14,7 @@
 /*************** About Section *****************/
 /***********************************************/
 #about__about-container {
-  width: 77%;
+  width: 79%;
   color: var(--lightGreyColour);
   margin: auto;
   margin-bottom: 50px;
@@ -28,7 +28,7 @@
   margin-left: 0%;
   margin-right: 50%;
   padding: 20px;
-  max-height: 530px;
+  /*max-height: 530px;*/
   overflow: auto;
   background-color: rgba(255,255,255,0.01);
   border-top: 7px solid rgba(255,255,255,0.01);
@@ -37,7 +37,7 @@
 #about__about-photo {
   position: absolute;
   top: 50px;
-  left: 53%;
+  right: 26%;
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1);
@@ -148,10 +148,10 @@
 /************************************************/
 @media(max-width: 1200px) {
   #about__about-text {
-    height: 500px;
+    /*height: 500px;*/
   }
 }
-@media(max-width: 900px) {
+@media(max-width: 1000px) {
   #about__page-container {
     padding-top: 20px;
   }
@@ -168,8 +168,8 @@
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 370px;
-    padding-bottom: 70px;
-    height: 600px;
+    /*padding-bottom: 70px;*/
+    /*height: 600px;*/
   }
   #about__about-triangle {
     border-bottom: 100px solid var(--purpleColour);
@@ -190,7 +190,7 @@
   #about__about-text {
     margin-top: 270px;
     margin-bottom: 70px;
-    height: 800px;
+    /*height: 800px;*/
   }
 }
 
