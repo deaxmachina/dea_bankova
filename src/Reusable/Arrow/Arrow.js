@@ -9,11 +9,11 @@ const Arrow = ({ linkto }) => {
 
   return (
     <>
-      <div className="arrow__container" >
-        <Link to={linkto} > 
+      <Link to={linkto} > 
+        <div className="arrow__container" >
           <FontAwesomeIcon icon={faChevronUp} className="arrow-up" /> 
-        </Link>   
-      </div>
+        </div>
+      </Link>   
     </>
   )
 };
