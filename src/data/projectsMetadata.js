@@ -192,12 +192,12 @@ const projectsMetadata = [
     description: 
     <>
       <p>
-        In 2020, I started my data visualization journey into D3.js. Simultaneously, I was teaching 
+        In 2020, I started my data visualisation journey into D3.js. Simultaneously, I was teaching 
         myself React, while using it in real projects. I set aside time almost every day for 100 
         days to dedicate to my 100 Days of Code with D3 & React challenge, completing a variety of 
         charts and custom visuals. I focused on either representing data which I deem (socially) 
         important or on creating pieces which are fun and experimental. This website contains all 
-        the stand-alone visualisations that I completed during this time. 
+        the stand-alone visualisations that I completed during that time. 
       </p>
     </>
   },

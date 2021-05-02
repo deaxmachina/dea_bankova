@@ -8,8 +8,8 @@ const aboutString =
   </p>
   <br />
   <p>
-    I have worked in both industry and academia and have a background in mathematics and machine learning. While my 
-    focus is on data visualisation, I can engage in the end-to-end or part of the process of working with data - 
+    I have worked in both industry and academia, and have a background in mathematics and machine learning. While my 
+    focus is on data visualisation, I can engage in the end-to-end process of working with data - 
     posing a question, extracting insight, designing the visual representation, and finally coding it all up. 
     My technical stack includes Python for data analysis, JavaScript and React for front-end, and D3.js for building custom visualisations. 
   </p>
