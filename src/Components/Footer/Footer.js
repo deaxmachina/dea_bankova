@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = ({ colorCustom, backgroundColorCustom }) => {
   return (
-    <div id="footer" style={{ color: colorCustom, backgroundColor: backgroundColorCustom }}>
+    <div className="footer" style={{ color: colorCustom, backgroundColor: backgroundColorCustom }}>
       <div className="footer__container">
 
         <div className="footer__social-container">

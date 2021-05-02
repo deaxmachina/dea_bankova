@@ -24,7 +24,14 @@ const Writing = ({ windowWidth, windowHeight }) => {
           }
         </WritingsContainer>
       </div>
-      <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
+      {/* this div that wraps the footer is just temp while there is only one post, so that 
+      the footer can be pushed to the bottom of the page; height of the page is also set to min 100vh;
+      remove this style when more posts appear
+       */}
+      <div style={{position: 'absolute', bottom: 0, left: 0, width: '100%'}}>
+        <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
+      </div>
+      
     </section>
     </>
 

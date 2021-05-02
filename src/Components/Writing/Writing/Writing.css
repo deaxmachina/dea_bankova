@@ -13,6 +13,7 @@
   padding-top: 50px;
   background-color: var(--writing-dark-colour);
   overflow: hidden; /* TODO: this is a hack; should check why there is an overflow at below 600px*/
+  min-height: 100vh;
 }
 
 /***********************************************/
