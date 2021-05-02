@@ -2,8 +2,8 @@
   max-width: var(--maxWidthSections);
   margin: auto;
   position: relative;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 /*************************************************/
@@ -145,6 +145,10 @@
 }
 
 @media(max-width: 500px) {
+  #contact-page {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
   #contact__contact-container {
     width: 100%;
   }
