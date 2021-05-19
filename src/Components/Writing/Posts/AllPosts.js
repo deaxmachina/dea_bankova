@@ -1,4 +1,5 @@
 import PostReactD3 from "./1-ReactD3/1-ReactD3";
+import PostSVGShapes from "./2-SVGShapes/2-SVGShapes";
 import { Route } from 'react-router-dom'; 
 
 
@@ -13,18 +14,11 @@ const AllPosts = () => {
           <PostReactD3 />
         )}
       />
-      {/*
-        <Route path={`/writing/placeholder-title1`} exact
-          render={ props => (
-            <PostReactD3 />
-          )}
-        />
-        <Route path={`/writing/placeholder-title2`} exact
-          render={ props => (
-            <PostReactD3 />
-          )}
-        />
-       */}
+       <Route path={`/writing/svg-shapes`} exact
+        render={ props => (
+          <PostSVGShapes />
+        )}
+      />
     </>
   )
 };

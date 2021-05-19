@@ -11,6 +11,19 @@ const visualisationsMetadata = [
     responsibleFor: 'data preparation, visualisation, website',
     tools: 'D3.js, Python',
     description: ""
+  },
+  {
+    id: 'words-lifetime', 
+    title: "Words we say in a lifetime - scrollytelling",
+    websiteUrl: "https://lifetimeofwords.netlify.app/",
+    imgUrl: 'https://live.staticflickr.com/65535/51182741664_87330e57a0_o.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51182741664_87330e57a0_o.jpg',
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png",
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png',
+    backgroundColour: "#805880",
+    responsibleFor: 'data preparation, visualisation, website',
+    tools: 'D3.js, GSAP, Python',
+    description: ""
   }
 ]
 export default visualisationsMetadata; 
