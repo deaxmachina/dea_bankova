@@ -5,7 +5,7 @@ const CatsText = () => {
   return (
     <div>
       <div>
-       Have a look at the complete code here <a href="https://codesandbox.io/s/react-bar-chart-demo-bnht8" target="_blank" className="post__link">[code sandbox]</a>
+       Have a look at the complete code here <a href="https://codesandbox.io/s/cats-force-84rly" target="_blank" className="post__link">[code sandbox]</a>
       </div>
       <br />
       <ul className="post__list-in-body">

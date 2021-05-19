@@ -28,7 +28,7 @@ const Introduction = () => {
         This is perfect if you’re not an SVG guru but would like to add some fun, context or personality to your D3 visualisation. 
         You can 
         use <a href="https://fontawesome.com/" className="post__link" target="_blank">Font Awesome</a>, <a href="https://www.flaticon.com/" className="post__link" target="_blank">flaticon</a>, or 
-        any other appropriate SVG shapes that you find. Just make sure to give attribution if you’re using free SVG shapes. 
+        any other appropriate SVG shapes that you find. Just make sure to give attribution if you’re using free SVGs. 
         Let’s have a look at how you can do this with the use of a couple of simple examples.  
         </p>
       </div>

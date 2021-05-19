@@ -14,7 +14,7 @@ const Section1Start = () => {
           Let's start by looking at a simple example, namely one where the SVG shape you've found or created consists of only one path. 
           We'll take 
           a <a href="https://www.flaticon.com/free-icon/cookie_629516" className="post__link" target="_blank">cookie shape</a> from 
-          flaticon. This works the same way no matter where you got the SVG from, but I will describe this particular scenario in detail.
+          flaticon. This works the same way no matter where you got the SVG from, but we will consider this particular scenario in detail.
           <br /><br />
           <span className="post__highlighted-text">Step 1: Obtain the SVG</span> - The screenshot below is only relevant to flaticon. 
           To download an SVG from flaticon, simply click on the "svg" button and then select which type of download you want. 
@@ -22,7 +22,7 @@ const Section1Start = () => {
           <br />
 
           <span className="post__highlighted-text">Step 2: Open the SVG in a browser</span> - This is the easiest way to get the html code 
-          behind the SVG. If you open the SVG in Chrome, you can click on "View Page Source"
+          behind the SVG. If you open the SVG in Chrome, you can click on "View Page Source". You could also open the SVG in a text editor like Sublime Text. 
           <div className="cookie-browser-img"></div>
           <br />
 
