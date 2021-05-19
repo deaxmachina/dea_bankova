@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 
-
 const catPaths = [
   {
     path: `m176 488h-8c-75.1 0-136-78.8-136-176 0-56 56-200 56-224 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-26.5 21.5-48 48-48s48 21.5 48 48c0 24-56 168-56 224 0 70.7 39.4 128 88 128z`,
@@ -50,30 +49,33 @@ const data = Array.from({ length: numCats }, (_, i) => ({
 }))
 
 
-const Scatter = () => {
+const CatsViz = ({ windowWidth }) => {
 
-  const width=570;
-  const height=570;
+  //const width=450;
+  const height = 450;
+  const catsScale = 0.07;
+  //const catsRadius = 150;
 
   const svgRef = useRef();
   
   useEffect(() => {
 
+    let width;
+    let catsRadius; 
+    if (windowWidth >= 550) {
+      width = 480;
+      catsRadius = 150;
+    } else {
+      width = 300;
+      catsRadius = 120;
+    }
+
     const svg = d3.select(svgRef.current)
       .attr("width", width)
       .attr("height", height)
 
-    /*
-    const paths = svg.selectAll(".cat-part")
-      .data(catPaths)
-      .join("path")
-      .classed('cat-part', true)
-        .attr("d", d => d.path)
-        .attr("fill", d => d.fill)
-    */
-
-    const catsG = svg.append("g")
-      .attr("transform", `translate(${width/3}, ${height/3})`)
+    const catsG = svg.selectAll("g").data([0]).join("g")
+      .attr("transform", `translate(${width/2}, ${height/2})`)
         
     const cats  = catsG
       .selectAll(".cat-path-g")
@@ -82,7 +84,7 @@ const Scatter = () => {
         .classed('cat-path-g', true)
 
     cats.selectAll('.cat-path')
-      .data(d => d.catPaths)
+      .data(catPaths)
       .join("path")
         .classed("cat-path", true)
         .attr("d", d => d.path)
@@ -91,18 +93,18 @@ const Scatter = () => {
     
     const simulation = d3.forceSimulation(data)
         .on("tick", () => {
-          cats.attr("transform", d => `scale(${0.5})translate(${d.x}, ${d.y})`)
+          cats.attr("transform", d => `scale(${catsScale})translate(${d.x}, ${d.y})`)
         })
-        .force("collide", d3.forceCollide().radius(20))
+        .force("collide", d3.forceCollide().radius(catsRadius))
 
-  }, [])
+  }, [windowWidth])
 
   return (
-    <div>
+    <div id="cats-viz-container">
       <svg ref={svgRef}>
       </svg>
     </div>
   )
 };
 
-export default Scatter;
+export default CatsViz;

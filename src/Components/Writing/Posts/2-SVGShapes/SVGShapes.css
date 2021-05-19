@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+.spiral-img {
+  min-height: 400px;
+  max-height: 600px;
+  background: url("https://live.staticflickr.com/65535/51188912351_787637b9e0_o.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  margin-bottom: 50px;
+}
+
+.cookie-path-img {
+  min-height: 300px;
+  max-height: 600px;
+  background: url("https://live.staticflickr.com/65535/51188160622_6636c13c4e_o.png");
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.cookie-browser-img {
+  min-height: 400px;
+  max-height: 600px;
+  background: url("https://live.staticflickr.com/65535/51189930815_4f6d4a1c0f_o.png");
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.cookie-source-img {
+  min-height: 300px;
+  max-height: 600px;
+  background: url("https://live.staticflickr.com/65535/51189930845_b27453fd31_o.png"); 
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.cat-path-img {
+  min-height: 300px;
+  max-height: 600px;
+  background: url("https://live.staticflickr.com/65535/51189515554_c2a0d5ac42_o.png");
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.cat-mass-img {
+  min-height: 400px;
+  max-height: 600px;
+  background: url("https://live.staticflickr.com/65535/51188053257_b4bea4e35e_o.png");
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+
+/****************** The End Text *********************/
+.the-end {
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #f78a25;
+}
+
+/***************** Viz Containers *******************/
+#cookies-viz-container, #cats-viz-container {
+  margin: auto;
+  text-align: center;
+}
+

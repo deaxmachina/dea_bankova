@@ -23,15 +23,15 @@ const blogData = [
     title: "SVG Shapes in Visualisations",
     date: 'May 2021',
     category: 'dataviz',
-    imgUrl: 'https://live.staticflickr.com/65535/51124680829_f6bc2a8b08_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51124680829_f6bc2a8b08_o.png',
+    imgUrl: 'https://live.staticflickr.com/65535/51188912351_787637b9e0_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51188912351_787637b9e0_o.png',
     description: 
      <>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Using more complex SVG shapes as markers in your visualisations can be surprisingly simple. Whether 
+      that’s adding shapes that correspond to your data (flowers, emoji, planets… the possibilities are endless) 
+      or using abstract shapes to make your viz more interesting. In this tutorial, we go over a straightforward 
+      way to add SVGs from websites such as flaticon or Font Awesome to your D3 viz. You can extend the same approach 
+      to work with shapes you create in Figma, Adobe Illustrator, or anything you like. 
      </>
   },
 ];
