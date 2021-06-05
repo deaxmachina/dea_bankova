@@ -1,6 +1,42 @@
 
-
 const projectsMetadata = [
+  {
+    id: 'covid-news-timeline-japan', 
+    title: "Covid-19 Timeline in Japan",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    imgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51226514274_36a7971232_o.png',
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png",
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
+    backgroundColour: "#2B505F",
+    responsibleFor: 'NLP, visualisation, website',
+    tools: 'D3.js, GSAP, Python',
+    client: <em>individual research project at the University of Tokyo</em>,
+    description: 
+    <>
+      <span style={{
+          "backgroundColor": "#F55F58",
+          "padding": "1px 7px 3px 7px",
+          "fontWeight": "bold"
+      }}>Important</span> This project is work in progress. 
+      <br/><br/>
+
+        The aim of this project is to document the development of the Covid-19 pandemic in Japan, starting from 
+        Dec 2019 and running until Dec 2021 (planned), primarily via the use of news headlines. 
+
+        The data is 
+        from <a style={{color: "#2B505F"}} className="link-project" target="blank" href="http://agora.ex.nii.ac.jp/crisis/covid-19/mass-media/">the Covid-19 News Analysis Database</a> by <a style={{color: "#2B505F"}} className="link-project" target="blank"  href="http://agora.ex.nii.ac.jp/~kitamoto/">Prof Asanobu Kitamoto</a>; articles from Yahoo! Japan. 
+
+        The current text on the page is a description of visuals functionality, while the final version will be a mix of results reporting 
+        and descriptive text. The final version language is planned to be Japanese, possibly with an English translation. 
+        Methodology, links to the analysis and further references/software used etc. will also be provided.   
+
+        <br/><br/>
+        The purpose of sharing this work before it is completed is for discussion and feedback. Please do not quote any results until 
+        it has been officially published. 
+    </>
+        
+  },
   {
     id: 'anime-timeline', 
     title: "Timeline of Anime",
