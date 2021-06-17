@@ -25,6 +25,32 @@
 
 
 /*************************************/
+/******** Observable Notebooks *******/
+/*************************************/
+.observable-container {
+  width: 65%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.observable-container button {
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: var(--blueColour);
+  border: none;
+  padding: 10px 15px;
+  color: var(--lightColour);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.observable-container button:hover, .observable-container button:active {
+  background-color: #286380;
+}
+
+
+/*************************************/
 /**********  Portfolio Grid **********/
 /*************************************/
 .portfolio-grid {
@@ -156,17 +182,17 @@
 /*************  Media  ***************/
 /*************************************/
 @media(max-width: 1300px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 70%;
   }
 }
 @media(max-width: 1200px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 75%;
   }
 }
 @media(max-width: 1100px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 80%;
   }
   .portfolio-grid-entry {
@@ -174,7 +200,7 @@
   }
 }
 @media(max-width: 1000px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 85%;
   }
   .portfolio-grid-entry {
@@ -182,7 +208,7 @@
   }
 }
 @media(max-width: 900px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 90%;
   }
   .portfolio-grid-entry {
@@ -190,7 +216,7 @@
   }
 }
 @media(max-width: 800px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 85%;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -199,7 +225,7 @@
   }
 }
 @media(max-width: 700px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 90%;
   }
   .portfolio-grid-entry {
@@ -207,7 +233,7 @@
   }
 }
 @media(max-width: 600px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 95%;
   }
   .portfolio-grid-entry {
@@ -215,7 +241,7 @@
   }
 }
 @media(max-width: 500px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 95%;
   }
   .portfolio-grid-entry {
@@ -226,7 +252,7 @@
   }
 }
 @media(max-width: 450px) {
-  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles {
+  .portfolio-grid, #portfolio__projects-container-styles, #portfolio__standalone-container-styles, .observable-container {
     width: 95%;
     grid-template-columns: repeat(1, 1fr);
   }
