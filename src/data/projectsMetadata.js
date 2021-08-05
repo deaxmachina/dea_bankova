@@ -1,6 +1,29 @@
 
 const projectsMetadata = [
   {
+    id: 'i-dont-like-you', 
+    title: "Racist and Religious Hate Crime in London - data art",
+    websiteUrl: "https://deaxmachina.github.io/hatecrime_uk_p5/",
+    imgUrl: 'https://live.staticflickr.com/65535/51359070135_7aaf27802e_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51359070135_7aaf27802e_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
+    backgroundColour: "#51AF98",
+    responsibleFor: 'everything',
+    tools: 'p5.js',
+    client: <em>personal project</em>,
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+      I created this personal project as a submission to the p5.js 2021 showcase in July 2021. I wanted to 
+      express with data art both the existing and the missing numbers behind the seemingly growing problem 
+      of racist hate crime in the UK, and here specifically in London. All the code, including the analysis, 
+      is open-source and can be found on the project site itself.  
+    </p>
+    </> 
+  },
+  {
     id: 'tdb-companies-graph', 
     title: "Company Business Relationships Graphs",
     websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
