@@ -1,0 +1,113 @@
+.tdb-project-description-container {
+  position: relative;
+  max-width: var(--maxWidthSections);
+  margin: 0 auto;
+  padding-bottom: 50px;
+  background: #2E2F34;
+}
+
+.tdb-project-description-content {
+  width: 80%;
+  margin: auto;
+}
+
+.tdb-project-description-content h2 {
+  margin-bottom: 40px;
+  padding: 25px;
+  padding-top: 40px;
+  border-bottom: 2px solid #645481;
+  text-align: center;
+  font-family: 'Della Respira', serif;
+  font-size: 28px;
+}
+
+.tdb-project-description-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tdb-project-description-part1 p {
+  flex: 1;
+}
+
+.tdb-project-description-part1 img {
+  flex: 1;
+  width: 100%;
+  max-width: 650px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.tdb-project-description-part2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tdb-project-description-part2 img {
+  width: 80%;
+  margin: 20px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+.tdb-project-description-part3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.tdb-project-description-part3 img {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+}
+
+@media(max-width: 1300px) {
+  .tdb-project-description-part1.gif1, .tdb-project-description-part1.gif2 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: auto; 
+  }
+  .tdb-project-description-part1.gif2 {
+    flex-direction: column;
+  }
+  .tdb-project-description-part1 img {
+    margin-left: 0;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+  .tdb-project-description-part1 p {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 900px) {
+  .tdb-project-description-part1.gif1, .tdb-project-description-part1.gif2 {
+    width: 100%;
+  }
+  .tdb-project-description-content {
+    width: 90%;
+  }
+  .tdb-project-description-part2 img {
+    width: 100%;;
+  }
+}
+
+
+@media(max-width: 600px) {
+  .tdb-project-description-part1 {
+    width: 95%;
+  }
+}

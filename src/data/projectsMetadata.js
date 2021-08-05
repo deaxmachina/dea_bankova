@@ -1,6 +1,22 @@
 
 const projectsMetadata = [
   {
+    id: 'tdb-companies-graph', 
+    title: "Company Business Relationships Graphs",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51357233690_2b36cecb8d_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51357343970_793204f10f_o.png',
+    backgroundColour: "#62488F",
+    responsibleFor: 'visualisation, website',
+    tools: 'D3.js, HTML5 Canvas, React.js, Python',
+    client: <em> Teikoku Databank, Ltd. 株式会社 帝国データバンク</em>,
+    standardLayout: false, 
+    description: 
+    <></> 
+  },
+  {
     id: 'covid-news-timeline-japan', 
     title: "Covid-19 Timeline in Japan",
     websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
@@ -12,6 +28,7 @@ const projectsMetadata = [
     responsibleFor: 'NLP, visualisation, website',
     tools: 'D3.js, GSAP, Python',
     client: <em>individual research project at the University of Tokyo</em>,
+    standardLayout: true, 
     description: 
     <>
       <span style={{
@@ -49,6 +66,7 @@ const projectsMetadata = [
     responsibleFor: 'data preparation, visualisation, website',
     tools: 'D3.js, React, Python',
     client: <em>personal project</em>,
+    standardLayout: true, 
     description: 
     <>
       <p>
@@ -91,6 +109,7 @@ const projectsMetadata = [
     responsibleFor: 'data preparation, visualisation, website',
     tools: 'D3.js, React, GSAP, Python',
     client: <>individual project while at <em>the University of Tokyo</em></>,
+    standardLayout: true, 
     description:
     <>
       <p>
@@ -109,13 +128,14 @@ const projectsMetadata = [
     title: "Tohoku Earthquake 10th Anniversary Archive",
     websiteUrl: "https://311narratives.archiving.jp",
     imgUrl: "https://live.staticflickr.com/65535/51100202969_ab9cbb0a93_o.png",
-    smallImgUrl: "https://live.staticflickr.com/65535/51100202969_ab9cbb0a93_o.png",
+    smallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
     individualPageImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
     backgroundColour: "#222E3A",
     responsibleFor: 'data analysis, NLP, visualisation, website',
     tools: 'D3.js, React, Python (spaCy)',
     client: <><b>client:</b> <em>Iwate Nippo岩手日報</em></>,
+    standardLayout: true, 
     description:  
     <>
       <p>
@@ -165,6 +185,7 @@ const projectsMetadata = [
     responsibleFor: 'data preparation, visualisation, website',
     tools: 'D3.js, React, Python',
     client: <>for <em>2021 Climate Crisis AI Hackathon</em></>,
+    standardLayout: true, 
     description: 
     <>
       <p>
@@ -194,6 +215,7 @@ const projectsMetadata = [
     responsibleFor: 'data collection, visualisation, website',
     tools: 'D3.js, React, Rough.js, Python',
     client: <>for <em>the University of Tokyo</em></>,
+    standardLayout: true, 
     description:  
     <>
       <p>
@@ -225,6 +247,7 @@ const projectsMetadata = [
     responsibleFor: 'data preparation, visualisation',
     tools: 'D3.js, React, Python',
     client: <em>personal project</em>,
+    standardLayout: true, 
     description: 
     <>
       <p>

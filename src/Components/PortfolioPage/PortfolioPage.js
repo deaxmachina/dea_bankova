@@ -1,18 +1,18 @@
 import React from "react";
 import "./PortfolioPage.css";
+import TDBProject from "./TDBProject/TDBProject"
 
 // at what point should the image swich to the smaller one? 
 const minToChangeImage = 650; 
 
-//project.description.split ('\n').map ((item, i) => <><p key={i}>{item}</p><br /></>)
-
-const PortfolioPage = ({ project, windowWidth }) => {
+// What is used for most projects, unless they have a custom page 
+const PortfolioPageStandard = ({ project, windowWidth }) => {
   return (
     <>
-    <div className="portfolio-page__wrapper">
+    <div className='portfolio-page__wrapper'>
       <div className="portfolio-page__image-background" style={{backgroundColor: project.backgroundColour}}></div>
       <div className="portfolio-page__image" style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.individualPageImgUrl})` : `url(${project.individualPageSmallImgUrl})`}}></div>
-      <div className="portfolio-page__text body-text-normal">
+      <div className="portfolio-page__text body-text-normal" >
         <div className="portfolio-page__title-text large-text"><span>{project.title}</span></div>
         <div className="portfolio-page__view-btn-container noSelect">
           <a href={project.websiteUrl} target="_blank" className="portfolio-page__view-btn body-text-normal noSelect" style={{backgroundColor: project.backgroundColour, borderColor: project.backgroundColour}}>view</a>
@@ -37,6 +37,21 @@ const PortfolioPage = ({ project, windowWidth }) => {
       </div>
     </div>
     </>
+  )
+}
+
+const PortfolioPage = ({ project, windowWidth }) => {
+  return (
+    <>
+    { 
+      project.standardLayout 
+      ? <PortfolioPageStandard project={project} windowWidth={windowWidth}/>
+      : project.id === 'tdb-companies-graph' 
+      ? <TDBProject project={project} windowWidth={windowWidth} />
+      : null 
+     }
+  </>
+    
   )
 };
 

@@ -203,3 +203,8 @@
     width: 100px;
   }
 }
+
+/* For the TDB project page*/
+.tdb-image-full {
+  width: 100%;
+}
