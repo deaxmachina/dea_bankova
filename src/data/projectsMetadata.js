@@ -11,13 +11,17 @@ const projectsMetadata = [
     backgroundColour: "#51AF98",
     responsibleFor: 'everything',
     tools: 'p5.js',
-    client: <em>personal project</em>,
+    client: 
+    <>
+      <em>personal project</em> for 
+      the <a className="link-project" href="https://showcase.p5js.org/" target='_blank'>p5.js 2021 Showcase: The Love Ethic!</a> 
+    </>,
     standardLayout: true, 
     description: 
     <>
     <p>
-      I created this personal project as a submission to the p5.js 2021 showcase in July 2021. I wanted to 
-      express with data art both the existing and the missing numbers behind the seemingly growing problem 
+      I created this personal project as a submission to the p5.js 2021 Showcase in July 2021. 
+      I wanted to express with data art both the existing and the missing numbers behind the seemingly growing problem 
       of racist hate crime in the UK, and here specifically in London. All the code, including the analysis, 
       is open-source and can be found on the project site itself.  
     </p>
