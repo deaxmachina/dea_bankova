@@ -7,7 +7,7 @@
 }
 
 .tdb-project-description-content {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -26,6 +26,9 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  border-radius: 20px;
+  /* background-color: #62488F;
+  padding-left: 30px; */
 }
 
 .tdb-project-description-part1 p {
@@ -43,6 +46,7 @@
 .tdb-project-description-part2 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   width: 100%;
   margin: auto;
   align-items: center;
@@ -51,7 +55,7 @@
 }
 
 .tdb-project-description-part2 img {
-  width: 80%;
+  width: 45%;
   margin: 20px;
   border-radius: 0px;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
@@ -72,6 +76,13 @@
   height: 350px;
   margin: 5px;
 }
+
+.list-dashboard {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
 
 @media(max-width: 1300px) {
   .tdb-project-description-part1.gif1, .tdb-project-description-part1.gif2 {

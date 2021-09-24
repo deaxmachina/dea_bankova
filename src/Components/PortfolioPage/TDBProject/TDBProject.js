@@ -28,7 +28,7 @@ const TDBProject = ({ project, windowWidth }) => {
         </p>
         <br />
         <p>
-          On-going contract-based project with Teikoku Databank to build an interactive dashboard for 
+          Contract project with Teikoku Databank to build an interactive dashboard for 
           a large database of proprietary data about transactions between Japanese companies. 
           <br/><br/>
           I used React and D3 to pass along data to multiple components and make the dashboard as 
@@ -60,13 +60,15 @@ const TDBProject = ({ project, windowWidth }) => {
           interacts with. It also brings up a small dashboard on the side with more detailed information 
           about the company. 
         </p>
-        <img src="https://live.staticflickr.com/65535/51357153570_478cf4e15d_o.gif"></img>
+        <img src="https://live.staticflickr.com/65535/51510951480_0f68c632d6_o.gif"></img>
+        {/* <img src="https://live.staticflickr.com/65535/51357153570_478cf4e15d_o.gif"></img> */}
       </div>
 
       <div className="tdb-project-description-part2">
-        <img src="https://live.staticflickr.com/65535/51357233720_461fe011ca_o.png"></img>
-        <img src="https://live.staticflickr.com/65535/51357233690_2b36cecb8d_o.png"></img>
-        <img src="https://live.staticflickr.com/65535/51356220491_18a1c76c96_o.png"></img>
+        <img src="https://live.staticflickr.com/65535/51510292528_6aee71d7e0_o.png"></img>
+        <img src="https://live.staticflickr.com/65535/51510760069_ede085dae4_o.png"></img>
+        <img src="https://live.staticflickr.com/65535/51510975085_b413853c93_o.png"></img>
+        <img src="https://live.staticflickr.com/65535/51510278688_12e31835e1_o.png"></img>
       </div>
 
       <div className="tdb-project-description-part1 gif2">
@@ -78,7 +80,38 @@ const TDBProject = ({ project, windowWidth }) => {
           select how many of the topmost important interactions they want to display – the graph is 
           dynamically updated.
         </p>
-        <img src="https://live.staticflickr.com/65535/51356220526_00c8aba13b_o.gif"></img>
+        <img src="https://live.staticflickr.com/65535/51509218342_4b75cb72d4_o.gif"></img>
+      </div>
+
+
+      <h2>Summary Dashboard</h2>
+      <div className="tdb-project-description-part1 gif1">
+        <p>
+        Where the degree 2 companies with respect to the main company exceed a certain threshold, where it is no longer feasible to 
+        display the whole graph with all the company connections and information, we instead display a summary dashboard. 
+        The information on the dashboard includes: 
+        <ul className='list-dashboard'>
+          <li>
+            Industries that the selected company has a relationship with, represented as a circle packing – as the industry classification is 4 levels deep. 
+          </li>
+          <li>
+            Just the most granular level of industries that the company has a relationship with, represented as a bar chart that can be sorted either 
+            by number of companies or the total amount of transactions in that industry. 
+          </li>
+          <li>
+            Top 50 companies with the highest transaction amount. 
+          </li>
+          <li>
+            Map of Japan showing the prefectures of the companies’ HQ. 
+          </li>
+        </ul>
+        </p>
+        <img src="https://live.staticflickr.com/65535/51510794689_0fdf5bdaf3_o.gif"></img>
+      </div>
+
+      <div className="tdb-project-description-part2">
+        <img src="https://live.staticflickr.com/65535/51510795804_42c9b053d2_o.jpg"></img>
+        <img src="https://live.staticflickr.com/65535/51510311933_ebfa37c95b_o.jpg"></img>
       </div>
 
 
