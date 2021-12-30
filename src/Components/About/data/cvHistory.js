@@ -1,6 +1,17 @@
 const cvHistory = [
   {
     id: 0,
+    date: '2021 Nov - Present',
+    type: 'work',
+    title: 'Graphics Journalist',
+    workplace: 'Reuters News & Media',
+    location: 'London, UK',
+    details: `
+      I design and code data visualisations or other front-end elements to tell visually-driven stories @ graphics.reuters.com    
+    `
+  },
+  {
+    id: 1,
     date: '2020 Sep - 2021 Oct',
     type: 'work',
     title: 'Specially Appointed Researcher (Data Viz)',
@@ -8,12 +19,12 @@ const cvHistory = [
     location: 'Tokyo, Japan',
     details: `
       I joined the lab as part of the Daiwa program and was later on hired formally. 
-      While my title is researcher, I spend the bulk of my time on practical data viz development and 
+      While my title is researcher, I spent the bulk of my time on practical data viz development and 
       design and some on data analysis. Archiving and storytelling through data viz (e.g. Tohoku earthquake, Covid-19 in Japan).    
     `
   },
   {
-    id: 1,
+    id: 2,
     date: '2019 Sep - 2020 Jul',
     type: 'education',
     title: 'Japanese Language Program',
@@ -26,7 +37,7 @@ const cvHistory = [
     `
   },
   {
-    id: 2,
+    id: 3,
     date: '2018 Jan - 2019 Jul',
     type: 'work',
     title: 'Data Scientist / Machine Learning Engineer',
@@ -39,7 +50,7 @@ const cvHistory = [
     `
   },
   {
-    id: 3,
+    id: 4,
     date: '2016 Oct - 2017 Dec',
     type: 'work',
     title: 'Data Science Consultant',
@@ -52,7 +63,7 @@ const cvHistory = [
     `
   },
   {
-    id: 4,
+    id: 5,
     date: '2015 Sep - 2016 Oct',
     type: 'work',
     title: 'Technical Account Manager',
@@ -65,7 +76,7 @@ const cvHistory = [
     `
   },
   {
-    id: 5,
+    id: 6,
     date: '2014 Oct - 2015 Sep',
     type: 'education',
     title: 'MSc Mathematics & Foundations of Computer Science',
@@ -78,7 +89,7 @@ const cvHistory = [
     `
   },
   {
-    id: 6,
+    id: 7,
     date: '2011 Sep - 2014 Aug',
     type: 'education',
     title: 'BSc Mathematics',
