@@ -9,27 +9,27 @@ const minToChangeImage = 650;
 const PortfolioPopupStandard = ({ project, windowWidth, setSelectedProject }) => {
   return (
     <>
-    <div className='portfolio-portfolio__wrapper' id='popup'>
+    <div className='popup-portfolio__wrapper' id='popup'>
       <button className='btn-close' onClick={() => setSelectedProject(null)}>X</button>
-      <div className="portfolio-portfolio__text body-text-normal" >
-        <div className="portfolio-portfolio__title-text large-text"><span>{project.title}</span></div>
-        <div className="portfolio-portfolio__view-btn-container noSelect">
-          <a href={project.websiteUrl} target="_blank" className="portfolio-portfolio__view-btn body-text-normal noSelect" style={{backgroundColor: project.backgroundColour, borderColor: project.backgroundColour}}>view</a>
+      <div className="popup-portfolio__text body-text-normal" >
+        <div className="popup-portfolio__title-text large-text"><span>{project.title}</span></div>
+        <div className="popup-portfolio__view-btn-container noSelect">
+          <a href={project.websiteUrl} target="_blank" className="popup-portfolio__view-btn body-text-normal noSelect" style={{backgroundColor: project.backgroundColour, borderColor: project.backgroundColour}}>view</a>
         </div>
 
-        <p className="portfolio-portfolio__responsible-for-container">
-          <span className="portfolio-portfolio__bold-text">Responsible for: </span>
+        <p className="popup-portfolio__responsible-for-container">
+          <span className="popup-portfolio__bold-text">Responsible for: </span>
           <span>{project.responsibleFor}</span>
         </p>
-        <p className="portfolio-portfolio__tools-container">
-          <span className="portfolio-portfolio__bold-text">Tools: </span>
+        <p className="popup-portfolio__tools-container">
+          <span className="popup-portfolio__bold-text">Tools: </span>
           <span>{project.tools}</span>  
         </p>
-        <p className="portfolio-portfolio__client-container">
+        <p className="popup-portfolio__client-container">
           <span>{project.client}</span>
         </p>
         <br />
-        <p className="portfolio-portfolio__project-description-container">
+        <p className="popup-portfolio__project-description-container">
           {project.description}
         </p>
       </div>

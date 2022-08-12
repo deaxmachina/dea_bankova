@@ -6,7 +6,7 @@ import observable from './observable.svg'
 const ContactSocial = () => {
   return (
     <>
-      <div id="contact__social-container">
+      <div id="contact__social-container" style={{filter: "url(#static-noise-contact)"}}>
         <div id="contact__social-container-box">
           <a href="https://twitter.com/DeaBankova" target="_blank">
             <FontAwesomeIcon icon={faTwitter} className="contact__social-icon-s" id="contact__social-twitter-s" />

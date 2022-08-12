@@ -18,23 +18,23 @@
 /*********************************************/
 /*****************  Text  *********************/
 /*********************************************/
-#popup .portfolio-portfolio__text {
+#popup .popup-portfolio__text {
   margin: auto;
   text-align: left;
 }
-#popup .portfolio-portfolio__title-text {
+#popup .popup-portfolio__title-text {
   font-family: 'Della Respira', serif;
   margin-bottom: -10px;
   font-weight: 600;
   font-size: 28px;
 }
-#popup .portfolio-portfolio__responsible-for-container, #popup .portfolio-portfolio__tools-container {
+#popup .popup-portfolio__responsible-for-container, #popup .popup-portfolio__tools-container {
   margin-bottom: 10px;
 }
-#popup .portfolio-portfolio__bold-text {
+#popup .popup-portfolio__bold-text {
   font-weight: bold;
 }
-#popup .portfolio-portfolio__project-description-container {
+#popup .popup-portfolio__project-description-container {
 }
 
 
@@ -54,11 +54,11 @@
   cursor: pointer;
 }
 
-#popup .portfolio-portfolio__view-btn-container {
+#popup .popup-portfolio__view-btn-container {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-#popup .portfolio-portfolio__view-btn {
+#popup .popup-portfolio__view-btn {
   outline: none;
   padding: 10px 50px;
   width: 200px;
@@ -75,10 +75,10 @@
   transition: border 1s; 
   cursor: pointer;
 }
-#popup .portfolio-portfolio__view-btn:hover, #popup .portfolio-portfolio__view-btn:focus, #popup .portfolio-portfolio__view-btn:active {
+#popup .popup-portfolio__view-btn:hover, #popup .popup-portfolio__view-btn:focus, #popup .popup-portfolio__view-btn:active {
   color: var(--lightColour);
 }
-#popup .portfolio-portfolio__view-btn:hover {
+#popup .popup-portfolio__view-btn:hover {
   border: 6px solid white !important;
 }
 
@@ -86,30 +86,4 @@
 /*********************************************/
 /*********  Media Queries ********************/
 /*********************************************/
-
-/* iPad Pro */
-@media(max-width: 1050px){
-  #popup .portfolio-portfolio__view-btn {
-    margin-top: -25px;
-  }
-  #popup .portfolio-portfolio__view-btn-container {
-    margin-top: 0px;
-    margin-bottom: 35px;
-  }
-}
-
-
-@media(max-width: 500px) {
-  #popup .portfolio-portfolio__project-description-container {
-    padding: 0px 0px 0px 50px;
-  }
-}
-
-
-@media (min-aspect-ratio: 15/9)and (max-height: 600px) {
-  #popup .portfolio-portfolio__view-btn {
-    padding: 5px 30px;
-    width: 100px;
-  }
-}
 
