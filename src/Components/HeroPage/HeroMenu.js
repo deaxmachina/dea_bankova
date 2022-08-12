@@ -7,9 +7,9 @@ const HeroMenu = () => {
   return (
     <>
       <div id="hero-menu-container">
-        <Link to="portfolio"><div className="menu-item">portfolio</div></Link>
-        <Link to="/about"><div className="menu-item">about</div></Link>
-        <Link to="/writing"><div className="menu-item">writing</div></Link>
+        <Link to="portfolio"><div className="menu-item">portfolio</div></Link> 
+        <Link to="/resources"><div className="menu-item">resources</div></Link>
+        <Link to="/about"><div className="menu-item">CV</div></Link>
         <Link to="#contact-page"><div className="menu-item">contact</div></Link>
       </div >
       

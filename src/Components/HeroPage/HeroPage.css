@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 .personal-description {
-  font-size: 1.25em; /*1.25em;*/
+  font-size: 18px; /*1.25em;*/
   font-weight: 200;
   z-index: 2;
   overflow: hidden;
@@ -38,7 +38,7 @@
 #header-viz-container {
   position: absolute;
   top: 50px;
-  left: -100px;
+  left: -50px;
   width: 100%;
   text-align: right;
   z-index: -1;
@@ -48,7 +48,7 @@
 /***************************** Menu  *********************************/
 #hero-menu-container {
   margin-top: 40px;
-  width: 400px;
+  width: 340px;
   margin-left: 100px;
   color: var(--lightColour);
   font-size: 16px;
@@ -82,7 +82,7 @@
   background-color: var(--purpleColour);
   height: 10px;
   margin-left: 100px;
-  width: 400px;
+  width: 350px;
   -webkit-filter: url(#static-noise-hero);
   filter: url(#static-noise-hero);
   opacity: 1;

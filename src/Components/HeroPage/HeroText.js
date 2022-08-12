@@ -5,10 +5,12 @@ const HeroText = () => {
     <div id="hero-text-container" >
       <p className="greeting highlight-dark-background">Hi, I'm</p>
       <h1 className="name highlight-dark-background">Dea Bankova</h1>
+      <br/>
       <p className="personal-description highlight-dark-background">
-      I create visualisations to tell stories with data.  
-      Currently Graphics Journalist at Reuters.
-
+        I write code, design and build data visualisations and data-driven stories, 
+        and occasionally play with generative art. 
+        Currently Graphics Journalist at Reuters. 
+        Previously data visualisation at UTokyo and machine learning at Microsoft & start-up.
       </p>
     </div>
   )

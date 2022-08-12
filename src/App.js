@@ -9,7 +9,6 @@ import FrontPage from "./Components/FrontPage/FrontPage";
 import Writing from "./Components/Writing/Writing/Writing";
 import projectsMetadata from "./data/projectsMetadata";
 import AllPosts from "./Components/Writing/Posts/AllPosts";
-import JapanNewsCovidProject from "./Components/PortfolioFull/JapanNewsCovidProject";
 
 // listen for resize - you can leave this out of the functional component
 // lets you listen for the width and height dynamically
@@ -45,7 +44,7 @@ const App = () => {
               <About {...props} windowWidth={windowWidth} windowHeight={windowHeight} />
            )}
         />  
-        <Route path="/writing" exact
+        <Route path="/resources" exact
           render={ props => (
               <Writing {...props} windowWidth={windowWidth} windowHeight={windowHeight} />
            )}
@@ -64,12 +63,6 @@ const App = () => {
           />  
           ))
         }
-        {/* TEMPORARY - link to the demo of the WIP project about Yahoo Japan News */}
-        <Route path="/portfolio/japan-news-covid" exact
-          render={ props => (
-              <JapanNewsCovidProject {...props} windowWidth={windowWidth} />
-           )}
-        />
         <AllPosts/>
       </Switch>
     </Router>

@@ -9,12 +9,12 @@ import { Route } from 'react-router-dom';
 const AllPosts = () => {
   return (
     <>
-      <Route path={`/writing/d3-react-start`} exact
+      <Route path={`/resources/d3-react-start`} exact
         render={ props => (
           <PostReactD3 />
         )}
       />
-       <Route path={`/writing/svg-shapes`} exact
+       <Route path={`/resources/svg-shapes`} exact
         render={ props => (
           <PostSVGShapes />
         )}

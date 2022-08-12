@@ -7,8 +7,8 @@ const cvHistory = [
     workplace: 'Reuters News & Media',
     location: 'London, UK',
     details: `
-      I design and code data visualisations or other front-end elements to tell visually-driven stories @ graphics.reuters.com    
-    `
+      I design and implement data visualisations and write front-end code to tell visually-driven 
+      stories for graphics.reuters.com.       `
   },
   {
     id: 1,
@@ -18,9 +18,9 @@ const cvHistory = [
     workplace: 'University of Tokyo, Interfaculty Initiative in Information Studies Watanave Hidenori Lab',
     location: 'Tokyo, Japan',
     details: `
-      I joined the lab as part of the Daiwa program and was later on hired formally. 
-      While my title is researcher, I spent the bulk of my time on practical data viz development and 
-      design and some on data analysis. Archiving and storytelling through data viz (e.g. Tohoku earthquake, Covid-19 in Japan).    
+      I worked on design and implementation of Tohoku earthquake story archive, 
+      visualisation-archive of Covid-19 news in Japan, and other data-driven stories, 
+      while building up my data visualisation skills.   
     `
   },
   {
@@ -31,9 +31,9 @@ const cvHistory = [
     workplace: 'Daiwa Anglo-Japanese Foundation & Waseda University',
     location: 'Tokyo, Japan',
     details: `
-      I was awarded the prestigious Daiwa scholarship for cultural activities in Japan. 
-      Between 2019 and early 2021, I completed a year-long full-time Japanese language course 
-      (obtaining JLPT N2 certificate) at Waseda University and started work at the University of Tokyo. 
+      While on a Daiwa scholarship for cultural activities in Japan, I completed a 
+      year-long full-time Japanese language course (obtaining JLPT N2 certificate) 
+      at Waseda University and undertook a work placement at the University of Tokyo.
     `
   },
   {
@@ -41,12 +41,12 @@ const cvHistory = [
     date: '2018 Jan - 2019 Jul',
     type: 'work',
     title: 'Data Scientist / Machine Learning Engineer',
-    workplace: 'DataSine',
+    workplace: 'DataSine (now part of Shutterstock)',
     location: 'London, UK',
     details: `
-      Joining as the first direct report to the Chief Scientist of this machine learning start-up in London, 
-      I was responsible for data collection and cleaning, ML model building (NLP, computer vision), and putting
-      models into production (Python + ML frameworks such as TensorFlow, Keras, spaCy).  
+      Joining as the first direct report to the Chief Scientist of this machine learning start-up, 
+      I was responsible for data collection, ML model building (NLP, computer vision), and putting
+      models into production (Python + ML frameworks such as TensorFlow).  
     `
   },
   {
@@ -57,9 +57,8 @@ const cvHistory = [
     workplace: 'Microsoft UK',
     location: 'London, UK',
     details: `
-      As part of the then nascent data science team within Microsoft Services, I built custom machine learning 
-      models for or worked with data from a number of enterprise clients. My work included: Azure data services, 
-      computer vision, data visualisation. 
+      As part of the data science team within Microsoft Services, I built custom machine learning models, 
+      analysed data, and built PoCs for cloud data services for enterprise clients. 
     `
   },
   {
@@ -70,9 +69,9 @@ const cvHistory = [
     workplace: 'Microsoft UK',
     location: 'Reading, UK',
     details: `
-      In my very first job out of university, I learnt valuable skills in managing customer relations and operating 
-      within various business environments. However, I ultimately chose to spend time 
-      learning to code on my own and transferred into a technical role as a data scientist.  
+      I learnt valuable skills for managing customer relations and operating within 
+      various business environments while providing tech support, 
+      service management, and information to enterprise clients. 
     `
   },
   {
@@ -84,8 +83,8 @@ const cvHistory = [
     location: 'Oxford, UK',
     details: `
       A truly memorable year surrounded by a diverse and wonderful group of people on the 
-      MFoCS course, and challenging and interesting curriculum. For my dissertation, I worked 
-      with Prof Bob Coecke in a field combining NLP, cognition, linguistics and quantum computing. 
+      MFoCS course. For my dissertation, I worked in a field combining NLP, cognition, 
+      linguistics and quantum computing under Prof Bob Coecke.
     `
   },
   {
@@ -96,9 +95,9 @@ const cvHistory = [
     workplace: 'University College London',
     location: 'London, UK',
     details: `
-      My experience as an undergraduate was a busy one – I volunteered, tutored, led the UCL Maths Society, student council. 
       I specialised in pure mathematics, especially discrete maths & algebra, which attracted me to the 
-      field of CS. Contrary to popular belief, I am not very good at either arithmetic or statistics unfortunately.   
+      field of computer science. Contrary to popular belief, I am not very good at either 
+      arithmetic or statistics, unfortunately.   
     `
   }
 

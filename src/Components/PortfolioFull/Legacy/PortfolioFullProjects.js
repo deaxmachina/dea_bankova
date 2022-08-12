@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import projectsMetadata from "../../data/projectsMetadata";
+import projectsMetadata from "../../../data/projectsMetadata";
 
 // at what point should the image swich to the smaller one? 
 const minToChangeImage = 450; 
@@ -25,7 +25,7 @@ const PortfolioFullProjects = ({ windowWidth }) => {
                 <br/>                
                 <Link to={`/portfolio/${project.id}`} >
                   <span className="border-button full-project-btn noSelect">about</span> 
-                </Link>              
+                </Link>
               </button>
             </div>
           ))

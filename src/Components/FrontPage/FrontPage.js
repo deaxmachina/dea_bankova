@@ -13,7 +13,7 @@ const FrontPage = ({ windowWidth, windowHeight }) => {
       <HeroPage windowWidth={windowWidth} windowHeight={windowHeight}/>
       <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
       <Contact />
-      <Footer colorCustom="#423E42" backgroundColorCustom="#151315" />
+      <Footer colorCustom="#423E42" backgroundColorCustom="#141115" />
       <Arrow linkto="/"/>
     </>
   )  

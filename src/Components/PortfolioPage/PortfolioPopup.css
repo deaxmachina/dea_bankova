@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+/*********************************************/
+/***************  Wrapper  ********************/
+/*********************************************/
+#popup {
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(248, 246, 246);
+  color: var(--textDarkColour);
+  padding: 40px;
+  box-shadow: 2px 2px 10px rgb(185, 184, 184);
+  width: 100%;
+}
+
+
+/*********************************************/
+/*****************  Text  *********************/
+/*********************************************/
+#popup .portfolio-portfolio__text {
+  margin: auto;
+  text-align: left;
+}
+#popup .portfolio-portfolio__title-text {
+  font-family: 'Della Respira', serif;
+  margin-bottom: -10px;
+  font-weight: 600;
+  font-size: 28px;
+}
+#popup .portfolio-portfolio__responsible-for-container, #popup .portfolio-portfolio__tools-container {
+  margin-bottom: 10px;
+}
+#popup .portfolio-portfolio__bold-text {
+  font-weight: bold;
+}
+#popup .portfolio-portfolio__project-description-container {
+}
+
+
+/*********************************************/
+/***************  Buttons   ******************/
+/*********************************************/
+#popup button.btn-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  background: none;
+  cursor: pointer;
+}
+
+#popup .portfolio-portfolio__view-btn-container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#popup .portfolio-portfolio__view-btn {
+  outline: none;
+  padding: 10px 50px;
+  width: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: var(--lightColour);
+  border: 6px solid;
+  font-weight: 300;
+  font-size: 20px;
+  -webkit-transition: border 1s; /* For Safari 3.0 to 6.0 */
+  -o-transition: border 1s;
+  transition: border 1s; 
+  cursor: pointer;
+}
+#popup .portfolio-portfolio__view-btn:hover, #popup .portfolio-portfolio__view-btn:focus, #popup .portfolio-portfolio__view-btn:active {
+  color: var(--lightColour);
+}
+#popup .portfolio-portfolio__view-btn:hover {
+  border: 6px solid white !important;
+}
+
+
+/*********************************************/
+/*********  Media Queries ********************/
+/*********************************************/
+
+/* iPad Pro */
+@media(max-width: 1050px){
+  #popup .portfolio-portfolio__view-btn {
+    margin-top: -25px;
+  }
+  #popup .portfolio-portfolio__view-btn-container {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+}
+
+
+@media(max-width: 500px) {
+  #popup .portfolio-portfolio__project-description-container {
+    padding: 0px 0px 0px 50px;
+  }
+}
+
+
+@media (min-aspect-ratio: 15/9)and (max-height: 600px) {
+  #popup .portfolio-portfolio__view-btn {
+    padding: 5px 30px;
+    width: 100px;
+  }
+}
+

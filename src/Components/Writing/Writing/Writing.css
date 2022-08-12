@@ -11,7 +11,7 @@
   text-align: center;
   color: var(--textMediumColour);
   padding-top: 50px;
-  background-color: var(--writing-dark-colour);
+  /* background-color: var(--writing-dark-colour); */
   overflow: hidden; /* TODO: this is a hack; should check why there is an overflow at below 600px*/
   min-height: 100vh;
 }
@@ -40,19 +40,20 @@
 .writing__explanation {
   text-align: left;
   line-height: 2;
+  font-size: 18px;
 }
 .writing__explanation span {
   color: var(--textLightcolour);
   padding: 3px;
   cursor: default;
 }
-.writing__explanation span:nth-of-type(1) {
+.writing__explanation span.resource {
   background-color: var(--purpleColour);
 }
-.writing__explanation span:nth-of-type(2) {
+.writing__explanation span.example {
   background-color: var(--blueColour);
 }
-.writing__explanation span:nth-of-type(3) {
+.writing__explanation span.tutorial {
   background-color: var(--writing-third-accent-colour);
 }
 
@@ -85,7 +86,7 @@
 }
 /* img for each individual post */
 .blog-preview-img {
-  min-height: 320px;
+  min-height: 300px;
   background-color: grey;
   -webkit-box-flex: 2;
       -ms-flex: 2;
@@ -113,10 +114,13 @@
       flex: 4;
   border-right: 15px solid white; /* colour is just a placeholder */
   overflow: auto;
-  min-height: 320px;
   -webkit-transition: 0.7s ease;
   -o-transition: 0.7s ease;
   transition: 0.7s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .blog-preview-title {
   font-weight: bold;
@@ -147,8 +151,8 @@
   outline: none;
   border: none;
   color: var(--textLightcolour);
-  font-size: 14px;
-  padding: 10px 15px;
+  font-size: 16px;
+  padding: 10px 25px;
   text-transform: uppercase;
   margin-top: 15px;
   cursor: pointer;
