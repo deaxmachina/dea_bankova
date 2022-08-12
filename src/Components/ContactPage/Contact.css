@@ -13,8 +13,8 @@
   height: 100px;
   width: 70%;
   background-color: var(--blueColour);
-  -webkit-filter: url(#static-noise-contact);
-  filter: url(#static-noise-contact);
+  /* -webkit-filter: url(#static-noise-contact);
+  filter: url(#static-noise-contact); */
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,8 +42,8 @@
   width: 70%;
   margin-left: 30%;
   background-color: var(--purpleColour);
-  -webkit-filter: url(#static-noise-contact);
-  filter: url(#static-noise-contact);
+  /* -webkit-filter: url(#static-noise-contact);
+  filter: url(#static-noise-contact); */
   position: relative;
   transition: all 0.3s ease;
 }

@@ -458,9 +458,7 @@ const projectsMetadata = [
       </p>
       <br />
       <p>
-        I was humbled by the experience of working so closely with people who have lived through this 
-        disaster, and by the trust placed in me, a non-Japanese non-native speaker, to work with this
-        valuable data. My talented colleague, Dr Takata Yurina created 
+        My talented colleague, Dr Takata Yurina created 
         a <a style={{color: "#222E3A"}} className="link-project" href="https://311stories.archiving.jp/" target="_blank">map of the movements</a> of
         people whose homes were destroyed – many of them having to move over 4 times in the past 10 years. 
         The full archive page can be viewed 

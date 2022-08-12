@@ -1,5 +1,4 @@
 // data for the preview of the blogposts (not the actual content of them)
-
 const blogData = [
   {
     id: 'animate-treejs-particles-gsap', 
@@ -8,8 +7,8 @@ const blogData = [
     url: 'https://observablehq.com/@deaxmachina/animating-lots-of-three-js-particles-with-gsap',
     date: 'Jul 2022',
     category: 'example',
-    imgUrl: 'https://live.staticflickr.com/65535/52269440651_fcf1862c4b_h.jpg',
-    smallImgUrl: 'https://live.staticflickr.com/65535/52269440651_fcf1862c4b_h.jpg',
+    imgUrl: 'https://live.staticflickr.com/65535/52281915160_729e8e80d5_h.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/52281915160_729e8e80d5_h.jpg',
     description: 
      <>
       Being able to animate millions of particles is one of the great capabilities of the WebGL-based Three.js, 
@@ -40,8 +39,8 @@ const blogData = [
     url: 'https://observablehq.com/@deaxmachina/d3-general-update-pattern',
     date: 'May 2022',
     category: 'tutorial',
-    imgUrl: 'https://live.staticflickr.com/65535/52269467631_e111174929_h.jpg',
-    smallImgUrl: 'https://live.staticflickr.com/65535/52269467631_e111174929_h.jpg',
+    imgUrl: 'https://live.staticflickr.com/65535/52281916765_944babdbd3_b.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/52281916765_944babdbd3_b.jpg',
     description: 
      <>
       A collection of different ways to use D3's general update pattern depending on 
