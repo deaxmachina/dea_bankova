@@ -26,6 +26,54 @@ const projectsMetadata = [
     </>
   },
   {
+    id: 'generative-sketches', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Generative sketches",
+    websiteUrl: "https://generative-sketches.netlify.app/",
+    imgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    backgroundColour: "#7064b3",
+    responsibleFor: 'everything',
+    tools: 'Three.js, Svelte, Midjourney',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+        A small collection of experiments with Three.js and Midjourney, testing out simple generative patterns and aethetics. 
+    </p>
+    <br></br>
+    <div style={{ display: 'flex', width: '100%', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap' }}>
+      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769148557_f3e65db2d9_c.jpg'></img>
+      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769148587_2880c22303_c.jpg'></img>
+      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769686001_140f93af80_c.jpg'></img>
+      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52770102010_a6f9f83b90_c.jpg'></img>
+      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769148637_d05f8543eb_c.jpg'></img>
+      <img alt='screenshot of project' style={{ width: '240px', height: '240px'  }} src='https://live.staticflickr.com/65535/52770176343_64811c81a8_c.jpg'></img>
+    </div>
+    </>
+  },
+  {
+    id: 'steam-games', 
+    hasPage: false, 
+    tag: 'side-project',
+    title: "Games on Steam, analysis",
+    websiteUrl: "https://observablehq.com/d/69533edb762fa00d",
+    imgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    backgroundColour: "#b575a8",
+    responsibleFor: 'everything: data analysis, visualisation',
+    tools: 'Observable Plot, Python',
+    client: '',
+    standardLayout: true, 
+    description: '',
+  },
+  {
     id: 'i-dont-like-you', 
     hasPage: true, 
     tag: 'side-project',
