@@ -43,7 +43,7 @@ const projectsMetadata = [
     description: 
     <>
     <p>
-        A small collection of experiments with Three.js and Midjourney, testing out simple generative patterns and aethetics. 
+        A small collection of experiments with Three.js and Midjourney, testing out simple generative patterns and aesthetics. 
     </p>
     <br></br>
     <div style={{ display: 'flex', width: '100%', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -312,6 +312,49 @@ const projectsMetadata = [
     client: 'personal project',
     standardLayout: true, 
     description: ""
+  },
+  {
+    id: 'ukraine-1-year', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "How Ukraine endured",
+    websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
+    imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    backgroundColour: "#333333",
+    responsibleFor: 'code implemetation',
+    tools: 'Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'world-cup-2022', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "World Cup 2022",
+    websiteUrl: "",
+    imgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    backgroundColour: "#7064b3",
+    responsibleFor: 'code implemetation, roughly equally shared',
+    tools: 'Svelte, D3.js',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+        Collection of pages for the World Cup 2022 Reuters real-time coverage, including pages for each team and match, venues, and bracket.
+        Match pages, bracket and live match widget on reuters.com updated real time for the duration of the World Cup. 
+        I worked on the menus, match cards, live widget, team history, and re-worked an earlier version the bracket visualisation. 
+        I also provided real-time support and bug fixes for the duration of the event, and especially during live matches. 
+        I split the dev work with a colleague and implemented designs based on designer mock-ups, working collaboratively and iteratively throughout.
+    </p>
+    </>
   },
   {
     id: 'it-is-getting-hotter', 
