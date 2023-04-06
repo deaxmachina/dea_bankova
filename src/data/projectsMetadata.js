@@ -335,7 +335,7 @@ const projectsMetadata = [
     hasPage: true, 
     tag: 'work-reuters',
     title: "World Cup 2022",
-    websiteUrl: "",
+    websiteUrl: "https://www.reuters.com/graphics/WORLD-CUP/akveqzmgwvr/",
     imgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
