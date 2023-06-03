@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PortpolioPopup from "../PortfolioPage/PortfolioPopup";
+import Video from './Video'
 
 const minToChangeImage = 450; 
 
@@ -22,6 +23,8 @@ const Work = ({ projectsMetadata, sectionTitle, sectionSubtitle, windowWidth, se
               className="portfolio-grid-entry" 
               style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.smallImgUrl})` : `url(${project.imgUrl})`}}
             >
+              {project.videoUrl ? <Video videoUrl={project.videoUrl} /> : ''}
+              
               <button className="portfolio-grid-btn individual-viz noSelect">
                 <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
                 <br/>

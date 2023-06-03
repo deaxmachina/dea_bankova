@@ -5,6 +5,7 @@ const projectsMetadata = [
     tag: 'side-project',
     title: "Kanji with radicals",
     websiteUrl: "https://kanjiviz.netlify.app/",
+    videoUrl: './kanji3.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg",
     individualPageImgUrl: 'https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg',
@@ -31,6 +32,7 @@ const projectsMetadata = [
     tag: 'side-project',
     title: "Generative sketches",
     websiteUrl: "https://generative-sketches.netlify.app/",
+    videoUrl: './generative-sketches.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
@@ -74,32 +76,32 @@ const projectsMetadata = [
     description: '',
   },
   {
-    id: 'i-dont-like-you', 
+    id: 'co2-emissions', 
     hasPage: true, 
     tag: 'side-project',
-    title: "Hate Crime in London - data art",
-    websiteUrl: "https://deaxmachina.github.io/hatecrime_uk_p5/",
-    imgUrl: 'https://live.staticflickr.com/65535/51359070135_7aaf27802e_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51359070135_7aaf27802e_o.png',
-    individualPageImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
-    backgroundColour: "#51AF98",
-    responsibleFor: 'everything: data gathering, design, visualisation, page code',
-    tools: 'p5.js',
+    title: "CO2 Emissions in Cities",
+    websiteUrl: "https://co2cities.netlify.app/",
+    imgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
+    smallImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
+    backgroundColour: "#2E5659",
+    responsibleFor: 'everything: data preparation, visualisation, website',
+    tools: 'D3.js, React, Python',
     client: 
     <>
-      <em>personal project</em> for 
-      the <a className="link-project" href="https://showcase.p5js.org/" target='_blank'>p5.js 2021 Showcase: The Love Ethic!</a> 
+        Hackathon project for <a href="https://climate-crisis.devpost.com/" className="link-project" target="_blank"> 2021 Climate Crisis AI Hackathon</a> by <a href="https://launchlab.ai/" className="link-project" target="_blank">AI Launch Lab</a> and <a href="https://www.climatereality.ca/" className="link-project" target="_blank">The Climate Reality Project Canada</a>. 
     </>,
     standardLayout: true, 
     description: 
     <>
-    <p>
-      I created this piece as a submission to the p5.js 2021 Showcase in July 2021. 
-      I wanted to express with data art both the existing and the missing numbers behind 
-      racist hate crime in the UK, and specifically in London. 
-    </p>
-    </> 
+      <p>
+        Completed over the course of one weekend (~30 hours) in January 2021.
+        Visualisation that can be used to view average CO2 emissions of cities worldwide at a glance, 
+        as well as to dive into the data for a specific city – 
+        both its emissions and trends over time. 
+      </p>
+    </>
   },
   {
     id: 'anime-timeline', 
@@ -107,6 +109,7 @@ const projectsMetadata = [
     tag: 'side-project',
     title: "Timeline of Anime",
     websiteUrl: "https://animetimeline.netlify.app/",
+    videoUrl: './anime-timeline1.mp4',
     imgUrl: 'https://live.staticflickr.com/65535/51100639753_1f4281a9e2_o.png',
     smallImgUrl: 'https://live.staticflickr.com/65535/51100904620_e7c1a12e14_o.png',
     individualPageImgUrl: "https://live.staticflickr.com/65535/51100639753_1f4281a9e2_o.png",
@@ -134,32 +137,33 @@ const projectsMetadata = [
     </>    
   },
   {
-    id: 'co2-emissions', 
+    id: 'i-dont-like-you', 
     hasPage: true, 
     tag: 'side-project',
-    title: "CO2 Emissions in Cities",
-    websiteUrl: "https://co2cities.netlify.app/",
-    imgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
-    smallImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
-    backgroundColour: "#2E5659",
-    responsibleFor: 'everything: data preparation, visualisation, website',
-    tools: 'D3.js, React, Python',
+    title: "Hate Crime in London - data art",
+    websiteUrl: "https://deaxmachina.github.io/hatecrime_uk_p5/",
+    videoUrl: './hatecrime1.mp4',
+    imgUrl: 'https://live.staticflickr.com/65535/51359070135_7aaf27802e_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51359070135_7aaf27802e_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
+    backgroundColour: "#51AF98",
+    responsibleFor: 'everything: data gathering, design, visualisation, page code',
+    tools: 'p5.js',
     client: 
     <>
-        Hackathon project for <a href="https://climate-crisis.devpost.com/" className="link-project" target="_blank"> 2021 Climate Crisis AI Hackathon</a> by <a href="https://launchlab.ai/" className="link-project" target="_blank">AI Launch Lab</a> and <a href="https://www.climatereality.ca/" className="link-project" target="_blank">The Climate Reality Project Canada</a>. 
+      <em>personal project</em> for 
+      the <a className="link-project" href="https://showcase.p5js.org/" target='_blank'>p5.js 2021 Showcase: The Love Ethic!</a> 
     </>,
     standardLayout: true, 
     description: 
     <>
-      <p>
-        Completed over the course of one weekend (~30 hours) in January 2021.
-        Visualisation that can be used to view average CO2 emissions of cities worldwide at a glance, 
-        as well as to dive into the data for a specific city – 
-        both its emissions and trends over time. 
-      </p>
-    </>
+    <p>
+      I created this piece as a submission to the p5.js 2021 Showcase in July 2021. 
+      I wanted to express with data art both the existing and the missing numbers behind 
+      racist hate crime in the UK, and specifically in London. 
+    </p>
+    </> 
   },
   {
     id: 'japanese-earthquakes', 
@@ -193,6 +197,7 @@ const projectsMetadata = [
     tag: 'side-project',
     title: "The paths",
     websiteUrl: "https://aot-paths.netlify.app/",
+    videoUrl: './paths1.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
@@ -314,10 +319,28 @@ const projectsMetadata = [
     description: ""
   },
   {
+    id: 'eurovision-2023', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | Eurovision 2023",
+    websiteUrl: "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/",
+    videoUrl: './eurovision3.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    backgroundColour: "#a72678",
+    responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
+    tools: 'Svelte, D3.js, GSAP',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
     id: 'ukraine-1-year', 
     hasPage: true, 
     tag: 'work-reuters',
-    title: "How Ukraine endured",
+    title: "Reuters | How Ukraine endured",
     websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
     imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
@@ -334,8 +357,9 @@ const projectsMetadata = [
     id: 'world-cup-2022', 
     hasPage: true, 
     tag: 'work-reuters',
-    title: "World Cup 2022",
+    title: "Reuters | World Cup 2022",
     websiteUrl: "https://www.reuters.com/graphics/WORLD-CUP/akveqzmgwvr/",
+    videoUrl: './worldcup2.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
@@ -362,6 +386,7 @@ const projectsMetadata = [
     tag: 'work-reuters',
     title: "Reuters | It's getting hotter all year round",
     websiteUrl: "https://graphics.reuters.com/CLIMATE-CHANGE/znpneamnkvl/",
+    videoUrl: './itsgettinghotter1.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
@@ -379,6 +404,7 @@ const projectsMetadata = [
     tag: 'work-reuters',
     title: "Reuters | Fleeing Ukraine",
     websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/REFUGEES/dwvkrqzlnpm/",
+    videoUrl: './ukraine-refugees2.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
@@ -481,8 +507,8 @@ const projectsMetadata = [
     tag: 'work-reuters',
     title: "Reuters | Under fire: Civilian lives and homes destroyed by the conflict",
     websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CIVILIANS/zgpomygqmpd/",
-    imgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
+    imgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
     individualPageImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
     backgroundColour: "#2e343f",
@@ -498,6 +524,7 @@ const projectsMetadata = [
     tag: 'work-other',
     title: "Covid-19 Event Timeline in Japan",
     websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    videoUrl: './yahoo-news-covid-timeline1.mp4',
     imgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
     smallImgUrl: 'https://live.staticflickr.com/65535/51226514274_36a7971232_o.png',
     individualPageImgUrl: "https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png",
@@ -559,29 +586,12 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'tdb-companies-graph', 
-    hasPage: true, 
-    tag: 'work-other',
-    title: "Company Business Relationships Graphs",
-    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
-    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
-    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
-    backgroundColour: "#62488F",
-    responsibleFor: 'visualisation, website',
-    tools: 'D3.js, HTML5 Canvas, React.js, Python',
-    client: <em> Teikoku Databank, Ltd. 株式会社 帝国データバンク</em>,
-    standardLayout: false, 
-    description: 
-    <></> 
-  },
-  {
     id: 'olympics-museum', 
     hasPage: true, 
     tag: 'work-other',
     title: "Tokyo Olympics Museum School Trip",
     websiteUrl: "https://olympics.netlify.app/",
+    videoUrl: './olympics2.mp4',
     imgUrl: "https://live.staticflickr.com/65535/51100179841_0cfe4b31b2_o.png",
     smallImgUrl: "https://live.staticflickr.com/65535/51100319547_51b0024bbb_o.png",
     individualPageImgUrl: "https://live.staticflickr.com/65535/51100179841_0cfe4b31b2_o.png",
@@ -609,6 +619,24 @@ const projectsMetadata = [
         The Japanese version can be found <a href="https://olympicsjp.netlify.app/" style={{color: "#A62343"}} className="link-project" target="_blank">here</a>.
       </p>
     </>
+  },
+  {
+    id: 'tdb-companies-graph', 
+    hasPage: true, 
+    tag: 'work-other',
+    title: "Company Business Relationships Graphs",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    backgroundColour: "#62488F",
+    responsibleFor: 'visualisation, website',
+    tools: 'D3.js, HTML5 Canvas, React.js, Python',
+    client: <em> Teikoku Databank, Ltd. 株式会社 帝国データバンク</em>,
+    standardLayout: false, 
+    description: 
+    <></> 
   },
 ]
 

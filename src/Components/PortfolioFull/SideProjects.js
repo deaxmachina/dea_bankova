@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PortpolioPopup from "../PortfolioPage/PortfolioPopup";
+import Video from './Video'
 
 // at what point should the image swich to the smaller one? 
 const minToChangeImage = 450; 
@@ -27,6 +28,9 @@ const SideProjects = ({ projectsMetadata, sectionTitle, sectionSubtitle, windowW
                   className="portfolio-grid-entry" 
                   style={{backgroundImage: windowWidth > minToChangeImage? `url(${project.smallImgUrl})` : `url(${project.imgUrl})`}}
                   >
+
+                  {project.videoUrl ? <Video videoUrl={project.videoUrl} /> : ''}
+
                   <button className="portfolio-grid-btn full-project noSelect" >
                     <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
                     <br/>

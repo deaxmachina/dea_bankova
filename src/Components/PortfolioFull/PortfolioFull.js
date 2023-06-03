@@ -18,7 +18,7 @@ const PortfolioFull = ({ windowWidth }) => {
         <HomeLink />
         <SideProjects 
           projectsMetadata={projectsMetadata.filter(d => d.tag ==='side-project')} 
-          sectionTitle='Side Projects' 
+          sectionTitle='Personal' 
           sectionSubtitle=''
           windowWidth={windowWidth} 
           selectedProject={selectedProject} 
@@ -26,7 +26,7 @@ const PortfolioFull = ({ windowWidth }) => {
         />
         <Work 
           projectsMetadata={projectsMetadata.filter(d => d.tag !=='side-project')} 
-          sectionTitle='Work' 
+          sectionTitle='Professional' 
           sectionSubtitle=''
           windowWidth={windowWidth} 
           selectedProject={selectedProject} 
