@@ -2,19 +2,25 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 360px;
+  /* margin-bottom: 360px; */
+  /* border: 10px solid red; */
+  min-height: 100vh;
 }
 
 /***************** Text in the about section *************************/
 #hero-text-container {
+  position: absolute;
   color: var(--textLightcolour);
-  margin-top: 120px;/*120px;*/
+  /* margin-top: 120px; */
   left: 0;
+  top: 45%;
+  transform: translate(0, -50%);
   z-index: 2;
   width: 500px;
   margin-left: 100px;
   z-index: 2;
   overflow: hidden;
+  /* border: 3px solid yellow; */
 }
 .name {
   font-size: 85px;
@@ -32,6 +38,7 @@
   z-index: 2;
   overflow: hidden;
   margin-left: 0px;
+  width: 90%;
 }
 
 /******************** Viz in the header *****************************/
@@ -96,24 +103,24 @@
 /* very tall phones, or both portrait and landscape mode big screens  */
 @media (min-height: 750px) and (orientation: portrait) {
   #hero-section {
-    margin-bottom: 236px;
+    /* margin-bottom: 236px; */
   }  
 }
 @media (min-height: 900px) {
   #hero-section {
-    margin-bottom: 210px;
+    /* margin-bottom: 210px; */
   }  
 }
 /* medium size mobile phones  */
 @media (min-height: 650px) and (max-height: 750px) and (orientation: portrait) {
   #hero-section {
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
   }  
 }
 /* smaller size mobile phones  */
 @media (min-height: 500px) and (max-height: 650px) and (orientation: portrait) {
   #hero-section {
-    margin-bottom: 180px;
+    /* margin-bottom: 180px; */
   }  
 }
 
@@ -121,7 +128,7 @@
 /* width-based mostly for big screens */
 @media(max-width: 1100px) {
   #hero-text-container {
-    margin-top: 150px;
+    /* margin-top: 150px; */
     width: 400px;
   }  
   .name {
@@ -138,7 +145,7 @@
     margin-left: 75px;
   } 
   #hero-text-container {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 300px;
   }  
   #header-viz-container {
@@ -156,7 +163,7 @@
     margin-right: 70px;
   } 
   #hero-text-container {
-    margin-top: 190px;
+    /* margin-top: 190px; */
     width: 450px;
   }
   .name {
@@ -173,7 +180,7 @@
 /* Very large phones or small tablets */
 @media(max-width: 550px) {
   #hero-text-container {
-    margin-top: 150px;
+    /* margin-top: 150px; */
     width: 350px;
   } 
   #hero-menu-container, .menu-underline {
@@ -198,7 +205,8 @@
 @media(max-width: 420px) {
   #hero-text-container {
     margin-left: 40px;
-    margin-top: 200px;
+    top: 60%;
+    /* margin-top: 200px; */
     width: 300px;
   }
   #hero-menu-container, .menu-underline {
@@ -226,7 +234,7 @@
 @media(max-width: 360px) {
   #hero-text-container {
     margin-left: 30px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
   } 
   #hero-menu-container {
     margin-top: 15px;
@@ -254,4 +262,13 @@
   .name {
     font-size: 45px;
   }
+}
+
+.hero-highlight {
+  background-color: var(--purpleColour);
+  font-weight: 500;
+  padding: 0px 6px;
+}
+.bold {
+  font-weight: 500;
 }

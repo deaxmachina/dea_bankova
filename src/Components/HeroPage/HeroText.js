@@ -7,10 +7,12 @@ const HeroText = () => {
       <h1 className="name highlight-dark-background">Dea Bankova</h1>
       <br/>
       <p className="personal-description highlight-dark-background">
-        I write code, design and build data visualisations and data-driven stories, 
-        and occasionally play with generative art. 
-        Currently Graphics Journalist at Reuters. 
-        Previously data visualisation at UTokyo and machine learning at Microsoft & start-up.
+        I write code, design and 
+        build <span class='hero-highlight'>data visualisations</span> and data-driven stories, and 
+        occasionally play with generative art. 
+        Currently Graphics Journalist at <span class='bold'>Reuters</span>. 
+        Previously data visualisation at <span class='bold'>U Tokyo</span> and machine learning 
+        at <span class='bold'>Microsoft</span> & start-up.
       </p>
     </div>
   )
