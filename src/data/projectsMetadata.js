@@ -1,5 +1,24 @@
 const projectsMetadata = [
   {
+    id: 'infinite-monkey-game', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Infinite Monkey Game",
+    websiteUrl: "https://infinitemonkey.netlify.app/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    backgroundColour: "#b575a8",
+    responsibleFor: 'everything: concept, design, code',
+    tools: 'Figma, React',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <></>
+  },
+  {
     id: 'kanji-radicals', 
     hasPage: true, 
     tag: 'side-project',
@@ -47,16 +66,40 @@ const projectsMetadata = [
     <p>
         A small collection of experiments with Three.js and Midjourney, testing out simple generative patterns and aesthetics. 
     </p>
-    <br></br>
-    <div style={{ display: 'flex', width: '100%', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap' }}>
-      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769148557_f3e65db2d9_c.jpg'></img>
-      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769148587_2880c22303_c.jpg'></img>
-      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769686001_140f93af80_c.jpg'></img>
-      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52770102010_a6f9f83b90_c.jpg'></img>
-      <img alt='screenshot of project' style={{ width: '240px', height: '240px' }} src='https://live.staticflickr.com/65535/52769148637_d05f8543eb_c.jpg'></img>
-      <img alt='screenshot of project' style={{ width: '240px', height: '240px'  }} src='https://live.staticflickr.com/65535/52770176343_64811c81a8_c.jpg'></img>
-    </div>
     </>
+  },
+  {
+    id: 'anime-timeline', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Timeline of Anime",
+    websiteUrl: "https://animetimeline.netlify.app/",
+    videoUrl: './anime-timeline1.mp4',
+    imgUrl: 'https://live.staticflickr.com/65535/51100639753_1f4281a9e2_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51100904620_e7c1a12e14_o.png',
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51100639753_1f4281a9e2_o.png",
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51100904620_e7c1a12e14_o.png',
+    backgroundColour: "#4E1B34",
+    responsibleFor: 'everything: data processing, design, visualisation, page code',
+    tools: 'D3.js, React, Python',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+      <p>
+        I started this project with the idea of expressing through visualisation 
+        the evolution of anime genres over time. Was sci-fi more popular in the 90s, were the 2000s truly the 
+        ‘golden age’ of anime, and if so, what genres were prevalent during that time? As is often the case, 
+        the story I imagined the data would tell was different to reality. 
+      </p>
+      <br />
+      <p>
+        <a style={{color: "#4E1B34"}} className="link-project" href="https://animetimelinedemo.netlify.app/" target="_blank">Here</a> is
+        the version I used for a D3 talk 
+        I gave at LeWagon Tokyo; the GitHub repository is  
+        over <a style={{color: "#4E1B34"}} className="link-project" href="https://github.com/deaxmachina/lewagon_demo_vanilla" target="_blank">here</a>.
+      </p>
+    </>    
   },
   {
     id: 'steam-games', 
@@ -104,37 +147,30 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'anime-timeline', 
+    id: 'japanese-earthquakes', 
     hasPage: true, 
     tag: 'side-project',
-    title: "Timeline of Anime",
-    websiteUrl: "https://animetimeline.netlify.app/",
-    videoUrl: './anime-timeline1.mp4',
-    imgUrl: 'https://live.staticflickr.com/65535/51100639753_1f4281a9e2_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51100904620_e7c1a12e14_o.png',
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51100639753_1f4281a9e2_o.png",
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51100904620_e7c1a12e14_o.png',
-    backgroundColour: "#4E1B34",
-    responsibleFor: 'everything: data processing, design, visualisation, page code',
-    tools: 'D3.js, React, Python',
-    client: '',
+    title: "Earthquake Disasters in Japan",
+    websiteUrl: "https://japan-earthquakes.netlify.app/",
+    imgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    smallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    backgroundColour: "#286380",
+    responsibleFor: 'everything: data preparation, visualisation, website',
+    tools: 'D3.js, React, GSAP, Python',
+    client: <>individual project while at <em>the University of Tokyo</em></>,
     standardLayout: true, 
-    description: 
+    description:
     <>
       <p>
-        I started this project with the idea of expressing through visualisation 
-        the evolution of anime genres over time. Was sci-fi more popular in the 90s, were the 2000s truly the 
-        ‘golden age’ of anime, and if so, what genres were prevalent during that time? As is often the case, 
-        the story I imagined the data would tell was different to reality. 
+        Between September 2020 and March 2021, I worked on a project to record the memories of survivors of 
+        the 2011 Tohoku earthquake and tsunami disaster in north Japan. I wanted to find out more about the 
+        history of earthquakes in Japan and set out to create this visualisation, where you can see the magnitude 
+        and number of casualties over time side by side. 2011 saw the biggest earthquake in recorded Japanese history, 
+        but the deadliest one (1923 Kanto) was far smaller in intensity. 
       </p>
-      <br />
-      <p>
-        <a style={{color: "#4E1B34"}} className="link-project" href="https://animetimelinedemo.netlify.app/" target="_blank">Here</a> is
-        the version I used for a D3 talk 
-        I gave at LeWagon Tokyo; the GitHub repository is  
-        over <a style={{color: "#4E1B34"}} className="link-project" href="https://github.com/deaxmachina/lewagon_demo_vanilla" target="_blank">here</a>.
-      </p>
-    </>    
+    </>
   },
   {
     id: 'i-dont-like-you', 
@@ -164,32 +200,6 @@ const projectsMetadata = [
       racist hate crime in the UK, and specifically in London. 
     </p>
     </> 
-  },
-  {
-    id: 'japanese-earthquakes', 
-    hasPage: true, 
-    tag: 'side-project',
-    title: "Earthquake Disasters in Japan",
-    websiteUrl: "https://japan-earthquakes.netlify.app/",
-    imgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    smallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    backgroundColour: "#286380",
-    responsibleFor: 'everything: data preparation, visualisation, website',
-    tools: 'D3.js, React, GSAP, Python',
-    client: <>individual project while at <em>the University of Tokyo</em></>,
-    standardLayout: true, 
-    description:
-    <>
-      <p>
-        Between September 2020 and March 2021, I worked on a project to record the memories of survivors of 
-        the 2011 Tohoku earthquake and tsunami disaster in north Japan. I wanted to find out more about the 
-        history of earthquakes in Japan and set out to create this visualisation, where you can see the magnitude 
-        and number of casualties over time side by side. 2011 saw the biggest earthquake in recorded Japanese history, 
-        but the deadliest one (1923 Kanto) was far smaller in intensity. 
-      </p>
-    </>
   },
   {
     id: 'aot-paths', 
