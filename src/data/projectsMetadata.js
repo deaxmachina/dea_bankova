@@ -1,7 +1,49 @@
 const projectsMetadata = [
   {
-    id: 'infinite-monkey-game', 
+    id: 'infinity', 
     hasPage: true, 
+    tag: 'side-project',
+    title: "Infinity: an interactive exploration",
+    websiteUrl: "https://maths-infinity.netlify.app/",
+    videoUrl: './infinity.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/53116109623_5c0520683d_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53116109623_5c0520683d_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53116109623_5c0520683d_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116109623_5c0520683d_c.jpg",
+    backgroundColour: "#65cdcb",
+    responsibleFor: 'everything: concept, design, code',
+    tools: 'React, Three.js, R3F, D3.js, HTML5 Canvas, GSAP, Figma',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+      Think of a big number, the biggest one you can conceive of. Now add 1. You have a bigger number. 
+      You can keep going on and on, until you get to infinity. But is this ‘infinity’ an actual destination? 
+      What if I told you that an even bigger infinity hides in the numbers just between 0 and 1? 
+      The concept of infinity is one of the deepest and most captivating inhabitants of the world of mathematics. 
+      But just like with anything else in maths, it can feel distant and unapproachable. 
+      This project aims to be a bridge between the everyday curiosity that many of us have about infinity and 
+      the rigorous mathematical concept. Starting from the simplest and most relatable infinity - the 
+      counting numbers 1, 2, 3, 4, 5…, and building up all the way to the beautiful Mandelbrot fractal with 
+      infinitely zoomable self-similar patterns.
+      <br></br><br></br>
+      It uses scrollytelling, interactive proofs and mathematical visualisations, together with an approachable 
+      and playful visual style. These choices were deliberate. I wanted to convey the sense of awe and wonder 
+      that maths has left me with over the years, and create a contrast with the harsh brushstrokes with which 
+      this seemingly difficult field is often painted. I went through many style iterations until I settled on 
+      the shiny ‘magical girl anime’ aesthetic. The proofs which I included, together with their visual walk-throughs, 
+      were chosen to be rigorous, but require little more than curiosity and logic. Plenty of references were included 
+      to resources that go into more depth for those who are curious or come from a maths background. 
+      <br></br><br></br>
+      This piece is a personal passion project by a once maths student turned data visualisation creator, 
+      made with the hope to spark joy.
+    </p>
+    </>
+  },
+  {
+    id: 'infinite-monkey-game', 
+    hasPage: false, 
     tag: 'side-project',
     title: "Infinite Monkey Game",
     websiteUrl: "https://infinitemonkey.netlify.app/",
@@ -311,23 +353,23 @@ const projectsMetadata = [
     tools: 'D3.js, Python',
     description: ""
   },
-  {
-    id: 'kimono-colours', 
-    hasPage: false, 
-    tag: 'side-project',
-    title: "Colours in kimono",
-    websiteUrl: "https://observablehq.com/@deaxmachina/radial-graph-kimono-colours",
-    imgUrl: "https://live.staticflickr.com/65535/52268953988_7c20b9d0e8_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
-    backgroundColour: "#F47983",
-    responsibleFor: 'everything',
-    tools: 'D3.js',
-    client: 'personal project',
-    standardLayout: true, 
-    description: ""
-  },
+  // {
+  //   id: 'kimono-colours', 
+  //   hasPage: false, 
+  //   tag: 'side-project',
+  //   title: "Colours in kimono",
+  //   websiteUrl: "https://observablehq.com/@deaxmachina/radial-graph-kimono-colours",
+  //   imgUrl: "https://live.staticflickr.com/65535/52268953988_7c20b9d0e8_h.jpg",
+  //   smallImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
+  //   individualPageImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
+  //   individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
+  //   backgroundColour: "#F47983",
+  //   responsibleFor: 'everything',
+  //   tools: 'D3.js',
+  //   client: 'personal project',
+  //   standardLayout: true, 
+  //   description: ""
+  // },
   {
     id: 'eurovision-2023', 
     hasPage: true, 
@@ -342,6 +384,24 @@ const projectsMetadata = [
     backgroundColour: "#a72678",
     responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
     tools: 'Svelte, D3.js, GSAP',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'taylor-swift', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | The unstoppable pop of Taylor Swift",
+    websiteUrl: "https://www.reuters.com/graphics/MUSIC-TAYLORSWIFT/SPOTIFY/dwpkarywqpm/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    backgroundColour: "#b39cbc",
+    responsibleFor: 'Interactive radial bar charts for the Spotify metrics and billboard chart implementation & contributions to design.',
+    tools: 'Svelte, D3.js',
     client: <><em>Reuters Graphics</em></>,
     standardLayout: true, 
     description: ''
@@ -387,6 +447,38 @@ const projectsMetadata = [
         I worked on the menus, match cards, live widget, team history, and re-worked an earlier version the bracket visualisation. 
         I also provided real-time support and bug fixes for the duration of the event, and especially during live matches. 
         I split the dev work with a colleague and implemented designs based on designer mock-ups, working collaboratively and iteratively throughout.
+    </p>
+    </>
+  },
+  {
+    id: 'svelte-patterns', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | Svelte Patterns",
+    websiteUrl: "https://reuters-graphics.github.io/example_svelte-graph-patterns/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    backgroundColour: "#dc4d46",
+    responsibleFor: 'everything',
+    tools: 'Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description:  
+    <>
+    <p>
+    <a style={{ textDecoration: 'underline'}} href='https://github.com/reuters-graphics/example_svelte-graph-patterns' target='_blank'>GitHub repo</a>
+    <br></br><br></br>
+    This project is a collection of examples and templates for working with Svelte in a number of situations that commonly 
+    arise when making D3 graphs, scrollytelling webpages and other kinds of content we often produce.
+    <br></br><br></br>
+    It is meant to be a continuous work in progress 🛠️ and is by no means an exhaustive, or necessarily a 
+    'best practices' 👓 type of collection. All the examples are use cases that I have encountered, 
+    built a minimal example around and documented. They come with working code, explained code snippets 
+    and notes about the approach taken. ⚠️ They might come with links to the Svelte repl where 
+    I originally worked on the example, but these are not always the latest or the best version.
     </p>
     </>
   },
