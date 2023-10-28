@@ -161,6 +161,34 @@ const projectsMetadata = [
     description: '',
   },
   {
+    id: 'dragonflies', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Generative Dragonflies",
+    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
+    videoUrl: './dragonflies.mp4',
+    imgUrl: './dragonflies1.jpg',
+    smallImgUrl: './dragonflies1.jpg',
+    individualPageImgUrl: './dragonflies1.jpg',
+    individualPageSmallImgUrl: './dragonflies1.jpg',
+    backgroundColour: "gold",
+    responsibleFor: 'everything: design, implementation',
+    tools: 'p5.js, D3.js',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+      <p>Work in progress: experiments in generative dragonflies.</p>
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu" target='_blank'>Experiment 1</a> 
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/TMuluhtbz" target='_blank'>Experiment 2</a> 
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/AocQdThMv" target='_blank'>Experiment 3</a> 
+      <br></br>
+    </> 
+  },
+  {
     id: 'co2-emissions', 
     hasPage: true, 
     tag: 'side-project',
