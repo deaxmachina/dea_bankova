@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react"; 
-import { gsap, ScrollTrigger, Draggable, MotionPathPlugin, TweenLite } from "gsap/all";
+import React, { useEffect, useRef, useLayoutEffect } from "react"; 
+// import { gsap, TweenLite } from "gsap/all";
+import gsap from 'gsap'
 
-gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
 /// constants ///
 const blueColour = "#0D8383" //"#0D8383" "#0D7583" "#286380"
@@ -35,31 +35,43 @@ const cardPath7 = "M291.143 109.384L533.855 345.363L391.488 500.329L197.034 535.
 
 const HeaderViz = ({ scaleFactor }) => {
 
+  const wrapperRef = useRef()
+  const timeline = useRef()
+
   useEffect(() => {
 
-    //////////////////////////////////////
-    /////////// Animations //////////////
-    //////////////////////////////////////
-    const duration = 2.5;
-
-    const timeline = gsap.timeline({
-      defaults: {
-        duration: duration,
-        ease: "Back.easeInOut.config(2)",
+    timeline.current = gsap.timeline({ paused: false })
+      .from(".card", { 
+        delay: 0.2, 
+        scale: 0, 
+        transformOrigin: "center",
+        stagger: 0.05,
+        duration: 2.5,
+        ease: "power2.out"
+      })
+      .fromTo(".diamond", { 
+        rotation: -60, 
         opacity: 0
-      }
-    });
-    timeline.from(".card", { delay: 0.1, scale: 0.2, transformOrigin: "center" }, "=.2")
-
-    // for the little diamond
-    TweenLite.fromTo(".diamond", duration, { rotation: -60, opacity: 0}, {rotation: 45, ease: "Elastic.easeOut.config(5, 0.2)", opacity: 1 });
+      }, {
+        rotation: 45, 
+        ease: "circ.inOut", 
+        opacity: 1,
+        duration: 1.5
+      }, '<')
+      .to('.card', {
+        rotation: () => Math.random() > 0.5 ? 360 : -360,
+        stagger: 0.2,
+        duration: 100,
+        yoyo: true,
+        repeat: 1
+      })
 
     },[])
 
 
   return (
     <>
-    <div id="header-viz-container">
+    <div id="header-viz-container" ref={wrapperRef} >
       <svg width={chartSettings.width*scaleFactor} height={chartSettings.height*scaleFactor}>
 
         <defs>
