@@ -399,6 +399,24 @@ const projectsMetadata = [
   //   description: ""
   // },
   {
+    id: 'quantum-cryptography', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Quantum computing decrypted",
+    websiteUrl: "https://www.reuters.com/graphics/USA-CHINA/QUANTUM/gkplxnozqpb/",
+    videoUrl: './quantum1.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    backgroundColour: "#5f31bd",
+    responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
+    tools: 'Svelte, D3.js, GSAP, Three.js',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
     id: 'eurovision-2023', 
     hasPage: true, 
     tag: 'work-reuters',
