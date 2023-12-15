@@ -4,11 +4,8 @@ import gsap from 'gsap'
 
 
 /// constants ///
-const blueColour = "#0D8383" //"#0D8383" "#0D7583" "#286380"
-const purpleColour =  "#4E1B34" // "#4E1B34" "#423158"
-const lightColour = "#ebebeb"
-const lighterPurpleColour = "#771D43"//"#771D43" #4C4976"
-const darkColour = "#0C070E"; 
+const lighterPurpleColour = "#2bfff8"
+const darkColour = "#012e5a"; 
 
 const opacityLow = 0.5;
 const opacityHigh = 0.5
