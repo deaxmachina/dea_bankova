@@ -39,7 +39,7 @@ const Footer = ({ colorCustom, backgroundColorCustom }) => {
           </div>
         </div>
         <div className="footer__text"> 
-          <p id="footer__name">&#169; 2022 Dea Bankova </p>
+          <p id="footer__name">&#169; 2023 Dea Bankova </p>
         </div> 
 
       </div> 

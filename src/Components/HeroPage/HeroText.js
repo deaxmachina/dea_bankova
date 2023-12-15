@@ -12,7 +12,7 @@ const HeroText = () => {
         occasionally play with generative art. 
         Currently Graphics Journalist at <span class='bold'>Reuters</span>. 
         Previously data visualisation at <span class='bold'>U Tokyo</span> and machine learning 
-        at <span class='bold'>Microsoft</span> & start-up.
+        at <span class='bold'>Microsoft</span>.
       </p>
     </div>
   )

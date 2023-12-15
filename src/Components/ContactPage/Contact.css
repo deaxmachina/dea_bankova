@@ -67,7 +67,7 @@
   outline: none;
 }
 .contact__social-icon-s:hover {
-  color: #97667D;
+  color: #5c003a;
 }
 
 
@@ -91,14 +91,14 @@
   margin-bottom: 15px;
 }
 #contact__contact-email {
-  color: rgba(78, 27, 52, 1); /*rgb(13, 131, 131) */;
-  border-bottom: 2px solid rgba(78, 27, 52, 1) /* rgb(13, 131, 131) */;
+  color: rgba(211, 0, 134, 1);
+  border-bottom: 2px solid rgba(211, 0, 134, 1);
   text-decoration: none;
 }
-#contact__contact-email:hover {
-  background-color:rgba(78, 27, 52, 0.6) /* rgba(13, 131, 131, 0.4) */;
+/* #contact__contact-email:hover {
+  background-color:rgba(211, 0, 134, 0.5);
   color: var(--textLightcolour);
-}
+} */
 
 
 /************************************************/

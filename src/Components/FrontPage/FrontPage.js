@@ -9,9 +9,8 @@ import Arrow from "../../Reusable/Arrow/Arrow";
 const FrontPage = ({ windowWidth, windowHeight }) => {
   return (
     <>
-      {/*<h1 style={{position: 'fixed', top: '0'}}>{windowWidth}</h1>*/}
       <HeroPage windowWidth={windowWidth} windowHeight={windowHeight}/>
-      <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/>
+      {/* <PortfolioShowcase windowWidth={windowWidth} windowHeight={windowHeight}/> */}
       <Contact />
       <Footer colorCustom="#423E42" backgroundColorCustom="#141115" />
       <Arrow linkto="/"/>
