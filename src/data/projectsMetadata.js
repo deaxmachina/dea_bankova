@@ -61,6 +61,93 @@ const projectsMetadata = [
     <></>
   },
   {
+    id: 'abba-50', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Abba explorer: Abba at 50",
+    websiteUrl: "https://abba50.netlify.app/",
+    videoUrl: './abba1.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
+    backgroundColour: "#b88140",
+    responsibleFor: 'everything: concept, design, code',
+    tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+      <div className='about section'>
+        <p>
+          I made this website as a birthday gift to my wonderful mum, but it also happens to coincide 
+          with the commemoration of the 50th anniversary of ABBA's iconic Eurovision win in 1974. 
+          <br></br>
+          Browse through the band’s 9 studio albums, whose songs are represented as a ‘musical constellation’, 
+          and visualised though a data art interpretation of musical features and Spotify metrics (energy, danceability, valence, loudness, tempo). 
+          The celestial theme reflects on Abba’s journey and the ‘voyage’ theme of their latest album release in 2021. 
+          Pro tip: browse through the songs alongside someone and see how much you agree with the values of the 
+          Spotify metrics. I find that danceability tends to be particularly contentions.
+        </p>
+      </div>
+      <br></br>
+      <div className='disclaimer section'>
+        <h4>Disclaimer</h4>
+        <p>
+          Certain content on this website, such as audio and image materials associated with ABBA, 
+          is the intellectual property of Polar Music International AB (*). 
+          I hereby declare that I do not possess any ownership rights to said materials. 
+          This website is an unofficial tribute, created exclusively for non-commercial, 
+          entertainment purposes, and I do not claim any official 
+          association with ABBA or Polar Music International AB. 
+        </p>
+        <p className='copyright'>
+          (*) © 2001 Polar Music International AB; 
+          <br></br>
+          © 2021 1221 AB, under exclusive license to Polar Music International AB
+        </p>
+      </div>
+      <br></br>
+      <div className='credits section'>
+        <h4>Credits</h4>
+        <p>
+          Music previews and music audio features data was obtained via <a className="link-project" href='https://developer.spotify.com/documentation/web-api' target='_blank'>
+          the Spotify Web API</a>. 
+          The API provides 30s music clip previews, but these were clipped to a few seconds only to avoid copyright issues. 
+          If you have a Spotify account, head to the link provided for the full song.
+          <br></br>
+          Environment maps were AI-generated via <a className="link-project" href='https://skybox.blockadelabs.com/' target='_blank'>Skybox AI by Blockade Labs</a>
+          <br></br> 
+          The Three.js code for the photo gallery is based on <a className="link-project" href='https://codesandbox.io/p/sandbox/image-gallery-lx2h8?file=%2Fsrc%2FApp.js'>this example</a> by  <a className="link-project" href='https://docs.pmnd.rs/react-three-fiber/getting-started/examples'>Pmndrs</a>
+        </p>
+      </div>
+    </>
+  },
+  {
+    id: 'abba-sketch', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Abba sketch: albums",
+    websiteUrl: "https://openprocessing.org/sketch/2253610",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53700780690_c220216ddc_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53700780690_c220216ddc_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
+    backgroundColour: "#b88140",
+    responsibleFor: 'everything',
+    tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+        A spin-off page for the songs visualisations only 
+        of my <a className="link-project" href='https://abba50.netlify.app/'>ABBA @ 50 project</a>.
+    </p>
+    </>
+  },
+  {
     id: 'kanji-radicals', 
     hasPage: true, 
     tag: 'side-project',
@@ -381,23 +468,6 @@ const projectsMetadata = [
     tools: 'D3.js, Python',
     description: ""
   },
-  // {
-  //   id: 'kimono-colours', 
-  //   hasPage: false, 
-  //   tag: 'side-project',
-  //   title: "Colours in kimono",
-  //   websiteUrl: "https://observablehq.com/@deaxmachina/radial-graph-kimono-colours",
-  //   imgUrl: "https://live.staticflickr.com/65535/52268953988_7c20b9d0e8_h.jpg",
-  //   smallImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
-  //   individualPageImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
-  //   individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268918601_728af332db_h.jpg",
-  //   backgroundColour: "#F47983",
-  //   responsibleFor: 'everything',
-  //   tools: 'D3.js',
-  //   client: 'personal project',
-  //   standardLayout: true, 
-  //   description: ""
-  // },
   {
     id: 'quantum-cryptography', 
     hasPage: true, 
