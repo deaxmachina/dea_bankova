@@ -523,6 +523,24 @@ const projectsMetadata = [
     description: ''
   },
   {
+    id: 'us-primaries-tracker', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | 2024 Delegate tracker",
+    websiteUrl: "https://www.reuters.com/graphics/USA-ELECTION/PRIMARIES/gkplxymmwpb/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    backgroundColour: "#b2396e",
+    responsibleFor: 'Entire front end, including graphs and data munging to get display information from raw API data.',
+    tools: 'Svelte, D3.js',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
     id: 'ukraine-1-year', 
     hasPage: true, 
     tag: 'work-reuters',
