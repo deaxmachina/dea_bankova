@@ -1,5 +1,24 @@
 const projectsMetadata = [
   {
+    id: 'norwegian-wood', 
+    hasPage: false, 
+    tag: 'side-project',
+    title: "Butterfly Dance",
+    websiteUrl: "https://butterflydance.netlify.app/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    backgroundColour: "#b575a8",
+    responsibleFor: 'everything: concept, design, code',
+    tools: 'D3.js, HTML5 Canvas, p5.js',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <></>
+  },
+  {
     id: 'infinity', 
     hasPage: true, 
     tag: 'side-project',
