@@ -1,24 +1,5 @@
 const projectsMetadata = [
   {
-    id: 'norwegian-wood', 
-    hasPage: false, 
-    tag: 'side-project',
-    title: "Butterfly Dance",
-    websiteUrl: "https://butterflydance.netlify.app/",
-    videoUrl: '',
-    imgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
-    backgroundColour: "#b575a8",
-    responsibleFor: 'everything: concept, design, code',
-    tools: 'D3.js, HTML5 Canvas, p5.js',
-    client: '',
-    standardLayout: true, 
-    description: 
-    <></>
-  },
-  {
     id: 'infinity', 
     hasPage: true, 
     tag: 'side-project',
@@ -61,23 +42,59 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'infinite-monkey-game', 
+    id: 'norwegian-wood', 
     hasPage: false, 
     tag: 'side-project',
-    title: "Infinite Monkey Game",
-    websiteUrl: "https://infinitemonkey.netlify.app/",
+    title: "Butterfly Dance",
+    websiteUrl: "https://butterflydance.netlify.app/",
     videoUrl: '',
-    imgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    imgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'Figma, React',
+    tools: 'D3.js, HTML5 Canvas, p5.js',
     client: '',
     standardLayout: true, 
     description: 
     <></>
+  },
+  {
+    id: 'quantum-cryptography', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Quantum computing decrypted",
+    websiteUrl: "https://www.reuters.com/graphics/USA-CHINA/QUANTUM/gkplxnozqpb/",
+    videoUrl: './quantum1.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
+    backgroundColour: "#5f31bd",
+    responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
+    tools: 'Svelte, D3.js, GSAP, Three.js',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'eurovision-2023', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | Eurovision 2023",
+    websiteUrl: "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/",
+    videoUrl: './eurovision3.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    backgroundColour: "#a72678",
+    responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
+    tools: 'Svelte, D3.js, GSAP',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
   },
   {
     id: 'abba-50', 
@@ -143,28 +160,23 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'abba-sketch', 
-    hasPage: true, 
+    id: 'infinite-monkey-game', 
+    hasPage: false, 
     tag: 'side-project',
-    title: "Abba sketch: albums",
-    websiteUrl: "https://openprocessing.org/sketch/2253610",
+    title: "Infinite Monkey Game",
+    websiteUrl: "https://infinitemonkey.netlify.app/",
     videoUrl: '',
-    imgUrl: "https://live.staticflickr.com/65535/53700780690_c220216ddc_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53700780690_c220216ddc_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
-    backgroundColour: "#b88140",
-    responsibleFor: 'everything',
-    tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
+    imgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
+    backgroundColour: "#b575a8",
+    responsibleFor: 'everything: concept, design, code',
+    tools: 'Figma, React',
     client: '',
     standardLayout: true, 
     description: 
-    <>
-    <p>
-        A spin-off page for the songs visualisations only 
-        of my <a className="link-project" href='https://abba50.netlify.app/'>ABBA @ 50 project</a>.
-    </p>
-    </>
+    <></>
   },
   {
     id: 'kanji-radicals', 
@@ -172,7 +184,7 @@ const projectsMetadata = [
     tag: 'side-project',
     title: "Kanji with radicals",
     websiteUrl: "https://kanjiviz.netlify.app/",
-    videoUrl: './kanji3.mp4',
+    // videoUrl: './kanji3.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg",
     individualPageImgUrl: 'https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg',
@@ -194,27 +206,40 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'generative-sketches', 
+    id: 'fleeing-ukraine', 
     hasPage: true, 
-    tag: 'side-project',
-    title: "Generative sketches",
-    websiteUrl: "https://generative-sketches.netlify.app/",
-    videoUrl: './generative-sketches.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
-    backgroundColour: "#7064b3",
-    responsibleFor: 'everything',
-    tools: 'Three.js, Svelte, Midjourney',
-    client: '',
+    tag: 'work-reuters',
+    title: "Reuters | Fleeing Ukraine",
+    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/REFUGEES/dwvkrqzlnpm/",
+    videoUrl: './ukraine-refugees2.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
+    backgroundColour: "#547eab",
+    responsibleFor: 'code for 3D and 2D graphs, visualisation and page design (partial)',
+    tools: 'Three.js, D3.js, HTML5 Canvas, Svelte',
+    client: <><em>Reuters Graphics</em></>,
     standardLayout: true, 
-    description: 
-    <>
-    <p>
-        A small collection of experiments with Three.js and Midjourney, testing out simple generative patterns and aesthetics. 
-    </p>
-    </>
+    description:  <></>
+  },
+  {
+    id: 'taylor-swift', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | The unstoppable pop of Taylor Swift",
+    websiteUrl: "https://www.reuters.com/graphics/MUSIC-TAYLORSWIFT/SPOTIFY/dwpkarywqpm/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
+    backgroundColour: "#b39cbc",
+    responsibleFor: 'Interactive radial bar charts for the Spotify metrics and billboard chart implementation & contributions to design.',
+    tools: 'Svelte, D3.js',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
   },
   {
     id: 'anime-timeline', 
@@ -250,49 +275,179 @@ const projectsMetadata = [
     </>    
   },
   {
-    id: 'steam-games', 
-    hasPage: false, 
-    tag: 'side-project',
-    title: "Games on Steam, analysis",
-    websiteUrl: "https://observablehq.com/d/69533edb762fa00d",
-    imgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
-    backgroundColour: "#b575a8",
-    responsibleFor: 'everything: data analysis, visualisation',
-    tools: 'Observable Plot, Python',
-    client: '',
+    id: 'world-cup-2022', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | World Cup 2022",
+    websiteUrl: "https://www.reuters.com/graphics/WORLD-CUP/akveqzmgwvr/",
+    videoUrl: './worldcup2.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
+    backgroundColour: "#7064b3",
+    responsibleFor: 'code implemetation, roughly equally shared',
+    tools: 'Svelte, D3.js',
+    client: <><em>Reuters Graphics</em></>,
     standardLayout: true, 
-    description: '',
+    description: 
+    <>
+    <p>
+        Collection of pages for the World Cup 2022 Reuters real-time coverage, including pages for each team and match, venues, and bracket.
+        Match pages, bracket and live match widget on reuters.com updated real time for the duration of the World Cup. 
+        I worked on the menus, match cards, live widget, team history, and re-worked an earlier version the bracket visualisation. 
+        I also provided real-time support and bug fixes for the duration of the event, and especially during live matches. 
+        I split the dev work with a colleague and implemented designs based on designer mock-ups, working collaboratively and iteratively throughout.
+    </p>
+    </>
   },
   {
-    id: 'dragonflies', 
+    id: 'abba-sketch', 
     hasPage: true, 
     tag: 'side-project',
-    title: "Generative Dragonflies",
-    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
-    videoUrl: './dragonflies.mp4',
-    imgUrl: './dragonflies1.jpg',
-    smallImgUrl: './dragonflies1.jpg',
-    individualPageImgUrl: './dragonflies1.jpg',
-    individualPageSmallImgUrl: './dragonflies1.jpg',
-    backgroundColour: "gold",
-    responsibleFor: 'everything: design, implementation',
-    tools: 'p5.js, D3.js',
+    title: "Abba sketch: albums",
+    websiteUrl: "https://openprocessing.org/sketch/2253610",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53700780690_c220216ddc_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53700780690_c220216ddc_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
+    backgroundColour: "#b88140",
+    responsibleFor: 'everything',
+    tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
     client: '',
     standardLayout: true, 
     description: 
     <>
-      <p>Work in progress: experiments in generative dragonflies.</p>
-      <br></br>
-      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu" target='_blank'>Experiment 1</a> 
-      <br></br>
-      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/TMuluhtbz" target='_blank'>Experiment 2</a> 
-      <br></br>
-      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/AocQdThMv" target='_blank'>Experiment 3</a> 
-      <br></br>
-    </> 
+    <p>
+        A spin-off page for the songs visualisations only 
+        of my <a className="link-project" href='https://abba50.netlify.app/'>ABBA @ 50 project</a>.
+    </p>
+    </>
+  },
+  {
+    id: 'aot-paths', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "The paths",
+    websiteUrl: "https://aot-paths.netlify.app/",
+    videoUrl: './paths1.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
+    backgroundColour: "#6d91f6",
+    responsibleFor: 'everything',
+    tools: 'Three.js',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+      <p>
+        A small tribute to the animanga Attack on Titan – a 3D scene of “the Paths”. 
+        Note that I did not optimise this! It works great on an overpowered MacBook, but not so great on an older computer or phone.    
+      </p>
+    </>
+  },
+  {
+    id: 'generative-sketches', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Generative sketches",
+    websiteUrl: "https://generative-sketches.netlify.app/",
+    videoUrl: './generative-sketches.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
+    backgroundColour: "#7064b3",
+    responsibleFor: 'everything',
+    tools: 'Three.js, Svelte, Midjourney',
+    client: '',
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+        A small collection of experiments with Three.js and Midjourney, testing out simple generative patterns and aesthetics. 
+    </p>
+    </>
+  },
+  {
+    id: 'japanese-earthquakes', 
+    hasPage: true, 
+    tag: 'side-project',
+    title: "Earthquake Disasters in Japan",
+    websiteUrl: "https://japan-earthquakes.netlify.app/",
+    imgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    smallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
+    backgroundColour: "#286380",
+    responsibleFor: 'everything: data preparation, visualisation, website',
+    tools: 'D3.js, React, GSAP, Python',
+    client: <>individual project while at <em>the University of Tokyo</em></>,
+    standardLayout: true, 
+    description:
+    <>
+      <p>
+        Between September 2020 and March 2021, I worked on a project to record the memories of survivors of 
+        the 2011 Tohoku earthquake and tsunami disaster in north Japan. I wanted to find out more about the 
+        history of earthquakes in Japan and set out to create this visualisation, where you can see the magnitude 
+        and number of casualties over time side by side. 2011 saw the biggest earthquake in recorded Japanese history, 
+        but the deadliest one (1923 Kanto) was far smaller in intensity. 
+      </p>
+    </>
+  },
+  {
+    id: 'covid-swells', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | Covid swells return to Europe",
+    websiteUrl: "https://graphics.reuters.com/HEALTH-CORONAVIRUS/EUROPE/klvyknwllvg/index.html",
+    imgUrl: "https://live.staticflickr.com/65535/52269140548_d850c34089_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
+    backgroundColour: "#547fb1",
+    responsibleFor: 'data processing (partial), visualisation design (partial) and code for swells graphs and vaccination pacing graph',
+    tools: 'D3.js, Svelte, Python',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'french-elections', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | French Elections 2022",
+    websiteUrl: "https://graphics.reuters.com/FRANCE-ELECTION/POLLS/zjvqkomzlvx/polls/",
+    imgUrl: "https://live.staticflickr.com/65535/53845198111_5fbbf4e6fb_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53845198111_5fbbf4e6fb_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
+    backgroundColour: "#182438",
+    responsibleFor: 'data collection and processing, visualisation design and code, page code',
+    tools: 'D3.js, HTML5 Canvas, Svelte, Python',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: <></>
+  },
+  {
+    id: 'europe-gas-tracker', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | How much of Europe's gas storage is filled",
+    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/EUROPE-GAS/zdvxozxzopx/",
+    imgUrl: "https://live.staticflickr.com/65535/52280053967_fb5900df39_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53844314672_131bcff44a_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52280049477_31107f1c8f_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52280049477_31107f1c8f_h.jpg",
+    backgroundColour: "#547eab",
+    responsibleFor: 'front-end code (visualisation and page)',
+    tools: 'D3.js, Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description:  <></>
   },
   {
     id: 'co2-emissions', 
@@ -323,30 +478,134 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'japanese-earthquakes', 
+    id: 'it-is-getting-hotter', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | It's getting hotter all year round",
+    websiteUrl: "https://graphics.reuters.com/CLIMATE-CHANGE/znpneamnkvl/",
+    videoUrl: './itsgettinghotter1.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
+    backgroundColour: "#aea4db",
+    responsibleFor: 'data collection, visualisation design and code',
+    tools: 'D3.js, HTML5 Canvas, Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description:  <></>
+  },
+  {
+    id: 'dragonflies', 
     hasPage: true, 
     tag: 'side-project',
-    title: "Earthquake Disasters in Japan",
-    websiteUrl: "https://japan-earthquakes.netlify.app/",
-    imgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    smallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
-    backgroundColour: "#286380",
-    responsibleFor: 'everything: data preparation, visualisation, website',
-    tools: 'D3.js, React, GSAP, Python',
-    client: <>individual project while at <em>the University of Tokyo</em></>,
+    title: "Generative Dragonflies",
+    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
+    videoUrl: './dragonflies.mp4',
+    imgUrl: './dragonflies1.jpg',
+    smallImgUrl: './dragonflies1.jpg',
+    individualPageImgUrl: './dragonflies1.jpg',
+    individualPageSmallImgUrl: './dragonflies1.jpg',
+    backgroundColour: "gold",
+    responsibleFor: 'everything: design, implementation',
+    tools: 'p5.js, D3.js',
+    client: '',
     standardLayout: true, 
-    description:
+    description: 
+    <>
+      <p>Work in progress: experiments in generative dragonflies.</p>
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu" target='_blank'>Experiment 1</a> 
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/TMuluhtbz" target='_blank'>Experiment 2</a> 
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/AocQdThMv" target='_blank'>Experiment 3</a> 
+      <br></br>
+    </> 
+  },
+  {
+    id: 'us-primaries-tracker', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | 2024 Delegate tracker",
+    websiteUrl: "https://www.reuters.com/graphics/USA-ELECTION/PRIMARIES/gkplxymmwpb/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
+    backgroundColour: "#b2396e",
+    responsibleFor: 'Entire front end, including graphs and data munging to get display information from raw API data.',
+    tools: 'Svelte, D3.js',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'iwate-archive', 
+    hasPage: true, 
+    tag: 'work-other',
+    title: "Tohoku Earthquake 10th Anniversary Archive",
+    websiteUrl: "https://311narratives.archiving.jp",
+    imgUrl: "https://live.staticflickr.com/65535/51100202969_ab9cbb0a93_o.png",
+    smallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
+    backgroundColour: "#222E3A",
+    responsibleFor: 'data analysis, NLP, visualisation, website',
+    tools: 'D3.js, React, Python (spaCy)',
+    client: <>
+    <b>for: </b> 
+    <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/" target="_blank">Iwate Nippo 岩手日報</a> and <a style={{color: "#222E3A"}} className="link-project" href="https://labo.wtnv.jp/" target="_blank">Watanave Lab</a> at the University of Tokyo 
+    </>,
+    standardLayout: true, 
+    description:  
     <>
       <p>
-        Between September 2020 and March 2021, I worked on a project to record the memories of survivors of 
-        the 2011 Tohoku earthquake and tsunami disaster in north Japan. I wanted to find out more about the 
-        history of earthquakes in Japan and set out to create this visualisation, where you can see the magnitude 
-        and number of casualties over time side by side. 2011 saw the biggest earthquake in recorded Japanese history, 
-        but the deadliest one (1923 Kanto) was far smaller in intensity. 
+        The objective of this archive-visualisation was to create a virtual space to
+        preserve the thoughts, memories and narratives of survivors of 
+        the <a a style={{color: "#222E3A"}} className="link-project" href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami" target="_blank">2011 Tohoku earthquake and tsunami disaster</a>,
+        using the content of over 500 interviews. This included people’s 
+        movements after 11th March 2011, their messages to their deceased loved ones, the 
+        rebuilding of their homes, and their experiences over the past 10 years. 
       </p>
+      <br />
+      <p>
+        My talented colleague, Dr Takata Yurina created 
+        a <a style={{color: "#222E3A"}} className="link-project" href="https://311stories.archiving.jp/" target="_blank">map of the movements</a> of
+        people whose homes were destroyed – many of them having to move over 4 times in the past 10 years. 
+        The full archive page can be viewed 
+        on <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/page/higashinihon2021#01-01" target="_blank">the Iwate Nippo website</a>.     
+      </p>
+
     </>
+  },
+  {
+    id: 'covid-news-timeline-japan',
+    hasPage: true,  
+    tag: 'work-other',
+    title: "Covid-19 Event Timeline in Japan",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    videoUrl: './yahoo-news-covid-timeline1.mp4',
+    imgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51226514274_36a7971232_o.png',
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png",
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
+    backgroundColour: "#2B505F",
+    responsibleFor: 'NLP, visualisation, website',
+    tools: 'D3.js, GSAP, Python',
+    client: <em>individual research project at the University of Tokyo</em>,
+    standardLayout: true, 
+    description: 
+    <>
+        <br/>
+        The aim of this archive project was to document the events and topics surrounding the Covid-19 pandemic in Japan, 
+        starting from Jan 2020 and running until Dec 2021, primarily via the use of news headlines. 
+
+        The data is 
+        from <a style={{color: "#2B505F"}} className="link-project" target="blank" href="http://agora.ex.nii.ac.jp/crisis/covid-19/mass-media/">the Covid-19 News Analysis Database</a> by <a style={{color: "#2B505F"}} className="link-project" target="blank"  href="http://agora.ex.nii.ac.jp/~kitamoto/">Prof Asanobu Kitamoto</a>; articles from Yahoo! Japan. 
+
+    </>      
   },
   {
     id: 'i-dont-like-you', 
@@ -378,30 +637,6 @@ const projectsMetadata = [
     </> 
   },
   {
-    id: 'aot-paths', 
-    hasPage: true, 
-    tag: 'side-project',
-    title: "The paths",
-    websiteUrl: "https://aot-paths.netlify.app/",
-    videoUrl: './paths1.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
-    backgroundColour: "#6d91f6",
-    responsibleFor: 'everything',
-    tools: 'Three.js',
-    client: '',
-    standardLayout: true, 
-    description: 
-    <>
-      <p>
-        A small tribute to the animanga Attack on Titan – a 3D scene of “the Paths”. 
-        Note that I did not optimise this! It works great on an overpowered MacBook, but not so great on an older computer or phone.    
-      </p>
-    </>
-  },
-  {
     id: 'words-lifetime', 
     hasPage: false, 
     tag: 'side-project',
@@ -415,6 +650,127 @@ const projectsMetadata = [
     responsibleFor: 'data preparation, visualisation, website',
     tools: 'D3.js, GSAP, Python',
     description: ""
+  },
+  {
+    id: 'olympics-museum', 
+    hasPage: true, 
+    tag: 'work-other',
+    title: "Tokyo Olympics Museum School Trip",
+    websiteUrl: "https://olympics.netlify.app/",
+    videoUrl: './olympics2.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/51100179841_0cfe4b31b2_o.png",
+    smallImgUrl: "https://live.staticflickr.com/65535/51100319547_51b0024bbb_o.png",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51100179841_0cfe4b31b2_o.png",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100319547_51b0024bbb_o.png",
+    backgroundColour: "#A62343",
+    responsibleFor: 'data collection, visualisation, website',
+    tools: 'D3.js, React, Rough.js, Python',
+    client: <>for <em>the University of Tokyo</em></>,
+    standardLayout: true, 
+    description:  
+    <>
+      <p>
+        A collaborative project between the Universities 
+        of Tokyo and Tsukuba, coordinated by teaching bodies in Japan, with the purpose of producing 
+        materials for classroom study prior to school trips to 
+        the <a href="https://japan-olympicmuseum.jp/en/" style={{color: "#A62343"}} className="link-project" target="_blank">Olympics Museum in Tokyo</a>.
+        The target audience was secondary school students in schools all around Japan. 
+      </p>
+      <br />
+      <p>
+        The questions and accompanying visualisations serve the purpose of cues for group discussions among 
+        the students before they visit the museum and aim to bring up important topics around the history 
+        and goals of the Olympics and Paralympics. The current iteration is a rough draft, or a PoC to show 
+        what is possible through the use of interactive visualisations. 
+        The Japanese version can be found <a href="https://olympicsjp.netlify.app/" style={{color: "#A62343"}} className="link-project" target="_blank">here</a>.
+      </p>
+    </>
+  },
+  {
+    id: 'ukraine-civilians', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | Under fire: Civilian lives and homes destroyed by the conflict",
+    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CIVILIANS/zgpomygqmpd/",
+    imgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
+    backgroundColour: "#2e343f",
+    responsibleFor: 'technical implementation of video components',
+    tools: 'Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'ukraine-1-year', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | How Ukraine endured",
+    websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
+    imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    backgroundColour: "#333333",
+    responsibleFor: 'code implemetation',
+    tools: 'Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'war-ukraine-food-crisis', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | The war in Ukraine is fuelling a global food crisis.",
+    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/FOOD/zjvqkgomjvx/",
+    imgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
+    backgroundColour: "#d65562",
+    responsibleFor: 'hero graphic, page design and code, some of the graphs on the page',
+    tools: 'Datawrapper, D3.js, Svelte, Adobe Illustrator',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'road-to-stalemate', 
+    hasPage: true, 
+    tag: 'work-reuters',
+    title: "Reuters | The Road to Stalemate",
+    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CONTROL/gdpzygorxvw/",
+    imgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
+    backgroundColour: "#ea8677",
+    responsibleFor: 'technical implementation of maps (partial) and other page code (partial)',
+    tools: 'D3.js, HTML5 Canvas, Svelte',
+    client: <><em>Reuters Graphics</em></>,
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'tdb-companies-graph', 
+    hasPage: true, 
+    tag: 'work-other',
+    title: "Company Business Relationships Graphs",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    backgroundColour: "#62488F",
+    responsibleFor: 'visualisation, website',
+    tools: 'D3.js, HTML5 Canvas, React.js, Python',
+    client: <em> Teikoku Databank, Ltd. 株式会社 帝国データバンク</em>,
+    standardLayout: false, 
+    description: 
+    <></> 
   },
   {
     id: 'co2-trees', 
@@ -488,120 +844,21 @@ const projectsMetadata = [
     description: ""
   },
   {
-    id: 'quantum-cryptography', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Quantum computing decrypted",
-    websiteUrl: "https://www.reuters.com/graphics/USA-CHINA/QUANTUM/gkplxnozqpb/",
-    videoUrl: './quantum1.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
-    backgroundColour: "#5f31bd",
-    responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
-    tools: 'Svelte, D3.js, GSAP, Three.js',
-    client: <><em>Reuters Graphics</em></>,
+    id: 'steam-games', 
+    hasPage: false, 
+    tag: 'side-project',
+    title: "Games on Steam, analysis",
+    websiteUrl: "https://observablehq.com/d/69533edb762fa00d",
+    imgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126948_d4121cf335_b.jpg",
+    backgroundColour: "#b575a8",
+    responsibleFor: 'everything: data analysis, visualisation',
+    tools: 'Observable Plot, Python',
+    client: '',
     standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'eurovision-2023', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | Eurovision 2023",
-    websiteUrl: "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/",
-    videoUrl: './eurovision3.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    backgroundColour: "#a72678",
-    responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
-    tools: 'Svelte, D3.js, GSAP',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'taylor-swift', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | The unstoppable pop of Taylor Swift",
-    websiteUrl: "https://www.reuters.com/graphics/MUSIC-TAYLORSWIFT/SPOTIFY/dwpkarywqpm/",
-    videoUrl: '',
-    imgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
-    backgroundColour: "#b39cbc",
-    responsibleFor: 'Interactive radial bar charts for the Spotify metrics and billboard chart implementation & contributions to design.',
-    tools: 'Svelte, D3.js',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'us-primaries-tracker', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | 2024 Delegate tracker",
-    websiteUrl: "https://www.reuters.com/graphics/USA-ELECTION/PRIMARIES/gkplxymmwpb/",
-    videoUrl: '',
-    imgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
-    backgroundColour: "#b2396e",
-    responsibleFor: 'Entire front end, including graphs and data munging to get display information from raw API data.',
-    tools: 'Svelte, D3.js',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'ukraine-1-year', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | How Ukraine endured",
-    websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
-    imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    backgroundColour: "#333333",
-    responsibleFor: 'code implemetation',
-    tools: 'Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'world-cup-2022', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | World Cup 2022",
-    websiteUrl: "https://www.reuters.com/graphics/WORLD-CUP/akveqzmgwvr/",
-    videoUrl: './worldcup2.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
-    backgroundColour: "#7064b3",
-    responsibleFor: 'code implemetation, roughly equally shared',
-    tools: 'Svelte, D3.js',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: 
-    <>
-    <p>
-        Collection of pages for the World Cup 2022 Reuters real-time coverage, including pages for each team and match, venues, and bracket.
-        Match pages, bracket and live match widget on reuters.com updated real time for the duration of the World Cup. 
-        I worked on the menus, match cards, live widget, team history, and re-worked an earlier version the bracket visualisation. 
-        I also provided real-time support and bug fixes for the duration of the event, and especially during live matches. 
-        I split the dev work with a colleague and implemented designs based on designer mock-ups, working collaboratively and iteratively throughout.
-    </p>
-    </>
+    description: '',
   },
   {
     id: 'svelte-patterns', 
@@ -634,264 +891,6 @@ const projectsMetadata = [
     I originally worked on the example, but these are not always the latest or the best version.
     </p>
     </>
-  },
-  {
-    id: 'it-is-getting-hotter', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | It's getting hotter all year round",
-    websiteUrl: "https://graphics.reuters.com/CLIMATE-CHANGE/znpneamnkvl/",
-    videoUrl: './itsgettinghotter1.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
-    backgroundColour: "#aea4db",
-    responsibleFor: 'data collection, visualisation design and code',
-    tools: 'D3.js, HTML5 Canvas, Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description:  <></>
-  },
-  {
-    id: 'fleeing-ukraine', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | Fleeing Ukraine",
-    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/REFUGEES/dwvkrqzlnpm/",
-    videoUrl: './ukraine-refugees2.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
-    backgroundColour: "#547eab",
-    responsibleFor: 'code for 3D and 2D graphs, visualisation and page design (partial)',
-    tools: 'Three.js, D3.js, HTML5 Canvas, Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description:  <></>
-  },
-  {
-    id: 'europe-gas-tracker', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | How much of Europe's gas storage is filled",
-    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/EUROPE-GAS/zdvxozxzopx/",
-    imgUrl: "https://live.staticflickr.com/65535/52280053967_fb5900df39_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52280049477_31107f1c8f_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52280049477_31107f1c8f_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52280049477_31107f1c8f_h.jpg",
-    backgroundColour: "#547eab",
-    responsibleFor: 'front-end code (visualisation and page)',
-    tools: 'D3.js, Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description:  <></>
-  },
-  {
-    id: 'french-elections', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | French Elections 2022",
-    websiteUrl: "https://graphics.reuters.com/FRANCE-ELECTION/POLLS/zjvqkomzlvx/polls/",
-    imgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
-    backgroundColour: "#182438",
-    responsibleFor: 'data collection and processing, visualisation design and code, page code',
-    tools: 'D3.js, HTML5 Canvas, Svelte, Python',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: <></>
-  },
-  {
-    id: 'covid-swells', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | Covid swells return to Europe",
-    websiteUrl: "https://graphics.reuters.com/HEALTH-CORONAVIRUS/EUROPE/klvyknwllvg/index.html",
-    imgUrl: "https://live.staticflickr.com/65535/52269140548_d850c34089_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
-    backgroundColour: "#547fb1",
-    responsibleFor: 'data processing (partial), visualisation design (partial) and code for swells graphs and vaccination pacing graph',
-    tools: 'D3.js, Svelte, Python',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'war-ukraine-food-crisis', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | The war in Ukraine is fuelling a global food crisis.",
-    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/FOOD/zjvqkgomjvx/",
-    imgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
-    backgroundColour: "#d65562",
-    responsibleFor: 'hero graphic, page design and code, some of the graphs on the page',
-    tools: 'Datawrapper, D3.js, Svelte, Adobe Illustrator',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'road-to-stalemate', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | The Road to Stalemate",
-    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CONTROL/gdpzygorxvw/",
-    imgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
-    backgroundColour: "#ea8677",
-    responsibleFor: 'technical implementation of maps (partial) and other page code (partial)',
-    tools: 'D3.js, HTML5 Canvas, Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'ukraine-civilians', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | Under fire: Civilian lives and homes destroyed by the conflict",
-    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CIVILIANS/zgpomygqmpd/",
-    imgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
-    backgroundColour: "#2e343f",
-    responsibleFor: 'technical implementation of video components',
-    tools: 'Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'covid-news-timeline-japan',
-    hasPage: true,  
-    tag: 'work-other',
-    title: "Covid-19 Event Timeline in Japan",
-    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
-    videoUrl: './yahoo-news-covid-timeline1.mp4',
-    imgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51226514274_36a7971232_o.png',
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png",
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
-    backgroundColour: "#2B505F",
-    responsibleFor: 'NLP, visualisation, website',
-    tools: 'D3.js, GSAP, Python',
-    client: <em>individual research project at the University of Tokyo</em>,
-    standardLayout: true, 
-    description: 
-    <>
-        <br/>
-        The aim of this archive project was to document the events and topics surrounding the Covid-19 pandemic in Japan, 
-        starting from Jan 2020 and running until Dec 2021, primarily via the use of news headlines. 
-
-        The data is 
-        from <a style={{color: "#2B505F"}} className="link-project" target="blank" href="http://agora.ex.nii.ac.jp/crisis/covid-19/mass-media/">the Covid-19 News Analysis Database</a> by <a style={{color: "#2B505F"}} className="link-project" target="blank"  href="http://agora.ex.nii.ac.jp/~kitamoto/">Prof Asanobu Kitamoto</a>; articles from Yahoo! Japan. 
-
-    </>
-        
-  },
-  {
-    id: 'iwate-archive', 
-    hasPage: true, 
-    tag: 'work-other',
-    title: "Tohoku Earthquake 10th Anniversary Archive",
-    websiteUrl: "https://311narratives.archiving.jp",
-    imgUrl: "https://live.staticflickr.com/65535/51100202969_ab9cbb0a93_o.png",
-    smallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
-    backgroundColour: "#222E3A",
-    responsibleFor: 'data analysis, NLP, visualisation, website',
-    tools: 'D3.js, React, Python (spaCy)',
-    client: <>
-    <b>for: </b> 
-    <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/" target="_blank">Iwate Nippo 岩手日報</a> and <a style={{color: "#222E3A"}} className="link-project" href="https://labo.wtnv.jp/" target="_blank">Watanave Lab</a> at the University of Tokyo 
-    </>,
-    standardLayout: true, 
-    description:  
-    <>
-      <p>
-        The objective of this archive-visualisation was to create a virtual space to
-        preserve the thoughts, memories and narratives of survivors of 
-        the <a a style={{color: "#222E3A"}} className="link-project" href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami" target="_blank">2011 Tohoku earthquake and tsunami disaster</a>,
-        using the content of over 500 interviews. This included people’s 
-        movements after 11th March 2011, their messages to their deceased loved ones, the 
-        rebuilding of their homes, and their experiences over the past 10 years. 
-      </p>
-      <br />
-      <p>
-        My talented colleague, Dr Takata Yurina created 
-        a <a style={{color: "#222E3A"}} className="link-project" href="https://311stories.archiving.jp/" target="_blank">map of the movements</a> of
-        people whose homes were destroyed – many of them having to move over 4 times in the past 10 years. 
-        The full archive page can be viewed 
-        on <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/page/higashinihon2021#01-01" target="_blank">the Iwate Nippo website</a>.     
-      </p>
-
-    </>
-  },
-  {
-    id: 'olympics-museum', 
-    hasPage: true, 
-    tag: 'work-other',
-    title: "Tokyo Olympics Museum School Trip",
-    websiteUrl: "https://olympics.netlify.app/",
-    videoUrl: './olympics2.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/51100179841_0cfe4b31b2_o.png",
-    smallImgUrl: "https://live.staticflickr.com/65535/51100319547_51b0024bbb_o.png",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51100179841_0cfe4b31b2_o.png",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100319547_51b0024bbb_o.png",
-    backgroundColour: "#A62343",
-    responsibleFor: 'data collection, visualisation, website',
-    tools: 'D3.js, React, Rough.js, Python',
-    client: <>for <em>the University of Tokyo</em></>,
-    standardLayout: true, 
-    description:  
-    <>
-      <p>
-        A collaborative project between the Universities 
-        of Tokyo and Tsukuba, coordinated by teaching bodies in Japan, with the purpose of producing 
-        materials for classroom study prior to school trips to 
-        the <a href="https://japan-olympicmuseum.jp/en/" style={{color: "#A62343"}} className="link-project" target="_blank">Olympics Museum in Tokyo</a>.
-        The target audience was secondary school students in schools all around Japan. 
-      </p>
-      <br />
-      <p>
-        The questions and accompanying visualisations serve the purpose of cues for group discussions among 
-        the students before they visit the museum and aim to bring up important topics around the history 
-        and goals of the Olympics and Paralympics. The current iteration is a rough draft, or a PoC to show 
-        what is possible through the use of interactive visualisations. 
-        The Japanese version can be found <a href="https://olympicsjp.netlify.app/" style={{color: "#A62343"}} className="link-project" target="_blank">here</a>.
-      </p>
-    </>
-  },
-  {
-    id: 'tdb-companies-graph', 
-    hasPage: true, 
-    tag: 'work-other',
-    title: "Company Business Relationships Graphs",
-    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
-    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
-    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
-    backgroundColour: "#62488F",
-    responsibleFor: 'visualisation, website',
-    tools: 'D3.js, HTML5 Canvas, React.js, Python',
-    client: <em> Teikoku Databank, Ltd. 株式会社 帝国データバンク</em>,
-    standardLayout: false, 
-    description: 
-    <></> 
   },
 ]
 

@@ -36,17 +36,25 @@
 }
 .observable-container button {
   font-size: 18px;
-  margin-left: 10px;
-  background-color: var(--blueColour);
+  /* margin-left: 10px; */
+  /* background-color: var(--blueColour); */
   border: none;
+  border: 3px solid var(--purpleColour);
   padding: 10px 15px;
-  color: var(--lightColour);
+  /* color: var(--lightColour); */
   box-sizing: border-box;
   cursor: pointer;
-  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+  background: none;
 }
 .observable-container button:hover, .observable-container button:active {
-  background-color: #286380;
+  background: var(--purpleColour);
+  color: var(--lightColour);
+}
+@media (max-width: 780px) {
+  .observable-container button {
+    margin-top: 8px;
+  }
 }
 
 
