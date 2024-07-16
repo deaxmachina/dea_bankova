@@ -3,7 +3,7 @@ import "./App.css";
 import About from "./Components/About/About";
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'; 
 import ScrollToTop from "./Reusable/scrollToTop";
-import PortfolioFull from "./Components/PortfolioFull/PortfolioFull";
+import PortfolioFull from "./Components/PortfolioFull/PortfolioFull"
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
 import FrontPage from "./Components/FrontPage/FrontPage";
 import Writing from "./Components/Writing/Writing/Writing";

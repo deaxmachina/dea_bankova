@@ -85,6 +85,9 @@
   background-repeat: no-repeat; 
   background-size: cover; 
 }
+.portfolio-grid-entry.small-project, .portfolio-grid-entry.small-contribution {
+  height: 140px;
+}
 
 
 /*************************************/
@@ -175,6 +178,36 @@
   color: var(--purpleColour);
   box-shadow: 0px 0px 0px 10px var(--purpleColour); 
 }
+
+/*************************************/
+/********** Project Details **********/
+/*************************************/
+.wrapper-project-details {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.project-details {
+  text-align: left;
+}
+.project-title {
+  font-family: 'Della Respira', serif;
+  color: var(--textDarkColour);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.project-client {
+  color: #82737D; 
+  font-weight: 400;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.project-tools, .project-awards {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #82737D; 
+}
+
 
 
 /*************************************/

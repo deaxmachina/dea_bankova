@@ -4,7 +4,8 @@ import "./PortfolioFull.css";
 import Glow from "../../Reusable/glow";
 import SideProjects from './SideProjects'
 import Work from "./Work";
-import AllProjects from "./AllProjects";
+// import AllProjects from "./AllProjects";
+import AllProjects from "./AllProjectsWithText";
 import ObservableLink from "./Observable";
 import HomeLink from "../../Reusable/HomeLink/HomeLink";
 import Footer from "../Footer/Footer";

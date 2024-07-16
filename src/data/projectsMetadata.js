@@ -2,6 +2,7 @@ const projectsMetadata = [
   {
     id: 'infinity', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Infinity: an interactive exploration",
     websiteUrl: "https://maths-infinity.netlify.app/",
@@ -13,7 +14,8 @@ const projectsMetadata = [
     backgroundColour: "#65cdcb",
     responsibleFor: 'everything: concept, design, code',
     tools: 'React, Three.js, R3F, D3.js, HTML5 Canvas, GSAP, Figma',
-    client: '',
+    awards: 'some award',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -44,6 +46,7 @@ const projectsMetadata = [
   {
     id: 'norwegian-wood', 
     hasPage: false, 
+    size: 'full',
     tag: 'side-project',
     title: "Butterfly Dance",
     websiteUrl: "https://butterflydance.netlify.app/",
@@ -55,7 +58,7 @@ const projectsMetadata = [
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: concept, design, code',
     tools: 'D3.js, HTML5 Canvas, p5.js',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <></>
@@ -63,6 +66,7 @@ const projectsMetadata = [
   {
     id: 'quantum-cryptography', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
     title: "Quantum computing decrypted",
     websiteUrl: "https://www.reuters.com/graphics/USA-CHINA/QUANTUM/gkplxnozqpb/",
@@ -74,15 +78,16 @@ const projectsMetadata = [
     backgroundColour: "#5f31bd",
     responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
     tools: 'Svelte, D3.js, GSAP, Three.js',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
   {
     id: 'eurovision-2023', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | Eurovision 2023",
+    title: "Eurovision 2023",
     websiteUrl: "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/",
     videoUrl: './eurovision3.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
@@ -92,13 +97,14 @@ const projectsMetadata = [
     backgroundColour: "#a72678",
     responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
     tools: 'Svelte, D3.js, GSAP',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
   {
     id: 'abba-50', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Abba explorer: Abba at 50",
     websiteUrl: "https://abba50.netlify.app/",
@@ -110,7 +116,7 @@ const projectsMetadata = [
     backgroundColour: "#b88140",
     responsibleFor: 'everything: concept, design, code',
     tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -162,6 +168,7 @@ const projectsMetadata = [
   {
     id: 'infinite-monkey-game', 
     hasPage: false, 
+    size: 'full',
     tag: 'side-project',
     title: "Infinite Monkey Game",
     websiteUrl: "https://infinitemonkey.netlify.app/",
@@ -173,7 +180,7 @@ const projectsMetadata = [
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: concept, design, code',
     tools: 'Figma, React',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <></>
@@ -181,6 +188,7 @@ const projectsMetadata = [
   {
     id: 'kanji-radicals', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Kanji with radicals",
     websiteUrl: "https://kanjiviz.netlify.app/",
@@ -192,7 +200,7 @@ const projectsMetadata = [
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: data processing, design, visualisation, page code',
     tools: 'Svelte, D3.js, HTML5 Canvas, Python',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -208,8 +216,9 @@ const projectsMetadata = [
   {
     id: 'fleeing-ukraine', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | Fleeing Ukraine",
+    title: "Fleeing Ukraine",
     websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/REFUGEES/dwvkrqzlnpm/",
     videoUrl: './ukraine-refugees2.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
@@ -219,15 +228,16 @@ const projectsMetadata = [
     backgroundColour: "#547eab",
     responsibleFor: 'code for 3D and 2D graphs, visualisation and page design (partial)',
     tools: 'Three.js, D3.js, HTML5 Canvas, Svelte',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description:  <></>
   },
   {
     id: 'taylor-swift', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | The unstoppable pop of Taylor Swift",
+    title: "The unstoppable pop of Taylor Swift",
     websiteUrl: "https://www.reuters.com/graphics/MUSIC-TAYLORSWIFT/SPOTIFY/dwpkarywqpm/",
     videoUrl: '',
     imgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
@@ -237,13 +247,14 @@ const projectsMetadata = [
     backgroundColour: "#b39cbc",
     responsibleFor: 'Interactive radial bar charts for the Spotify metrics and billboard chart implementation & contributions to design.',
     tools: 'Svelte, D3.js',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
   {
     id: 'anime-timeline', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Timeline of Anime",
     websiteUrl: "https://animetimeline.netlify.app/",
@@ -255,7 +266,7 @@ const projectsMetadata = [
     backgroundColour: "#4E1B34",
     responsibleFor: 'everything: data processing, design, visualisation, page code',
     tools: 'D3.js, React, Python',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -277,8 +288,9 @@ const projectsMetadata = [
   {
     id: 'world-cup-2022', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | World Cup 2022",
+    title: "World Cup 2022",
     websiteUrl: "https://www.reuters.com/graphics/WORLD-CUP/akveqzmgwvr/",
     videoUrl: './worldcup2.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
@@ -288,7 +300,7 @@ const projectsMetadata = [
     backgroundColour: "#7064b3",
     responsibleFor: 'code implemetation, roughly equally shared',
     tools: 'Svelte, D3.js',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: 
     <>
@@ -304,6 +316,7 @@ const projectsMetadata = [
   {
     id: 'abba-sketch', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Abba sketch: albums",
     websiteUrl: "https://openprocessing.org/sketch/2253610",
@@ -315,7 +328,7 @@ const projectsMetadata = [
     backgroundColour: "#b88140",
     responsibleFor: 'everything',
     tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -326,8 +339,131 @@ const projectsMetadata = [
     </>
   },
   {
+    id: 'dragonflies', 
+    hasPage: true, 
+    size: 'small-project',
+    tag: 'side-project',
+    title: "Generative Dragonflies",
+    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
+    videoUrl: './dragonflies.mp4',
+    imgUrl: './dragonflies1.jpg',
+    smallImgUrl: './dragonflies1.jpg',
+    individualPageImgUrl: './dragonflies1.jpg',
+    individualPageSmallImgUrl: './dragonflies1.jpg',
+    backgroundColour: "gold",
+    responsibleFor: 'everything: design, implementation',
+    tools: 'p5.js, D3.js',
+    client: 'Personal project',
+    standardLayout: true, 
+    description: 
+    <>
+      <p>Work in progress: experiments in generative dragonflies.</p>
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu" target='_blank'>Experiment 1</a> 
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/TMuluhtbz" target='_blank'>Experiment 2</a> 
+      <br></br>
+      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/AocQdThMv" target='_blank'>Experiment 3</a> 
+      <br></br>
+    </> 
+  },
+  {
+    id: 'murakami-books', 
+    hasPage: false, 
+    size: 'small-project',
+    tag: 'side-project',
+    title: "Books of Haruki Murakami",
+    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
+    videoUrl: './dragonflies.mp4',
+    imgUrl: './dragonflies1.jpg',
+    smallImgUrl: './dragonflies1.jpg',
+    individualPageImgUrl: './dragonflies1.jpg',
+    individualPageSmallImgUrl: './dragonflies1.jpg',
+    backgroundColour: "gold",
+    responsibleFor: 'everything: design, implementation',
+    tools: 'p5.js, D3.js',
+    client: 'Personal project',
+    standardLayout: true, 
+    description: <> </> 
+  },
+  {
+    id: 'rugby-bracket', 
+    hasPage: false, 
+    size: 'small-project',
+    tag: 'work',
+    title: "Rugby bracket 2023",
+    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
+    videoUrl: './dragonflies.mp4',
+    imgUrl: './dragonflies1.jpg',
+    smallImgUrl: './dragonflies1.jpg',
+    individualPageImgUrl: './dragonflies1.jpg',
+    individualPageSmallImgUrl: './dragonflies1.jpg',
+    backgroundColour: "gold",
+    responsibleFor: 'everything: design, implementation',
+    tools: 'p5.js, D3.js',
+    client: 'Personal project',
+    standardLayout: true, 
+    description: <> </> 
+  },
+  {
+    id: 'disney-anniv', 
+    hasPage: false, 
+    size: 'small-contribution',
+    tag: 'work',
+    title: "Drawing on the past",
+    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
+    videoUrl: './dragonflies.mp4',
+    imgUrl: './dragonflies1.jpg',
+    smallImgUrl: './dragonflies1.jpg',
+    individualPageImgUrl: './dragonflies1.jpg',
+    individualPageSmallImgUrl: './dragonflies1.jpg',
+    backgroundColour: "gold",
+    responsibleFor: 'everything: design, implementation',
+    tools: 'p5.js, D3.js',
+    client: 'Personal project',
+    standardLayout: true, 
+    description: <> </> 
+  },
+  {
+    id: 'ukraine-civilians', 
+    hasPage: true, 
+    size: 'small-contribution',
+    tag: 'work-reuters',
+    title: "Civilian lives and homes destroyed by the conflict",
+    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CIVILIANS/zgpomygqmpd/",
+    imgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
+    backgroundColour: "#2e343f",
+    responsibleFor: 'technical implementation of video components',
+    tools: 'Svelte',
+    client: 'Reuters Graphics',
+    standardLayout: true, 
+    description: ''
+  },
+  {
+    id: 'ukraine-1-year', 
+    hasPage: true, 
+    size: 'small-contribution',
+    tag: 'work-reuters',
+    title: "How Ukraine endured",
+    websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
+    imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
+    backgroundColour: "#333333",
+    responsibleFor: 'code implemetation',
+    tools: 'Svelte',
+    client: 'Reuters Graphics',
+    standardLayout: true, 
+    description: ''
+  },
+  {
     id: 'aot-paths', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "The paths",
     websiteUrl: "https://aot-paths.netlify.app/",
@@ -339,7 +475,7 @@ const projectsMetadata = [
     backgroundColour: "#6d91f6",
     responsibleFor: 'everything',
     tools: 'Three.js',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -352,6 +488,7 @@ const projectsMetadata = [
   {
     id: 'generative-sketches', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Generative sketches",
     websiteUrl: "https://generative-sketches.netlify.app/",
@@ -363,7 +500,7 @@ const projectsMetadata = [
     backgroundColour: "#7064b3",
     responsibleFor: 'everything',
     tools: 'Three.js, Svelte, Midjourney',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
@@ -375,6 +512,7 @@ const projectsMetadata = [
   {
     id: 'japanese-earthquakes', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Earthquake Disasters in Japan",
     websiteUrl: "https://japan-earthquakes.netlify.app/",
@@ -385,7 +523,7 @@ const projectsMetadata = [
     backgroundColour: "#286380",
     responsibleFor: 'everything: data preparation, visualisation, website',
     tools: 'D3.js, React, GSAP, Python',
-    client: <>individual project while at <em>the University of Tokyo</em></>,
+    client: 'Personal project',
     standardLayout: true, 
     description:
     <>
@@ -401,8 +539,9 @@ const projectsMetadata = [
   {
     id: 'covid-swells', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | Covid swells return to Europe",
+    title: "Covid swells return to Europe",
     websiteUrl: "https://graphics.reuters.com/HEALTH-CORONAVIRUS/EUROPE/klvyknwllvg/index.html",
     imgUrl: "https://live.staticflickr.com/65535/52269140548_d850c34089_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
@@ -411,15 +550,16 @@ const projectsMetadata = [
     backgroundColour: "#547fb1",
     responsibleFor: 'data processing (partial), visualisation design (partial) and code for swells graphs and vaccination pacing graph',
     tools: 'D3.js, Svelte, Python',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
   {
     id: 'french-elections', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | French Elections 2022",
+    title: "French Elections 2022",
     websiteUrl: "https://graphics.reuters.com/FRANCE-ELECTION/POLLS/zjvqkomzlvx/polls/",
     imgUrl: "https://live.staticflickr.com/65535/53845198111_5fbbf4e6fb_c.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/53845198111_5fbbf4e6fb_c.jpg",
@@ -428,15 +568,16 @@ const projectsMetadata = [
     backgroundColour: "#182438",
     responsibleFor: 'data collection and processing, visualisation design and code, page code',
     tools: 'D3.js, HTML5 Canvas, Svelte, Python',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: <></>
   },
   {
     id: 'europe-gas-tracker', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | How much of Europe's gas storage is filled",
+    title: "How much of Europe's gas storage is filled",
     websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/EUROPE-GAS/zdvxozxzopx/",
     imgUrl: "https://live.staticflickr.com/65535/52280053967_fb5900df39_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/53844314672_131bcff44a_c.jpg",
@@ -445,13 +586,14 @@ const projectsMetadata = [
     backgroundColour: "#547eab",
     responsibleFor: 'front-end code (visualisation and page)',
     tools: 'D3.js, Svelte',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description:  <></>
   },
   {
     id: 'co2-emissions', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "CO2 Emissions in Cities",
     websiteUrl: "https://co2cities.netlify.app/",
@@ -462,14 +604,13 @@ const projectsMetadata = [
     backgroundColour: "#2E5659",
     responsibleFor: 'everything: data preparation, visualisation, website',
     tools: 'D3.js, React, Python',
-    client: 
-    <>
-        Hackathon project for <a href="https://climate-crisis.devpost.com/" className="link-project" target="_blank"> 2021 Climate Crisis AI Hackathon</a> by <a href="https://launchlab.ai/" className="link-project" target="_blank">AI Launch Lab</a> and <a href="https://www.climatereality.ca/" className="link-project" target="_blank">The Climate Reality Project Canada</a>. 
-    </>,
+    client: 'Hackathon project',
     standardLayout: true, 
     description: 
     <>
       <p>
+        Hackathon project for <a href="https://climate-crisis.devpost.com/" className="link-project" target="_blank"> 2021 Climate Crisis AI Hackathon</a> by <a href="https://launchlab.ai/" className="link-project" target="_blank">AI Launch Lab</a> and <a href="https://www.climatereality.ca/" className="link-project" target="_blank">The Climate Reality Project Canada</a>. 
+        <br></br>
         Completed over the course of one weekend (~30 hours) in January 2021.
         Visualisation that can be used to view average CO2 emissions of cities worldwide at a glance, 
         as well as to dive into the data for a specific city – 
@@ -480,8 +621,9 @@ const projectsMetadata = [
   {
     id: 'it-is-getting-hotter', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | It's getting hotter all year round",
+    title: "It's getting hotter all year round",
     websiteUrl: "https://graphics.reuters.com/CLIMATE-CHANGE/znpneamnkvl/",
     videoUrl: './itsgettinghotter1.mp4',
     imgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
@@ -491,43 +633,16 @@ const projectsMetadata = [
     backgroundColour: "#aea4db",
     responsibleFor: 'data collection, visualisation design and code',
     tools: 'D3.js, HTML5 Canvas, Svelte',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description:  <></>
   },
   {
-    id: 'dragonflies', 
-    hasPage: true, 
-    tag: 'side-project',
-    title: "Generative Dragonflies",
-    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
-    videoUrl: './dragonflies.mp4',
-    imgUrl: './dragonflies1.jpg',
-    smallImgUrl: './dragonflies1.jpg',
-    individualPageImgUrl: './dragonflies1.jpg',
-    individualPageSmallImgUrl: './dragonflies1.jpg',
-    backgroundColour: "gold",
-    responsibleFor: 'everything: design, implementation',
-    tools: 'p5.js, D3.js',
-    client: '',
-    standardLayout: true, 
-    description: 
-    <>
-      <p>Work in progress: experiments in generative dragonflies.</p>
-      <br></br>
-      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu" target='_blank'>Experiment 1</a> 
-      <br></br>
-      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/TMuluhtbz" target='_blank'>Experiment 2</a> 
-      <br></br>
-      <a className="link-project" href="https://editor.p5js.org/deaxmachina/full/AocQdThMv" target='_blank'>Experiment 3</a> 
-      <br></br>
-    </> 
-  },
-  {
     id: 'us-primaries-tracker', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-reuters',
-    title: "Reuters | 2024 Delegate tracker",
+    title: "2024 Delegate tracker",
     websiteUrl: "https://www.reuters.com/graphics/USA-ELECTION/PRIMARIES/gkplxymmwpb/",
     videoUrl: '',
     imgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
@@ -537,13 +652,14 @@ const projectsMetadata = [
     backgroundColour: "#b2396e",
     responsibleFor: 'Entire front end, including graphs and data munging to get display information from raw API data.',
     tools: 'Svelte, D3.js',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
   {
     id: 'iwate-archive', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-other',
     title: "Tohoku Earthquake 10th Anniversary Archive",
     websiteUrl: "https://311narratives.archiving.jp",
@@ -554,14 +670,13 @@ const projectsMetadata = [
     backgroundColour: "#222E3A",
     responsibleFor: 'data analysis, NLP, visualisation, website',
     tools: 'D3.js, React, Python (spaCy)',
-    client: <>
-    <b>for: </b> 
-    <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/" target="_blank">Iwate Nippo 岩手日報</a> and <a style={{color: "#222E3A"}} className="link-project" href="https://labo.wtnv.jp/" target="_blank">Watanave Lab</a> at the University of Tokyo 
-    </>,
+    client: 'University of Tokyo / Iwate Nippo 岩手日報',
     standardLayout: true, 
     description:  
     <>
       <p>
+        <a style={{color: "#222E3A"}} className="link-project" href="https://www.iwate-np.co.jp/" target="_blank">Iwate Nippo 岩手日報</a> and <a style={{color: "#222E3A"}} className="link-project" href="https://labo.wtnv.jp/" target="_blank">Watanave Lab</a> at the University of Tokyo 
+        <br></br>
         The objective of this archive-visualisation was to create a virtual space to
         preserve the thoughts, memories and narratives of survivors of 
         the <a a style={{color: "#222E3A"}} className="link-project" href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami" target="_blank">2011 Tohoku earthquake and tsunami disaster</a>,
@@ -583,6 +698,7 @@ const projectsMetadata = [
   {
     id: 'covid-news-timeline-japan',
     hasPage: true,  
+    size: 'full',
     tag: 'work-other',
     title: "Covid-19 Event Timeline in Japan",
     websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
@@ -594,7 +710,7 @@ const projectsMetadata = [
     backgroundColour: "#2B505F",
     responsibleFor: 'NLP, visualisation, website',
     tools: 'D3.js, GSAP, Python',
-    client: <em>individual research project at the University of Tokyo</em>,
+    client: 'University of Tokyo',
     standardLayout: true, 
     description: 
     <>
@@ -610,6 +726,7 @@ const projectsMetadata = [
   {
     id: 'i-dont-like-you', 
     hasPage: true, 
+    size: 'full',
     tag: 'side-project',
     title: "Hate Crime in London - data art",
     websiteUrl: "https://deaxmachina.github.io/hatecrime_uk_p5/",
@@ -621,15 +738,14 @@ const projectsMetadata = [
     backgroundColour: "#51AF98",
     responsibleFor: 'everything: data gathering, design, visualisation, page code',
     tools: 'p5.js',
-    client: 
-    <>
-      <em>personal project</em> for 
-      the <a className="link-project" href="https://showcase.p5js.org/" target='_blank'>p5.js 2021 Showcase: The Love Ethic!</a> 
-    </>,
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <>
     <p>
+      <em>personal project</em> for 
+      the <a className="link-project" href="https://showcase.p5js.org/" target='_blank'>p5.js 2021 Showcase: The Love Ethic!</a> 
+      <br></br>
       I created this piece as a submission to the p5.js 2021 Showcase in July 2021. 
       I wanted to express with data art both the existing and the missing numbers behind 
       racist hate crime in the UK, and specifically in London. 
@@ -637,23 +753,61 @@ const projectsMetadata = [
     </> 
   },
   {
-    id: 'words-lifetime', 
-    hasPage: false, 
-    tag: 'side-project',
-    title: "Words we say in a lifetime - scrollytelling with D3.js",
-    websiteUrl: "https://lifetimeofwords.netlify.app/",
-    imgUrl: 'https://live.staticflickr.com/65535/51182741664_87330e57a0_o.jpg',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51182741664_87330e57a0_o.jpg',
-    individualPageImgUrl: "https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png",
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png',
-    backgroundColour: "#805880",
-    responsibleFor: 'data preparation, visualisation, website',
-    tools: 'D3.js, GSAP, Python',
-    description: ""
+    id: 'svelte-patterns', 
+    hasPage: true, 
+    size: 'full',
+    tag: 'work-reuters',
+    title: "Svelte Patterns",
+    websiteUrl: "https://reuters-graphics.github.io/example_svelte-graph-patterns/",
+    videoUrl: '',
+    imgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
+    backgroundColour: "#dc4d46",
+    responsibleFor: 'everything',
+    tools: 'Svelte',
+    client: 'Reuters Graphics',
+    standardLayout: true, 
+    description:  
+    <>
+    <p>
+    <a style={{ textDecoration: 'underline'}} href='https://github.com/reuters-graphics/example_svelte-graph-patterns' target='_blank'>GitHub repo</a>
+    <br></br><br></br>
+    This project is a collection of examples and templates for working with Svelte in a number of situations that commonly 
+    arise when making D3 graphs, scrollytelling webpages and other kinds of content we often produce.
+    <br></br><br></br>
+    It is meant to be a continuous work in progress 🛠️ and is by no means an exhaustive, or necessarily a 
+    'best practices' 👓 type of collection. All the examples are use cases that I have encountered, 
+    built a minimal example around and documented. They come with working code, explained code snippets 
+    and notes about the approach taken. ⚠️ They might come with links to the Svelte repl where 
+    I originally worked on the example, but these are not always the latest or the best version.
+    </p>
+    </>
+  },
+  {
+    id: 'tdb-companies-graph', 
+    hasPage: true, 
+    size: 'full',
+    tag: 'work-other',
+    title: "Company Business Relationships Graphs",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    backgroundColour: "#62488F",
+    responsibleFor: 'visualisation, website',
+    tools: 'D3.js, HTML5 Canvas, React.js, Python',
+    client: 'Teikoku Databank 株式会社 帝国データバンク',
+    standardLayout: false, 
+    description: 
+    <></> 
   },
   {
     id: 'olympics-museum', 
     hasPage: true, 
+    size: 'full',
     tag: 'work-other',
     title: "Tokyo Olympics Museum School Trip",
     websiteUrl: "https://olympics.netlify.app/",
@@ -665,7 +819,7 @@ const projectsMetadata = [
     backgroundColour: "#A62343",
     responsibleFor: 'data collection, visualisation, website',
     tools: 'D3.js, React, Rough.js, Python',
-    client: <>for <em>the University of Tokyo</em></>,
+    client: 'University of Tokyo',
     standardLayout: true, 
     description:  
     <>
@@ -687,44 +841,26 @@ const projectsMetadata = [
     </>
   },
   {
-    id: 'ukraine-civilians', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | Under fire: Civilian lives and homes destroyed by the conflict",
-    websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CIVILIANS/zgpomygqmpd/",
-    imgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52946649902_e0c35b1231_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
-    backgroundColour: "#2e343f",
-    responsibleFor: 'technical implementation of video components',
-    tools: 'Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'ukraine-1-year', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | How Ukraine endured",
-    websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
-    imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
-    backgroundColour: "#333333",
-    responsibleFor: 'code implemetation',
-    tools: 'Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description: ''
+    id: 'words-lifetime', 
+    hasPage: false, 
+    tag: 'side-project',
+    title: "Words we say in a lifetime",
+    websiteUrl: "https://lifetimeofwords.netlify.app/",
+    imgUrl: 'https://live.staticflickr.com/65535/51182741664_87330e57a0_o.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51182741664_87330e57a0_o.jpg',
+    individualPageImgUrl: "https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png",
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png',
+    backgroundColour: "#805880",
+    responsibleFor: 'data preparation, visualisation, website',
+    tools: 'D3.js, GSAP, Python',
+    client: 'Personal project',
+    description: ""
   },
   {
     id: 'war-ukraine-food-crisis', 
     hasPage: true, 
     tag: 'work-reuters',
-    title: "Reuters | The war in Ukraine is fuelling a global food crisis.",
+    title: "The war in Ukraine is fuelling a global food crisis.",
     websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/FOOD/zjvqkgomjvx/",
     imgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
@@ -733,7 +869,7 @@ const projectsMetadata = [
     backgroundColour: "#d65562",
     responsibleFor: 'hero graphic, page design and code, some of the graphs on the page',
     tools: 'Datawrapper, D3.js, Svelte, Adobe Illustrator',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
@@ -741,7 +877,7 @@ const projectsMetadata = [
     id: 'road-to-stalemate', 
     hasPage: true, 
     tag: 'work-reuters',
-    title: "Reuters | The Road to Stalemate",
+    title: "The Road to Stalemate",
     websiteUrl: "https://graphics.reuters.com/UKRAINE-CRISIS/CONTROL/gdpzygorxvw/",
     imgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
     smallImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
@@ -750,33 +886,15 @@ const projectsMetadata = [
     backgroundColour: "#ea8677",
     responsibleFor: 'technical implementation of maps (partial) and other page code (partial)',
     tools: 'D3.js, HTML5 Canvas, Svelte',
-    client: <><em>Reuters Graphics</em></>,
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
-  },
-  {
-    id: 'tdb-companies-graph', 
-    hasPage: true, 
-    tag: 'work-other',
-    title: "Company Business Relationships Graphs",
-    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
-    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
-    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
-    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
-    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
-    backgroundColour: "#62488F",
-    responsibleFor: 'visualisation, website',
-    tools: 'D3.js, HTML5 Canvas, React.js, Python',
-    client: <em> Teikoku Databank, Ltd. 株式会社 帝国データバンク</em>,
-    standardLayout: false, 
-    description: 
-    <></> 
   },
   {
     id: 'co2-trees', 
     hasPage: false, 
     tag: 'side-project',
-    title: "Trees and CO2 in the atmosphere - data art with p5.js",
+    title: "Trees and CO2 in the atmosphere",
     websiteUrl: "https://deaxmachina.github.io/p5_trees/",
     imgUrl: 'https://live.staticflickr.com/65535/51276665860_581042e6c9_o.png',
     smallImgUrl: 'https://live.staticflickr.com/65535/51276665860_581042e6c9_o.png',
@@ -785,6 +903,7 @@ const projectsMetadata = [
     backgroundColour: "#219ebc",
     responsibleFor: 'visualisation, website',
     tools: 'p5.js, JavaScript',
+    client: 'Personal project',
     description: ""
   },
   {
@@ -800,7 +919,7 @@ const projectsMetadata = [
     backgroundColour: "#252e25",
     responsibleFor: 'data gathering, concept, visualisation',
     tools: 'D3.js, HTML5 Canvas, GSAP, Python',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: 
     <> 
@@ -824,7 +943,7 @@ const projectsMetadata = [
     backgroundColour: "#de7457",
     responsibleFor: 'design, visualisation',
     tools: 'D3.js',
-    client: 'personal project',
+    client: 'Personal project',
     standardLayout: true, 
     description: ""
   },
@@ -841,6 +960,7 @@ const projectsMetadata = [
     backgroundColour: "#e27396",
     responsibleFor: 'data preparation, visualisation, website',
     tools: 'D3.js, Python',
+    client: 'Personal project',
     description: ""
   },
   {
@@ -856,41 +976,9 @@ const projectsMetadata = [
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: data analysis, visualisation',
     tools: 'Observable Plot, Python',
-    client: '',
+    client: 'Personal project',
     standardLayout: true, 
     description: '',
-  },
-  {
-    id: 'svelte-patterns', 
-    hasPage: true, 
-    tag: 'work-reuters',
-    title: "Reuters | Svelte Patterns",
-    websiteUrl: "https://reuters-graphics.github.io/example_svelte-graph-patterns/",
-    videoUrl: '',
-    imgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
-    backgroundColour: "#dc4d46",
-    responsibleFor: 'everything',
-    tools: 'Svelte',
-    client: <><em>Reuters Graphics</em></>,
-    standardLayout: true, 
-    description:  
-    <>
-    <p>
-    <a style={{ textDecoration: 'underline'}} href='https://github.com/reuters-graphics/example_svelte-graph-patterns' target='_blank'>GitHub repo</a>
-    <br></br><br></br>
-    This project is a collection of examples and templates for working with Svelte in a number of situations that commonly 
-    arise when making D3 graphs, scrollytelling webpages and other kinds of content we often produce.
-    <br></br><br></br>
-    It is meant to be a continuous work in progress 🛠️ and is by no means an exhaustive, or necessarily a 
-    'best practices' 👓 type of collection. All the examples are use cases that I have encountered, 
-    built a minimal example around and documented. They come with working code, explained code snippets 
-    and notes about the approach taken. ⚠️ They might come with links to the Svelte repl where 
-    I originally worked on the example, but these are not always the latest or the best version.
-    </p>
-    </>
   },
 ]
 
