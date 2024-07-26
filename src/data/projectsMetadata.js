@@ -13,7 +13,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116109623_5c0520683d_c.jpg",
     backgroundColour: "#65cdcb",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'React, JavaScript, Three.js, R3F, D3.js, HTML5 Canvas...',
+    tools: 'React, JavaScript, Three.js, R3F, D3.js...',
     toolsArray: ['React', 'JavaScript', 'Three.js', 'React 3 Fiber', 'D3.js', 'HTML5 Canvas', 'GSAP', 'Figma'],
     awards: '2023 IIB awards: Bronze... +2',
     awardsArray: [
@@ -95,7 +95,7 @@ const projectsMetadata = [
     responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
     tools: 'Svelte, JavaScript D3.js, GSAP, Three.js',
     toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP', 'Three.js'],
-    awards: '2023 Best in Business Awards SABEW, SND 2024...',
+    awards: '2023 Best in Business Awards SABEW... +1',
     awardsArray: [
       {
         award: '2023 Best in Business Awards SABEW: Winner in Technology / Large division',
@@ -105,41 +105,6 @@ const projectsMetadata = [
         award: 'SND 2024 Award of excellence in 10i. Portfolio: Combination (staff or team)',
         url: 'https://snd.org/snd45-results/'
       }
-    ],
-    client: 'Reuters Graphics',
-    standardLayout: true, 
-    description: ''
-  },
-  {
-    id: 'eurovision-2023', 
-    hasPage: true, 
-    size: 'full',
-    tag: 'work-reuters',
-    title: "Eurovision 2023",
-    websiteUrl: "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/",
-    videoUrl: './eurovision3.mp4',
-    imgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    smallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    individualPageImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
-    backgroundColour: "#a72678",
-    responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
-    tools: 'Svelte, JavaScript, D3.js, GSAP',
-    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP'],
-    awards: '2023 LA Press Club Awards, SND 2024...',
-    awardsArray: [
-      {
-        award: '2023 LA Press Club Awards 16th National A&E Journalism Awards Winners: winner in category E7. Graphic',
-        url: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://5499fe.p3cdn1.secureserver.net/wp-content/uploads/2023/12/NAEJ-2023-Winners-111262023.pdf'
-      },
-      {
-        award: 'SND 2024 Award of excellence: 1A. Design: Features',
-        url: 'https://snd.org/snd45-results/'
-      },
-      {
-        award: 'SND 2024 Award of excellence: 2A. InfoGfx: Features',
-        url: 'https://snd.org/snd45-results/'
-      },
     ],
     client: 'Reuters Graphics',
     standardLayout: true, 
@@ -159,8 +124,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
     backgroundColour: "#b88140",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'React, JavaScript, Three.js, R3F, D3.js, GSAP, p5.js...',
-    toolsArray: ['React', 'JavaScript', 'Three.js', 'R3F', 'D3.js', 'GSAP', 'p5.js', 'p5 sound'],
+    tools: 'React, JavaScript, Three.js, R3F, D3.js, p5.js...',
+    toolsArray: ['React', 'JavaScript', 'Three.js', 'React 3 Fiber', 'D3.js', 'GSAP', 'p5.js', 'p5 sound'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -211,6 +176,41 @@ const projectsMetadata = [
     </>
   },
   {
+    id: 'eurovision-2023', 
+    hasPage: true, 
+    size: 'full',
+    tag: 'work-reuters',
+    title: "Eurovision 2023",
+    websiteUrl: "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/",
+    videoUrl: './eurovision3.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
+    backgroundColour: "#a72678",
+    responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
+    tools: 'Svelte, JavaScript, D3.js, GSAP',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP'],
+    awards: '2023 LA Press Club Awards, SND 2024...',
+    awardsArray: [
+      {
+        award: '2023 LA Press Club Awards 16th National A&E Journalism Awards Winners: winner in category E7. Graphic',
+        url: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://5499fe.p3cdn1.secureserver.net/wp-content/uploads/2023/12/NAEJ-2023-Winners-111262023.pdf'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 1A. Design: Features',
+        url: 'https://snd.org/snd45-results/'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 2A. InfoGfx: Features',
+        url: 'https://snd.org/snd45-results/'
+      },
+    ],
+    client: 'Reuters Graphics',
+    standardLayout: true, 
+    description: ''
+  },
+  {
     id: 'infinite-monkey-game', 
     hasPage: false, 
     size: 'full',
@@ -245,7 +245,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg",
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: data processing, design, visualisation, page code',
-    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas, Python',
+    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas...',
     toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
     client: 'Personal project',
     standardLayout: true, 
@@ -274,7 +274,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
     backgroundColour: "#547eab",
     responsibleFor: 'code for 3D and 2D graphs, visualisation and page design (partial)',
-    tools: 'Svelte, JavaScript, Three.js, D3.js, HTML5 Canvas',
+    tools: 'Svelte, JavaScript, Three.js, D3.js...',
     toolsArray: ['Svelte', 'JavaScript', 'Three.js', 'D3.js', 'HTML5 Canvas'],
     awards: 'SND 2023 Award of excellence',
     awardsArray: [ 
@@ -522,7 +522,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
     backgroundColour: "#182438",
     responsibleFor: 'data collection and processing, visualisation design and code, page code',
-    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas, Python',
+    tools: 'Svelte, JavaScript, D3.js, Python...',
     toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
     client: 'Reuters Graphics',
     standardLayout: true, 
@@ -621,7 +621,7 @@ const projectsMetadata = [
     hasPage: true, 
     size: 'full',
     tag: 'work-other',
-    title: "Tohoku Earthquake 10th Anniversary Archive",
+    title: "Tohoku Earthquake 10th Anniv. Archive",
     websiteUrl: "https://311narratives.archiving.jp",
     imgUrl: "https://live.staticflickr.com/65535/51100202969_ab9cbb0a93_o.png",
     smallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
@@ -631,7 +631,7 @@ const projectsMetadata = [
     responsibleFor: 'data analysis, NLP, visualisation, website',
     tools: 'React, JavaScript, D3.js, Python, spaCy',
     toolsArray: ['React', 'JavaScript', 'D3.js', 'Python', 'spaCy'],
-    awards: 'Good Design Awards 東日本大震災とグッドデザイン賞...',
+    awards: 'Good Design Awards グッドデザイン賞...',
     awardsArray: ['Good Design Awards 東日本大震災とグッドデザイン賞2011-2021'],
     client: 'University of Tokyo / Iwate Nippo 岩手日報',
     standardLayout: true, 
@@ -732,7 +732,7 @@ const projectsMetadata = [
     backgroundColour: "#dc4d46",
     responsibleFor: 'everything',
     tools: 'Svelte, JavaScript, D3.js, GSAP',
-    tools: ['Svelte', 'JavaScript', 'D3.js', 'GSAP'],
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description:  
@@ -756,7 +756,7 @@ const projectsMetadata = [
     hasPage: true, 
     size: 'full',
     tag: 'work-other',
-    title: "Company Business Relationships Graphs",
+    title: "Company Relationships Graphs",
     websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
     imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
     smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
@@ -764,7 +764,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
     backgroundColour: "#62488F",
     responsibleFor: 'visualisation, website',
-    tools: 'React, JavaScript, D3.js, HTML5 Canvas, Python',
+    tools: 'React, JavaScript, D3.js, Python...',
     toolsArray: ['React', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
     client: 'Teikoku Databank 株式会社 帝国データバンク',
     standardLayout: false, 
