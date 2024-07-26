@@ -18,23 +18,6 @@ const PortfolioFull = ({ windowWidth }) => {
       <section id="portfolio-container">
         <Glow />
         <HomeLink />
-        {/* <SideProjects 
-          projectsMetadata={projectsMetadata.filter(d => d.tag ==='side-project')} 
-          sectionTitle='Personal' 
-          sectionSubtitle=''
-          windowWidth={windowWidth} 
-          selectedProject={selectedProject} 
-          setSelectedProject={setSelectedProject} 
-        /> */}
-        {/* <Work 
-          projectsMetadata={projectsMetadata.filter(d => d.tag !=='side-project')} 
-          sectionTitle='Professional' 
-          sectionSubtitle=''
-          windowWidth={windowWidth} 
-          selectedProject={selectedProject} 
-          setSelectedProject={setSelectedProject}
-        /> */}
-
         <AllProjects 
           projectsMetadata={projectsMetadata} 
           sectionTitle='Portfolio' 

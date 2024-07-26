@@ -13,8 +13,23 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116109623_5c0520683d_c.jpg",
     backgroundColour: "#65cdcb",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'React, Three.js, R3F, D3.js, HTML5 Canvas, GSAP, Figma',
-    awards: 'some award',
+    tools: 'React, JavaScript, Three.js, R3F, D3.js, HTML5 Canvas...',
+    toolsArray: ['React', 'JavaScript', 'Three.js', 'React 3 Fiber', 'D3.js', 'HTML5 Canvas', 'GSAP', 'Figma'],
+    awards: '2023 IIB awards: Bronze... +2',
+    awardsArray: [
+      {
+        award: '2023 IIB Awards: Bronze in Impressive Individual category',
+        url: 'https://x.com/infobeautyaward/status/1720850494250226113'
+      },
+      {
+        award: '2023 IIB Awards: shortlist in Science and Technology category',
+        url: 'https://www.informationisbeautifulawards.com/showcase/6376-infinity-an-interactive-exploration'
+      },
+      {
+        award: 'The Pudding Cup 2023 honourable mention',
+        url: 'https://pudding.cool/pudding-cup/'
+      }
+    ],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -57,7 +72,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'D3.js, HTML5 Canvas, p5.js',
+    tools: 'JavaScript, D3.js, HTML5 Canvas, p5.js',
+    toolsArray: ['JavaScript', 'D3.js', 'HTML5 Canvas', 'p5.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -77,7 +93,19 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
     backgroundColour: "#5f31bd",
     responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
-    tools: 'Svelte, D3.js, GSAP, Three.js',
+    tools: 'Svelte, JavaScript D3.js, GSAP, Three.js',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP', 'Three.js'],
+    awards: '2023 Best in Business Awards SABEW, SND 2024...',
+    awardsArray: [
+      {
+        award: '2023 Best in Business Awards SABEW: Winner in Technology / Large division',
+        url: 'https://sabew.org/contestsawards/best-in-business/'
+      },
+      {
+        award: 'SND 2024 Award of excellence in 10i. Portfolio: Combination (staff or team)',
+        url: 'https://snd.org/snd45-results/'
+      }
+    ],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -96,7 +124,23 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52945296545_34691a43ea_c.jpg",
     backgroundColour: "#a72678",
     responsibleFor: 'The "Songs of Eurovision" section, including interactive song-flowers graphic; top of page.',
-    tools: 'Svelte, D3.js, GSAP',
+    tools: 'Svelte, JavaScript, D3.js, GSAP',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP'],
+    awards: '2023 LA Press Club Awards, SND 2024...',
+    awardsArray: [
+      {
+        award: '2023 LA Press Club Awards 16th National A&E Journalism Awards Winners: winner in category E7. Graphic',
+        url: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://5499fe.p3cdn1.secureserver.net/wp-content/uploads/2023/12/NAEJ-2023-Winners-111262023.pdf'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 1A. Design: Features',
+        url: 'https://snd.org/snd45-results/'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 2A. InfoGfx: Features',
+        url: 'https://snd.org/snd45-results/'
+      },
+    ],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -115,7 +159,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
     backgroundColour: "#b88140",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
+    tools: 'React, JavaScript, Three.js, R3F, D3.js, GSAP, p5.js...',
+    toolsArray: ['React', 'JavaScript', 'Three.js', 'R3F', 'D3.js', 'GSAP', 'p5.js', 'p5 sound'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -179,7 +224,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53015924795_6f3e9d30fc_c.jpg",
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'Figma, React',
+    tools: 'React, JavaScript, Figma',
+    toolsArray: ['React', 'Figma'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -199,7 +245,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269112884_7c92e1bbd0_h.jpg",
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: data processing, design, visualisation, page code',
-    tools: 'Svelte, D3.js, HTML5 Canvas, Python',
+    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas, Python',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -227,7 +274,15 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268982976_717bf74290_h.jpg",
     backgroundColour: "#547eab",
     responsibleFor: 'code for 3D and 2D graphs, visualisation and page design (partial)',
-    tools: 'Three.js, D3.js, HTML5 Canvas, Svelte',
+    tools: 'Svelte, JavaScript, Three.js, D3.js, HTML5 Canvas',
+    toolsArray: ['Svelte', 'JavaScript', 'Three.js', 'D3.js', 'HTML5 Canvas'],
+    awards: 'SND 2023 Award of excellence',
+    awardsArray: [ 
+      {
+        award: 'SND 2023 Award of excellence',
+        url: 'https://snd.org/best-of-design-competitions/snd44-annual-creative-competition-results/'
+      }
+    ],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description:  <></>
@@ -246,7 +301,15 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53116119938_1af741bdb4_c.jpg",
     backgroundColour: "#b39cbc",
     responsibleFor: 'Interactive radial bar charts for the Spotify metrics and billboard chart implementation & contributions to design.',
-    tools: 'Svelte, D3.js',
+    tools: 'Svelte, JavaScript, D3.js',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
+    awards: 'SND 2024 Silver (part of portfolio)',
+    awardsArray: [
+      {
+        award: 'SND 2024 Silver award in 10b. Portfolio: Story Page Design (organization, staff or team)',
+        url: 'https://snd.org/snd45-results/'
+      }
+    ],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -265,7 +328,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51100904620_e7c1a12e14_o.png',
     backgroundColour: "#4E1B34",
     responsibleFor: 'everything: data processing, design, visualisation, page code',
-    tools: 'D3.js, React, Python',
+    tools: 'React, JavaScript, D3.js, Python',
+    toolsArray: ['React', 'JavaScript', 'D3.js', 'Python'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -299,7 +363,15 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769893479_404150a5f6_c.jpg",
     backgroundColour: "#7064b3",
     responsibleFor: 'code implemetation, roughly equally shared',
-    tools: 'Svelte, D3.js',
+    tools: 'Svelte, JavaScript, D3.js',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
+    awards: '2023 IIB awards shortlist',
+    awardsArray: [
+      {
+        award: '2023 IIB awards shortlist: Leisure, games & sport category',
+        url: 'https://www.informationisbeautifulawards.com/showcase/6472-world-cup'
+      }
+    ],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: 
@@ -327,7 +399,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
     backgroundColour: "#b88140",
     responsibleFor: 'everything',
-    tools: 'React, Three.js, R3F, D3.js, GSAP, p5.js, p5 sound',
+    tools: 'React, JavaScript, Three.js, R3F, D3.js, p5.js...',
+    toolsArray: ['React', 'JavaScript', 'Three.js', 'React 3 Fiber', 'D3.js', 'GSAP', 'p5.js', 'p5 sound'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -352,7 +425,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: './dragonflies1.jpg',
     backgroundColour: "gold",
     responsibleFor: 'everything: design, implementation',
-    tools: 'p5.js, D3.js',
+    tools: 'JavaScript, p5.js, D3.js',
+    toolsArray: ['JavaScript', 'p5.js', 'D3.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -373,15 +447,16 @@ const projectsMetadata = [
     size: 'small-project',
     tag: 'side-project',
     title: "Books of Haruki Murakami",
-    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
-    videoUrl: './dragonflies.mp4',
-    imgUrl: './dragonflies1.jpg',
-    smallImgUrl: './dragonflies1.jpg',
-    individualPageImgUrl: './dragonflies1.jpg',
-    individualPageSmallImgUrl: './dragonflies1.jpg',
+    websiteUrl: "https://openprocessing.org/sketch/2144155",
+    // videoUrl: './dragonflies.mp4',
+    imgUrl: 'https://live.staticflickr.com/65535/53882420059_1ce3d5042c_c.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/53882420059_1ce3d5042c_c.jpg',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/53882420059_1ce3d5042c_c.jpg',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/53882420059_1ce3d5042c_c.jpg',
     backgroundColour: "gold",
     responsibleFor: 'everything: design, implementation',
-    tools: 'p5.js, D3.js',
+    tools: 'JavaScript, p5.js',
+    toolsArray: ['JavaScript', 'p5.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: <> </> 
@@ -392,16 +467,17 @@ const projectsMetadata = [
     size: 'small-project',
     tag: 'work',
     title: "Rugby bracket 2023",
-    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
-    videoUrl: './dragonflies.mp4',
-    imgUrl: './dragonflies1.jpg',
-    smallImgUrl: './dragonflies1.jpg',
-    individualPageImgUrl: './dragonflies1.jpg',
-    individualPageSmallImgUrl: './dragonflies1.jpg',
+    websiteUrl: "https://www.reuters.com/graphics/RUGBY-UNION-WORLDCUP/BRACKET/egpbmlgjavq/",
+    // videoUrl: './dragonflies.mp4',
+    imgUrl: 'https://live.staticflickr.com/65535/53882505270_3ae050ff73_c.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/53882505270_3ae050ff73_c.jpg',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/53882505270_3ae050ff73_c.jpg',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/53882505270_3ae050ff73_c.jpg',
     backgroundColour: "gold",
-    responsibleFor: 'everything: design, implementation',
-    tools: 'p5.js, D3.js',
-    client: 'Personal project',
+    responsibleFor: 'implementation of front-end',
+    tools: 'Svelte, JavaScript, D3.js',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
+    client: 'Reuters Graphics',
     standardLayout: true, 
     description: <> </> 
   },
@@ -411,22 +487,30 @@ const projectsMetadata = [
     size: 'small-contribution',
     tag: 'work',
     title: "Drawing on the past",
-    websiteUrl: "https://editor.p5js.org/deaxmachina/full/tm2Ls3cCu",
-    videoUrl: './dragonflies.mp4',
-    imgUrl: './dragonflies1.jpg',
-    smallImgUrl: './dragonflies1.jpg',
-    individualPageImgUrl: './dragonflies1.jpg',
-    individualPageSmallImgUrl: './dragonflies1.jpg',
+    websiteUrl: "https://www.reuters.com/graphics/DISNEY-100/HISTORY/znvnzmzgjvl/",
+    // videoUrl: './dragonflies.mp4',
+    imgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpg',
+    smallImgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpg',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpgg',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpg',
     backgroundColour: "gold",
-    responsibleFor: 'everything: design, implementation',
-    tools: 'p5.js, D3.js',
-    client: 'Personal project',
+    responsibleFor: 'technical implementation of depth scrolly section, parallax section',
+    tools: 'Svelte, JavaScript, GSAP',
+    toolsArray: ['Svelte', 'JavaScript', 'GSAP'],
+    awards: 'SND 2024 Bronze + Award of excellence x3',
+    awardsArray: [
+      'SND 2024 Bronze award in 10f. Portfolio: Art Direction/Illustration (organization, staff or team)',
+      'SND 2024 Award of excellence: 1A. Design: Features', 
+      'SND 2024 Award of excellence: 1B. Design: Business', 
+      'SND 2024 Award of excellence: 3a. Elements: Animation design'
+    ],
+    client: 'Reuters Graphics',
     standardLayout: true, 
-    description: <> </> 
+    description: ''
   },
   {
     id: 'ukraine-civilians', 
-    hasPage: true, 
+    hasPage: false, 
     size: 'small-contribution',
     tag: 'work-reuters',
     title: "Civilian lives and homes destroyed by the conflict",
@@ -437,14 +521,19 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
     backgroundColour: "#2e343f",
     responsibleFor: 'technical implementation of video components',
-    tools: 'Svelte',
+    tools: 'Svelte, JavaScript, GSAP',
+    toolsArray: ['Svelte', 'JavaScript', 'GSAP'],
+    awards: 'SND 2023 Bronze',
+    awardsArray: [ 
+      'SND 2023 Bronze'
+    ],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
   },
   {
     id: 'ukraine-1-year', 
-    hasPage: true, 
+    hasPage: false, 
     size: 'small-contribution',
     tag: 'work-reuters',
     title: "How Ukraine endured",
@@ -455,7 +544,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
     backgroundColour: "#333333",
     responsibleFor: 'code implemetation',
-    tools: 'Svelte',
+    tools: 'Svelte, JavaScript',
+    toolsArray: ['Svelte', 'JavaScript'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -474,7 +564,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268877683_37540de79c_h.jpg",
     backgroundColour: "#6d91f6",
     responsibleFor: 'everything',
-    tools: 'Three.js',
+    tools: 'JavaScript, Three.js, GLSL',
+    toolsArray: ['JavaScript', 'Three.js', 'GLSL'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -499,7 +590,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52770126833_252e6c31b5_b.jpg",
     backgroundColour: "#7064b3",
     responsibleFor: 'everything',
-    tools: 'Three.js, Svelte, Midjourney',
+    tools: 'Svelte, Three.js, GLSL, Midjourney',
+    toolsArray: ['Svelte', 'Three.js', 'GLSL', 'Midjourney'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -522,7 +614,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100108341_dffc0a04d8_o.png",
     backgroundColour: "#286380",
     responsibleFor: 'everything: data preparation, visualisation, website',
-    tools: 'D3.js, React, GSAP, Python',
+    tools: 'React, D3.js, GSAP, Python',
+    toolsArray: 'React, D3.js, GSAP, Python',
     client: 'Personal project',
     standardLayout: true, 
     description:
@@ -549,7 +642,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269275779_1543937678_h.jpg",
     backgroundColour: "#547fb1",
     responsibleFor: 'data processing (partial), visualisation design (partial) and code for swells graphs and vaccination pacing graph',
-    tools: 'D3.js, Svelte, Python',
+    tools: 'Svelte, JavaScript, D3.js, Python',
+    toolsArray: 'Svelte, JavaScript, D3.js, Python',
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -567,7 +661,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268037402_5f3de30dee_h.jpg",
     backgroundColour: "#182438",
     responsibleFor: 'data collection and processing, visualisation design and code, page code',
-    tools: 'D3.js, HTML5 Canvas, Svelte, Python',
+    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas, Python',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: <></>
@@ -585,7 +680,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52280049477_31107f1c8f_h.jpg",
     backgroundColour: "#547eab",
     responsibleFor: 'front-end code (visualisation and page)',
-    tools: 'D3.js, Svelte',
+    tools: 'Svelte, JavaScript, D3.js',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description:  <></>
@@ -603,7 +699,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100260017_687728e4c8_o.png",
     backgroundColour: "#2E5659",
     responsibleFor: 'everything: data preparation, visualisation, website',
-    tools: 'D3.js, React, Python',
+    tools: 'React, JavaScript, D3.js, Python',
+    toolsArray: ['React', 'JavaScript', 'D3.js', 'Python'],
     client: 'Hackathon project',
     standardLayout: true, 
     description: 
@@ -632,7 +729,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269448720_59e1b67673_h.jpg",
     backgroundColour: "#aea4db",
     responsibleFor: 'data collection, visualisation design and code',
-    tools: 'D3.js, HTML5 Canvas, Svelte',
+    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'HTML5 Canvas'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description:  <></>
@@ -651,7 +749,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53706066643_2e607d39bd_c.jpg",
     backgroundColour: "#b2396e",
     responsibleFor: 'Entire front end, including graphs and data munging to get display information from raw API data.',
-    tools: 'Svelte, D3.js',
+    tools: 'Svelte, JavaScript, D3.js',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -669,7 +768,10 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100210929_d1f6d1a474_o.png",
     backgroundColour: "#222E3A",
     responsibleFor: 'data analysis, NLP, visualisation, website',
-    tools: 'D3.js, React, Python (spaCy)',
+    tools: 'React, JavaScript, D3.js, Python, spaCy',
+    toolsArray: ['React', 'JavaScript', 'D3.js', 'Python', 'spaCy'],
+    awards: 'Good Design Awards 東日本大震災とグッドデザイン賞...',
+    awardsArray: ['Good Design Awards 東日本大震災とグッドデザイン賞2011-2021'],
     client: 'University of Tokyo / Iwate Nippo 岩手日報',
     standardLayout: true, 
     description:  
@@ -709,7 +811,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51225744751_40fe1a4bd2_o.png',
     backgroundColour: "#2B505F",
     responsibleFor: 'NLP, visualisation, website',
-    tools: 'D3.js, GSAP, Python',
+    tools: 'JavaScript, D3.js, GSAP, Python',
+    toolsArray: ['JavaScript', 'D3.js', 'GSAP', 'Python'],
     client: 'University of Tokyo',
     standardLayout: true, 
     description: 
@@ -737,7 +840,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
     backgroundColour: "#51AF98",
     responsibleFor: 'everything: data gathering, design, visualisation, page code',
-    tools: 'p5.js',
+    tools: 'JavaScript, p5.js',
+    toolsArray: ['JavaScript', 'p5.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -766,7 +870,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53115918199_0624a1b952_c.jpg",
     backgroundColour: "#dc4d46",
     responsibleFor: 'everything',
-    tools: 'Svelte',
+    tools: 'Svelte, JavaScript, D3.js, GSAP',
+    tools: ['Svelte', 'JavaScript', 'D3.js', 'GSAP'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description:  
@@ -798,7 +903,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
     backgroundColour: "#62488F",
     responsibleFor: 'visualisation, website',
-    tools: 'D3.js, HTML5 Canvas, React.js, Python',
+    tools: 'React, JavaScript, D3.js, HTML5 Canvas, Python',
+    toolsArray: ['React', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
     client: 'Teikoku Databank 株式会社 帝国データバンク',
     standardLayout: false, 
     description: 
@@ -818,7 +924,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/51100319547_51b0024bbb_o.png",
     backgroundColour: "#A62343",
     responsibleFor: 'data collection, visualisation, website',
-    tools: 'D3.js, React, Rough.js, Python',
+    tools: 'React, JavaScript, D3.js, Rough.js, Python',
+    toolsArray: ['React', 'JavaScript', 'D3.js', 'Rough.js', 'Python'],
     client: 'University of Tokyo',
     standardLayout: true, 
     description:  
@@ -852,7 +959,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png',
     backgroundColour: "#805880",
     responsibleFor: 'data preparation, visualisation, website',
-    tools: 'D3.js, GSAP, Python',
+    tools: 'JavaScript, D3.js, GSAP, Python',
+    toolsArray: ['JavaScript', 'D3.js', 'GSAP', 'Python'],
     client: 'Personal project',
     description: ""
   },
@@ -868,7 +976,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268148217_55aff3e04c_h.jpg",
     backgroundColour: "#d65562",
     responsibleFor: 'hero graphic, page design and code, some of the graphs on the page',
-    tools: 'Datawrapper, D3.js, Svelte, Adobe Illustrator',
+    tools: 'Svelte, JavaScript, Datawrapper, D3.js, Adobe Illustrator',
+    toolsArray: ['Svelte', 'JavaScript', 'Datawrapper', 'D3.js', 'Adobe Illustrator'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -885,7 +994,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269159878_371c4c3cba_h.jpg",
     backgroundColour: "#ea8677",
     responsibleFor: 'technical implementation of maps (partial) and other page code (partial)',
-    tools: 'D3.js, HTML5 Canvas, Svelte',
+    tools: 'Svelte, JavaScript, D3.js, HTML5 Canvas',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'HTML5 Canvas'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -902,7 +1012,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51276665860_581042e6c9_o.png',
     backgroundColour: "#219ebc",
     responsibleFor: 'visualisation, website',
-    tools: 'p5.js, JavaScript',
+    tools: 'JavaScript, p5.js',
+    toolsArray: ['JavaScript', 'p5.js'],
     client: 'Personal project',
     description: ""
   },
@@ -918,7 +1029,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52269365575_8aab9f523a_h.jpg",
     backgroundColour: "#252e25",
     responsibleFor: 'data gathering, concept, visualisation',
-    tools: 'D3.js, HTML5 Canvas, GSAP, Python',
+    tools: 'JavaScript, D3.js, HTML5 Canvas, GSAP, Python',
+    toolsArray: ['JavaScript', 'D3.js', 'HTML5 Canvas', 'GSAP', 'Python'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -942,7 +1054,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268899041_a73ec3416e_h.jpg",
     backgroundColour: "#de7457",
     responsibleFor: 'design, visualisation',
-    tools: 'D3.js',
+    tools: 'JavaScript, D3.js',
+    toolsArray: ['JavaScript', 'D3.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: ""
@@ -959,7 +1072,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51102629263_70096ca930_o.png',
     backgroundColour: "#e27396",
     responsibleFor: 'data preparation, visualisation, website',
-    tools: 'D3.js, Python',
+    tools: 'JavaScript, D3.js, Python',
+    toolsArray: ['JavaScript', 'D3.js', 'Python'],
     client: 'Personal project',
     description: ""
   },
@@ -976,6 +1090,7 @@ const projectsMetadata = [
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: data analysis, visualisation',
     tools: 'Observable Plot, Python',
+    toolsArray: ['Observable Plot', 'Python'],
     client: 'Personal project',
     standardLayout: true, 
     description: '',
