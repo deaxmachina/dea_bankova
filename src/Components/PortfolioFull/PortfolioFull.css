@@ -208,6 +208,9 @@
   font-weight: 300;
   color: #82737D; 
 }
+.no-awards {
+  color: var(--textLightcolour);
+}
 
 
 

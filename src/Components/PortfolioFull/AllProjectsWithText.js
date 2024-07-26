@@ -51,7 +51,7 @@ const AllProjects = ({ projectsMetadata, sectionTitle, sectionSubtitle, windowWi
                   </button>
                 </div> 
                 {
-                  // project.size === 'full' &&
+                  project.size === 'full' &&
                   <div className='wrapper-project-details'>
                     <h3 className="project-details project-title">{project.title}</h3>   
                     <p className="project-details project-client">{project.client}</p>
@@ -60,7 +60,7 @@ const AllProjects = ({ projectsMetadata, sectionTitle, sectionSubtitle, windowWi
                       {
                         project.awards ?
                         <> 🏆 {project.awards} </> :
-                        <> - </>
+                        <span className="no-awards"> - </span>
                       }
                     </p>
                   </div> 
