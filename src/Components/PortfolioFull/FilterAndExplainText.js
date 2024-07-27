@@ -116,7 +116,8 @@ const FilterAndExplainText = ({ filterTech, setFilterTech, filterProjectType, se
     <button onClick={() => { setFilterTech('all') }}>(reset)</button>
 
     <br></br>
-    Large image = project I did on my own or had a crucial role. Smaller image = project smaller in scope or my involvement. 
+    Larger image = project I did on my own or was a main contributor to. 
+    Smaller image = project smaller in scope or in my involvement. 
     </div>
   )
 }

@@ -40,7 +40,7 @@ const AllProjects = ({ projectsMetadata, sectionTitle, sectionSubtitle, windowWi
             setFilterProjectType={setFilterProjectType} 
           />  
         </div>
-        <div className="clarifying-message">click on each image for details</div>
+        <div className="clarifying-message">Click on each image for details.</div>
 
         {/* Large projects */}
         <div className="portfolio-grid">

@@ -86,7 +86,7 @@ const projectsMetadata = [
     hasPage: true, 
     size: 'full',
     tag: 'work-reuters',
-    projectTypeArray: ["data art", "front-end"],
+    projectTypeArray: ["creative coding", "front-end"],
     title: "Quantum computing decrypted",
     websiteUrl: "https://www.reuters.com/graphics/USA-CHINA/QUANTUM/gkplxnozqpb/",
     videoUrl: './quantum1.mp4',
@@ -96,7 +96,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53400259263_c74d5a83a0_c.jpg",
     backgroundColour: "#5f31bd",
     responsibleFor: 'Research, explanation of technical material, graphics, code implementation, design',
-    tools: 'Svelte, JavaScript D3.js, GSAP, Three.js',
+    tools: 'Svelte, JavaScript, D3.js, GSAP, Three.js',
     toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'GSAP', 'Three.js'],
     awards: '2023 Best in Business Awards SABEW... +1',
     awardsArray: [
@@ -111,7 +111,12 @@ const projectsMetadata = [
     ],
     client: 'Reuters Graphics',
     standardLayout: true, 
-    description: ''
+    description: 
+    <>
+      This project was done entirely in code, with the initial section on classic cryptography 
+      in Svelte + GSAP, the long scrolly section in Svelte + GSAP + Three.js and
+      the transition section in GLSL shaders in Three.js. 
+    </>
   },
   {
     id: 'abba-50', 
@@ -128,7 +133,7 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700587324_223766b2df_c.jpg",
     backgroundColour: "#b88140",
     responsibleFor: 'everything: concept, design, code',
-    tools: 'React, JavaScript, Three.js, R3F, D3.js, p5.js...',
+    tools: 'React, JavaScript, Three.js, React 3 Fiber...',
     toolsArray: ['React', 'JavaScript', 'Three.js', 'React 3 Fiber', 'D3.js', 'GSAP', 'p5.js', 'p5 sound'],
     client: 'Personal project',
     standardLayout: true, 
@@ -231,7 +236,7 @@ const projectsMetadata = [
     backgroundColour: "#b575a8",
     responsibleFor: 'everything: concept, design, code',
     tools: 'React, JavaScript, Figma',
-    toolsArray: ['React', 'Figma'],
+    toolsArray: ['React', 'JavaScript',  'Figma'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -242,7 +247,7 @@ const projectsMetadata = [
     hasPage: true, 
     size: 'full',
     tag: 'side-project',
-    projectTypeArray: ["data art"],
+    projectTypeArray: ["data art", "data visualisation"],
     title: "Kanji with radicals",
     websiteUrl: "https://kanjiviz.netlify.app/",
     // videoUrl: './kanji3.mp4',
@@ -411,8 +416,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53700680634_74508e3f75_c.jpg",
     backgroundColour: "#b88140",
     responsibleFor: 'everything',
-    tools: 'React, JavaScript, Three.js, R3F, D3.js, p5.js...',
-    toolsArray: ['React', 'JavaScript', 'Three.js', 'React 3 Fiber', 'D3.js', 'GSAP', 'p5.js', 'p5 sound'],
+    tools: 'JavaScript, D3.js, p5.js, GSAP',
+    toolsArray: ['JavaScript', 'D3.js', 'GSAP', 'p5.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -491,7 +496,7 @@ const projectsMetadata = [
     backgroundColour: "#286380",
     responsibleFor: 'everything: data preparation, visualisation, website',
     tools: 'React, D3.js, GSAP, Python',
-    toolsArray: 'React, D3.js, GSAP, Python',
+    toolsArray: ['React', 'D3.js', 'GSAP', 'Python'],
     client: 'Personal project',
     standardLayout: true, 
     description:
@@ -520,7 +525,7 @@ const projectsMetadata = [
     backgroundColour: "#547fb1",
     responsibleFor: 'data processing (partial), visualisation design (partial) and code for swells graphs and vaccination pacing graph',
     tools: 'Svelte, JavaScript, D3.js, Python',
-    toolsArray: 'Svelte, JavaScript, D3.js, Python',
+    toolsArray: ['Svelte', 'JavaScript', 'D3.js', 'Python'],
     client: 'Reuters Graphics',
     standardLayout: true, 
     description: ''
@@ -654,7 +659,12 @@ const projectsMetadata = [
     tools: 'React, JavaScript, D3.js, Python, spaCy',
     toolsArray: ['React', 'JavaScript', 'D3.js', 'Python', 'spaCy'],
     awards: 'Good Design Awards グッドデザイン賞...',
-    awardsArray: ['Good Design Awards 東日本大震災とグッドデザイン賞2011-2021'],
+    awardsArray: [
+      {
+        award: 'Good Design Awards 東日本大震災とグッドデザイン賞2011-2021',
+        url: 'https://www.amazon.co.jp/%E6%9D%B1%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%9C%87%E7%81%BD%E3%81%A8%E3%82%B0%E3%83%83%E3%83%89%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E8%B3%9E-2011-2021-%E5%BE%A9%E8%88%88%E3%81%A8%E6%96%B0%E3%81%97%E3%81%84%E7%94%9F%E6%B4%BB%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E6%97%A5%E6%9C%AC%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%8C%AF%E8%88%88%E4%BC%9A/dp/4904894561'
+      }
+    ],
     client: 'University of Tokyo / Iwate Nippo 岩手日報',
     standardLayout: true, 
     description:  
@@ -725,8 +735,8 @@ const projectsMetadata = [
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51357330062_7e5e5d40f1_o.png',
     backgroundColour: "#51AF98",
     responsibleFor: 'everything: data gathering, design, visualisation, page code',
-    tools: 'JavaScript, p5.js',
-    toolsArray: ['JavaScript', 'p5.js'],
+    tools: 'p5.js',
+    toolsArray: ['p5.js'],
     client: 'Personal project',
     standardLayout: true, 
     description: 
@@ -837,13 +847,12 @@ const projectsMetadata = [
   },
   {
     id: 'disney-anniv', 
-    hasPage: false, 
+    hasPage: true, 
     size: 'small-contribution',
     tag: 'work',
     projectTypeArray: ["front-end"],
     title: "Drawing on the past",
     websiteUrl: "https://www.reuters.com/graphics/DISNEY-100/HISTORY/znvnzmzgjvl/",
-    // videoUrl: './dragonflies.mp4',
     imgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpg',
     smallImgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpg',
     individualPageImgUrl: 'https://live.staticflickr.com/65535/53882430274_137cc5fd9f_c.jpgg',
@@ -854,10 +863,22 @@ const projectsMetadata = [
     toolsArray: ['Svelte', 'JavaScript', 'GSAP'],
     awards: 'SND 2024 Bronze + Award of excellence x3',
     awardsArray: [
-      'SND 2024 Bronze award in 10f. Portfolio: Art Direction/Illustration (organization, staff or team)',
-      'SND 2024 Award of excellence: 1A. Design: Features', 
-      'SND 2024 Award of excellence: 1B. Design: Business', 
-      'SND 2024 Award of excellence: 3a. Elements: Animation design'
+      {
+        award: 'SND 2024 Bronze award in 10f. Portfolio: Art Direction/Illustration (organization, staff or team)',
+        url: 'https://snd.org/snd45-results/'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 1A. Design: Features',
+        url: 'https://snd.org/snd45-results/'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 1B. Design: Business',
+        url: 'https://snd.org/snd45-results/'
+      },
+      {
+        award: 'SND 2024 Award of excellence: 3a. Elements: Animation design',
+        url: 'https://snd.org/snd45-results/'
+      },
     ],
     client: 'Reuters Graphics',
     standardLayout: true, 
@@ -865,7 +886,7 @@ const projectsMetadata = [
   },
   {
     id: 'ukraine-civilians', 
-    hasPage: false, 
+    hasPage: true, 
     size: 'small-contribution',
     projectTypeArray: ["front-end"],
     tag: 'work-reuters',
@@ -876,12 +897,15 @@ const projectsMetadata = [
     individualPageImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52268201602_fe49481d1f_h.jpg",
     backgroundColour: "#2e343f",
-    responsibleFor: 'technical implementation of video components',
+    responsibleFor: 'technical implementation of video components and the relevant slides',
     tools: 'Svelte, JavaScript, GSAP',
     toolsArray: ['Svelte', 'JavaScript', 'GSAP'],
     awards: 'SND 2023 Bronze',
     awardsArray: [ 
-      'SND 2023 Bronze'
+      {
+        award: 'SND 2023 Bronze',
+        url: 'https://snd.org/best-of-design-competitions/snd44-annual-creative-competition-results/'
+      },
     ],
     client: 'Reuters Graphics',
     standardLayout: true, 
@@ -889,10 +913,10 @@ const projectsMetadata = [
   },
   {
     id: 'ukraine-1-year', 
-    hasPage: false, 
+    hasPage: true, 
     size: 'small-contribution',
     tag: 'work-reuters',
-    projectTypeArray: ["front-end"],
+    projectTypeArray: ["front-end (partial)"],
     title: "How Ukraine endured",
     websiteUrl: "https://www.reuters.com/graphics/UKRAINE-CRISIS/ANNIVERSARY-SURVIVAL/movaklxlmva/",
     imgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
@@ -900,7 +924,7 @@ const projectsMetadata = [
     individualPageImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
     individualPageSmallImgUrl: "https://live.staticflickr.com/65535/52769100417_f983f8f024_c.jpg",
     backgroundColour: "#333333",
-    responsibleFor: 'code implemetation',
+    responsibleFor: 'front-end',
     tools: 'Svelte, JavaScript',
     toolsArray: ['Svelte', 'JavaScript'],
     client: 'Reuters Graphics',
@@ -949,7 +973,7 @@ const projectsMetadata = [
   },
   {
     id: 'ukraine-six-months', 
-    hasPage: false, 
+    hasPage: true, 
     size: 'small-contribution',
     tag: 'work-reuters',
     projectTypeArray: ["data visualisation"],
@@ -1018,7 +1042,7 @@ const projectsMetadata = [
     individualPageImgUrl: 'https://live.staticflickr.com/65535/53882420059_1ce3d5042c_c.jpg',
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/53882420059_1ce3d5042c_c.jpg',
     backgroundColour: "gold",
-    responsibleFor: 'everything: design, implementation',
+    responsibleFor: 'everything',
     tools: 'JavaScript, p5.js',
     toolsArray: ['JavaScript', 'p5.js'],
     client: 'Personal project',
@@ -1039,7 +1063,7 @@ const projectsMetadata = [
     individualPageImgUrl: './dragonflies1.jpg',
     individualPageSmallImgUrl: './dragonflies1.jpg',
     backgroundColour: "gold",
-    responsibleFor: 'everything: design, implementation',
+    responsibleFor: 'everything',
     tools: 'JavaScript, p5.js, D3.js',
     toolsArray: ['JavaScript', 'p5.js', 'D3.js'],
     client: 'Personal project',
@@ -1136,7 +1160,7 @@ const projectsMetadata = [
     individualPageImgUrl: "https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png",
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51183053540_9ed8338364_o.png',
     backgroundColour: "#805880",
-    responsibleFor: 'data preparation, visualisation, website',
+    responsibleFor: 'everything',
     tools: 'JavaScript, D3.js, GSAP, Python',
     toolsArray: ['JavaScript', 'D3.js', 'GSAP', 'Python'],
     client: 'Personal project',
@@ -1174,7 +1198,7 @@ const projectsMetadata = [
     individualPageImgUrl: "https://live.staticflickr.com/65535/51102462279_101779f316_o.png",
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51102629263_70096ca930_o.png',
     backgroundColour: "#e27396",
-    responsibleFor: 'data preparation, visualisation, website',
+    responsibleFor: 'everything',
     tools: 'JavaScript, D3.js, Python',
     toolsArray: ['JavaScript', 'D3.js', 'Python'],
     client: 'Personal project',
@@ -1193,7 +1217,7 @@ const projectsMetadata = [
     individualPageImgUrl: 'https://live.staticflickr.com/65535/53882505270_3ae050ff73_c.jpg',
     individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/53882505270_3ae050ff73_c.jpg',
     backgroundColour: "gold",
-    responsibleFor: 'implementation of front-end',
+    responsibleFor: 'front-end',
     tools: 'Svelte, JavaScript, D3.js',
     toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
     client: 'Reuters Graphics',

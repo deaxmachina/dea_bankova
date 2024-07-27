@@ -39,6 +39,19 @@
 #popup .popup-portfolio__project-description-container {
 }
 
+.popup-portfolio__client-container span {
+  font-style: italic;
+}
+
+.award_link {
+  border-bottom: 1px dashed #82737D;
+  margin-right: 0.3rem;
+}
+.award_link:hover {
+  border-bottom: 1px solid #82737D;
+}
+
+
 
 /*********************************************/
 /***************  Buttons   ******************/

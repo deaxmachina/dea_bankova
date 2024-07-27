@@ -10,7 +10,7 @@ const PortfolioPopupStandard = ({ project, windowWidth, setSelectedProject }) =>
   return (
     <>
     <div className='popup-portfolio__wrapper' id='popup'>
-      <button className='btn-close' onClick={() => setSelectedProject(null)}>X</button>
+      <button className='btn-close' onClick={() => setSelectedProject(null)}>✖️</button>
       <div className="popup-portfolio__text body-text-normal" >
         <div className="popup-portfolio__title-text large-text"><span>{project.title}</span></div>
         <div className="popup-portfolio__view-btn-container noSelect">
@@ -18,13 +18,26 @@ const PortfolioPopupStandard = ({ project, windowWidth, setSelectedProject }) =>
         </div>
 
         <p className="popup-portfolio__responsible-for-container">
-          <span className="popup-portfolio__bold-text">Responsible for: </span>
+          <span className="popup-portfolio__bold-text">👩🏼‍💻 Responsible for: </span>
           <span>{project.responsibleFor}</span>
         </p>
         <p className="popup-portfolio__tools-container">
-          <span className="popup-portfolio__bold-text">Tools: </span>
-          <span>{project.tools}</span>  
+          <span className="popup-portfolio__bold-text">🔧 Tools: </span>
+          <span>{project.toolsArray.join(', ')}</span>  
         </p>
+        {
+          project.awards && 
+          <>
+            <span className="popup-portfolio__bold-text">🏆 Awards: </span>
+            {
+              project.awardsArray.map(d => (
+                <a className="award_link" href={d.url} target="_blank">{d.award}, </a>
+              ))
+            }
+            <br />
+          </>  
+        }
+        <br />
         <p className="popup-portfolio__client-container">
           <span>{project.client}</span>
         </p>
