@@ -65,7 +65,7 @@ const projectsMetadata = [
     size: 'full',
     tag: 'side-project',
     projectTypeArray: ["data art", "creative coding"],
-    title: "Butterfly Dance",
+    title: "Butterflies of Norwegian Wood",
     websiteUrl: "https://butterflydance.netlify.app/",
     videoUrl: '',
     imgUrl: "https://live.staticflickr.com/65535/53811163139_9eff46b34b_c.jpg",
@@ -241,6 +241,40 @@ const projectsMetadata = [
     standardLayout: true, 
     description: 
     <></>
+  },
+  {
+    id: 'dragonflies-dance', 
+    hasPage: true, 
+    size: 'full',
+    tag: 'side-project',
+    projectTypeArray: ["creative coding"],
+    title: "Dragonfly dance",
+    websiteUrl: "https://openprocessing.org/sketch/2337990/fullscreen",
+    videoUrl: './dragonfly_dance.mp4',
+    imgUrl: "https://live.staticflickr.com/65535/53997449006_0d2cb45903_z.jpg",
+    smallImgUrl: "https://live.staticflickr.com/65535/53997449006_0d2cb45903_z.jpg",
+    individualPageImgUrl: "https://live.staticflickr.com/65535/53997449006_0d2cb45903_z.jpg",
+    individualPageSmallImgUrl: "https://live.staticflickr.com/65535/53997449006_0d2cb45903_z.jpg",
+    backgroundColour: "#f5be58",
+    responsibleFor: 'everything',
+    tools: 'JavaScript, p5.js, ml5.js, D3.js, HTML5 Canvas',
+    toolsArray: ['p5.js', 'ml5.js', 'D3.js', 'JavaScript', 'HTML5 Canvas'],
+    client: 'Personal project',
+    standardLayout: true, 
+    description: 
+    <>
+    <p>
+      Dragonfly Dance is an interactive exploration of movement, colour, and entanglement. The dragonfly wings feature visually striking patterns generated through the randomness of a Voronoi graph weighted by Fibonacci numbers. Each new render and colour scheme selection creates a unique pattern, ensuring that no two experiences are the same.
+    </p>
+    <br></br>
+    <p>
+      Initially, the sketch presents a few randomly generated dragonflies, but it is the user's interaction—through machine learning-driven pose detection—that brings the 'dance' to life. As the user moves their fingers, the dragonflies follow, leading to a surprising encounter when they meet: an explosion of colour that forms a flower-like shape, driven by Perlin noise, envelops them until they part.
+    </p>
+    <br></br>
+    <p>
+      To enhance the dance, users can click anywhere on the canvas to add or remove smaller dragonflies with random patterns. The sense of 'dance' is further suggested by a subtly dynamic Perlin-noise background, while the entire canvas remains in constant motion as the dragonflies flap their wings and interact in the pixel space.
+    </p>
+    </>
   },
   {
     id: 'kanji-radicals', 
