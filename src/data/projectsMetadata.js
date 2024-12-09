@@ -351,8 +351,12 @@ const projectsMetadata = [
     responsibleFor: 'Interactive radial bar charts for the Spotify metrics and billboard chart implementation & contributions to design.',
     tools: 'Svelte, JavaScript, D3.js',
     toolsArray: ['Svelte', 'JavaScript', 'D3.js'],
-    awards: 'SND 2024 Silver (part of portfolio)',
+    awards: "LA Press Club Awards 2024 1st place... +1",
     awardsArray: [
+      {
+        award: 'LA Press Club Awards 2024: E8. Graphic, 1st place',
+        url: 'https://lapressclub.org/wp-content/uploads/2024/11/NAEJ-2024-WINNERS-11302024.pdf'
+      },
       {
         award: 'SND 2024 Silver award in 10b. Portfolio: Story Page Design (organization, staff or team)',
         url: 'https://snd.org/snd45-results/'
@@ -895,7 +899,7 @@ const projectsMetadata = [
     responsibleFor: 'technical implementation of depth scrolly section, parallax section',
     tools: 'Svelte, JavaScript, GSAP',
     toolsArray: ['Svelte', 'JavaScript', 'GSAP'],
-    awards: 'SND 2024 Bronze + Award of excellence x3',
+    awards: 'LA Press Club Awards 2024 x3 and SND 2024 Bronze + Award of excellence x3',
     awardsArray: [
       {
         award: 'SND 2024 Bronze award in 10f. Portfolio: Art Direction/Illustration (organization, staff or team)',
@@ -912,6 +916,18 @@ const projectsMetadata = [
       {
         award: 'SND 2024 Award of excellence: 3a. Elements: Animation design',
         url: 'https://snd.org/snd45-results/'
+      },
+      {
+        award: 'LA Press Club Awards 2024: C2. Multimedia Package, Any Media, 1st place',
+        url: 'https://lapressclub.org/wp-content/uploads/2024/11/NAEJ-2024-WINNERS-11302024.pdf'
+      },
+      {
+        award: 'LA Press Club Awards 2024: E7. Illustration, 3rd place',
+        url: 'https://lapressclub.org/wp-content/uploads/2024/11/NAEJ-2024-WINNERS-11302024.pdf'
+      },
+      {
+        award: 'LA Press Club Awards 2024: E9. Animation/Moving Graphic, 2nd place',
+        url: 'https://lapressclub.org/wp-content/uploads/2024/11/NAEJ-2024-WINNERS-11302024.pdf'
       },
     ],
     client: 'Reuters Graphics',
