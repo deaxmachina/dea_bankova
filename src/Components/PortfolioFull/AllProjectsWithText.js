@@ -59,7 +59,7 @@ const AllProjects = ({ projectsMetadata, sectionTitle, sectionSubtitle, windowWi
                     <span className="portfolio-grid-project-title body-text-large">{project.title}</span>
                     <br/>
                     {
-                      project.id === 'tdb-companies-graph' ? 
+                     ['tdb-companies-graph', 'us-elections-2024-reuters'].includes(project.id ) ? 
                       <Link to={`/portfolio/${project.id}`} ><span className="border-button full-project-btn noSelect">about</span> </Link>
                       : project.hasPage ? 
                       <span 

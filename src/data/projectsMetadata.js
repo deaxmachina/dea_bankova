@@ -1,5 +1,26 @@
 const projectsMetadata = [
   {
+    id: 'us-elections-2024-reuters', 
+    hasPage: true, 
+    size: 'full',
+    tag: 'work-other',
+    projectTypeArray: ["data visualisation", "front-end"],
+    title: "2024 US Elections Reuters",
+    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    imgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    smallImgUrl: 'https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png',
+    individualPageImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    individualPageSmallImgUrl: 'https://live.staticflickr.com/65535/51509252857_26eb8a7148_o.png',
+    backgroundColour: "#62488F",
+    responsibleFor: 'visualisation, website',
+    tools: 'React, JavaScript, D3.js, Python...',
+    toolsArray: ['React', 'JavaScript', 'D3.js', 'HTML5 Canvas', 'Python'],
+    client: 'Teikoku Databank 株式会社 帝国データバンク',
+    standardLayout: false, 
+    description: 
+    <></> 
+  },
+  {
     id: 'infinity', 
     hasPage: true, 
     size: 'full',

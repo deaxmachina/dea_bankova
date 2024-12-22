@@ -1,6 +1,7 @@
 import React from "react";
 import "./PortfolioPage.css";
 import TDBProject from "./TDBProject/TDBProject"
+import USElections from "./USElections/USElections";
 
 // at what point should the image swich to the smaller one? 
 const minToChangeImage = 650; 
@@ -48,7 +49,9 @@ const PortfolioPage = ({ project, windowWidth }) => {
       ? <PortfolioPageStandard project={project} windowWidth={windowWidth}/>
       : project.id === 'tdb-companies-graph' 
       ? <TDBProject project={project} windowWidth={windowWidth} />
-      : null 
+      : project.id === 'us-elections-2024-reuters' 
+      ? <USElections project={project} windowWidth={windowWidth} />
+      : null
      }
   </>
     
