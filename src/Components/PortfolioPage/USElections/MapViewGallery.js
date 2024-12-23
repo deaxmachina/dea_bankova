@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./USElections.css";
 
 
-const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw }) => {
+const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title }) => {
 
   const [imagesTop, setImagesTop] = useState(imagesTopRaw)  
   const [imagesBottom, setImagesBottom] = useState(imagesBottomRaw)  
@@ -10,8 +10,12 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw }) => {
 
   return (
     <div id='us-elections-container' >
-        <h1>The page</h1>
-        <div className="grid-container">
+        <h1>{title}</h1>
+        <p>
+            Some kind of description of what this is about.
+            Some kind of description of what this is about. 
+        </p>
+        <div className="grid-container top">
             {
                 imagesTop.map((img, idx) => (
                     <div 
@@ -36,7 +40,7 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw }) => {
                             setMainImage(img)
                         }}
                     >
-                        <img src={img.src} alt={img.alt} />
+                        <img src={img.srcSmall ? img.srcSmall : img.src} alt={img.alt} />
                     </div>
                 ))
             }
@@ -44,7 +48,7 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw }) => {
         <div className="main-image-container">
             <img src={mainImage.src} alt={mainImage.alt} />
         </div>
-        <div className="grid-container">
+        <div className="grid-container bottom">
             {
                 imagesBottom.map((img, idx) => (
                     <div 
@@ -68,7 +72,7 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw }) => {
                             setMainImage(img)
                         }}
                     >
-                        <img src={img.src} alt={img.alt} />
+                        <img src={img.srcSmall ? img.srcSmall : img.src} alt={img.alt} />
                     </div>
                 ))
             }
