@@ -10,11 +10,11 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title, sel
 
   return (
     <div id='us-elections-container' >
-        <h2>{title}</h2>
-        <p>
+        <h3 className="hand-drawn-underline">{title}</h3>
+        {/* <p>
             Some kind of description of what this is about.
             Some kind of description of what this is about. 
-        </p>
+        </p> */}
 
         {/* The main image */}
         <div 

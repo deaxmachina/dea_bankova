@@ -1,6 +1,7 @@
 import "./USElections.css";
 import { useState } from 'react'
 import MapViewGallery from "./MapViewGallery";
+import Summary from './Summary.js'
 import { 
     imagesRawCalledRacesTop, imageRawCalledRacesBottom, mainImageRawCalledRaces,
     imagesRawStrengthOfLeadTop, imageRawStrengthOfLeadBottom, mainImageRawStrengthOfLead,
@@ -15,6 +16,8 @@ const USElections = ({ project, windowWidth }) => {
 
   return (
     <div id='us-elections-container' >
+        <h2 className="hand-drawn-underline">Summary</h2>
+        <Summary />
         <div className='wrapper-map-rail'>
             <MapViewGallery 
                 title='Called races'

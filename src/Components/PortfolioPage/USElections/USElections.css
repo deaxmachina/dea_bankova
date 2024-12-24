@@ -1,10 +1,10 @@
+@import url("https://use.typekit.net/fbk6azk.css");
+
 #us-elections-container {
   /* background-color: #E3EAF1; */
   /* background-color: #E9EFF5; */
   background-color: #fff;
   width: 100%;
-  height: 100vh;
-  /* padding: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,3 +113,51 @@
   height: 650px;
   border-radius: 10px;
 }
+
+
+/******************************************/
+/**************** Text WEll ***************/
+/******************************************/
+#us-elections-container .text-well {
+  width: 100%;
+  max-width: 500px;
+  color: #2b2e31;
+  font-weight: 300;
+}
+#us-elections-container h2 {
+  font-size: 2.2rem;
+  color: #2b2e31;
+  font-family: "active", sans-serif;
+
+  text-align: left;
+  margin-bottom: 3rem;
+}
+#us-elections-container h3 {
+  font-size: 1.6rem;
+  font-family: "active", sans-serif;
+}
+
+#us-elections-container .text-well p {
+  font-size: 1.3rem;
+  letter-spacing: 1.1;
+  line-height: 1.4;
+  /* font-family: "ivypresto-headline", serif; */
+  font-family: "cormorant-infant", sans-serif;
+}
+
+#us-elections-container .text-well a {
+  text-decoration: underline;
+  color: #9099a3;
+}
+
+#us-elections-container .logo-icon {
+  width: 14px;
+  padding: 0;
+  margin: 0 5px 0 10px;
+}
+
+#us-elections-container .tech-name {
+  font-weight: bold;
+}
+
+
