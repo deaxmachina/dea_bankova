@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./USElections.css";
+import cursorImage from './cursor.png'
 
-
-const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title }) => {
+const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title, selectedImage, setSelectedImage }) => {
 
   const [imagesTop, setImagesTop] = useState(imagesTopRaw)  
   const [imagesBottom, setImagesBottom] = useState(imagesBottomRaw)  
@@ -10,11 +10,24 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title }) =
 
   return (
     <div id='us-elections-container' >
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>
             Some kind of description of what this is about.
             Some kind of description of what this is about. 
         </p>
+
+        {/* The main image */}
+        <div 
+            className="main-image-container"
+            onClick={() => {
+                setSelectedImage(mainImage)
+            }}
+            style={{  }}
+        >
+            <img src={mainImage.src} alt={mainImage.alt} />
+        </div>
+
+        {/* Grid of smaller images */}
         <div className="grid-container top">
             {
                 imagesTop.map((img, idx) => (
@@ -44,9 +57,6 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title }) =
                     </div>
                 ))
             }
-        </div>
-        <div className="main-image-container">
-            <img src={mainImage.src} alt={mainImage.alt} />
         </div>
         <div className="grid-container bottom">
             {

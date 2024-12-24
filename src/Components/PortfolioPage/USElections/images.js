@@ -4,19 +4,22 @@
 const imagesRawCalledRacesTop = [
     {
         id: 'one',
-        src: 'images/us-elections/national called races/Screenshot 2024-11-06 at 10.50.04.png',
+        srcSmall: 'images/us-elections/national called races/zoomed-out-1-small.png',
+        src: 'images/us-elections/national called races/zoomed-out-1.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'two',
-        src: 'images/us-elections/national called races/Screenshot 2024-11-06 at 13.54.54.png',
+        srcSmall: 'images/us-elections/national called races/zoomed-out-2-small.png',
+        src: 'images/us-elections/national called races/zoomed-out-2.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'three',
-        src: 'images/us-elections/national called races/Screenshot 2024-11-06 at 13.40.04.png',
+        srcSmall: 'images/us-elections/national called races/zoomed-out-3-small.png',
+        src: 'images/us-elections/national called races/zoomed-out-3.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
@@ -25,19 +28,22 @@ const imagesRawCalledRacesTop = [
 const imageRawCalledRacesBottom = [
     {
         id: 'four',
-        src:'images/us-elections/national called races/Screenshot 2024-11-06 at 12.05.40.png',
+        srcSmall:'images/us-elections/national called races/zoomed-in-1-small.png',
+        src:'images/us-elections/national called races/zoomed-in-1.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'five',
-        src: 'images/us-elections/national called races/Screenshot 2024-11-06 at 12.05.49.png',
+        srcSmall: 'images/us-elections/national called races/zoomed-in-2-small.png',
+        src: 'images/us-elections/national called races/zoomed-in-2.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'six',
-        src: 'images/us-elections/national called races/Screenshot 2024-11-06 at 15.16.01.png',
+        srcSmall: 'images/us-elections/national called races/zoomed-in-3-small.png',
+        src: 'images/us-elections/national called races/zoomed-in-3.png',
         alt: '',
         rotate: Math.random()*20 - 10
     }
@@ -45,6 +51,7 @@ const imageRawCalledRacesBottom = [
 
 const mainImageRawCalledRaces = {
     id: 'main',
+    srcSmall: 'images/us-elections/national called races/raclled-races-main-2-small.png',
     src: 'images/us-elections/national called races/raclled-races-main-2.png',
     alt: '',
     rotate: Math.random()*20 - 10
@@ -57,18 +64,21 @@ const mainImageRawCalledRaces = {
 const imagesRawStrengthOfLeadTop = [
     {
         id: 'one',
+        srcSmall: 'images/us-elections/national strength of lead/zoomed-out-1-small.png',
         src: 'images/us-elections/national strength of lead/zoomed-out-1.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'two',
+        srcSmall: 'images/us-elections/national strength of lead/zoomed-out-2-small.png',
         src: 'images/us-elections/national strength of lead/zoomed-out-2.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'three',
+        srcSmall: 'images/us-elections/national strength of lead/zoomed-out-3-small.png',
         src: 'images/us-elections/national strength of lead/zoomed-out-3.png',
         alt: '',
         rotate: Math.random()*20 - 10
@@ -78,18 +88,21 @@ const imagesRawStrengthOfLeadTop = [
 const imageRawStrengthOfLeadBottom = [
     {
         id: 'four',
+        srcSmall:'images/us-elections/national strength of lead/zoomed-in-1-small.png',
         src:'images/us-elections/national strength of lead/zoomed-in-1.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'five',
+        srcSmall: 'images/us-elections/national strength of lead/zoomed-in-2-small.png',
         src: 'images/us-elections/national strength of lead/zoomed-in-2.png',
         alt: '',
         rotate: Math.random()*20 - 10
     },
     {
         id: 'six',
+        srcSmall: 'images/us-elections/national strength of lead/zoomed-in-3-small.png',
         src: 'images/us-elections/national strength of lead/zoomed-in-3.png',
         alt: '',
         rotate: Math.random()*20 - 10
@@ -98,6 +111,7 @@ const imageRawStrengthOfLeadBottom = [
 
 const mainImageRawStrengthOfLead = {
     id: 'main',
+    srcSmall: 'images/us-elections/national strength of lead/main-1-small.png',
     src: 'images/us-elections/national strength of lead/main-1.png',
     alt: '',
     rotate: Math.random()*20 - 10
