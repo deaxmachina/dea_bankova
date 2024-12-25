@@ -13,15 +13,25 @@
 }
 
 /******************************************/
-/**** Map view gallery - whole galery *****/
+/************* Section titles *************/
 /******************************************/
-.wrapper-map-rail {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
+#us-elections-container .section-title {
+  margin: 4rem auto;
+  font-size: 3rem;
 }
+
+#us-elections-container .map-view-title {
+  /* color: #929ca6; */
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "cormorant-infant", sans-serif;
+}
+
+
 
 
 /******************************************/
@@ -49,7 +59,6 @@
   justify-content: center;
   border-radius: 5px;
   box-shadow: 2px 2px 4px #D2DDE8;
-  cursor: pointer;
   transition: all 0.3s ease-in-out;
   cursor: url('cursor-expand.png'), crosshair;
 }
@@ -80,7 +89,6 @@
   margin-top: 40px;
   /* border: 2px solid #000000; */
   /* box-shadow: 2px 8px 6px #e3e3e3; */
-  /* cursor: url('cursor-zoom.png'), crosshair; */
   cursor: url('cursor-expand.png'), crosshair;
 }
 
@@ -120,29 +128,71 @@
 /******************************************/
 #us-elections-container .text-well {
   width: 100%;
-  max-width: 500px;
   color: #2b2e31;
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#us-elections-container .text-well h2, 
+#us-elections-container .text-well h3, 
+#us-elections-container .text-well h4,
+#us-elections-container .text-well p,
+#us-elections-container .text-well ul,
+#us-elections-container .text-well div.text
+ {
+  max-width: 500px;
 }
 #us-elections-container h2 {
   font-size: 2.2rem;
   color: #2b2e31;
   font-family: "active", sans-serif;
-
   text-align: left;
   margin-bottom: 3rem;
 }
 #us-elections-container h3 {
+  width: 100%;
+  text-align: start;
   font-size: 1.6rem;
   font-family: "active", sans-serif;
 }
+#us-elections-container h4, #us-elections-container .listing {
+  width: 100%;
+  text-align: start;
+  font-size: 1.3rem;
+  font-family: "active", sans-serif;
+}
 
-#us-elections-container .text-well p {
+#us-elections-container .text-well p, 
+#us-elections-container .text-well div, 
+#us-elections-container .text-well ul, 
+#us-elections-container .text-well li {
   font-size: 1.3rem;
   letter-spacing: 1.1;
   line-height: 1.4;
-  /* font-family: "ivypresto-headline", serif; */
   font-family: "cormorant-infant", sans-serif;
+}
+
+#us-elections-container .text-well li {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px; /* Space for the bullet */
+}
+
+li::marker {
+  content: '●'; /* Custom bullet */
+  font-size: 12px; /* Adjust size */
+  color: #9099a3; /* Bullet color */
 }
 
 #us-elections-container .text-well a {
@@ -158,6 +208,52 @@
 
 #us-elections-container .tech-name {
   font-weight: bold;
+}
+
+
+/******************************************/
+/************* VIDEO elements *************/
+/******************************************/
+#us-elections-container video {
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #D2DDE8;
+  margin: 2rem auto;
+  transform: rotate(2deg);
+}
+
+#us-elections-container .container-tooltips-videos {
+  display: flex;
+}
+#us-elections-container .container-tooltips-videos video {
+  margin: 20px;
+}
+
+#us-elections-container .container-cartograms-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#us-elections-container .container-cartograms-images img {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+/******************************************/
+/**** Map view gallery - whole galery *****/
+/******************************************/
+.wrapper-map-rail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto 7rem;
+}
+
+.wrapper-map-view-gallery {
+  width: 100% !important;
+  position: relative;
 }
 
 

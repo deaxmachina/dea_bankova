@@ -1,34 +1,8 @@
 import "./USElections.css";
-import { useState, useEffect } from 'react'
-import { annotate, annotationGroup } from 'rough-notation';
+
 
 
 const Summary = () => {
-
-    useEffect(() => {
-        const n1 = document.querySelectorAll(".highlight");
-        const n2 = document.querySelectorAll(".underline");
-        const n3 = document.querySelectorAll(".circle");
-
-        const annotatedHighlight = []
-        n1.forEach(n => {
-            annotatedHighlight.push(annotate(n, { type: "highlight", color: "#d2dde8", padding: 0, strokeWidth: 3 }))
-        })
-
-        const annotatedUnderline = []
-        n2.forEach(n => {
-            annotatedUnderline.push(annotate(n, { type: "underline", color: "#d2dde8", padding: 2, strokeWidth: 3 }))
-        })
-
-        const annotatedCircle = []
-        n3.forEach(n => {
-            annotatedUnderline.push(annotate(n, { type: "underline", color: "#d2dde8", padding: 1, strokeWidth: 2 }))
-        })
-
-        const ag = annotationGroup([...annotatedHighlight, ...annotatedUnderline, ...annotatedCircle]);
-        ag.show();
-        
-    }, [])
 
     return (
         <div class='text-well'>
@@ -42,6 +16,17 @@ const Summary = () => {
 
                 (video of best representation of navigating the whole page)
             </p>
+            <video 
+                width="800" 
+                controls 
+                autoPlay 
+                loop 
+                muted 
+            >
+                <source src="/images/us-elections/videos/national-all-views-1.2.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>        
+
             <br></br><br></br>
             <h3>My role</h3>
             <p>
