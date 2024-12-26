@@ -47,10 +47,10 @@
   margin-bottom: 10px;
 }
 
-#us-elections-container .grid-container.bottom {
+#us-elections-container .grid-container .grid-container.bottom {
 }
 
-#us-elections-container .grid-item {
+#us-elections-container .grid-container .grid-item {
   width: 133px;
   height: 87px; 
   overflow: hidden; 
@@ -62,11 +62,11 @@
   transition: all 0.3s ease-in-out;
   cursor: url('cursor-expand.png'), crosshair;
 }
-#us-elections-container .grid-item:hover {
+#us-elections-container .grid-container .grid-item:hover {
   box-shadow: 0px 6px 8px #e0e0e0;
 }
 
-#us-elections-container .grid-item img {
+#us-elections-container .grid-container .grid-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -180,19 +180,17 @@
 }
 
 ul {
-  list-style: none; /* Remove default bullets */
+  list-style: none; 
   padding: 0;
 }
-
 li {
   position: relative;
-  padding-left: 20px; /* Space for the bullet */
+  padding-left: 20px; 
 }
-
 li::marker {
-  content: '●'; /* Custom bullet */
-  font-size: 12px; /* Adjust size */
-  color: #9099a3; /* Bullet color */
+  content: '●'; 
+  font-size: 12px; 
+  color: #9099a3; 
 }
 
 #us-elections-container .text-well a {
@@ -243,7 +241,7 @@ li::marker {
 /******************************************/
 /**** Map view gallery - whole galery *****/
 /******************************************/
-.wrapper-map-rail {
+#us-elections-container .wrapper-map-rail {
   width: 100%;
   display: flex;
   align-items: center;
@@ -251,9 +249,45 @@ li::marker {
   margin: 5rem auto 7rem;
 }
 
-.wrapper-map-view-gallery {
+#us-elections-container .wrapper-map-view-gallery {
   width: 100% !important;
   position: relative;
 }
 
+/******************************************/
+/**** Map view gallery - small grid *****/
+/******************************************/
+#us-elections-container .images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 10px; 
+  width: 1100px;
+  margin-bottom: 3px;
+  margin: 3rem auto;
+}
+
+#us-elections-container .images-grid .grid-item {
+  width: 360px;
+  height: 200px;
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: crosshair;
+}
+
+#us-elections-container .images-grid .grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1); 
+  transition: transform 0.5s ease; /* smooth zoom effect */
+  cursor: crosshair;
+}
+
+#us-elections-container .images-grid .grid-item img:hover {
+  transform: scale(2); /* adjust scale value for zoom level */
+}
 
