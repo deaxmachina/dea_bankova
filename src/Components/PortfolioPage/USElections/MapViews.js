@@ -1,6 +1,5 @@
 import "./USElections.css";
-import { useState, useEffect } from 'react'
-import { annotate, annotationGroup } from 'rough-notation';
+import { useState } from 'react'
 
 const patternImages = [
     {
@@ -47,7 +46,7 @@ const patternImages = [
     },
 ]
 
-const Development = ({ children }) => {
+const MapViews = ({ children }) => {
     const [transformOrigin, setTransformOrigin] = useState("center");
 
     const handleMouseMove = (e) => {
@@ -62,7 +61,7 @@ const Development = ({ children }) => {
     };
 
     return (
-        <div class='text-well'>
+        <>
             <h3>Three different map views</h3>
             <p>
                 The page featured three separate map ‘views’, showing different aspects of the results as they were 
@@ -200,8 +199,8 @@ const Development = ({ children }) => {
                 in which results might arrive. The code was refactored for simplicity and underwent multiple reviews. 
                 I used TypeScript, incorporating data types provided by other team members to ensure both data and code integrity.
             </div>
-        </div>
+        </>
     )
 }
 
-export default Development
+export default MapViews
