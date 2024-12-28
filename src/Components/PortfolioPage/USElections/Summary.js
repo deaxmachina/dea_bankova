@@ -17,11 +17,11 @@ const Summary = () => {
                 (video of best representation of navigating the whole page)
             </p>
             <video 
-                width="800" 
                 controls 
                 autoPlay 
                 loop 
                 muted 
+                className="summary-video"
             >
                 <source src="/images/us-elections/videos/national-all-views-1.2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
@@ -47,9 +47,9 @@ const Summary = () => {
                 The front-end was developed almost entirely from scratch for 2024, with an emphasis on writing clean, 
                 maintainable, and performant code that could be reused for future elections with minimal modifications. 
                 Our tech stack 
-                included <img className="logo-icon" src='/images/us-elections/tech stack icons/Svelte_Logo.svg' alt='logo of Svelte'/><span className="tech-name">Svelte 4</span>, <span className="tech-name">SvelteKit</span>, 
-                <img className="logo-icon" src='/images/us-elections/tech stack icons/Typescript_logo_2020.svg' alt='logo of Svelte'/><span className="tech-name">TypeScript</span>, 
-                <img className="logo-icon" src='/images/us-elections/tech stack icons/d3.svg' alt='logo of Svelte'/><span className="tech-name">d3.js</span> (with d3 pan and zoom), 
+                included <img className="logo-icon" src='/images/us-elections/tech stack icons/Svelte_Logo.svg' alt='logo of Svelte'/><span className="bold">Svelte 4</span>, <span className="tech-name">SvelteKit</span>, 
+                <img className="logo-icon" src='/images/us-elections/tech stack icons/Typescript_logo_2020.svg' alt='logo of TypeScript'/><span className="bold">TypeScript</span>, 
+                <img className="logo-icon" src='/images/us-elections/tech stack icons/d3.svg' alt='logo of D3'/><span className="bold">D3.js</span> (with d3 pan and zoom), 
                 and component-based 
                 development in  <img className="logo-icon" src='/images/us-elections/tech stack icons/storybook.png' alt='logo of Storybook'/><span className="tech-name">Storybook</span>.
 

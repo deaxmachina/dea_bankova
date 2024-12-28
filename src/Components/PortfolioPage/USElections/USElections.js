@@ -3,6 +3,7 @@ import { useState } from 'react'
 import MapViewGallery from "./MapViewGallery";
 import Summary from './Summary.js'
 import Development from "./Development.js";
+import Crown from "./Crown.js";
 import { 
     imagesRawCalledRacesTop, imageRawCalledRacesBottom, mainImageRawCalledRaces,
     imagesRawStrengthOfLeadTop, imageRawStrengthOfLeadBottom, mainImageRawStrengthOfLead,
@@ -20,36 +21,32 @@ const USElections = ({ project, windowWidth }) => {
   useEffect(() => {
     const n1 = document.querySelectorAll(".highlight");
     const n2 = document.querySelectorAll(".underline");
-    const n3 = document.querySelectorAll(".circle");
-    const n4 = document.querySelectorAll(".box");
+    const n3 = document.querySelectorAll(".box");
 
     const annotatedHighlight = []
     n1.forEach(n => {
-        annotatedHighlight.push(annotate(n, { type: "highlight", color: "#d2dde8", padding: 0, strokeWidth: 3 }))
+        annotatedHighlight.push(annotate(n, { type: "highlight", color: "#d2dde8", padding: 2, strokeWidth: 3 }))
     })
 
     const annotatedUnderline = []
     n2.forEach(n => {
-        annotatedUnderline.push(annotate(n, { type: "underline", color: "#d2dde8", padding: 2, strokeWidth: 3 }))
-    })
-
-    const annotatedCircle = []
-    n3.forEach(n => {
-        annotatedUnderline.push(annotate(n, { type: "underline", color: "#d2dde8", padding: 1, strokeWidth: 2 }))
+        annotatedUnderline.push(annotate(n, { type: "underline", color: "#d2dde8", padding: 1, strokeWidth: 3 }))
     })
 
     const annotatedBox = []
-    n4.forEach(n => {
-        annotatedBox.push(annotate(n, { type: "box", color: "#d2dde8", padding: 1, strokeWidth: 2 }))
+    n3.forEach(n => {
+        annotatedBox.push(annotate(n, { type: "box", color: "#d2dde8", padding: 15, strokeWidth: 6 }))
     })
 
-    const ag = annotationGroup([...annotatedHighlight, ...annotatedUnderline, ...annotatedCircle, ...annotatedBox]);
+    const ag = annotationGroup([...annotatedHighlight, ...annotatedUnderline, ...annotatedBox]);
     ag.show();
     
     }, [])  
 
   return (
     <div id='us-elections-container' >
+        <Crown />
+
         <h2 className="section-title">Summary</h2>
         <Summary />
 

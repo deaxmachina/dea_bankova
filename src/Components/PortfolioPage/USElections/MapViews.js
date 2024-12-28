@@ -64,7 +64,7 @@ const MapViews = ({ children }) => {
         <>
             <h3>Three different map views</h3>
             <p>
-                The page featured three separate map ‘views’, showing different aspects of the results as they were 
+                The page featured <span className="underline">three separate map ‘views’</span>, showing different aspects of the results as they were 
                 reported throughout the election. These were: called races, strength of lead, and vote count status 
                 for the Presidential, Senate, House and Governor races. In addition, there were two cartograms showing 
                 electoral votes for President and districts for House. 
@@ -75,7 +75,9 @@ const MapViews = ({ children }) => {
                 All maps included features such as:
             </p>
 
-            {/* Custom layers */}
+            {/*********************************/}
+            {/********* Custom layers *********/}
+            {/*********************************/}
             <div className="text">
                 <span className='listing highlight'>Custom layers</span> supporting various pattern fills, as well as circle layers.
             </div>
@@ -84,7 +86,6 @@ const MapViews = ({ children }) => {
                 patternImages.map((img, idx) => (
                     <div 
                         className="grid-item" 
-                        style={{  }}
                         onClick={() => {
                         }}
                         onMouseMove={handleMouseMove}
@@ -108,12 +109,11 @@ const MapViews = ({ children }) => {
                 </ul>
             </div>
             <video 
-                width="400" 
                 controls 
                 autoPlay 
                 loop 
                 muted 
-                style={{ transform: 'rotate(-3deg)' }}
+                className="custom-interactions-video"
             >
                 <source src="/images/us-elections/videos/zoom-behaviour-1.1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -127,7 +127,9 @@ const MapViews = ({ children }) => {
                 the map in its entirety. This ensures only the relevant legend is shown at each stage, avoiding clutter on the page.
             </div>
 
-            {/* Tooltips */}
+            {/*********************************/}
+            {/*********** Tooltips ************/}
+            {/*********************************/}
             <div className="text">
                 <span className='listing highlight'>Custom tooltips</span> transforming into modals on mobile
                 <ul>
@@ -163,7 +165,9 @@ const MapViews = ({ children }) => {
                 </video>   
             </div>
 
-            {/* Cartograms */}
+            {/*********************************/}
+            {/********** Cartograms ***********/}
+            {/*********************************/}
             <div className="text">
             <span className='listing highlight'>New hex-based cartograms</span>
                 <br></br>
@@ -177,13 +181,14 @@ const MapViews = ({ children }) => {
 
             {/* Special election */}
             <div className="text">
-                <span className='listing highlight'>Special election (state) improvement</span>
+                <span className='listing highlight'>Special election</span>  (state) improvement
                 where the state with a special election is place off the main map.
             </div>
 
             {/* State pages */}
             <div className="text">
-                <span className='listing highlight'>State level pages with custom behaviour</span>
+                <span className='listing highlight'>State level pages</span> with custom behaviour
+                <br></br>
                 Created separate maps for state-level results for each race. 
             </div>
 

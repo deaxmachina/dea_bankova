@@ -1,5 +1,15 @@
 @import url("https://use.typekit.net/fbk6azk.css");
 
+
+:root {
+  --col-light: #E9EFF5;
+  --col-mid: #D2DDE8;
+  --col-dark: #9099a3;
+  --col-daker: #2b2e31;
+  --font-fancy:  "active", sans-serif;
+  --font-default: "cormorant-infant", sans-serif;
+}
+
 #us-elections-container {
   /* background-color: #E3EAF1; */
   /* background-color: #E9EFF5; */
@@ -10,6 +20,81 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+#us-elections-container a {
+  text-decoration: underline;
+  color: var(--col-dark);
+  font-family: var(--font-default);
+  padding: 0 2px;
+  transition: all 0.5s ease;
+}
+
+#us-elections-container a:hover {
+  background-color: var(--col-light);
+  /* text-decoration: none; */
+}
+
+#us-elections-container .bold {
+  font-weight: bold;
+}
+
+/******************************************/
+/***************** Crown *****************/
+/******************************************/
+
+#us-elections-container .crown-wrapper {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: var(--font-default);
+  color: var(--col-daker);
+  font-size: 1.6rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media (max-width: 700px) {
+  #us-elections-container .crown-wrapper {
+    margin: 2rem;
+    font-size: 1.4rem;
+  }
+}
+
+#us-elections-container .dek {
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  color: var(--col-dark);
+}
+
+#us-elections-container h1 {
+  /* font-size: 7rem; */
+  font-size: clamp(3rem, 10vw, 7rem);
+  font-family: var(--font-default);
+  color: var(--col-daker);
+  z-index: 3;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+#us-elections-container .crown-wrapper video {
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 50px;
+  transform: rotate(-10deg);
+}
+
+#us-elections-container .project-details {
+  text-align: left;
+}
+
+#us-elections-container div, p, span {
+  color: var(--col-daker);
 }
 
 /******************************************/
@@ -28,7 +113,7 @@
   letter-spacing: 2px;
   font-size: 1.2rem;
   text-align: center;
-  font-family: "cormorant-infant", sans-serif;
+  font-family: var(--font-default);
 }
 
 
@@ -47,6 +132,13 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 1400px) and (min-width: 1100px) {
+  #us-elections-container .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    width: 380px;
+  }
+}
+
 #us-elections-container .grid-container .grid-container.bottom {
 }
 
@@ -62,6 +154,14 @@
   transition: all 0.3s ease-in-out;
   cursor: url('cursor-expand.png'), crosshair;
 }
+
+@media (max-width: 1400px) and (min-width: 1100px) {
+  #us-elections-container .grid-container .grid-item {
+    width: 110px;
+    height: 66px; 
+  }
+}
+
 #us-elections-container .grid-container .grid-item:hover {
   box-shadow: 0px 6px 8px #e0e0e0;
 }
@@ -76,8 +176,8 @@
 
 #us-elections-container .main-image-container {
   width: 100%;
-  width: 500px;
-  height: 325px;
+  max-width: 500px;
+  max-height: 325px;
   overflow: hidden; /* Ensures no part of the image overflows */
   display: flex;
   align-items: center;
@@ -116,6 +216,12 @@
   cursor: url('cursor-decrease.png'), crosshair;
 }
 
+@media (max-width: 1000px) {
+  #us-elections-container .overlay-image-container {
+    display: none;
+  }
+}
+
 #us-elections-container .overlay-image-container img {
   width: 1000px;
   height: 650px;
@@ -128,7 +234,7 @@
 /******************************************/
 #us-elections-container .text-well {
   width: 100%;
-  color: #2b2e31;
+  color: var(--col-daker);
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -145,10 +251,16 @@
  {
   max-width: 500px;
 }
+#us-elections-container .text-well h3 {
+  margin: 2rem auto 0rem;
+}
+#us-elections-container .text-well div.text {
+  margin: 1rem auto;
+}
 #us-elections-container h2 {
   font-size: 2.2rem;
-  color: #2b2e31;
-  font-family: "active", sans-serif;
+  color: var(--col-daker);
+  font-family: var(--font-fancy);
   text-align: left;
   margin-bottom: 3rem;
 }
@@ -156,13 +268,16 @@
   width: 100%;
   text-align: start;
   font-size: 1.6rem;
-  font-family: "active", sans-serif;
+  font-family: var(--font-fancy);
 }
 #us-elections-container h4, #us-elections-container .listing {
   width: 100%;
   text-align: start;
   font-size: 1.3rem;
-  font-family: "active", sans-serif;
+}
+
+#us-elections-container .highlight {
+  font-weight: bold;
 }
 
 #us-elections-container .text-well p, 
@@ -172,7 +287,7 @@
   font-size: 1.3rem;
   letter-spacing: 1.1;
   line-height: 1.4;
-  font-family: "cormorant-infant", sans-serif;
+  font-family: var(--font-default);
 }
 
 #us-elections-container .text-well li {
@@ -191,11 +306,6 @@ li::marker {
   content: '●'; 
   font-size: 12px; 
   color: #9099a3; 
-}
-
-#us-elections-container .text-well a {
-  text-decoration: underline;
-  color: #9099a3;
 }
 
 #us-elections-container .logo-icon {
@@ -217,11 +327,21 @@ li::marker {
   box-shadow: 0px 5px 15px #D2DDE8;
   margin: 2rem auto;
   transform: rotate(2deg);
+  /* color: #99a4afc7; */
 }
 
 #us-elections-container .container-tooltips-videos {
   display: flex;
+  flex-direction: row;
 }
+
+@media (max-width: 600px) {
+  #us-elections-container .container-tooltips-videos {
+    flex-direction: column;
+  }
+}
+
+
 #us-elections-container .container-tooltips-videos video {
   margin: 20px;
 }
@@ -230,11 +350,29 @@ li::marker {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  #us-elections-container .container-cartograms-images {
+    flex-direction: column;
+  }
 }
 
 #us-elections-container .container-cartograms-images img {
   width: 100%;
   max-width: 600px;
+}
+
+#us-elections-container video.summary-video {
+  width: 100%;
+  max-width: 550px;
+}
+
+#us-elections-container video.custom-interactions-video {
+  width: 100%;
+  max-width: 400px;
+  transform: rotate(-3deg);
 }
 
 
@@ -247,6 +385,13 @@ li::marker {
   align-items: center;
   justify-content: center;
   margin: 5rem auto 7rem;
+
+}
+
+@media (max-width: 1100px) {
+  #us-elections-container .wrapper-map-rail {
+    flex-wrap: wrap;
+  }
 }
 
 #us-elections-container .wrapper-map-view-gallery {
@@ -261,9 +406,12 @@ li::marker {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 10px; 
-  width: 1100px;
+  width: 100%;
+  max-width: 1100px;
   margin-bottom: 3px;
   margin: 3rem auto;
+  place-items: center; /* Centers the grid items */
+
 }
 
 #us-elections-container .images-grid .grid-item {
