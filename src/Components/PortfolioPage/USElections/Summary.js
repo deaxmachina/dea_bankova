@@ -1,20 +1,64 @@
 import "./USElections.css";
+import { useState } from 'react'
+
+const images = [
+    {
+        id: 'two',
+        srcSmall: 'images/us-elections/dotcom/dotcom-2.png',
+        src: 'images/us-elections/dotcom/dotcom-2.png',
+        alt: '',
+        rotate: Math.random()*20 - 10
+    },
+    {
+        id: 'four',
+        srcSmall: 'images/us-elections/dotcom/dotcom-4.png',
+        src: 'images/us-elections/dotcom/dotcom-4.png',
+        alt: '',
+        rotate: Math.random()*20 - 10
+    },
+    {
+        id: 'three',
+        srcSmall: 'images/us-elections/dotcom/dotcom-3.png',
+        src: 'images/us-elections/dotcom/dotcom-3.png',
+        alt: '',
+        rotate: Math.random()*20 - 10
+    },
+    {
+        id: 'one',
+        srcSmall: 'images/us-elections/dotcom/dotcom-1.png',
+        src: 'images/us-elections/dotcom/dotcom-1.png',
+        alt: '',
+        rotate: Math.random()*20 - 10
+    }
+]
 
 
 
 const Summary = () => {
 
+    const [transformOrigin, setTransformOrigin] = useState("center");
+
+    const handleMouseMove = (e) => {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      setTransformOrigin(`${x}% ${y}%`);
+    };
+  
+    const handleMouseLeave = () => {
+      setTransformOrigin("center");
+    };
+
     return (
         <div class='text-well'>
             <h3>About</h3>
             <p>
-                For the 2024 US elections, Reuters Graphics published its coverage on reuters.com as a stand-alone site 
-                (link here) and through multiple embedded graphics prominently displayed on the homepage 
-                (both on <a href='http://reuters.com/' target='_blank'>reuters.com</a> and <a href='http://reuters.com/' target='_blank'>reuters.co.jp</a>
-                .) Additionally, embed components were licensed to approximately 25 clients worldwide (in 8 languages), 
-                including the BBC (link). Reuters’ own election page garnered <span class='highlight'>millions of views</span> just within the first couple of days.
-
-                (video of best representation of navigating the whole page)
+                For the 2024 US elections, Reuters Graphics published its coverage on reuters.com as
+                <a href='https://www.reuters.com/graphics/USA-ELECTION/RESULTS/zjpqnemxwvx/' target='_blank'>a stand-alone site</a>      
+                and through multiple embedded graphics prominently displayed on the homepage, both 
+                on <a href='http://reuters.com/' target='_blank'>reuters.com</a> and <a href='http://reuters.com/' target='_blank'>reuters.co.jp</a>. 
+                Additionally, embed components were licensed to approximately numerous clients worldwide in 8 languages, 
+                including the BBC. Reuters’ own election page garnered <span class='highlight'>millions of views</span> just within the first couple of days.
             </p>
             <video 
                 controls 
@@ -49,7 +93,7 @@ const Summary = () => {
                 Our tech stack 
                 included <img className="logo-icon" src='/images/us-elections/tech stack icons/Svelte_Logo.svg' alt='logo of Svelte'/><span className="bold">Svelte 4</span>, <span className="tech-name">SvelteKit</span>, 
                 <img className="logo-icon" src='/images/us-elections/tech stack icons/Typescript_logo_2020.svg' alt='logo of TypeScript'/><span className="bold">TypeScript</span>, 
-                <img className="logo-icon" src='/images/us-elections/tech stack icons/d3.svg' alt='logo of D3'/><span className="bold">D3.js</span> (with d3 pan and zoom), 
+                <img className="logo-icon" src='/images/us-elections/tech stack icons/d3.svg' alt='logo of D3'/><span className="bold">D3.js</span>, 
                 and component-based 
                 development in  <img className="logo-icon" src='/images/us-elections/tech stack icons/storybook.png' alt='logo of Storybook'/><span className="tech-name">Storybook</span>.
 
@@ -64,6 +108,22 @@ const Summary = () => {
                 disciplined code structure (isolation of functions/variables, components, classes, etc.), writing sensible 
                 comments and documentation.
             </p>
+
+            <div className="images-grid dotcom">
+            {
+                images.map((img, idx) => (
+                    <div 
+                        className="grid-item" 
+                        onClick={() => {
+                        }}
+                        onMouseMove={handleMouseMove}
+                        onMouseLeave={handleMouseLeave}
+                    >
+                        <img src={img.srcSmall ? img.srcSmall : img.src} alt={img.alt}  style={{ transformOrigin }} />
+                    </div>
+                ))
+            }
+            </div>
         </div>
     )
 }

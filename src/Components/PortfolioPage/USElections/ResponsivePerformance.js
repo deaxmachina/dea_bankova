@@ -40,11 +40,11 @@ const ResponsivePerformance = () => {
                 <span className='listing highlight'>Fully responsive</span>, fast and performant svg maps using svg’s native viewBox.
             </div>
             <video 
-                width="450" 
                 controls 
                 autoPlay 
                 loop 
                 muted 
+                className='video-responsive'
             >
                 <source src="/images/us-elections/videos/responsiveness-1.2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.

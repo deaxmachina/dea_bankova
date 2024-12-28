@@ -103,9 +103,9 @@ const MapViews = ({ children }) => {
             <div className="text">
                 <span className='listing highlight'>Custom interaction behaviours</span> for an improved user experience, including
                 <ul>
-                    <li>Greying out neighbouring states when the user zooms into a given state (screenshot of greyed out state)</li>
-                    <li>Always centring first on a state when it is clicked, then centring on a county when that is subsequently clicked (video of zoom behaviours)</li>
-                    <li>Allowing further click-to-zoom on a county for more granular interactions with smaller counties and townships (video of double click to zoom)</li> 
+                    <li>Greying out neighbouring states when the user zooms into a given state.</li>
+                    <li>Always centring first on a state when it is clicked, then centring on a county when that is subsequently clicked.</li>
+                    <li>Allowing further click-to-zoom on a county for more granular interactions with smaller counties and townships.</li> 
                 </ul>
             </div>
             <video 
