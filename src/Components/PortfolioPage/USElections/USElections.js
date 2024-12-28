@@ -4,6 +4,7 @@ import MapViewGallery from "./MapViewGallery";
 import Summary from './Summary.js'
 import Development from "./Development.js";
 import Crown from "./Crown.js";
+import Accessibility from "./Accessibility.js";
 import { 
     imagesRawCalledRacesTop, imageRawCalledRacesBottom, mainImageRawCalledRaces,
     imagesRawStrengthOfLeadTop, imageRawStrengthOfLeadBottom, mainImageRawStrengthOfLead,
@@ -91,6 +92,9 @@ const USElections = ({ project, windowWidth }) => {
             }
         </div>
         </Development>
+
+        <h2 className="section-title">Accessibility</h2>
+        <Accessibility />
     </div>
   )
 }

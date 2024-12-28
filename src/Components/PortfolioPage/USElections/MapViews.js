@@ -63,12 +63,12 @@ const MapViews = ({ children }) => {
     return (
         <>
             <h3>Three different map views</h3>
-            <p>
+            <div className="text">
                 The page featured <span className="underline">three separate map ‘views’</span>, showing different aspects of the results as they were 
                 reported throughout the election. These were: called races, strength of lead, and vote count status 
                 for the Presidential, Senate, House and Governor races. In addition, there were two cartograms showing 
                 electoral votes for President and districts for House. 
-            </p>      
+            </div>      
             {children}
             <p>
                 I wrote the code to implement these complex interactive views/maps basically from scratch. 

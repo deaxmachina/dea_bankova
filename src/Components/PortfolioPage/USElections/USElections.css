@@ -24,6 +24,12 @@
   padding: 1rem;
 }
 
+#us-elections-container .code {
+  background-color: var(--col-light);
+  color: var(--col-daker);
+
+}
+
 #us-elections-container a {
   text-decoration: underline;
   color: var(--col-dark);
@@ -437,5 +443,28 @@ li::marker {
 
 #us-elections-container .images-grid .grid-item img:hover {
   transform: scale(2); /* adjust scale value for zoom level */
+}
+
+#us-elections-container .wrapper-metrics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#us-elections-container .wrapper-metrics div {
+  width: 300px;
+}
+
+#us-elections-container img.img-lighthouse {
+  width: 100%;
+  max-width: 250px;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  #us-elections-container .wrapper-metrics {
+    flex-direction: column;
+  }
 }
 
