@@ -46,6 +46,7 @@ const patternImages = [
     },
 ]
 
+
 const MapViews = ({ children }) => {
     const [transformOrigin, setTransformOrigin] = useState("center");
 
@@ -101,7 +102,7 @@ const MapViews = ({ children }) => {
             {/* Custom interaction behaviours */}
             {/*********************************/}
             <div className="text">
-                <span className='listing highlight'>Custom interaction behaviours</span> for an improved user experience, including
+                <span className='listing highlight'>Custom interaction behaviours</span> for an improved user experience, including:
                 <ul>
                     <li>Greying out neighbouring states when the user zooms into a given state.</li>
                     <li>Always centring first on a state when it is clicked, then centring on a county when that is subsequently clicked.</li>
@@ -131,12 +132,12 @@ const MapViews = ({ children }) => {
             {/*********** Tooltips ************/}
             {/*********************************/}
             <div className="text">
-                <span className='listing highlight'>Custom tooltips</span> transforming into modals on mobile
+                <span className='listing highlight'>Custom tooltips</span> transforming into modals on mobile.
                 <ul>
                     <li>I implemented approximately half of the logic for the content of all tooltips and all of the logic determining how they should behave differently on desktop and mobile.</li>
-                    <li>Highly customisable tooltips / modals that behave differently on our Reuters page and client embeds</li>
-                    <li>For mobile, I developed two options (for dotcom and embeds): one where the modal sticks to the bottom of 
-                        the page when the user navigates to a geographic feature, and another where the modal is persistently placed 
+                    <li>Highly customisable tooltips / modals that behave differently on our Reuters page and client embeds.</li>
+                    <li>For mobile, I developed two options: one where the modal sticks to the bottom of 
+                        the page when the user has clicked/tapped on the map, and another where the modal is persistently placed 
                         just below the map in the same scenario. These options required distinct technical considerations, 
                         especially around persisting the highlighted state/county/district to ensure a seamless user experience.
                     </li>
@@ -172,7 +173,7 @@ const MapViews = ({ children }) => {
             <span className='listing highlight'>New hex-based cartograms</span>
                 <br></br>
                 I coded these from scratch, including creating a mini-sandbox for our cartographer 
-                to be able to drag and drop the hexes on a grid to create accurate geography. (images here) 
+                to be able to drag and drop the hexes on a grid to create more geography.
             </div>
             <div className="container-cartograms-images">
                 <img src='images/us-elections/cartograms/cartogram-1.png' alt='' />
@@ -182,27 +183,41 @@ const MapViews = ({ children }) => {
             {/* Special election */}
             <div className="text">
                 <span className='listing highlight'>Special election</span>  (state) improvement
-                where the state with a special election is place off the main map.
+                where the state with a special election is placed off the main map.
             </div>
+            <video 
+                controls 
+                autoPlay 
+                loop 
+                muted 
+                className="special-elex-video"
+            >
+                <source src="/images/us-elections/videos/epecial-elex-1.1.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+            </video> 
 
             {/* State pages */}
             <div className="text">
-                <span className='listing highlight'>State level pages</span> with custom behaviour
+                <span className='listing highlight'>State level pages</span> with custom behaviour.
                 <br></br>
                 Created separate maps for state-level results for each race. 
+            </div>
+            <div className="container-cartograms-images state">
+                <img src='images/us-elections/states/state-1.png' alt='' />
+                <img src='images/us-elections/states/state-2.png' alt='' />
             </div>
 
             {/* Final notes */}
             <div className="text">
-                I separated the logic for calculating what to display on the map from how to display it, enabling a 
+                I separated the logic for calculating what to display on the maps from that of how to display it, enabling a 
                 cleaner separation of concerns and the potential for adding new map views. The three map views required 
                 approximately seven distinct pipelines for transforming results—from raw data to the final values 
                 converted into visual elements (colour, pattern, or circle) on the map.
                 <br></br><br></br>
 
                 In each pipeline, I wrote code in such a way as to handle every conceivable scenario and the sequence 
-                in which results might arrive. The code was refactored for simplicity and underwent multiple reviews. 
-                I used TypeScript, incorporating data types provided by other team members to ensure both data and code integrity.
+                in which results might manifest. The code was refactored for simplicity and clarity multiple times. 
+                I used TypeScript, incorporating data types provided by the back end to ensure both data and code integrity.
             </div>
         </>
     )

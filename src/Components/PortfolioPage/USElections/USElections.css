@@ -116,7 +116,7 @@
   /* color: #929ca6; */
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   font-size: 1.2rem;
   text-align: center;
   font-family: var(--font-default);
@@ -256,6 +256,7 @@
 #us-elections-container .text-well div.text
  {
   max-width: 500px;
+  /* z-index: 100; */
 }
 #us-elections-container .text-well h3 {
   margin: 2rem auto 0rem;
@@ -370,6 +371,11 @@ li::marker {
   max-width: 600px;
 }
 
+#us-elections-container .container-cartograms-images.state img {
+  width: 100%;
+  max-width: 400px;
+}
+
 #us-elections-container video.summary-video {
   width: 100%;
   max-width: 550px;
@@ -386,6 +392,13 @@ li::marker {
   max-width: 450px;
   transform: rotate(4deg);
 }
+
+#us-elections-container video.special-elex-video {
+  width: 100%;
+  max-width: 370px;
+  transform: rotate(3deg);
+}
+
 
 
 /******************************************/

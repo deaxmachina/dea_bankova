@@ -11,7 +11,7 @@ const Accessibility = () => {
                 challenge lay in the maps, which allowed for complex interaction patterns such as hovering, 
                 clicking to zoom on a state and centre, and clicking again on a county to zoom in further, 
                 with multiple event handlers on each shape in the map. 
-                This complexity was compounded by the presence of tooltips at multiple levels, with crucial information 
+                This complexity was compounded by the presence of tooltips at multiple levels, with some information 
                 often available only through the tooltip corresponding to the geographical feature the user was interacting with.
             </div>
 
@@ -21,13 +21,12 @@ const Accessibility = () => {
             <h3>The result</h3>
 
             <div className="text">
-                I endeavoured to make the <span className="highlight">navigation intutitve</span>, using keys like tab and enter and turning the navigable svg elements into buttons.
-                While this broke certain a11y rules about the html page strcuture, it provided a useful workaround for otherwise entirely 
-                inaccssible interactive visualisation behaviour that is unfortuantely the default for most interactive graphics. 
+                I endeavoured to make the <span className="highlight">navigation intuitive</span>, using keys like tab and enter and turning the navigable svg elements into buttons.
+                While this broke certain a11y rules about the html page structure, it provided a useful workaround for otherwise entirely 
+                inaccessible interactive visualisation behaviour that is unfortunately the default for most interactive graphics. 
                 <br></br> <br></br>
                 The page is <span className="highlight">fully accessible</span> for 
-                both <span className="underline">screen readers</span> and <span className="underline">keyboard-only navigation</span>.
-                <span></span>Feedback from keyboard and screen reader users was overwhelmingly positive. 
+                both <span className="underline">screen readers</span> and <span className="underline">keyboard-only navigation</span>. Feedback from keyboard and screen reader users was overwhelmingly positive. 
                 <br></br> <br></br>
                 <ul>
                     <li>
@@ -62,28 +61,28 @@ const Accessibility = () => {
             {/**********************************/}
             <h3>The process</h3>
             <div className="text">
-                The process of implementing the keyboard and VO navigability on the maps was enjoyable, 
+                The process of implementing the keyboard and voiceover navigability on the maps was enjoyable, 
                 creative and not necessarily standard. Broadly speaking, I used a combination of: 
                 <ul>
                     <li>
                         <span className="code">aria-live: assertive</span> to force the screen reader to read tooltips as they are 
-                        reached (+ some random number magic and key blocks in Svelte to make sure that all of the tooltip’s 
+                        reached (+ some random number magic and key-ed blocks in Svelte to make sure that all of the tooltip’s 
                         information is read and not just the bits that are different from the previous tooltip). 
                     </li>
                     <li>
-                        <span className="code">aria hidden</span> elements to hide descriptions of the map or map interactions where relevant 
+                        <span className="code">aria hidden</span> to text elements to hide descriptions of the map or map interactions where relevant. 
                     </li>
                     <li>
-                        <span className="code">aria-label</span>s in the right places to announce to the reader which state/county/district they are on 
+                        <span className="code">aria-label</span>s in the right places to announce to the reader which state/county/district they are on. 
                     </li>
                     <li>
                         <span className="code">tabindex</span> and <span className="code">role</span> to essentially allow svg shapes (geo shapes) to behave like buttons, allowing 
-                        me to add the appropriate event listeners to them 
+                        me to add the appropriate event listeners to them.
                     </li>
                     <li>
                         Appropriate custom events on the geo elements that allow for full custom keyboard navigation, 
                         taking into account the fact that the default ‘equivalents’ for each existing event (such as the hovers and clicks) 
-                        might not be the most appropriate one. 
+                        might not be the most intuitive one. 
                     </li>
                     <li>
                         <span className="code">aria-live: assertive</span> as appropriate to read out loud descriptions of where the user is currently on the map and what 

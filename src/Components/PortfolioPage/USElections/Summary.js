@@ -52,14 +52,14 @@ const Summary = () => {
     return (
         <div class='text-well'>
             <h3>About</h3>
-            <p>
+            <div className="text">
                 For the 2024 US elections, Reuters Graphics published its coverage on reuters.com as
                 <a href='https://www.reuters.com/graphics/USA-ELECTION/RESULTS/zjpqnemxwvx/' target='_blank'>a stand-alone site</a>      
-                and through multiple embedded graphics prominently displayed on the homepage, both 
-                on <a href='http://reuters.com/' target='_blank'>reuters.com</a> and <a href='http://reuters.com/' target='_blank'>reuters.co.jp</a>. 
-                Additionally, embed components were licensed to approximately numerous clients worldwide in 8 languages, 
-                including the BBC. Reuters’ own election page garnered <span class='highlight'>millions of views</span> just within the first couple of days.
-            </p>
+                and through embedded graphics prominently displayed on the homepage, both 
+                on <a href='http://reuters.com/' target='_blank'>reuters.com</a> and <a href='https://jp.reuters.com/' target='_blank'>jp.reuters.com</a>. 
+                Additionally, the election graphics from the page were licensed to numerous media clients worldwide in multiple languages. 
+                Reuters’ own election page garnered <span class='highlight'>millions of views</span> just within the first couple of days.
+            </div>
             <video 
                 controls 
                 autoPlay 
@@ -75,21 +75,22 @@ const Summary = () => {
             <h3>My role</h3>
             <p>
                 As the <span className='highlight'>main front-end developer</span>, I was responsible 
-                for <span className='underline'>building all US national and state maps and cartograms</span>, 
-                as well as contributing to the development of other components and the overall Reuters page code. I collaborated closely 
+                for <span className='underline'>building all US national and state maps and cartograms</span>, a lot of 
+                the <span className='underline'>structure and architecture of the front end</span> (building components in Storybook), as well 
+                as contributing to the development of other components and the overall Reuters page code. I collaborated closely 
                 with a cartographer, a designer, front- and back-end developers, editors, and accessibility (a11y) experts. 
-                My role included providing technical mentorship and conducting code reviews.
+                My role also included <span className='underline'>providing technical mentorship</span> and conducting code reviews.
                 <br></br><br></br>
-                I <span className='underline'>implemented advanced accessibility feature</span> that
-                vastly surpassed typical newsroom standards, enabling keyboard 
+                I <span className='underline'>implemented advanced accessibility features</span> that
+                greatly surpassed typical newsroom standards, enabling keyboard 
                 and voice-over users to fully navigate every part of the maps and access all page information. In addition, I actively 
-                participated in design discussions and contributed to proof-checking translations for languages I have some familiarity with.
+                participated in design discussions and contributed to proof-checking language translations.
             </p>
             <br></br><br></br>
             <h3>Tech</h3>
             <p>
-                The front-end was developed almost entirely from scratch for 2024, with an emphasis on writing clean, 
-                maintainable, and performant code that could be reused for future elections with minimal modifications. 
+                The front-end was developed <span className='underline'>almost entirely from scratch</span> for 2024, 
+                with an emphasis on writing <span className='underline'>clean</span>, <span className='underline'>maintainable</span>, <span className='underline'>performant</span> and future-proof code. 
                 Our tech stack 
                 included <img className="logo-icon" src='/images/us-elections/tech stack icons/Svelte_Logo.svg' alt='logo of Svelte'/><span className="bold">Svelte 4</span>, <span className="tech-name">SvelteKit</span>, 
                 <img className="logo-icon" src='/images/us-elections/tech stack icons/Typescript_logo_2020.svg' alt='logo of TypeScript'/><span className="bold">TypeScript</span>, 
@@ -104,11 +105,12 @@ const Summary = () => {
                 to minimise reliance on more “traditional” d3-based architectures that heavily use lifecycle methods, instead 
                 favouring native Svelte functionality and rendering. 
                 <br></br><br></br>
-                The code was written up to high production standards, including following software development cycles, 
+                The code was written up to <span className='underline'>high production standards</span>, including following software development cycles, 
                 disciplined code structure (isolation of functions/variables, components, classes, etc.), writing sensible 
                 comments and documentation.
             </p>
-
+            <br></br>
+            <h3 className="map-view-title">Maps on the main Reuters / JP homepages</h3>
             <div className="images-grid dotcom">
             {
                 images.map((img, idx) => (
