@@ -9,7 +9,7 @@ const MapViewGallery = ({imagesTopRaw, imagesBottomRaw, mainImageRaw, title, sel
   const [mainImage, setMainImage] = useState(mainImageRaw)
 
   return (
-    <div id='us-elections-container' >
+    <div>
         <h3 className="map-view-title">{title}</h3>
         {/* <p>
             Some kind of description of what this is about.

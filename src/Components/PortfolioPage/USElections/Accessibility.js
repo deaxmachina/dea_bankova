@@ -21,12 +21,13 @@ const Accessibility = () => {
             <h3>The result</h3>
 
             <div className="text">
-                I endeavoured to make the <span className="highlight">navigation intuitive</span>, using keys like tab and enter and turning the navigable svg elements into buttons.
+                I endeavoured to make the navigation intuitive, using keys like tab and enter and turning the navigable svg elements into buttons.
                 While this broke certain a11y rules about the html page structure, it provided a useful workaround for otherwise entirely 
                 inaccessible interactive visualisation behaviour that is unfortunately the default for most interactive graphics. 
                 <br></br> <br></br>
                 The page is <span className="highlight">fully accessible</span> for 
-                both <span className="underline">screen readers</span> and <span className="underline">keyboard-only navigation</span>. Feedback from keyboard and screen reader users was overwhelmingly positive. 
+                both <span className="underline">screen readers</span> and <span className="underline">keyboard-only navigation</span>. Feedback from keyboard and screen reader users, as well
+                as <a href='https://www.linkedin.com/feed/update/urn:li:activity:7259192209613144065/' target='_blank'>a11y practitioners</a>, was overwhelmingly positive. 
                 <br></br> <br></br>
                 <ul>
                     <li>
@@ -96,7 +97,7 @@ const Accessibility = () => {
             </div>
             <video 
                     controls 
-                    autoPlay 
+                    autoPlay={false}
                     loop 
                     muted={false}
                     className="a11y-video"

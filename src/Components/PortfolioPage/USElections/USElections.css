@@ -2,17 +2,14 @@
 
 
 :root {
-  --col-light: #E9EFF5;
-  --col-mid: #D2DDE8;
-  --col-dark: #9099a3;
-  --col-daker: #2b2e31;
-  --font-fancy:  "active", sans-serif;
+  --elex-col-light: #E9EFF5;
+  --elex-col-dark: #9099a3;
+  --elex-col-darker: #2b2e31;
+  --font-fancy:  "cormorant-infant", sans-serif; /*  "active", sans-serif; */
   --font-default: "cormorant-infant", sans-serif;
 }
 
 #us-elections-container {
-  /* background-color: #E3EAF1; */
-  /* background-color: #E9EFF5; */
   background-color: #fff;
   width: 100%;
   display: flex;
@@ -25,21 +22,21 @@
 }
 
 #us-elections-container .code {
-  background-color: var(--col-light);
-  color: var(--col-daker);
+  background-color: var(--elex-col-light);
+  color: var(--elex-col-darker);
 
 }
 
 #us-elections-container a {
   text-decoration: underline;
-  color: var(--col-dark);
+  color: var(--elex-col-dark);
   font-family: var(--font-default);
   padding: 0 2px;
   transition: all 0.5s ease;
 }
 
 #us-elections-container a:hover {
-  background-color: var(--col-light);
+  background-color: var(--elex-col-light);
   /* text-decoration: none; */
 }
 
@@ -58,7 +55,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: var(--font-default);
-  color: var(--col-daker);
+  color: var(--elex-col-darker);
   font-size: 1.6rem;
   width: 100%;
   max-width: 1000px;
@@ -75,14 +72,14 @@
   text-align: center;
   width: 100%;
   max-width: 450px;
-  color: var(--col-dark);
+  color: var(--elex-col-dark);
 }
 
 #us-elections-container h1 {
   /* font-size: 7rem; */
   font-size: clamp(3rem, 10vw, 7rem);
   font-family: var(--font-default);
-  color: var(--col-daker);
+  color: var(--elex-col-darker);
   z-index: 3;
   line-height: 1;
   margin-bottom: 3rem;
@@ -99,8 +96,8 @@
   text-align: left;
 }
 
-#us-elections-container div, p, span {
-  color: var(--col-daker);
+#us-elections-container div.text {
+  color: var(--elex-col-darker);
 }
 
 /******************************************/
@@ -113,7 +110,6 @@
 }
 
 #us-elections-container .map-view-title {
-  /* color: #929ca6; */
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 1.8px;
@@ -240,7 +236,7 @@
 /******************************************/
 #us-elections-container .text-well {
   width: 100%;
-  color: var(--col-daker);
+  color: var(--elex-col-darker);
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -259,17 +255,19 @@
   /* z-index: 100; */
 }
 #us-elections-container .text-well h3 {
-  margin: 2rem auto 0rem;
+  /* margin: 2rem auto 0rem; */
 }
 #us-elections-container .text-well div.text {
   margin: 1rem auto;
 }
 #us-elections-container h2 {
   font-size: 2.2rem;
-  color: var(--col-daker);
+  color: var(--elex-col-darker);
   font-family: var(--font-fancy);
   text-align: left;
-  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 500px;
+  /* margin-bottom: 3rem; */
 }
 #us-elections-container h3 {
   width: 100%;
@@ -334,7 +332,6 @@ li::marker {
   box-shadow: 0px 5px 15px #D2DDE8;
   margin: 2rem auto;
   transform: rotate(2deg);
-  /* color: #99a4afc7; */
 }
 
 #us-elections-container .container-tooltips-videos {
