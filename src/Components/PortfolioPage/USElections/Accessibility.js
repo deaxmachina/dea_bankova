@@ -90,6 +90,20 @@ const Accessibility = () => {
                     </li>
                 </ul>
             </div>
+            <div className="text">
+                    The video below shows a short interaction that I've recorded, navigating the Presidential map with Voice Over on Mac. 
+                    Here I am using only the tab and enter keys to navigate and I also pressed a random key once to exit a county view.
+            </div>
+            <video 
+                    controls 
+                    autoPlay 
+                    loop 
+                    muted={false}
+                    className="a11y-video"
+                >
+                    <source src="/images/us-elections/videos/a11y-1.1.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+            </video>  
 
             {/**********************************/}
             {/********* Final thoughts *********/}
