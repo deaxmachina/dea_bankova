@@ -1,5 +1,82 @@
 const projectsMetadata = [
   {
+    id: "c3s-homepage",
+    hasPage: true,
+    size: "full",
+    tag: "work-reuters",
+    projectTypeArray: ["data visualisation", "front-end"],
+    title: "c3s: Creative Coding Crafts Space",
+    websiteUrl: "https://www.creativecodingcrafts.space/",
+    imgUrl: "./images/c3s/share8-wide.jpg",
+    smallImgUrl: "./images/c3s/share8-wide.jpg",
+    individualPageImgUrl: "./images/c3s/share8-wide.jpg",
+    individualPageSmallImgUrl: "./images/c3s/share8-wide.jpg",
+    backgroundColour: "#9dcc81",
+    responsibleFor: "Everything: concept, design, frontend and backend code",
+    tools: "SvelteKit, JavaScript, GLSL, p5.js, D3.js, Sanity...",
+    toolsArray: [
+      "Svelte",
+      "SvelteKit",
+      "JavaScript",
+      "TypeScript",
+      "Three.js",
+      "GLSL",
+      "p5.js",
+      "HTML5 Canvas",
+      "D3.js",
+      "GSAP",
+      "Figma",
+      "Sanity",
+    ],
+    awards: "",
+    client: "Personal project",
+    standardLayout: true,
+    description: (
+      <>
+        <p>
+          I founded c3s: Creative Coding Crafts Space, an experimental,
+          collaborative art–code meetup and space, serving as lead organiser,
+          facilitator, and coding instructor. I co-host monthly meetups,
+          facilitate a community on Discord, and develop tutorials and materials
+          in open-source tools like p5.js, Canvas, D3.js, Three.js, etc.
+        </p>
+        <br></br>
+        <p>
+          I built the homepage for c3s from scratch, using SvelteKit with Sanity
+          CMS. On the front-end, I used a combination of tools to get the
+          desired effects, including D3.js with Voronoi, Three.js with GLSL,
+          HTML5 Canvas and p5.js, and GSAP. The process was iterative, with
+          dozens of designs, layouts and colour scheme experiments before I
+          arrived at the final result.
+        </p>
+        <br></br>
+        <p>
+          The page supports light and dark mode, each of which comes with subtle
+          colour variations and fresh random dragonfly Voronoi patterns. You can
+          also find a lot of the coding resources I have created especially for
+          c3s in the{" "}
+          <a
+            className="link-project"
+            href="https://www.creativecodingcrafts.space/resources"
+            target="_blank"
+          >
+            resources
+          </a>{" "}
+          section, and learn more about c3s’s raison d'être on the{" "}
+          <a
+            className="link-project"
+            href="https://www.creativecodingcrafts.space/about"
+            target="_blank"
+          >
+            about
+          </a>{" "}
+          page.
+        </p>
+        <br></br>
+      </>
+    ),
+  },
+  {
     id: "cozy-games-reuters",
     hasPage: true,
     size: "full",
