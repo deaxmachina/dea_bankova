@@ -90,7 +90,7 @@ const projectsMetadata = [
     individualPageImgUrl: "./images/cozy-comfort/img6.png",
     individualPageSmallImgUrl: "./images/cozy-comfort/img6.png",
     videoUrl: "./images/cozy-comfort/video5.1.mp4",
-    backgroundColour: "rgb(145, 199, 227)",
+    backgroundColour: "#91c7e3",
     responsibleFor: "Front-end development of gameplay",
     tools: "TypeScript, Svelte, GSAP",
     toolsArray: ["TypeScript", "JavaScript", "Svelte", "GSAP"],
@@ -469,7 +469,7 @@ const projectsMetadata = [
       {
         award:
           "2023 LA Press Club Awards 16th National A&E Journalism Awards Winners: winner in category E7. Graphic",
-        url: "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://5499fe.p3cdn1.secureserver.net/wp-content/uploads/2023/12/NAEJ-2023-Winners-111262023.pdf",
+        url: "https://5499fe.p3cdn1.secureserver.net/wp-content/uploads/2023/12/NAEJ-2023-Winners-111262023.pdf",
       },
       {
         award: "SND 2024 Award of excellence: 1A. Design: Features",
@@ -1379,7 +1379,7 @@ const projectsMetadata = [
     tag: "work-other",
     projectTypeArray: ["data visualisation", "front-end"],
     title: "Company Relationships Graphs",
-    websiteUrl: "https://wtnv-lab.github.io/yahoo_news_covid_timeline/",
+    websiteUrl: "",
     imgUrl: "https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png",
     smallImgUrl:
       "https://live.staticflickr.com/65535/51357233830_24893c43ef_o.png",
