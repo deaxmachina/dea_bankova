@@ -1,7 +1,7 @@
 const Crown = () => {
   return (
     <div className="crown-wrapper">
-      <h3 className="dek">Reuters test</h3>
+      <h3 className="dek">Reuters testt</h3>
       <video controls={false} autoPlay loop muted className="crown-video">
         <source
           src="./images/us-elections/videos/walkthrough-all-1.1.mp4"
